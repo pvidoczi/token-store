@@ -1,0 +1,30 @@
+{
+  "comp": {
+    "size": {
+      "overlay-panel": {
+        "size": {
+          "padding-x": {
+            "value": "{smc.reference.container.padding.10}",
+            "type": "number"
+          },
+          "padding-y": {
+            "value": "{smc.reference.container.padding.10}",
+            "type": "number"
+          },
+          "border-radius": {
+            "value": "{smc.reference.container.border-radius.lg}",
+            "type": "number"
+          },
+          "border": {
+            "value": "{smc.reference.container.border-width.md}",
+            "type": "number"
+          },
+          "gap": {
+            "value": "{smc.reference.container.gap.12}",
+            "type": "number"
+          }
+        }
+      }
+    }
+  }
+}
