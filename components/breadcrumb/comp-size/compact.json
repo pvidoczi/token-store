@@ -1,0 +1,150 @@
+{
+  "comp": {
+    "size": {
+      "breadcrumb": {
+        "navigation-link": {
+          "typography": {
+            "letter-spacing": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            },
+            "line-height": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            },
+            "font-weight": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            },
+            "font-size": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            },
+            "font-family": {
+              "value": "{unknown.alias}",
+              "type": "string"
+            }
+          },
+          "size": {
+            "max-width": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            },
+            "padding-x": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            },
+            "padding-y": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            },
+            "border-radius": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            }
+          }
+        },
+        "divider": {
+          "foreslash": {
+            "typography": {
+              "line-height": {
+                "value": "{unknown.alias}",
+                "type": "number"
+              },
+              "font-weight": {
+                "value": "{unknown.alias}",
+                "type": "number"
+              },
+              "font-family": {
+                "value": "{unknown.alias}",
+                "type": "string"
+              },
+              "font-size": {
+                "value": "{unknown.alias}",
+                "type": "number"
+              },
+              "letter-spacing": {
+                "value": "{unknown.alias}",
+                "type": "number"
+              }
+            }
+          },
+          "size": {
+            "padding-y": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            },
+            "border-radius": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            },
+            "padding-x": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            }
+          }
+        },
+        "current-page": {
+          "typography": {
+            "font-weight": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            },
+            "font-size": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            },
+            "line-height": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            },
+            "font-family": {
+              "value": "{unknown.alias}",
+              "type": "string"
+            },
+            "letter-spacing": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            }
+          },
+          "size": {
+            "max-width": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            },
+            "padding-x": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            },
+            "padding-y": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            }
+          }
+        },
+        "size": {
+          "gap": {
+            "value": "{unknown.alias}",
+            "type": "number"
+          }
+        },
+        "focused-outline": {
+          "color": {
+            "dark": {
+              "focused": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            }
+          },
+          "size": {
+            "outline": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "comp": {
+    "color": {
+      "breadcrumb": {
+        "navigation-link": {
+          "bg": {
+            "surface": {
+              "default": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              },
+              "pressed": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              },
+              "hovered": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              },
+              "focused": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              },
+              "disabled": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            },
+            "primary": {
+              "hovered": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              },
+              "default": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              },
+              "disabled": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              },
+              "focused": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              },
+              "pressed": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            },
+            "light": {
+              "disabled": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              },
+              "pressed": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              },
+              "default": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              },
+              "focused": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              },
+              "hovered": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            }
+          },
+          "fg": {
+            "light": {
+              "default": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              },
+              "hovered": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              },
+              "focused": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              },
+              "disabled": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              },
+              "pressed": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            },
+            "surface": {
+              "default": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              },
+              "focused": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              },
+              "hovered": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              },
+              "pressed": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              },
+              "disabled": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            },
+            "primary": {
+              "default": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              },
+              "focused": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              },
+              "disabled": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              },
+              "hovered": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              },
+              "pressed": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "current-page": {
+          "bg": {
+            "light": {
+              "default": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            },
+            "primary": {
+              "default": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            },
+            "surface": {
+              "default": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            }
+          },
+          "fg": {
+            "light": {
+              "default": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            },
+            "primary": {
+              "default": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            },
+            "surface": {
+              "default": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "divider": {
+          "foreslash": {
+            "fg": {
+              "surface": {
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "light": {
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "primary": {
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              }
+            }
+          }
+        },
+        "focused-outline": {
+          "color": {
+            "light": {
+              "focused": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            },
+            "dark": {
+              "focused": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

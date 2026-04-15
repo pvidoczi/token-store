@@ -1,0 +1,142 @@
+{
+  "comp": {
+    "size": {
+      "avatar": {
+        "icon": {
+          "typography": {
+            "smallCollection": {
+              "font-size": {
+                "value": "{unknown.alias}",
+                "type": "number"
+              },
+              "line-height": {
+                "value": "{unknown.alias}",
+                "type": "number"
+              },
+              "font-weight": {
+                "value": "{unknown.alias}",
+                "type": "number"
+              },
+              "font-family": {
+                "value": "{unknown.alias}",
+                "type": "string"
+              }
+            },
+            "bigCollection": {
+              "font-weight": {
+                "value": "{unknown.alias}",
+                "type": "number"
+              },
+              "line-height": {
+                "value": "{unknown.alias}",
+                "type": "number"
+              },
+              "font-family": {
+                "value": "{unknown.alias}",
+                "type": "string"
+              },
+              "font-size": {
+                "value": "{unknown.alias}",
+                "type": "number"
+              }
+            }
+          }
+        },
+        "size": {
+          "smallCollection": {
+            "icon": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            },
+            "border-radius": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            },
+            "height": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            },
+            "width": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            },
+            "border": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            }
+          },
+          "bigCollection": {
+            "width": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            },
+            "icon": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            },
+            "border": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            },
+            "border-radius": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            },
+            "height": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            }
+          }
+        },
+        "initials": {
+          "typography": {
+            "smallCollection": {
+              "font-size": {
+                "value": "{unknown.alias}",
+                "type": "number"
+              },
+              "line-height": {
+                "value": "{unknown.alias}",
+                "type": "number"
+              },
+              "font-family": {
+                "value": "{unknown.alias}",
+                "type": "string"
+              },
+              "letter-spacing": {
+                "value": "{unknown.alias}",
+                "type": "number"
+              },
+              "font-weight": {
+                "value": "{unknown.alias}",
+                "type": "number"
+              }
+            },
+            "bigCollection": {
+              "font-family": {
+                "value": "{unknown.alias}",
+                "type": "string"
+              },
+              "font-size": {
+                "value": "{unknown.alias}",
+                "type": "number"
+              },
+              "line-height": {
+                "value": "{unknown.alias}",
+                "type": "number"
+              },
+              "font-weight": {
+                "value": "{unknown.alias}",
+                "type": "number"
+              },
+              "letter-spacing": {
+                "value": "{unknown.alias}",
+                "type": "number"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

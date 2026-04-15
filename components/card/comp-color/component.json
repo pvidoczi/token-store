@@ -1,0 +1,1512 @@
+{
+  "comp": {
+    "color": {
+      "card": {
+        "outlined": {
+          "color": {
+            "bg": {
+              "surface": {
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "success": {
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "primary": {
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "light": {
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "dark": {
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "brand": {
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "warning": {
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "secondary": {
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "error": {
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "info": {
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              }
+            },
+            "border": {
+              "warning": {
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "surface": {
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "primary": {
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "dark": {
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "secondary": {
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "brand": {
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "error": {
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "success": {
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "info": {
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "light": {
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              }
+            }
+          }
+        },
+        "filled": {
+          "color": {
+            "border": {
+              "primary": {
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "light": {
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "info": {
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "error": {
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "dark": {
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "surface": {
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "secondary": {
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "brand": {
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "warning": {
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "success": {
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              }
+            },
+            "bg": {
+              "warning": {
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "brand": {
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "primary": {
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "success": {
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "info": {
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "secondary": {
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "error": {
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "surface": {
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "light": {
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "dark": {
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              }
+            }
+          }
+        },
+        "elevated": {
+          "color": {
+            "border": {
+              "dark": {
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "surface": {
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "secondary": {
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "warning": {
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "brand": {
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "primary": {
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "light": {
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "info": {
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "success": {
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "error": {
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              }
+            },
+            "bg": {
+              "light": {
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "info": {
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "surface": {
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "brand": {
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "secondary": {
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "error": {
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "warning": {
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "primary": {
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "success": {
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              },
+              "dark": {
+                "pressed": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "default": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "focused": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                },
+                "dragged": {
+                  "value": "{unknown.alias}",
+                  "type": "color"
+                }
+              }
+            }
+          }
+        },
+        "focused-outline": {
+          "color": {
+            "dark": {
+              "focused": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            },
+            "light": {
+              "focused": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

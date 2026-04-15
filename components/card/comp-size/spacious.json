@@ -1,0 +1,100 @@
+{
+  "comp": {
+    "size": {
+      "card": {
+        "container": {
+          "vertical": {
+            "size": {
+              "padding-y": {
+                "value": "{unknown.alias}",
+                "type": "number"
+              },
+              "border-radius": {
+                "value": "{unknown.alias}",
+                "type": "number"
+              },
+              "gap": {
+                "value": "{unknown.alias}",
+                "type": "number"
+              },
+              "padding-x": {
+                "value": "{unknown.alias}",
+                "type": "number"
+              },
+              "border-width": {
+                "value": "{unknown.alias}",
+                "type": "number"
+              }
+            }
+          },
+          "horizontal": {
+            "size": {
+              "border-radius": {
+                "value": "{unknown.alias}",
+                "type": "number"
+              },
+              "border-width": {
+                "value": "{unknown.alias}",
+                "type": "number"
+              },
+              "padding-x": {
+                "value": "{unknown.alias}",
+                "type": "number"
+              },
+              "padding-y": {
+                "value": "{unknown.alias}",
+                "type": "number"
+              },
+              "gap": {
+                "value": "{unknown.alias}",
+                "type": "number"
+              }
+            }
+          }
+        },
+        "slot": {
+          "size": {
+            "padding-x": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            },
+            "padding-bottom": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            },
+            "padding-top": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            },
+            "padding-none": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            }
+          }
+        },
+        "focused-outline": {
+          "outline": {
+            "value": "{unknown.alias}",
+            "type": "number"
+          }
+        },
+        "header": {
+          "headline": {
+            "padding-x": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            },
+            "padding-y": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            },
+            "gap": {
+              "value": "{unknown.alias}",
+              "type": "number"
+            }
+          }
+        }
+      }
+    }
+  }
+}

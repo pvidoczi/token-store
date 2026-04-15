@@ -1,0 +1,106 @@
+{
+  "comp": {
+    "color": {
+      "avatar": {
+        "color": {
+          "bg": {
+            "primary": {
+              "default": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            },
+            "light": {
+              "default": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            },
+            "dark": {
+              "default": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            },
+            "secondary": {
+              "default": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            },
+            "surface": {
+              "default": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            }
+          },
+          "border": {
+            "primary": {
+              "default": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            },
+            "secondary": {
+              "default": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            },
+            "dark": {
+              "default": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            },
+            "surface": {
+              "default": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            },
+            "light": {
+              "default": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            }
+          },
+          "fg": {
+            "surface": {
+              "default": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            },
+            "light": {
+              "default": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            },
+            "dark": {
+              "default": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            },
+            "secondary": {
+              "default": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            },
+            "primary": {
+              "default": {
+                "value": "{unknown.alias}",
+                "type": "color"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
