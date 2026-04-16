@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfb1d780-e6ac-4454-a1df-fec12ca3b0ef" name="Changes" comment="" />
+    <list default="true" id="dfb1d780-e6ac-4454-a1df-fec12ca3b0ef" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b/comp-color/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b/comp-size/comfortable.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b/comp-size/compact.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b/comp-size/dense.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b/comp-size/spacious.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt-v2/comp-color/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt-v2/comp-size/comfortable.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt-v2/comp-size/compact.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt-v2/comp-size/dense.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt-v2/comp-size/spacious.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt/comp-color/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt/comp-size/comfortable.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt/comp-size/compact.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt/comp-size/dense.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt/comp-size/spacious.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt2/comp-color/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt2/comp-size/comfortable.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt2/comp-size/compact.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt2/comp-size/dense.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt2/comp-size/spacious.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt3/comp-color/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt3/comp-size/comfortable.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt3/comp-size/compact.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt3/comp-size/dense.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt3/comp-size/spacious.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/button-test-5/comp-color/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/button-test-5/comp-size/comfortable.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/button-test-5/comp-size/compact.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/button-test-5/comp-size/dense.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/button-test-5/comp-size/spacious.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlay-panel/comp-color/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlay-panel/comp-size/comfortable.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlay-panel/comp-size/compact.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlay-panel/comp-size/dense.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlay-panel/comp-size/spacious.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/comp-color/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/comp-size/comfortable.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,9 +57,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="3BLLFuULqGSYYBzAHAgpCZLXuvM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,7 +67,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "git-widget-placeholder": "button-test"
+    "git-widget-placeholder": "library-test-9",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
   <component name="SharedIndexes">
