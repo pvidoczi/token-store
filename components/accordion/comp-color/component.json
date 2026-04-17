@@ -1,0 +1,523 @@
+{
+  "libraryName": "[POC][i-DS] core web comp accordion",
+  "collectionName": "comp-color",
+  "variables": [
+    {
+      "key": "feac076f85db8461e8676a48cac017db307f1229",
+      "name": "comp/color/accordion/summary/text/color/fg/label/pressed",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:5b2768b7bcfb6d68af95de6fe52e49297c5d22a2/24003:23647"
+        }
+      }
+    },
+    {
+      "key": "161a94c269f337a37906e3c012fadf7559936996",
+      "name": "comp/color/accordion/summary/text/color/fg/icon/focused",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:99d44604ec1a459b593637c5ff78bfdef132eb16/24003:23324"
+        }
+      }
+    },
+    {
+      "key": "d27e75c404099b22bb8b987490eca5bdfece711c",
+      "name": "comp/color/accordion/summary/text/color/fg/label/hovered",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:5b2768b7bcfb6d68af95de6fe52e49297c5d22a2/24003:23647"
+        }
+      }
+    },
+    {
+      "key": "59c0dc9dfca71670ce6602f5ba79da0223661355",
+      "name": "comp/color/accordion/summary/text/color/fg/icon/disabled",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:1d4aa043e3cae49904aeb71387f699ff04ef8b0f/24003:22917"
+        }
+      }
+    },
+    {
+      "key": "304bb97c6c365ca35d875534fc7bfa8c8a4dac2d",
+      "name": "comp/color/accordion/summary/text/color/fg/label/disabled",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:1d4aa043e3cae49904aeb71387f699ff04ef8b0f/24003:22917"
+        }
+      }
+    },
+    {
+      "key": "91db9e8b21314b4acd9a724b9de5e8a9cbbb4d7b",
+      "name": "comp/color/accordion/item/color/border/firstchild",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:0e270a8736f1f771be0bab072eba3d691928f998/22164:7931"
+        }
+      }
+    },
+    {
+      "key": "ab1ab78fb39047f7c08ab3575758db48945aee6c",
+      "name": "comp/color/accordion/summary/text/color/bg/focused",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:a8a0fa225bf6c5b93c75f466a228e7225272199b/24003:22707"
+        }
+      }
+    },
+    {
+      "key": "7398adef16d0e80efc87dc49f1b880a7232a9998",
+      "name": "comp/color/accordion/summary/text/color/bg/pressed",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:a8a0fa225bf6c5b93c75f466a228e7225272199b/24003:22707"
+        }
+      }
+    },
+    {
+      "key": "bb67cadac5f89a789147b64285571199372b858c",
+      "name": "comp/color/accordion/summary/text/color/fg/icon/default",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:99d44604ec1a459b593637c5ff78bfdef132eb16/24003:23324"
+        }
+      }
+    },
+    {
+      "key": "6ba0348bf87020e2c924f83b67602517570c5583",
+      "name": "comp/color/accordion/item/color/bg/default",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:954456fb54b1e1465bcc1bd630d5275b2748ae71/22164:5590"
+        }
+      }
+    },
+    {
+      "key": "f48ae562c5d2214421dda46b38781f84787bdbaa",
+      "name": "comp/color/accordion/item/color/border/default",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:3e4a48aa5ebc4686d240755b48d142237018cab8/24003:23805"
+        }
+      }
+    },
+    {
+      "key": "dd4b802b3ed65d829d92425c09c29015d199329d",
+      "name": "comp/color/accordion/summary/text/color/fg/icon/pressed",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:99d44604ec1a459b593637c5ff78bfdef132eb16/24003:23324"
+        }
+      }
+    },
+    {
+      "key": "9280348477c19516a617a240b48c6f1812f233ae",
+      "name": "comp/color/accordion/summary/text/color/bg/default",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:954456fb54b1e1465bcc1bd630d5275b2748ae71/22164:5590"
+        }
+      }
+    },
+    {
+      "key": "51067d5f7e2da6be041f2c6c2e8adf2bc3ba0b65",
+      "name": "comp/color/accordion/summary/text/color/bg/disabled",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:954456fb54b1e1465bcc1bd630d5275b2748ae71/22164:5590"
+        }
+      }
+    },
+    {
+      "key": "2194923c92030d9605e91c767fbde5df67654d13",
+      "name": "comp/color/accordion/summary/focused-outline/color/dark/focused",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:09b55b3933f35e9373bfac45172017ce8ee7ad45/24003:24138"
+        }
+      }
+    },
+    {
+      "key": "ed51798dbbefe8fb9e1adffeeb03a20846bcaafb",
+      "name": "comp/color/accordion/summary/filled/color/fg/label/hovered",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2826081212df685d515a9c820e2f715cb36aeb24/24003:24136"
+        }
+      }
+    },
+    {
+      "key": "1304eeffcb586e09e1ec500424366de80f47fbec",
+      "name": "comp/color/accordion/summary/text/color/border/default",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:0e270a8736f1f771be0bab072eba3d691928f998/22164:7931"
+        }
+      }
+    },
+    {
+      "key": "377175e4324c412c858e138e4b88570675aa93f3",
+      "name": "comp/color/accordion/summary/filled/color/fg/label/pressed",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2826081212df685d515a9c820e2f715cb36aeb24/24003:24136"
+        }
+      }
+    },
+    {
+      "key": "a51c02486adf457d172b5527fc65955e239cf526",
+      "name": "comp/color/accordion/summary/text/color/border/disabled",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:0e270a8736f1f771be0bab072eba3d691928f998/22164:7931"
+        }
+      }
+    },
+    {
+      "key": "ac78abea6063a650b9de844c061caf09298d877f",
+      "name": "comp/color/accordion/summary/filled/color/bg/focused",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:31497fdc0b70f102c9fc428b25f31df28baa4d00/24003:22708"
+        }
+      }
+    },
+    {
+      "key": "7496b7f6a4eb4a2c7c93fd4d8d78f9980704ebb5",
+      "name": "comp/color/accordion/summary/filled/color/border/disabled",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:0e270a8736f1f771be0bab072eba3d691928f998/22164:7931"
+        }
+      }
+    },
+    {
+      "key": "269fc8e24d29ef0e956ba88f95fe8002d21effb1",
+      "name": "comp/color/accordion/summary/filled/color/fg/icon/default",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:ec123f9820b91d3e1ab2bd34e72165c48bd64004/24003:23498"
+        }
+      }
+    },
+    {
+      "key": "c33fc1eaf1b71c33f5e20b71fc25a2aac4429580",
+      "name": "comp/color/accordion/summary/filled/color/bg/pressed",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:41d2210c9af93ba2309aee8ba52bbbc4d99060d8/24003:22873"
+        }
+      }
+    },
+    {
+      "key": "dbea7d27d9fbe4caa6a9863129350fd3901a9d30",
+      "name": "comp/color/accordion/summary/filled/color/border/focused",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:0e270a8736f1f771be0bab072eba3d691928f998/22164:7931"
+        }
+      }
+    },
+    {
+      "key": "db0c6b677eef8d9ab6e8a00986cfa13e8d5f3bdd",
+      "name": "comp/color/accordion/summary/text/color/border/pressed",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:0e270a8736f1f771be0bab072eba3d691928f998/22164:7931"
+        }
+      }
+    },
+    {
+      "key": "b1135d8d8a9a7030f14cbadedb658c3474831db9",
+      "name": "comp/color/accordion/summary/filled/color/bg/disabled",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:e354e9e3b995c04b671525313e59f2b9db2e183c/24003:22746"
+        }
+      }
+    },
+    {
+      "key": "2a4d9341b96c5ec2c0cb55eb0f097789bf9bdb1a",
+      "name": "comp/color/accordion/summary/filled/color/bg/hovered",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:48f6428877a1897fea639a71a05e2a869abd060d/24003:22745"
+        }
+      }
+    },
+    {
+      "key": "74943a31f6ae304d635baf18f1c6fa273117af2d",
+      "name": "comp/color/accordion/summary/text/color/fg/label/default",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:ec123f9820b91d3e1ab2bd34e72165c48bd64004/24003:23498"
+        }
+      }
+    },
+    {
+      "key": "e31b0c55d87351f8708feab5dfc076587311e069",
+      "name": "comp/color/accordion/summary/text/color/fg/icon/hovered",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:99d44604ec1a459b593637c5ff78bfdef132eb16/24003:23324"
+        }
+      }
+    },
+    {
+      "key": "f79db5f5b72dc3bcd1e32ec9b000555adc8a7358",
+      "name": "comp/color/accordion/summary/text/color/bg/hovered",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:a8a0fa225bf6c5b93c75f466a228e7225272199b/24003:22707"
+        }
+      }
+    },
+    {
+      "key": "aa4615ec8a8324ce13c10aed635592b6716b2be4",
+      "name": "comp/color/accordion/summary/filled/color/fg/icon/focused",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:e5a84285ccb69fa8c97cf61e1002417a550f58b7/24003:24239"
+        }
+      }
+    },
+    {
+      "key": "71ea4cace3266cae54e51388cd36589e031bf9f4",
+      "name": "comp/color/accordion/summary/filled/color/border/default",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:0e270a8736f1f771be0bab072eba3d691928f998/22164:7931"
+        }
+      }
+    },
+    {
+      "key": "db8c48f50938b19e38195c4f5bf823f6eea4c86b",
+      "name": "comp/color/accordion/summary/filled/color/fg/icon/pressed",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2826081212df685d515a9c820e2f715cb36aeb24/24003:24136"
+        }
+      }
+    },
+    {
+      "key": "011f690dcdd39d30c04f2df6781301e4aff0603c",
+      "name": "comp/color/accordion/summary/filled/color/fg/label/default",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:ec123f9820b91d3e1ab2bd34e72165c48bd64004/24003:23498"
+        }
+      }
+    },
+    {
+      "key": "6908a2ecd20843e48c930bd135767eedee4c9ff4",
+      "name": "comp/color/accordion/summary/filled/color/fg/icon/disabled",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:1d4aa043e3cae49904aeb71387f699ff04ef8b0f/24003:22917"
+        }
+      }
+    },
+    {
+      "key": "73ca36230f6b36ae21e842717404772a2c5b1bdb",
+      "name": "comp/color/accordion/details/color/bg/default",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:954456fb54b1e1465bcc1bd630d5275b2748ae71/22164:5590"
+        }
+      }
+    },
+    {
+      "key": "c032aa8b4f43d1058a7917cb4ce373b29612a2ba",
+      "name": "comp/color/accordion/summary/filled/color/bg/default",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:b81935585c770b820965c2905a9e294a601154ef/24003:22711"
+        }
+      }
+    },
+    {
+      "key": "19fd54964e47d3e0ab8122fe21b88bdaf4b9bd67",
+      "name": "comp/color/accordion/summary/text/color/border/focused",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:0e270a8736f1f771be0bab072eba3d691928f998/22164:7931"
+        }
+      }
+    },
+    {
+      "key": "397ae47a6baf080cd0829f89a9187b168ba745af",
+      "name": "comp/color/accordion/summary/filled/color/border/hovered",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:0e270a8736f1f771be0bab072eba3d691928f998/22164:7931"
+        }
+      }
+    },
+    {
+      "key": "ff8c66d47c39e6edff5bddf86e7ae84067953384",
+      "name": "comp/color/accordion/summary/text/color/fg/label/focused",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:5b2768b7bcfb6d68af95de6fe52e49297c5d22a2/24003:23647"
+        }
+      }
+    },
+    {
+      "key": "f9b719dd31a80be8f6ccc32553c203eea9283eba",
+      "name": "comp/color/accordion/summary/text/color/border/hovered",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:0e270a8736f1f771be0bab072eba3d691928f998/22164:7931"
+        }
+      }
+    },
+    {
+      "key": "c247e386272b5782fd82a327ed45f65cc7a63c83",
+      "name": "comp/color/accordion/summary/filled/color/border/pressed",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:0e270a8736f1f771be0bab072eba3d691928f998/22164:7931"
+        }
+      }
+    },
+    {
+      "key": "bb4ec178065fde7d17c5372b33da27579fb33bf3",
+      "name": "comp/color/accordion/summary/filled/color/fg/icon/hovered",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2826081212df685d515a9c820e2f715cb36aeb24/24003:24136"
+        }
+      }
+    },
+    {
+      "key": "46732042c7c9fef3ef0918b34aec028ccf92feee",
+      "name": "comp/color/accordion/container/color/border/default",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:0e270a8736f1f771be0bab072eba3d691928f998/22164:7931"
+        }
+      }
+    },
+    {
+      "key": "818e8fe81a0ea670e3d92e26e244cba1ced8a6ca",
+      "name": "comp/color/accordion/summary/filled/color/fg/label/focused",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2826081212df685d515a9c820e2f715cb36aeb24/24003:24136"
+        }
+      }
+    },
+    {
+      "key": "d323c5c20a232193d4a29b28cdaa0de722c557fc",
+      "name": "comp/color/accordion/summary/filled/color/fg/label/disabled",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:1d4aa043e3cae49904aeb71387f699ff04ef8b0f/24003:22917"
+        }
+      }
+    },
+    {
+      "key": "66f5849661086cfe6d95e294997c09d1e460bacc",
+      "name": "comp/color/accordion/container/color/bg/default",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2002:57": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:954456fb54b1e1465bcc1bd630d5275b2748ae71/22164:5590"
+        }
+      }
+    }
+  ]
+}
