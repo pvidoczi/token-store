@@ -1,0 +1,8 @@
+/* IDS Design Token CSS - Auto-generated */
+/* Import order: base → smc-colors → smc-layout → smc-reference → component */
+
+@import "./base/base.css";
+@import "./smc/smc-colors.css";
+@import "./smc/smc-layout.css";
+@import "./smc/smc-reference.css";
+@import "./component/component.css";
