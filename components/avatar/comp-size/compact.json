@@ -3,6 +3,7 @@
   "collectionName": "comp-size",
   "variables": [
     {
+      "id": "VariableID:37bb20e0f946830244a7ba6f0cd5d848fed8d99b/30316:56",
       "key": "37bb20e0f946830244a7ba6f0cd5d848fed8d99b",
       "name": "comp/size/avatar/icon/typography/smallCollection/font-size",
       "resolvedType": "FLOAT",
@@ -26,6 +27,7 @@
       }
     },
     {
+      "id": "VariableID:d4ca5de8102e14d581bc9447256683154b921651/30316:58",
       "key": "d4ca5de8102e14d581bc9447256683154b921651",
       "name": "comp/size/avatar/icon/typography/smallCollection/line-height",
       "resolvedType": "FLOAT",
@@ -49,6 +51,7 @@
       }
     },
     {
+      "id": "VariableID:2f32cfeab0c8caab373c8294cb9cafb1119e9eaa/30314:25",
       "key": "2f32cfeab0c8caab373c8294cb9cafb1119e9eaa",
       "name": "comp/size/avatar/size/smallCollection/icon",
       "resolvedType": "FLOAT",
@@ -72,6 +75,7 @@
       }
     },
     {
+      "id": "VariableID:220f65fcf941da5f54b2ec3198904e750b5556c1/30169:8682",
       "key": "220f65fcf941da5f54b2ec3198904e750b5556c1",
       "name": "comp/size/avatar/size/bigCollection/width",
       "resolvedType": "FLOAT",
@@ -95,6 +99,7 @@
       }
     },
     {
+      "id": "VariableID:d4d6b1133fc4569e680081b01a1767dcf05c3fa5/30169:9514",
       "key": "d4d6b1133fc4569e680081b01a1767dcf05c3fa5",
       "name": "comp/size/avatar/initials/typography/smallCollection/font-size",
       "resolvedType": "FLOAT",
@@ -118,6 +123,7 @@
       }
     },
     {
+      "id": "VariableID:507132d72ae14b8b0b2d88ef3fdfeeea05660a84/30169:9688",
       "key": "507132d72ae14b8b0b2d88ef3fdfeeea05660a84",
       "name": "comp/size/avatar/initials/typography/smallCollection/line-height",
       "resolvedType": "FLOAT",
@@ -141,6 +147,7 @@
       }
     },
     {
+      "id": "VariableID:ec03b92fd7275ccec7afcf277a33f7176b591372/30383:11588",
       "key": "ec03b92fd7275ccec7afcf277a33f7176b591372",
       "name": "comp/size/avatar/initials/typography/bigCollection/font-family",
       "resolvedType": "STRING",
@@ -164,6 +171,7 @@
       }
     },
     {
+      "id": "VariableID:1deed9931f88a105beb966c5998f9381b0839c1f/30383:11547",
       "key": "1deed9931f88a105beb966c5998f9381b0839c1f",
       "name": "comp/size/avatar/initials/typography/smallCollection/font-family",
       "resolvedType": "STRING",
@@ -187,6 +195,7 @@
       }
     },
     {
+      "id": "VariableID:c6b7e78ccf83731b4908b2d783fe0d1a7d970606/30169:9861",
       "key": "c6b7e78ccf83731b4908b2d783fe0d1a7d970606",
       "name": "comp/size/avatar/size/bigCollection/icon",
       "resolvedType": "FLOAT",
@@ -210,6 +219,7 @@
       }
     },
     {
+      "id": "VariableID:4c71a4cbfb232f9aa46c79f1b46cd8938ebdd621/30169:9726",
       "key": "4c71a4cbfb232f9aa46c79f1b46cd8938ebdd621",
       "name": "comp/size/avatar/icon/typography/bigCollection/font-weight",
       "resolvedType": "FLOAT",
@@ -233,6 +243,7 @@
       }
     },
     {
+      "id": "VariableID:1c9a570a33c47ddcf4ae906abdb6158596239583/30169:9381",
       "key": "1c9a570a33c47ddcf4ae906abdb6158596239583",
       "name": "comp/size/avatar/size/bigCollection/border",
       "resolvedType": "FLOAT",
@@ -256,6 +267,7 @@
       }
     },
     {
+      "id": "VariableID:cf00766e6c6d262c6489590e4e3f9caa33c86999/30318:90",
       "key": "cf00766e6c6d262c6489590e4e3f9caa33c86999",
       "name": "comp/size/avatar/icon/typography/bigCollection/line-height",
       "resolvedType": "FLOAT",
@@ -279,6 +291,7 @@
       }
     },
     {
+      "id": "VariableID:158f9640b334c2fd371263bb70083e11c4b6d960/30169:8915",
       "key": "158f9640b334c2fd371263bb70083e11c4b6d960",
       "name": "comp/size/avatar/size/bigCollection/border-radius",
       "resolvedType": "FLOAT",
@@ -302,6 +315,7 @@
       }
     },
     {
+      "id": "VariableID:660e1574cda8df633c331e22181c88c0567e0126/30169:8911",
       "key": "660e1574cda8df633c331e22181c88c0567e0126",
       "name": "comp/size/avatar/size/smallCollection/border-radius",
       "resolvedType": "FLOAT",
@@ -325,6 +339,7 @@
       }
     },
     {
+      "id": "VariableID:7e11a492efa0284bd83a83ba0cf2f45c0234c431/30169:9730",
       "key": "7e11a492efa0284bd83a83ba0cf2f45c0234c431",
       "name": "comp/size/avatar/icon/typography/smallCollection/font-weight",
       "resolvedType": "FLOAT",
@@ -348,6 +363,7 @@
       }
     },
     {
+      "id": "VariableID:a7d162cec82110d5772ce89ecc9ac2c645524995/30169:9581",
       "key": "a7d162cec82110d5772ce89ecc9ac2c645524995",
       "name": "comp/size/avatar/initials/typography/bigCollection/font-size",
       "resolvedType": "FLOAT",
@@ -371,6 +387,7 @@
       }
     },
     {
+      "id": "VariableID:6b125396b8eb0ba515ded665fca43abafd2286c8/30169:8773",
       "key": "6b125396b8eb0ba515ded665fca43abafd2286c8",
       "name": "comp/size/avatar/size/smallCollection/height",
       "resolvedType": "FLOAT",
@@ -394,6 +411,7 @@
       }
     },
     {
+      "id": "VariableID:1bf14643c91542e5003941f7eb1eb1d4974837ba/30383:14095",
       "key": "1bf14643c91542e5003941f7eb1eb1d4974837ba",
       "name": "comp/size/avatar/icon/typography/bigCollection/font-family",
       "resolvedType": "STRING",
@@ -417,6 +435,7 @@
       }
     },
     {
+      "id": "VariableID:0f504e1e596521f1dcd291710d4519f1ef6bd820/30169:8827",
       "key": "0f504e1e596521f1dcd291710d4519f1ef6bd820",
       "name": "comp/size/avatar/size/bigCollection/height",
       "resolvedType": "FLOAT",
@@ -440,6 +459,7 @@
       }
     },
     {
+      "id": "VariableID:72ac959788286fac992101c5481b364933202932/30169:9760",
       "key": "72ac959788286fac992101c5481b364933202932",
       "name": "comp/size/avatar/initials/typography/smallCollection/letter-spacing",
       "resolvedType": "FLOAT",
@@ -463,6 +483,7 @@
       }
     },
     {
+      "id": "VariableID:ae5f665624799c3c86dcf869c63c1ae8d1d8f955/30169:8644",
       "key": "ae5f665624799c3c86dcf869c63c1ae8d1d8f955",
       "name": "comp/size/avatar/size/smallCollection/width",
       "resolvedType": "FLOAT",
@@ -486,6 +507,7 @@
       }
     },
     {
+      "id": "VariableID:7971a0e2d41ac4f2bdf92429d35e1f7c9db9944e/30169:9689",
       "key": "7971a0e2d41ac4f2bdf92429d35e1f7c9db9944e",
       "name": "comp/size/avatar/initials/typography/bigCollection/line-height",
       "resolvedType": "FLOAT",
@@ -509,6 +531,7 @@
       }
     },
     {
+      "id": "VariableID:174a8f29167a9101461f57c229996f9b0c2670f0/30169:9728",
       "key": "174a8f29167a9101461f57c229996f9b0c2670f0",
       "name": "comp/size/avatar/initials/typography/bigCollection/font-weight",
       "resolvedType": "FLOAT",
@@ -532,6 +555,7 @@
       }
     },
     {
+      "id": "VariableID:afc8c42dca7b08d540a3df57d15f8167d412bf3e/30383:14094",
       "key": "afc8c42dca7b08d540a3df57d15f8167d412bf3e",
       "name": "comp/size/avatar/icon/typography/smallCollection/font-family",
       "resolvedType": "STRING",
@@ -555,6 +579,7 @@
       }
     },
     {
+      "id": "VariableID:1b315d4499d294c59c6a38c27c66d264b438ee1c/30169:9779",
       "key": "1b315d4499d294c59c6a38c27c66d264b438ee1c",
       "name": "comp/size/avatar/initials/typography/bigCollection/letter-spacing",
       "resolvedType": "FLOAT",
@@ -578,6 +603,7 @@
       }
     },
     {
+      "id": "VariableID:b620459ec85aa3820cef20611044cb0aab03dd7a/30169:9360",
       "key": "b620459ec85aa3820cef20611044cb0aab03dd7a",
       "name": "comp/size/avatar/size/smallCollection/border",
       "resolvedType": "FLOAT",
@@ -601,6 +627,7 @@
       }
     },
     {
+      "id": "VariableID:ca62a435982faff80aaa2edf180766b2a17686e3/30169:9716",
       "key": "ca62a435982faff80aaa2edf180766b2a17686e3",
       "name": "comp/size/avatar/initials/typography/smallCollection/font-weight",
       "resolvedType": "FLOAT",
@@ -624,6 +651,7 @@
       }
     },
     {
+      "id": "VariableID:dd297efd249d6b440afd376b235da3c2e259bca3/30318:88",
       "key": "dd297efd249d6b440afd376b235da3c2e259bca3",
       "name": "comp/size/avatar/icon/typography/bigCollection/font-size",
       "resolvedType": "FLOAT",

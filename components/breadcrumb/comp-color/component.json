@@ -3,6 +3,7 @@
   "collectionName": "comp-color",
   "variables": [
     {
+      "id": "VariableID:3e617e2c97c69864d3992fea672e48e0efd2e7f1/26003:371",
       "key": "3e617e2c97c69864d3992fea672e48e0efd2e7f1",
       "name": "comp/color/breadcrumb/navigation-link/bg/surface/default",
       "resolvedType": "COLOR",
@@ -14,6 +15,7 @@
       }
     },
     {
+      "id": "VariableID:34229540389cc0a7decc720a9e601c44a2cf80a8/26003:373",
       "key": "34229540389cc0a7decc720a9e601c44a2cf80a8",
       "name": "comp/color/breadcrumb/navigation-link/bg/primary/hovered",
       "resolvedType": "COLOR",
@@ -25,6 +27,7 @@
       }
     },
     {
+      "id": "VariableID:9f3892f1dab4378a0330b1ea990b4edcef1d4b9f/26030:1",
       "key": "9f3892f1dab4378a0330b1ea990b4edcef1d4b9f",
       "name": "comp/color/breadcrumb/navigation-link/fg/light/default",
       "resolvedType": "COLOR",
@@ -36,6 +39,7 @@
       }
     },
     {
+      "id": "VariableID:59fe0c19ef870307cbdc19a39ca5b10c9da1acc7/26003:372",
       "key": "59fe0c19ef870307cbdc19a39ca5b10c9da1acc7",
       "name": "comp/color/breadcrumb/navigation-link/bg/primary/default",
       "resolvedType": "COLOR",
@@ -47,6 +51,7 @@
       }
     },
     {
+      "id": "VariableID:fbb2e15479625fa191aa64cb051a87898c8a4708/26004:380",
       "key": "fbb2e15479625fa191aa64cb051a87898c8a4708",
       "name": "comp/color/breadcrumb/current-page/bg/light/default",
       "resolvedType": "COLOR",
@@ -58,6 +63,7 @@
       }
     },
     {
+      "id": "VariableID:de9fed911f9e82f102db5951a751456f9d3eadf4/28003:48810",
       "key": "de9fed911f9e82f102db5951a751456f9d3eadf4",
       "name": "comp/color/breadcrumb/navigation-link/fg/surface/default",
       "resolvedType": "COLOR",
@@ -69,6 +75,7 @@
       }
     },
     {
+      "id": "VariableID:fb690d639dc2e5fa92b3fde46023932643e8d83e/28003:48811",
       "key": "fb690d639dc2e5fa92b3fde46023932643e8d83e",
       "name": "comp/color/breadcrumb/divider/foreslash/fg/surface/default",
       "resolvedType": "COLOR",
@@ -80,6 +87,7 @@
       }
     },
     {
+      "id": "VariableID:e0ea78babca32f0b5d8bcca8e1c47e3f2806bf5c/28003:47993",
       "key": "e0ea78babca32f0b5d8bcca8e1c47e3f2806bf5c",
       "name": "comp/color/breadcrumb/navigation-link/fg/primary/default",
       "resolvedType": "COLOR",
@@ -91,6 +99,7 @@
       }
     },
     {
+      "id": "VariableID:963b46dc97d686e0529a97f768fdbeaaf00fdab3/26003:361",
       "key": "963b46dc97d686e0529a97f768fdbeaaf00fdab3",
       "name": "comp/color/breadcrumb/navigation-link/bg/primary/disabled",
       "resolvedType": "COLOR",
@@ -102,6 +111,7 @@
       }
     },
     {
+      "id": "VariableID:f85490de44d1cb6f243c3ac1ef14f09ca76dc403/26003:374",
       "key": "f85490de44d1cb6f243c3ac1ef14f09ca76dc403",
       "name": "comp/color/breadcrumb/navigation-link/bg/primary/focused",
       "resolvedType": "COLOR",
@@ -113,6 +123,7 @@
       }
     },
     {
+      "id": "VariableID:c730d776121db874b81e733fa0224dfb6901e313/26030:2",
       "key": "c730d776121db874b81e733fa0224dfb6901e313",
       "name": "comp/color/breadcrumb/navigation-link/fg/light/hovered",
       "resolvedType": "COLOR",
@@ -124,6 +135,7 @@
       }
     },
     {
+      "id": "VariableID:fbc1d1fa0f47c05bb9136fc3f8f9e25ea41f63bd/26031:24",
       "key": "fbc1d1fa0f47c05bb9136fc3f8f9e25ea41f63bd",
       "name": "comp/color/breadcrumb/focused-outline/color/light/focused",
       "resolvedType": "COLOR",
@@ -135,6 +147,7 @@
       }
     },
     {
+      "id": "VariableID:35cfdc6af1400106e38faaa99ee11706ac440468/26004:412",
       "key": "35cfdc6af1400106e38faaa99ee11706ac440468",
       "name": "comp/color/breadcrumb/divider/foreslash/fg/light/default",
       "resolvedType": "COLOR",
@@ -146,6 +159,7 @@
       }
     },
     {
+      "id": "VariableID:4b3904c3b3f15ae222c382fb0eb27d6f23ddf424/28003:49365",
       "key": "4b3904c3b3f15ae222c382fb0eb27d6f23ddf424",
       "name": "comp/color/breadcrumb/navigation-link/fg/surface/focused",
       "resolvedType": "COLOR",
@@ -157,6 +171,7 @@
       }
     },
     {
+      "id": "VariableID:5a6312f56bcda6ecec057cb933f3a2e33b1dd607/28003:49445",
       "key": "5a6312f56bcda6ecec057cb933f3a2e33b1dd607",
       "name": "comp/color/breadcrumb/focused-outline/color/dark/focused",
       "resolvedType": "COLOR",
@@ -168,6 +183,7 @@
       }
     },
     {
+      "id": "VariableID:06c30bfdd56f5eaa05238e9d7c8541af0019b5d9/28003:49364",
       "key": "06c30bfdd56f5eaa05238e9d7c8541af0019b5d9",
       "name": "comp/color/breadcrumb/navigation-link/fg/surface/hovered",
       "resolvedType": "COLOR",
@@ -179,6 +195,7 @@
       }
     },
     {
+      "id": "VariableID:c56e80d3261633cce3dfaad95f4ac99886776577/26004:379",
       "key": "c56e80d3261633cce3dfaad95f4ac99886776577",
       "name": "comp/color/breadcrumb/current-page/bg/primary/default",
       "resolvedType": "COLOR",
@@ -190,6 +207,7 @@
       }
     },
     {
+      "id": "VariableID:b1995a7f378446a8e4872a409e899eef486f4bfc/26030:3",
       "key": "b1995a7f378446a8e4872a409e899eef486f4bfc",
       "name": "comp/color/breadcrumb/navigation-link/fg/light/focused",
       "resolvedType": "COLOR",
@@ -201,6 +219,7 @@
       }
     },
     {
+      "id": "VariableID:dbcbd2b46dc3a6feb7e89a5ed0f312eddc30e4d6/26003:362",
       "key": "dbcbd2b46dc3a6feb7e89a5ed0f312eddc30e4d6",
       "name": "comp/color/breadcrumb/navigation-link/bg/light/disabled",
       "resolvedType": "COLOR",
@@ -212,6 +231,7 @@
       }
     },
     {
+      "id": "VariableID:d0b574d45b6cb0d00ce015ff88e105b1ace69940/26004:378",
       "key": "d0b574d45b6cb0d00ce015ff88e105b1ace69940",
       "name": "comp/color/breadcrumb/current-page/bg/surface/default",
       "resolvedType": "COLOR",
@@ -223,6 +243,7 @@
       }
     },
     {
+      "id": "VariableID:2f840aaa5b5ef7d4cf070843cd2330dacb56805b/28003:49366",
       "key": "2f840aaa5b5ef7d4cf070843cd2330dacb56805b",
       "name": "comp/color/breadcrumb/navigation-link/fg/surface/pressed",
       "resolvedType": "COLOR",
@@ -234,6 +255,7 @@
       }
     },
     {
+      "id": "VariableID:46c6b47a1db92b775c3813e547ba6aa2ac75c5d4/26003:370",
       "key": "46c6b47a1db92b775c3813e547ba6aa2ac75c5d4",
       "name": "comp/color/breadcrumb/navigation-link/bg/surface/pressed",
       "resolvedType": "COLOR",
@@ -245,6 +267,7 @@
       }
     },
     {
+      "id": "VariableID:39123625eb6bd80fd60fc7ce9741f5c9b4a18584/28003:48065",
       "key": "39123625eb6bd80fd60fc7ce9741f5c9b4a18584",
       "name": "comp/color/breadcrumb/navigation-link/fg/primary/focused",
       "resolvedType": "COLOR",
@@ -256,6 +279,7 @@
       }
     },
     {
+      "id": "VariableID:73150bbb637d22d8ff6508eb4743da5b10c5ce3c/26003:365",
       "key": "73150bbb637d22d8ff6508eb4743da5b10c5ce3c",
       "name": "comp/color/breadcrumb/navigation-link/bg/primary/pressed",
       "resolvedType": "COLOR",
@@ -267,6 +291,7 @@
       }
     },
     {
+      "id": "VariableID:9f65339752e3a8dbb16e8145288df37228ea00f4/26003:320",
       "key": "9f65339752e3a8dbb16e8145288df37228ea00f4",
       "name": "comp/color/breadcrumb/navigation-link/fg/surface/disabled",
       "resolvedType": "COLOR",
@@ -278,6 +303,7 @@
       }
     },
     {
+      "id": "VariableID:0855c0ffe5fc93d85ea36075f3d696338a5a6e1b/26003:364",
       "key": "0855c0ffe5fc93d85ea36075f3d696338a5a6e1b",
       "name": "comp/color/breadcrumb/navigation-link/bg/surface/hovered",
       "resolvedType": "COLOR",
@@ -289,6 +315,7 @@
       }
     },
     {
+      "id": "VariableID:438796893c5d9fd706765aa10e87433cebc5bcda/26003:311",
       "key": "438796893c5d9fd706765aa10e87433cebc5bcda",
       "name": "comp/color/breadcrumb/navigation-link/fg/primary/disabled",
       "resolvedType": "COLOR",
@@ -300,6 +327,7 @@
       }
     },
     {
+      "id": "VariableID:65a0ae36678cf5ad509c9fc2d4e5228ef25fd2c3/26003:368",
       "key": "65a0ae36678cf5ad509c9fc2d4e5228ef25fd2c3",
       "name": "comp/color/breadcrumb/navigation-link/bg/light/pressed",
       "resolvedType": "COLOR",
@@ -311,6 +339,7 @@
       }
     },
     {
+      "id": "VariableID:9a81aefbc35019360d468e4cf5b7cbe649c4d367/26003:369",
       "key": "9a81aefbc35019360d468e4cf5b7cbe649c4d367",
       "name": "comp/color/breadcrumb/navigation-link/bg/surface/focused",
       "resolvedType": "COLOR",
@@ -322,6 +351,7 @@
       }
     },
     {
+      "id": "VariableID:de99d6f82a591c365ac1a8e92ac4e8f01a5e53eb/28003:48064",
       "key": "de99d6f82a591c365ac1a8e92ac4e8f01a5e53eb",
       "name": "comp/color/breadcrumb/navigation-link/fg/primary/hovered",
       "resolvedType": "COLOR",
@@ -333,6 +363,7 @@
       }
     },
     {
+      "id": "VariableID:f4d4c3e6da3686d97c569eb9d80a7f6a93c29c10/26003:360",
       "key": "f4d4c3e6da3686d97c569eb9d80a7f6a93c29c10",
       "name": "comp/color/breadcrumb/navigation-link/bg/surface/disabled",
       "resolvedType": "COLOR",
@@ -344,6 +375,7 @@
       }
     },
     {
+      "id": "VariableID:96c12d27bf3cf506e793628f042179684d17e624/26003:330",
       "key": "96c12d27bf3cf506e793628f042179684d17e624",
       "name": "comp/color/breadcrumb/current-page/fg/light/default",
       "resolvedType": "COLOR",
@@ -355,6 +387,7 @@
       }
     },
     {
+      "id": "VariableID:892170322b30906e59bfa2c7b8dd31e7a65cf71b/28003:47995",
       "key": "892170322b30906e59bfa2c7b8dd31e7a65cf71b",
       "name": "comp/color/breadcrumb/divider/foreslash/fg/primary/default",
       "resolvedType": "COLOR",
@@ -366,6 +399,7 @@
       }
     },
     {
+      "id": "VariableID:77e0501a85204b7be613859804fa7b411389feac/28003:47994",
       "key": "77e0501a85204b7be613859804fa7b411389feac",
       "name": "comp/color/breadcrumb/current-page/fg/primary/default",
       "resolvedType": "COLOR",
@@ -377,6 +411,7 @@
       }
     },
     {
+      "id": "VariableID:cef91e943747282d4f95387e87203ecc0110bd46/26030:10",
       "key": "cef91e943747282d4f95387e87203ecc0110bd46",
       "name": "comp/color/breadcrumb/navigation-link/fg/light/disabled",
       "resolvedType": "COLOR",
@@ -388,6 +423,7 @@
       }
     },
     {
+      "id": "VariableID:644b511a717735dcd885c9b59cdeb7d800ff7eba/26003:363",
       "key": "644b511a717735dcd885c9b59cdeb7d800ff7eba",
       "name": "comp/color/breadcrumb/navigation-link/bg/light/default",
       "resolvedType": "COLOR",
@@ -399,6 +435,7 @@
       }
     },
     {
+      "id": "VariableID:54aac086b02020d5deb06daa227d4594cde3b037/28003:48086",
       "key": "54aac086b02020d5deb06daa227d4594cde3b037",
       "name": "comp/color/breadcrumb/navigation-link/fg/primary/pressed",
       "resolvedType": "COLOR",
@@ -410,6 +447,7 @@
       }
     },
     {
+      "id": "VariableID:adcbbf9e386190b2319132fb8c893ec088fff965/26003:367",
       "key": "adcbbf9e386190b2319132fb8c893ec088fff965",
       "name": "comp/color/breadcrumb/navigation-link/bg/light/focused",
       "resolvedType": "COLOR",
@@ -421,6 +459,7 @@
       }
     },
     {
+      "id": "VariableID:26106d80d954b788a4560bf8c5f23c3549a40fa9/26003:366",
       "key": "26106d80d954b788a4560bf8c5f23c3549a40fa9",
       "name": "comp/color/breadcrumb/navigation-link/bg/light/hovered",
       "resolvedType": "COLOR",
@@ -432,6 +471,7 @@
       }
     },
     {
+      "id": "VariableID:4255450123e7032ec384a210187f9000363ca388/26030:4",
       "key": "4255450123e7032ec384a210187f9000363ca388",
       "name": "comp/color/breadcrumb/navigation-link/fg/light/pressed",
       "resolvedType": "COLOR",
@@ -443,6 +483,7 @@
       }
     },
     {
+      "id": "VariableID:d14fc768497d354b90f33d6409176d65ed372f84/28003:48979",
       "key": "d14fc768497d354b90f33d6409176d65ed372f84",
       "name": "comp/color/breadcrumb/current-page/fg/surface/default",
       "resolvedType": "COLOR",

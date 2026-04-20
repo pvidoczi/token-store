@@ -3,6 +3,7 @@
   "collectionName": "comp-color",
   "variables": [
     {
+      "id": "VariableID:6841ee5f9f4c8f6c312712b637ec4b7e43746814/30383:13137",
       "key": "6841ee5f9f4c8f6c312712b637ec4b7e43746814",
       "name": "comp/color/avatar/color/bg/primary/default",
       "resolvedType": "COLOR",
@@ -14,6 +15,7 @@
       }
     },
     {
+      "id": "VariableID:74577c6fe4283cbc1acac6a63044bdf7874fdf37/30169:7761",
       "key": "74577c6fe4283cbc1acac6a63044bdf7874fdf37",
       "name": "comp/color/avatar/color/border/primary/default",
       "resolvedType": "COLOR",
@@ -25,6 +27,7 @@
       }
     },
     {
+      "id": "VariableID:3cf6afdd1a602918714db349d094a44eca6a5362/30169:5260",
       "key": "3cf6afdd1a602918714db349d094a44eca6a5362",
       "name": "comp/color/avatar/color/bg/light/default",
       "resolvedType": "COLOR",
@@ -36,6 +39,7 @@
       }
     },
     {
+      "id": "VariableID:2ee4ebc8cf61761f47215c759da59a1c7882a45f/30169:7794",
       "key": "2ee4ebc8cf61761f47215c759da59a1c7882a45f",
       "name": "comp/color/avatar/color/border/secondary/default",
       "resolvedType": "COLOR",
@@ -47,6 +51,7 @@
       }
     },
     {
+      "id": "VariableID:bb00cbb31e50d4d1a954a1673e81d717cb9ada95/30383:12813",
       "key": "bb00cbb31e50d4d1a954a1673e81d717cb9ada95",
       "name": "comp/color/avatar/color/fg/surface/default",
       "resolvedType": "COLOR",
@@ -58,6 +63,7 @@
       }
     },
     {
+      "id": "VariableID:4d1e3a225cc7162bbe466118f014d97b6a4d581b/30383:12210",
       "key": "4d1e3a225cc7162bbe466118f014d97b6a4d581b",
       "name": "comp/color/avatar/color/bg/dark/default",
       "resolvedType": "COLOR",
@@ -69,6 +75,7 @@
       }
     },
     {
+      "id": "VariableID:38217e120c059465900c755a06ee2032c0da4c75/30383:13016",
       "key": "38217e120c059465900c755a06ee2032c0da4c75",
       "name": "comp/color/avatar/color/bg/secondary/default",
       "resolvedType": "COLOR",
@@ -80,6 +87,7 @@
       }
     },
     {
+      "id": "VariableID:13da886d60fe92aa5373ca25a8695d7408dccea5/30169:7758",
       "key": "13da886d60fe92aa5373ca25a8695d7408dccea5",
       "name": "comp/color/avatar/color/border/dark/default",
       "resolvedType": "COLOR",
@@ -91,6 +99,7 @@
       }
     },
     {
+      "id": "VariableID:6e2746ca824cc7d43326144fb2baa7ce97d3a66e/30383:12621",
       "key": "6e2746ca824cc7d43326144fb2baa7ce97d3a66e",
       "name": "comp/color/avatar/color/fg/light/default",
       "resolvedType": "COLOR",
@@ -102,6 +111,7 @@
       }
     },
     {
+      "id": "VariableID:58c306d74915840a8e31ccd599174bcac7dcd120/30383:12272",
       "key": "58c306d74915840a8e31ccd599174bcac7dcd120",
       "name": "comp/color/avatar/color/fg/dark/default",
       "resolvedType": "COLOR",
@@ -113,6 +123,7 @@
       }
     },
     {
+      "id": "VariableID:82b28ed85663502bf4d3a696d1c73cd588a225a8/30169:6473",
       "key": "82b28ed85663502bf4d3a696d1c73cd588a225a8",
       "name": "comp/color/avatar/color/fg/secondary/default",
       "resolvedType": "COLOR",
@@ -124,6 +135,7 @@
       }
     },
     {
+      "id": "VariableID:06ffca9e2a359b2b9eb991583f6fad5fbc946246/30169:6458",
       "key": "06ffca9e2a359b2b9eb991583f6fad5fbc946246",
       "name": "comp/color/avatar/color/fg/primary/default",
       "resolvedType": "COLOR",
@@ -135,6 +147,7 @@
       }
     },
     {
+      "id": "VariableID:116619a893d40ec0f2dbb658f0e3f5a8e48ca015/30169:7804",
       "key": "116619a893d40ec0f2dbb658f0e3f5a8e48ca015",
       "name": "comp/color/avatar/color/border/surface/default",
       "resolvedType": "COLOR",
@@ -146,6 +159,7 @@
       }
     },
     {
+      "id": "VariableID:e747ad6a3081f41be07d7967540520a043a78521/30169:7770",
       "key": "e747ad6a3081f41be07d7967540520a043a78521",
       "name": "comp/color/avatar/color/border/light/default",
       "resolvedType": "COLOR",
@@ -157,6 +171,7 @@
       }
     },
     {
+      "id": "VariableID:7d8eb507427cfe34cf791fd57041ccc85e482721/30383:12384",
       "key": "7d8eb507427cfe34cf791fd57041ccc85e482721",
       "name": "comp/color/avatar/color/bg/surface/default",
       "resolvedType": "COLOR",
