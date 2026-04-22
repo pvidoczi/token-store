@@ -3,434 +3,434 @@
   "collectionName": "comp-size",
   "variables": [
     {
-      "id": "VariableID:cec6c2ff4350efe41c764cb3a9e7bbf8516f74c0/23106:9436",
+      "id": "VariableID:cec6c2ff4350efe41c764cb3a9e7bbf8516f74c0/27144:983",
       "key": "cec6c2ff4350efe41c764cb3a9e7bbf8516f74c0",
       "name": "comp/size/card/container/vertical/size/padding-y",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:192934bd1748daded18589184876bfd3b2d6afd5/23106:9470"
+          "id": "VariableID:4065cdc1788baa38e56e00fbef2aac0e350bb4ff/17416:9794"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:192934bd1748daded18589184876bfd3b2d6afd5/23106:9470"
+          "id": "VariableID:4065cdc1788baa38e56e00fbef2aac0e350bb4ff/17416:9794"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:192934bd1748daded18589184876bfd3b2d6afd5/23106:9470"
+          "id": "VariableID:4065cdc1788baa38e56e00fbef2aac0e350bb4ff/17416:9794"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:192934bd1748daded18589184876bfd3b2d6afd5/23106:9470"
+          "id": "VariableID:4065cdc1788baa38e56e00fbef2aac0e350bb4ff/17416:9794"
         }
       }
     },
     {
-      "id": "VariableID:2601fbc9a05ca5c5cf0950ddc88c18ee465425a9/23190:22",
+      "id": "VariableID:2601fbc9a05ca5c5cf0950ddc88c18ee465425a9/27144:1007",
       "key": "2601fbc9a05ca5c5cf0950ddc88c18ee465425a9",
       "name": "comp/size/card/container/horizontal/size/border-radius",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:e849cb2bb88fcac5679f0105cb92b6cc94edca75/23106:9120"
+          "id": "VariableID:d966777f25fdae22b2486d2b067e15ef3b6cdef6/17416:9543"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:9135b0f92f0d097ead60f753ce17b506ef11b6bc/23106:9124"
+          "id": "VariableID:13de420e48520b86d18804604a8f37cb0ec758a1/17416:9546"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:3049d1cc1a09e8e0e4759b3f14d293f8d9d5a7ad/23106:9126"
+          "id": "VariableID:39f0e461ed948893f0fb47f56719e4e3efd42d79/17416:9551"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:aa9fed777046957255bc723e3fab9edce0fcb27c/23106:9107"
+          "id": "VariableID:231e29b173f729258a219da00b914c1219980ffe/17416:9538"
         }
       }
     },
     {
-      "id": "VariableID:0353fbed706f207fb6fae948689324dca4bd9fd7/23190:20",
+      "id": "VariableID:0353fbed706f207fb6fae948689324dca4bd9fd7/27144:971",
       "key": "0353fbed706f207fb6fae948689324dca4bd9fd7",
       "name": "comp/size/card/container/vertical/size/border-radius",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:e849cb2bb88fcac5679f0105cb92b6cc94edca75/23106:9120"
+          "id": "VariableID:d966777f25fdae22b2486d2b067e15ef3b6cdef6/17416:9543"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:9135b0f92f0d097ead60f753ce17b506ef11b6bc/23106:9124"
+          "id": "VariableID:13de420e48520b86d18804604a8f37cb0ec758a1/17416:9546"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:3049d1cc1a09e8e0e4759b3f14d293f8d9d5a7ad/23106:9126"
+          "id": "VariableID:39f0e461ed948893f0fb47f56719e4e3efd42d79/17416:9551"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:aa9fed777046957255bc723e3fab9edce0fcb27c/23106:9107"
+          "id": "VariableID:231e29b173f729258a219da00b914c1219980ffe/17416:9538"
         }
       }
     },
     {
-      "id": "VariableID:9ec1436d1f510cdb9dd96348180047f477470d40/23190:14",
+      "id": "VariableID:9ec1436d1f510cdb9dd96348180047f477470d40/27144:987",
       "key": "9ec1436d1f510cdb9dd96348180047f477470d40",
       "name": "comp/size/card/container/vertical/size/gap",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:2250eab796bdd7813e03b6590c88c2b895ae6679/23106:9556"
+          "id": "VariableID:88cbaa07f46a41756906ad08bcbda4df96c5bc14/17416:9872"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:9fe0cef28a2933d35b8674d05634d51f6ca4085d/23106:9564"
+          "id": "VariableID:3f10a2eddc08b803b6d953508e32db52b68bff87/17416:9875"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:fae1b8e8236ef2325cff136a15faad94caf35fcd/23106:9566"
+          "id": "VariableID:b5d5f786da778ec44e97d88eeaf9f024fe8c3631/17416:9876"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:52b0b218704ffa357bddd592b5c78a528466c4c6/23106:9538"
+          "id": "VariableID:5d9401a83feddcee066338b3448effc1629e2f88/17416:9839"
         }
       }
     },
     {
-      "id": "VariableID:7aca2044772c0dac51cb0394252f4ee3f7ac88ae/23190:9",
+      "id": "VariableID:7aca2044772c0dac51cb0394252f4ee3f7ac88ae/27144:991",
       "key": "7aca2044772c0dac51cb0394252f4ee3f7ac88ae",
       "name": "comp/size/card/slot/size/padding-x",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:b789fc48355cf32da0683147a234ad5f7bb68500/23106:9346"
+          "id": "VariableID:0bf161a678486bc4e1cc817bf702de161ea45f98/17416:9742"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:110ed583929b94eb3fd07389ddc48e313e26cd20/23106:9395"
+          "id": "VariableID:3ad4e7a8d62c23fc618b7a8a1364d300d1e890eb/17416:9763"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:c2ae88aebf0984440a608207313a634c071976fc/23106:9406"
+          "id": "VariableID:ab36d85099ac8e13ce72d4f507fc3cd9b6b217de/17416:9774"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:15ff82647ae7e5e4b035cd8ec894fd60dedc00b4/23106:9309"
+          "id": "VariableID:5df2b9b44b8692438a6478f3c112d5cfe11ee751/17416:9678"
         }
       }
     },
     {
-      "id": "VariableID:ee63e4a482651e9f74dd5e8ece38d2c7046d2b60/23106:9619",
+      "id": "VariableID:ee63e4a482651e9f74dd5e8ece38d2c7046d2b60/27144:1011",
       "key": "ee63e4a482651e9f74dd5e8ece38d2c7046d2b60",
       "name": "comp/size/card/container/horizontal/size/border-width",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:63079ba955084c9d9bc1830565fc37c02c3a2954/23106:9620"
+          "id": "VariableID:44f25279532cb4da29c15b743bbf09e385548848/17416:9911"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:63079ba955084c9d9bc1830565fc37c02c3a2954/23106:9620"
+          "id": "VariableID:44f25279532cb4da29c15b743bbf09e385548848/17416:9911"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:63079ba955084c9d9bc1830565fc37c02c3a2954/23106:9620"
+          "id": "VariableID:44f25279532cb4da29c15b743bbf09e385548848/17416:9911"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:63079ba955084c9d9bc1830565fc37c02c3a2954/23106:9620"
+          "id": "VariableID:44f25279532cb4da29c15b743bbf09e385548848/17416:9911"
         }
       }
     },
     {
-      "id": "VariableID:e44fabd3fbe47fa2efb3069b3e566fad527bf801/23190:10",
+      "id": "VariableID:e44fabd3fbe47fa2efb3069b3e566fad527bf801/27144:995",
       "key": "e44fabd3fbe47fa2efb3069b3e566fad527bf801",
       "name": "comp/size/card/slot/size/padding-bottom",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:b789fc48355cf32da0683147a234ad5f7bb68500/23106:9346"
+          "id": "VariableID:0bf161a678486bc4e1cc817bf702de161ea45f98/17416:9742"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:110ed583929b94eb3fd07389ddc48e313e26cd20/23106:9395"
+          "id": "VariableID:3ad4e7a8d62c23fc618b7a8a1364d300d1e890eb/17416:9763"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:c2ae88aebf0984440a608207313a634c071976fc/23106:9406"
+          "id": "VariableID:ab36d85099ac8e13ce72d4f507fc3cd9b6b217de/17416:9774"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:15ff82647ae7e5e4b035cd8ec894fd60dedc00b4/23106:9309"
+          "id": "VariableID:5df2b9b44b8692438a6478f3c112d5cfe11ee751/17416:9678"
         }
       }
     },
     {
-      "id": "VariableID:348873e300e272bca1debb2ebe780206403c84b7/23106:9437",
+      "id": "VariableID:348873e300e272bca1debb2ebe780206403c84b7/27144:1015",
       "key": "348873e300e272bca1debb2ebe780206403c84b7",
       "name": "comp/size/card/container/horizontal/size/padding-x",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:192934bd1748daded18589184876bfd3b2d6afd5/23106:9470"
+          "id": "VariableID:4065cdc1788baa38e56e00fbef2aac0e350bb4ff/17416:9794"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:192934bd1748daded18589184876bfd3b2d6afd5/23106:9470"
+          "id": "VariableID:4065cdc1788baa38e56e00fbef2aac0e350bb4ff/17416:9794"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:192934bd1748daded18589184876bfd3b2d6afd5/23106:9470"
+          "id": "VariableID:4065cdc1788baa38e56e00fbef2aac0e350bb4ff/17416:9794"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:192934bd1748daded18589184876bfd3b2d6afd5/23106:9470"
+          "id": "VariableID:4065cdc1788baa38e56e00fbef2aac0e350bb4ff/17416:9794"
         }
       }
     },
     {
-      "id": "VariableID:07440f6eb33dc79f272405d0ececc5621c0a1811/23106:8794",
+      "id": "VariableID:07440f6eb33dc79f272405d0ececc5621c0a1811/27144:1027",
       "key": "07440f6eb33dc79f272405d0ececc5621c0a1811",
       "name": "comp/size/card/focused-outline/outline",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:33b36a07368b8d65162c227cd1794b0e86bf254c/23106:8801"
+          "id": "VariableID:74941225c0d2e6bc9a42e21a4e165917f7563529/17416:9291"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:33b36a07368b8d65162c227cd1794b0e86bf254c/23106:8801"
+          "id": "VariableID:74941225c0d2e6bc9a42e21a4e165917f7563529/17416:9291"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:33b36a07368b8d65162c227cd1794b0e86bf254c/23106:8801"
+          "id": "VariableID:74941225c0d2e6bc9a42e21a4e165917f7563529/17416:9291"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:33b36a07368b8d65162c227cd1794b0e86bf254c/23106:8801"
+          "id": "VariableID:74941225c0d2e6bc9a42e21a4e165917f7563529/17416:9291"
         }
       }
     },
     {
-      "id": "VariableID:63e4cb9d4ad565b4b1dc4403d749b1041249b210/23106:9433",
+      "id": "VariableID:63e4cb9d4ad565b4b1dc4403d749b1041249b210/27144:979",
       "key": "63e4cb9d4ad565b4b1dc4403d749b1041249b210",
       "name": "comp/size/card/container/vertical/size/padding-x",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:192934bd1748daded18589184876bfd3b2d6afd5/23106:9470"
+          "id": "VariableID:4065cdc1788baa38e56e00fbef2aac0e350bb4ff/17416:9794"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:192934bd1748daded18589184876bfd3b2d6afd5/23106:9470"
+          "id": "VariableID:4065cdc1788baa38e56e00fbef2aac0e350bb4ff/17416:9794"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:192934bd1748daded18589184876bfd3b2d6afd5/23106:9470"
+          "id": "VariableID:4065cdc1788baa38e56e00fbef2aac0e350bb4ff/17416:9794"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:192934bd1748daded18589184876bfd3b2d6afd5/23106:9470"
+          "id": "VariableID:4065cdc1788baa38e56e00fbef2aac0e350bb4ff/17416:9794"
         }
       }
     },
     {
-      "id": "VariableID:9a9fa2198a38f300cb338a7df3f437d52e2c1e58/23106:9435",
+      "id": "VariableID:9a9fa2198a38f300cb338a7df3f437d52e2c1e58/27144:1035",
       "key": "9a9fa2198a38f300cb338a7df3f437d52e2c1e58",
       "name": "comp/size/card/header/headline/padding-x",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:192934bd1748daded18589184876bfd3b2d6afd5/23106:9470"
+          "id": "VariableID:4065cdc1788baa38e56e00fbef2aac0e350bb4ff/17416:9794"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:192934bd1748daded18589184876bfd3b2d6afd5/23106:9470"
+          "id": "VariableID:4065cdc1788baa38e56e00fbef2aac0e350bb4ff/17416:9794"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:192934bd1748daded18589184876bfd3b2d6afd5/23106:9470"
+          "id": "VariableID:4065cdc1788baa38e56e00fbef2aac0e350bb4ff/17416:9794"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:192934bd1748daded18589184876bfd3b2d6afd5/23106:9470"
+          "id": "VariableID:4065cdc1788baa38e56e00fbef2aac0e350bb4ff/17416:9794"
         }
       }
     },
     {
-      "id": "VariableID:78bac714bc6d4cf41f8e4d4be98ac066b6ab4b0e/23190:11",
+      "id": "VariableID:78bac714bc6d4cf41f8e4d4be98ac066b6ab4b0e/27144:999",
       "key": "78bac714bc6d4cf41f8e4d4be98ac066b6ab4b0e",
       "name": "comp/size/card/slot/size/padding-top",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:b789fc48355cf32da0683147a234ad5f7bb68500/23106:9346"
+          "id": "VariableID:0bf161a678486bc4e1cc817bf702de161ea45f98/17416:9742"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:110ed583929b94eb3fd07389ddc48e313e26cd20/23106:9395"
+          "id": "VariableID:3ad4e7a8d62c23fc618b7a8a1364d300d1e890eb/17416:9763"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:c2ae88aebf0984440a608207313a634c071976fc/23106:9406"
+          "id": "VariableID:ab36d85099ac8e13ce72d4f507fc3cd9b6b217de/17416:9774"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:15ff82647ae7e5e4b035cd8ec894fd60dedc00b4/23106:9309"
+          "id": "VariableID:5df2b9b44b8692438a6478f3c112d5cfe11ee751/17416:9678"
         }
       }
     },
     {
-      "id": "VariableID:5972ada08844540c20652c920202852aa43c9f35/23106:9452",
+      "id": "VariableID:5972ada08844540c20652c920202852aa43c9f35/27144:1019",
       "key": "5972ada08844540c20652c920202852aa43c9f35",
       "name": "comp/size/card/container/horizontal/size/padding-y",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:192934bd1748daded18589184876bfd3b2d6afd5/23106:9470"
+          "id": "VariableID:4065cdc1788baa38e56e00fbef2aac0e350bb4ff/17416:9794"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:192934bd1748daded18589184876bfd3b2d6afd5/23106:9470"
+          "id": "VariableID:4065cdc1788baa38e56e00fbef2aac0e350bb4ff/17416:9794"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:192934bd1748daded18589184876bfd3b2d6afd5/23106:9470"
+          "id": "VariableID:4065cdc1788baa38e56e00fbef2aac0e350bb4ff/17416:9794"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:192934bd1748daded18589184876bfd3b2d6afd5/23106:9470"
+          "id": "VariableID:4065cdc1788baa38e56e00fbef2aac0e350bb4ff/17416:9794"
         }
       }
     },
     {
-      "id": "VariableID:5d339bbdc0f7e7f7bf10c174d0bc7fae3be871bb/23106:9439",
+      "id": "VariableID:5d339bbdc0f7e7f7bf10c174d0bc7fae3be871bb/27144:1039",
       "key": "5d339bbdc0f7e7f7bf10c174d0bc7fae3be871bb",
       "name": "comp/size/card/header/headline/padding-y",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:192934bd1748daded18589184876bfd3b2d6afd5/23106:9470"
+          "id": "VariableID:4065cdc1788baa38e56e00fbef2aac0e350bb4ff/17416:9794"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:192934bd1748daded18589184876bfd3b2d6afd5/23106:9470"
+          "id": "VariableID:4065cdc1788baa38e56e00fbef2aac0e350bb4ff/17416:9794"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:192934bd1748daded18589184876bfd3b2d6afd5/23106:9470"
+          "id": "VariableID:4065cdc1788baa38e56e00fbef2aac0e350bb4ff/17416:9794"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:192934bd1748daded18589184876bfd3b2d6afd5/23106:9470"
+          "id": "VariableID:4065cdc1788baa38e56e00fbef2aac0e350bb4ff/17416:9794"
         }
       }
     },
     {
-      "id": "VariableID:5283a1ac1766306e69cd011e3f7c88d108ac645c/23190:18",
+      "id": "VariableID:5283a1ac1766306e69cd011e3f7c88d108ac645c/27144:1023",
       "key": "5283a1ac1766306e69cd011e3f7c88d108ac645c",
       "name": "comp/size/card/container/horizontal/size/gap",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:2250eab796bdd7813e03b6590c88c2b895ae6679/23106:9556"
+          "id": "VariableID:88cbaa07f46a41756906ad08bcbda4df96c5bc14/17416:9872"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:9fe0cef28a2933d35b8674d05634d51f6ca4085d/23106:9564"
+          "id": "VariableID:3f10a2eddc08b803b6d953508e32db52b68bff87/17416:9875"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:fae1b8e8236ef2325cff136a15faad94caf35fcd/23106:9566"
+          "id": "VariableID:b5d5f786da778ec44e97d88eeaf9f024fe8c3631/17416:9876"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:52b0b218704ffa357bddd592b5c78a528466c4c6/23106:9538"
+          "id": "VariableID:5d9401a83feddcee066338b3448effc1629e2f88/17416:9839"
         }
       }
     },
     {
-      "id": "VariableID:e867410f7f695719a53a3f80df3c0defcfc1e5db/23106:9443",
+      "id": "VariableID:e867410f7f695719a53a3f80df3c0defcfc1e5db/27144:1003",
       "key": "e867410f7f695719a53a3f80df3c0defcfc1e5db",
       "name": "comp/size/card/slot/size/padding-none",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:192934bd1748daded18589184876bfd3b2d6afd5/23106:9470"
+          "id": "VariableID:4065cdc1788baa38e56e00fbef2aac0e350bb4ff/17416:9794"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:192934bd1748daded18589184876bfd3b2d6afd5/23106:9470"
+          "id": "VariableID:4065cdc1788baa38e56e00fbef2aac0e350bb4ff/17416:9794"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:192934bd1748daded18589184876bfd3b2d6afd5/23106:9470"
+          "id": "VariableID:4065cdc1788baa38e56e00fbef2aac0e350bb4ff/17416:9794"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:192934bd1748daded18589184876bfd3b2d6afd5/23106:9470"
+          "id": "VariableID:4065cdc1788baa38e56e00fbef2aac0e350bb4ff/17416:9794"
         }
       }
     },
     {
-      "id": "VariableID:a442512c71465f6911cfd3b825cf1e9dac6ad988/23106:9618",
+      "id": "VariableID:a442512c71465f6911cfd3b825cf1e9dac6ad988/27144:975",
       "key": "a442512c71465f6911cfd3b825cf1e9dac6ad988",
       "name": "comp/size/card/container/vertical/size/border-width",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:63079ba955084c9d9bc1830565fc37c02c3a2954/23106:9620"
+          "id": "VariableID:44f25279532cb4da29c15b743bbf09e385548848/17416:9911"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:63079ba955084c9d9bc1830565fc37c02c3a2954/23106:9620"
+          "id": "VariableID:44f25279532cb4da29c15b743bbf09e385548848/17416:9911"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:63079ba955084c9d9bc1830565fc37c02c3a2954/23106:9620"
+          "id": "VariableID:44f25279532cb4da29c15b743bbf09e385548848/17416:9911"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:63079ba955084c9d9bc1830565fc37c02c3a2954/23106:9620"
+          "id": "VariableID:44f25279532cb4da29c15b743bbf09e385548848/17416:9911"
         }
       }
     },
     {
-      "id": "VariableID:a9f78da8c20657ca8eaa43ade4ab379385dcccf7/23106:9570",
+      "id": "VariableID:a9f78da8c20657ca8eaa43ade4ab379385dcccf7/27144:1031",
       "key": "a9f78da8c20657ca8eaa43ade4ab379385dcccf7",
       "name": "comp/size/card/header/headline/gap",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:5754aa602e4bd723cb2119064e2df66ce3747c29/23106:9582"
+          "id": "VariableID:33e87e25ff5b553b0e551c2ebb798b80f46b64b8/17416:9883"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:5754aa602e4bd723cb2119064e2df66ce3747c29/23106:9582"
+          "id": "VariableID:33e87e25ff5b553b0e551c2ebb798b80f46b64b8/17416:9883"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:5754aa602e4bd723cb2119064e2df66ce3747c29/23106:9582"
+          "id": "VariableID:33e87e25ff5b553b0e551c2ebb798b80f46b64b8/17416:9883"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:5754aa602e4bd723cb2119064e2df66ce3747c29/23106:9582"
+          "id": "VariableID:33e87e25ff5b553b0e551c2ebb798b80f46b64b8/17416:9883"
         }
       }
     }

@@ -3,182 +3,182 @@
   "collectionName": "comp-color",
   "variables": [
     {
-      "id": "VariableID:6841ee5f9f4c8f6c312712b637ec4b7e43746814/30383:13137",
+      "id": "VariableID:6841ee5f9f4c8f6c312712b637ec4b7e43746814/32070:620",
       "key": "6841ee5f9f4c8f6c312712b637ec4b7e43746814",
       "name": "comp/color/avatar/color/bg/primary/default",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:272286d0a8a19804d25c075b3ff804cb25311d23/30383:13130"
+          "id": "VariableID:6913fa906494000524d699e771cf784febc85a75/21490:2"
         }
       }
     },
     {
-      "id": "VariableID:74577c6fe4283cbc1acac6a63044bdf7874fdf37/30169:7761",
+      "id": "VariableID:74577c6fe4283cbc1acac6a63044bdf7874fdf37/32070:630",
       "key": "74577c6fe4283cbc1acac6a63044bdf7874fdf37",
       "name": "comp/color/avatar/color/border/primary/default",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:15a3cca6620557b1a4cb551c45afb8dd8b89c084/30169:7937"
+          "id": "VariableID:4bfcf76e5b5679aa63f19b9d478fc5c9b3a1029c/17416:8637"
         }
       }
     },
     {
-      "id": "VariableID:3cf6afdd1a602918714db349d094a44eca6a5362/30169:5260",
+      "id": "VariableID:3cf6afdd1a602918714db349d094a44eca6a5362/32070:622",
       "key": "3cf6afdd1a602918714db349d094a44eca6a5362",
       "name": "comp/color/avatar/color/bg/light/default",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:eb345911354efafc6277eea17afe4ed019752c2f/30169:5285"
+          "id": "VariableID:5eb27f03e51bddb7ce83a8bab9f69ced0591e25a/17416:5734"
         }
       }
     },
     {
-      "id": "VariableID:2ee4ebc8cf61761f47215c759da59a1c7882a45f/30169:7794",
+      "id": "VariableID:2ee4ebc8cf61761f47215c759da59a1c7882a45f/32070:631",
       "key": "2ee4ebc8cf61761f47215c759da59a1c7882a45f",
       "name": "comp/color/avatar/color/border/secondary/default",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:15a3cca6620557b1a4cb551c45afb8dd8b89c084/30169:7937"
+          "id": "VariableID:4bfcf76e5b5679aa63f19b9d478fc5c9b3a1029c/17416:8637"
         }
       }
     },
     {
-      "id": "VariableID:bb00cbb31e50d4d1a954a1673e81d717cb9ada95/30383:12813",
+      "id": "VariableID:bb00cbb31e50d4d1a954a1673e81d717cb9ada95/32070:624",
       "key": "bb00cbb31e50d4d1a954a1673e81d717cb9ada95",
       "name": "comp/color/avatar/color/fg/surface/default",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:8451aef4d71347ffc3cdf116c5f3c245a3c10e7f/30383:12809"
+          "id": "VariableID:f8548438de0ef2b508c941eddc515c34f06cd347/21490:9400"
         }
       }
     },
     {
-      "id": "VariableID:4d1e3a225cc7162bbe466118f014d97b6a4d581b/30383:12210",
+      "id": "VariableID:4d1e3a225cc7162bbe466118f014d97b6a4d581b/32070:623",
       "key": "4d1e3a225cc7162bbe466118f014d97b6a4d581b",
       "name": "comp/color/avatar/color/bg/dark/default",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:26fee2dcf2794161ff7ae7c5bf7e2a00baf1429b/30383:12208"
+          "id": "VariableID:78a2745965617842da1a0387a55fa6a9f04c2606/21490:9099"
         }
       }
     },
     {
-      "id": "VariableID:38217e120c059465900c755a06ee2032c0da4c75/30383:13016",
+      "id": "VariableID:38217e120c059465900c755a06ee2032c0da4c75/32070:621",
       "key": "38217e120c059465900c755a06ee2032c0da4c75",
       "name": "comp/color/avatar/color/bg/secondary/default",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:6dbacff7715e375dbe017729ced55a9b360d631c/30383:13012"
+          "id": "VariableID:7390ca25938c76e36e4bcc10588466e4f30e5c7f/21490:446"
         }
       }
     },
     {
-      "id": "VariableID:13da886d60fe92aa5373ca25a8695d7408dccea5/30169:7758",
+      "id": "VariableID:13da886d60fe92aa5373ca25a8695d7408dccea5/32070:633",
       "key": "13da886d60fe92aa5373ca25a8695d7408dccea5",
       "name": "comp/color/avatar/color/border/dark/default",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:15a3cca6620557b1a4cb551c45afb8dd8b89c084/30169:7937"
+          "id": "VariableID:4bfcf76e5b5679aa63f19b9d478fc5c9b3a1029c/17416:8637"
         }
       }
     },
     {
-      "id": "VariableID:6e2746ca824cc7d43326144fb2baa7ce97d3a66e/30383:12621",
+      "id": "VariableID:6e2746ca824cc7d43326144fb2baa7ce97d3a66e/32070:627",
       "key": "6e2746ca824cc7d43326144fb2baa7ce97d3a66e",
       "name": "comp/color/avatar/color/fg/light/default",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:b7eb78ce9374763a693c186ade8fe020f041f3dc/30383:12618"
+          "id": "VariableID:137a6c358e7aed1678f200bb5c18874b22b74464/21490:644"
         }
       }
     },
     {
-      "id": "VariableID:58c306d74915840a8e31ccd599174bcac7dcd120/30383:12272",
+      "id": "VariableID:58c306d74915840a8e31ccd599174bcac7dcd120/32070:628",
       "key": "58c306d74915840a8e31ccd599174bcac7dcd120",
       "name": "comp/color/avatar/color/fg/dark/default",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:1380a5aec3fc15351fb51aa8f5cb13bbbb207a76/30383:12268"
+          "id": "VariableID:040a73cfbe93a759d636d0c61d92d17f36d13574/21490:1640"
         }
       }
     },
     {
-      "id": "VariableID:82b28ed85663502bf4d3a696d1c73cd588a225a8/30169:6473",
+      "id": "VariableID:82b28ed85663502bf4d3a696d1c73cd588a225a8/32070:626",
       "key": "82b28ed85663502bf4d3a696d1c73cd588a225a8",
       "name": "comp/color/avatar/color/fg/secondary/default",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:f023bbd53608989f1f47bbbbad0cdb8b98a341e4/30169:6451"
+          "id": "VariableID:b31255c167059b2e51c02e79345908091fa96314/17416:6826"
         }
       }
     },
     {
-      "id": "VariableID:06ffca9e2a359b2b9eb991583f6fad5fbc946246/30169:6458",
+      "id": "VariableID:06ffca9e2a359b2b9eb991583f6fad5fbc946246/32070:625",
       "key": "06ffca9e2a359b2b9eb991583f6fad5fbc946246",
       "name": "comp/color/avatar/color/fg/primary/default",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:f023bbd53608989f1f47bbbbad0cdb8b98a341e4/30169:6451"
+          "id": "VariableID:b31255c167059b2e51c02e79345908091fa96314/17416:6826"
         }
       }
     },
     {
-      "id": "VariableID:116619a893d40ec0f2dbb658f0e3f5a8e48ca015/30169:7804",
+      "id": "VariableID:116619a893d40ec0f2dbb658f0e3f5a8e48ca015/32070:629",
       "key": "116619a893d40ec0f2dbb658f0e3f5a8e48ca015",
       "name": "comp/color/avatar/color/border/surface/default",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:15a3cca6620557b1a4cb551c45afb8dd8b89c084/30169:7937"
+          "id": "VariableID:4bfcf76e5b5679aa63f19b9d478fc5c9b3a1029c/17416:8637"
         }
       }
     },
     {
-      "id": "VariableID:e747ad6a3081f41be07d7967540520a043a78521/30169:7770",
+      "id": "VariableID:e747ad6a3081f41be07d7967540520a043a78521/32070:632",
       "key": "e747ad6a3081f41be07d7967540520a043a78521",
       "name": "comp/color/avatar/color/border/light/default",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:15a3cca6620557b1a4cb551c45afb8dd8b89c084/30169:7937"
+          "id": "VariableID:4bfcf76e5b5679aa63f19b9d478fc5c9b3a1029c/17416:8637"
         }
       }
     },
     {
-      "id": "VariableID:7d8eb507427cfe34cf791fd57041ccc85e482721/30383:12384",
+      "id": "VariableID:7d8eb507427cfe34cf791fd57041ccc85e482721/32070:619",
       "key": "7d8eb507427cfe34cf791fd57041ccc85e482721",
       "name": "comp/color/avatar/color/bg/surface/default",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:14773309d26a6f0f02f60fd28158398635a5f4ff/30383:12381"
+          "id": "VariableID:406fccb7fc0cc120dcbb82a712650857aa39f9f0/21490:9051"
         }
       }
     }
