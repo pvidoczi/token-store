@@ -3,6 +3,7 @@
   "collectionName": "comp-color",
   "variables": [
     {
+      "id": "VariableID:265b16971179d1083511f83b8cb9510a63e869c9/23106:5666",
       "key": "265b16971179d1083511f83b8cb9510a63e869c9",
       "name": "comp/color/card/outlined/color/bg/surface/disabled",
       "resolvedType": "COLOR",
@@ -14,6 +15,7 @@
       }
     },
     {
+      "id": "VariableID:9c64bd269dd94ac9abb823cebdb7133c164f0e07/23106:5345",
       "key": "9c64bd269dd94ac9abb823cebdb7133c164f0e07",
       "name": "comp/color/card/outlined/color/bg/success/pressed",
       "resolvedType": "COLOR",
@@ -25,6 +27,7 @@
       }
     },
     {
+      "id": "VariableID:87d0376ff7511ece0d8fef15a1b39b429412702f/25005:20459",
       "key": "87d0376ff7511ece0d8fef15a1b39b429412702f",
       "name": "comp/color/card/filled/color/border/primary/focused",
       "resolvedType": "COLOR",
@@ -36,6 +39,7 @@
       }
     },
     {
+      "id": "VariableID:9ca092fa4f7a142968966778d78aeba9857bf613/25005:21994",
       "key": "9ca092fa4f7a142968966778d78aeba9857bf613",
       "name": "comp/color/card/filled/color/bg/warning/default",
       "resolvedType": "COLOR",
@@ -47,6 +51,7 @@
       }
     },
     {
+      "id": "VariableID:2dcbaaab13fedef63ca1530aa3afcc2c92594b3d/25005:20166",
       "key": "2dcbaaab13fedef63ca1530aa3afcc2c92594b3d",
       "name": "comp/color/card/elevated/color/border/dark/dragged",
       "resolvedType": "COLOR",
@@ -58,6 +63,7 @@
       }
     },
     {
+      "id": "VariableID:b30d88871dd6a813c26309566da98524144a63ec/23106:5317",
       "key": "b30d88871dd6a813c26309566da98524144a63ec",
       "name": "comp/color/card/outlined/color/bg/surface/focused",
       "resolvedType": "COLOR",
@@ -69,6 +75,7 @@
       }
     },
     {
+      "id": "VariableID:a673daaedb41c425f78aa6c767231681a6f0d9a5/25005:22062",
       "key": "a673daaedb41c425f78aa6c767231681a6f0d9a5",
       "name": "comp/color/card/filled/color/bg/warning/pressed",
       "resolvedType": "COLOR",
@@ -80,6 +87,7 @@
       }
     },
     {
+      "id": "VariableID:1e2cae6e5979be6e5ff30486fc1c196c987de5aa/23106:7861",
       "key": "1e2cae6e5979be6e5ff30486fc1c196c987de5aa",
       "name": "comp/color/card/elevated/color/border/surface/focused",
       "resolvedType": "COLOR",
@@ -91,6 +99,7 @@
       }
     },
     {
+      "id": "VariableID:a859e009c5b58a0427cde89f4cdb93c730469b5e/23106:5551",
       "key": "a859e009c5b58a0427cde89f4cdb93c730469b5e",
       "name": "comp/color/card/outlined/color/bg/primary/default",
       "resolvedType": "COLOR",
@@ -102,6 +111,7 @@
       }
     },
     {
+      "id": "VariableID:47153bd7a0628fd1f08cc359bcb954393424ae2a/25005:19261",
       "key": "47153bd7a0628fd1f08cc359bcb954393424ae2a",
       "name": "comp/color/card/filled/color/bg/brand/disabled",
       "resolvedType": "COLOR",
@@ -113,6 +123,7 @@
       }
     },
     {
+      "id": "VariableID:2e21d9e506e411434cf9edd48dd930f98a6b341c/25005:20653",
       "key": "2e21d9e506e411434cf9edd48dd930f98a6b341c",
       "name": "comp/color/card/filled/color/bg/primary/pressed",
       "resolvedType": "COLOR",
@@ -124,6 +135,7 @@
       }
     },
     {
+      "id": "VariableID:d919ed8f76db56decdd2b4edc88afa968800fdb3/25005:21790",
       "key": "d919ed8f76db56decdd2b4edc88afa968800fdb3",
       "name": "comp/color/card/filled/color/bg/success/hovered",
       "resolvedType": "COLOR",
@@ -135,6 +147,7 @@
       }
     },
     {
+      "id": "VariableID:1c688ed7553e42447dc2a8a3f2d28ba25e9c2f7e/25005:22223",
       "key": "1c688ed7553e42447dc2a8a3f2d28ba25e9c2f7e",
       "name": "comp/color/card/filled/color/bg/info/default",
       "resolvedType": "COLOR",
@@ -146,6 +159,7 @@
       }
     },
     {
+      "id": "VariableID:727e4fcaf5db59782bdaeaca3409a487989c52e8/25005:19269",
       "key": "727e4fcaf5db59782bdaeaca3409a487989c52e8",
       "name": "comp/color/card/filled/color/border/light/dragged",
       "resolvedType": "COLOR",
@@ -157,6 +171,7 @@
       }
     },
     {
+      "id": "VariableID:80c9d61c0659dfde2e560072328c7092247d5836/25005:20796",
       "key": "80c9d61c0659dfde2e560072328c7092247d5836",
       "name": "comp/color/card/elevated/color/border/secondary/default",
       "resolvedType": "COLOR",
@@ -168,6 +183,7 @@
       }
     },
     {
+      "id": "VariableID:62338f54bd9cbd6adb401f9634963524183f12f1/23106:5319",
       "key": "62338f54bd9cbd6adb401f9634963524183f12f1",
       "name": "comp/color/card/outlined/color/bg/primary/focused",
       "resolvedType": "COLOR",
@@ -179,6 +195,7 @@
       }
     },
     {
+      "id": "VariableID:bb4fdaba708083e1a3e16eb373a38a4fc422487f/25005:22242",
       "key": "bb4fdaba708083e1a3e16eb373a38a4fc422487f",
       "name": "comp/color/card/filled/color/border/info/pressed",
       "resolvedType": "COLOR",
@@ -190,6 +207,7 @@
       }
     },
     {
+      "id": "VariableID:848cffac5b6d71a1bfa338b32598923a12ff8e0e/25005:19184",
       "key": "848cffac5b6d71a1bfa338b32598923a12ff8e0e",
       "name": "comp/color/card/outlined/color/bg/light/dragged",
       "resolvedType": "COLOR",
@@ -201,6 +219,7 @@
       }
     },
     {
+      "id": "VariableID:32ea8337ab123870b37dae76bcdaa4f79326e123/25005:19268",
       "key": "32ea8337ab123870b37dae76bcdaa4f79326e123",
       "name": "comp/color/card/filled/color/border/light/pressed",
       "resolvedType": "COLOR",
@@ -212,6 +231,7 @@
       }
     },
     {
+      "id": "VariableID:f3f01f1d5ed051d7c18cb9e12b92068447d359c3/25005:21504",
       "key": "f3f01f1d5ed051d7c18cb9e12b92068447d359c3",
       "name": "comp/color/card/filled/color/border/error/pressed",
       "resolvedType": "COLOR",
@@ -223,6 +243,7 @@
       }
     },
     {
+      "id": "VariableID:e5d4265c5c0d4d5c32413c1c74d0be0fffa3a351/25005:20944",
       "key": "e5d4265c5c0d4d5c32413c1c74d0be0fffa3a351",
       "name": "comp/color/card/filled/color/bg/secondary/pressed",
       "resolvedType": "COLOR",
@@ -234,6 +255,7 @@
       }
     },
     {
+      "id": "VariableID:cd4c96729105ea28c4edc6a4321e8ac6cabce2e7/25005:21189",
       "key": "cd4c96729105ea28c4edc6a4321e8ac6cabce2e7",
       "name": "comp/color/card/filled/color/bg/brand/pressed",
       "resolvedType": "COLOR",
@@ -245,6 +267,7 @@
       }
     },
     {
+      "id": "VariableID:16389a2e389f2e942f275c35c247b45c0b15d767/25005:21503",
       "key": "16389a2e389f2e942f275c35c247b45c0b15d767",
       "name": "comp/color/card/filled/color/bg/error/hovered",
       "resolvedType": "COLOR",
@@ -256,6 +279,7 @@
       }
     },
     {
+      "id": "VariableID:6a89cbc6f42b53df8271d476d54fbde360b27eb9/23106:6348",
       "key": "6a89cbc6f42b53df8271d476d54fbde360b27eb9",
       "name": "comp/color/card/elevated/color/bg/light/default",
       "resolvedType": "COLOR",
@@ -267,6 +291,7 @@
       }
     },
     {
+      "id": "VariableID:7244e1ff683e8b7ebeb757df19f7739bf1736e2e/23106:5559",
       "key": "7244e1ff683e8b7ebeb757df19f7739bf1736e2e",
       "name": "comp/color/card/outlined/color/bg/dark/disabled",
       "resolvedType": "COLOR",
@@ -278,6 +303,7 @@
       }
     },
     {
+      "id": "VariableID:70391c98fc3d681e1d78c305a9efa4b705f3df38/25005:20164",
       "key": "70391c98fc3d681e1d78c305a9efa4b705f3df38",
       "name": "comp/color/card/filled/color/border/dark/dragged",
       "resolvedType": "COLOR",
@@ -289,6 +315,7 @@
       }
     },
     {
+      "id": "VariableID:898ead646837e4adbb75fcde876f1211f3efda63/25005:19181",
       "key": "898ead646837e4adbb75fcde876f1211f3efda63",
       "name": "comp/color/card/filled/color/bg/surface/default",
       "resolvedType": "COLOR",
@@ -300,6 +327,7 @@
       }
     },
     {
+      "id": "VariableID:7e067bb2b3c3db08844755f899f85cb996ad0af6/25005:22049",
       "key": "7e067bb2b3c3db08844755f899f85cb996ad0af6",
       "name": "comp/color/card/outlined/color/border/warning/dragged",
       "resolvedType": "COLOR",
@@ -311,6 +339,7 @@
       }
     },
     {
+      "id": "VariableID:d1dca5d1ef4c09530608704842d33c67499d1b32/23106:7866",
       "key": "d1dca5d1ef4c09530608704842d33c67499d1b32",
       "name": "comp/color/card/outlined/color/border/warning/focused",
       "resolvedType": "COLOR",
@@ -322,6 +351,7 @@
       }
     },
     {
+      "id": "VariableID:a90c81fdd1927dc30e77fee83737c16216fcfb22/23106:5689",
       "key": "a90c81fdd1927dc30e77fee83737c16216fcfb22",
       "name": "comp/color/card/outlined/color/bg/brand/default",
       "resolvedType": "COLOR",
@@ -333,6 +363,7 @@
       }
     },
     {
+      "id": "VariableID:70871e5953695068a5a6382d4204e8f2b0faa011/25005:19360",
       "key": "70871e5953695068a5a6382d4204e8f2b0faa011",
       "name": "comp/color/card/filled/color/border/light/focused",
       "resolvedType": "COLOR",
@@ -344,6 +375,7 @@
       }
     },
     {
+      "id": "VariableID:dd9bf0ad2e67c45617c6143011a49b88a06050ba/23106:5353",
       "key": "dd9bf0ad2e67c45617c6143011a49b88a06050ba",
       "name": "comp/color/card/outlined/color/bg/light/pressed",
       "resolvedType": "COLOR",
@@ -355,6 +387,7 @@
       }
     },
     {
+      "id": "VariableID:9ceec98cda2438be9520f13ff45fc1c5092417ed/23106:5331",
       "key": "9ceec98cda2438be9520f13ff45fc1c5092417ed",
       "name": "comp/color/card/outlined/color/bg/dark/focused",
       "resolvedType": "COLOR",
@@ -366,6 +399,7 @@
       }
     },
     {
+      "id": "VariableID:bcaffce06c39eacdcaaa9baaa1bfe18ed9e04385/25005:19265",
       "key": "bcaffce06c39eacdcaaa9baaa1bfe18ed9e04385",
       "name": "comp/color/card/filled/color/border/surface/default",
       "resolvedType": "COLOR",
@@ -377,6 +411,7 @@
       }
     },
     {
+      "id": "VariableID:bb45a4560a7788829a2ba0cf0cbabecc15f59faa/25005:21968",
       "key": "bb45a4560a7788829a2ba0cf0cbabecc15f59faa",
       "name": "comp/color/card/elevated/color/border/warning/hovered",
       "resolvedType": "COLOR",
@@ -388,6 +423,7 @@
       }
     },
     {
+      "id": "VariableID:ccc29c730c9656575a48701958e91a1235217521/25005:20110",
       "key": "ccc29c730c9656575a48701958e91a1235217521",
       "name": "comp/color/card/filled/color/border/surface/dragged",
       "resolvedType": "COLOR",
@@ -399,6 +435,7 @@
       }
     },
     {
+      "id": "VariableID:0971dbdf75537f99c52f5f90b9ba03cd50239519/25005:20913",
       "key": "0971dbdf75537f99c52f5f90b9ba03cd50239519",
       "name": "comp/color/card/elevated/color/border/secondary/pressed",
       "resolvedType": "COLOR",
@@ -410,6 +447,7 @@
       }
     },
     {
+      "id": "VariableID:f871994c6515b2513180349d694154d6df75bb6c/23106:7867",
       "key": "f871994c6515b2513180349d694154d6df75bb6c",
       "name": "comp/color/card/elevated/color/border/dark/focused",
       "resolvedType": "COLOR",
@@ -421,6 +459,7 @@
       }
     },
     {
+      "id": "VariableID:bbba4f0a0b06d1454da8bb456fece4cfd6c07069/25005:22241",
       "key": "bbba4f0a0b06d1454da8bb456fece4cfd6c07069",
       "name": "comp/color/card/filled/color/bg/info/hovered",
       "resolvedType": "COLOR",
@@ -432,6 +471,7 @@
       }
     },
     {
+      "id": "VariableID:ac8e9856160efef70e3dd6cb9a094dde4ca1a1bf/25005:19182",
       "key": "ac8e9856160efef70e3dd6cb9a094dde4ca1a1bf",
       "name": "comp/color/card/filled/color/bg/surface/focused",
       "resolvedType": "COLOR",
@@ -443,6 +483,7 @@
       }
     },
     {
+      "id": "VariableID:679266ec55ccc41fcf3d070ad133c1267333da21/23106:6344",
       "key": "679266ec55ccc41fcf3d070ad133c1267333da21",
       "name": "comp/color/card/filled/color/bg/light/dragged",
       "resolvedType": "COLOR",
@@ -454,6 +495,7 @@
       }
     },
     {
+      "id": "VariableID:565f41755ede2223ee83a67dfa1695231ac63b08/25005:21126",
       "key": "565f41755ede2223ee83a67dfa1695231ac63b08",
       "name": "comp/color/card/filled/color/bg/brand/dragged",
       "resolvedType": "COLOR",
@@ -465,6 +507,7 @@
       }
     },
     {
+      "id": "VariableID:8a7dfce78fdc21642159f53c457975ea8ea1e9d6/25005:20833",
       "key": "8a7dfce78fdc21642159f53c457975ea8ea1e9d6",
       "name": "comp/color/card/filled/color/bg/secondary/dragged",
       "resolvedType": "COLOR",
@@ -476,6 +519,7 @@
       }
     },
     {
+      "id": "VariableID:2d44da7c13d36a980dea9d11e798958e79bf0c51/25005:14693",
       "key": "2d44da7c13d36a980dea9d11e798958e79bf0c51",
       "name": "comp/color/card/filled/color/bg/error/focused",
       "resolvedType": "COLOR",
@@ -487,6 +531,7 @@
       }
     },
     {
+      "id": "VariableID:50af349a07ce5e5a428addb790fadfe96fde283f/25005:21540",
       "key": "50af349a07ce5e5a428addb790fadfe96fde283f",
       "name": "comp/color/card/filled/color/bg/error/pressed",
       "resolvedType": "COLOR",
@@ -498,6 +543,7 @@
       }
     },
     {
+      "id": "VariableID:fdbab1efac6a7a762c1c9e1eb49c5cb66d37bbc2/25005:22227",
       "key": "fdbab1efac6a7a762c1c9e1eb49c5cb66d37bbc2",
       "name": "comp/color/card/elevated/color/bg/info/default",
       "resolvedType": "COLOR",
@@ -509,6 +555,7 @@
       }
     },
     {
+      "id": "VariableID:1318057ad2e356e3d99b4f7e86799d51d9815989/25005:19257",
       "key": "1318057ad2e356e3d99b4f7e86799d51d9815989",
       "name": "comp/color/card/filled/color/bg/surface/dragged",
       "resolvedType": "COLOR",
@@ -520,6 +567,7 @@
       }
     },
     {
+      "id": "VariableID:4bff50906d389d0421481457d85e5cf26b27ab45/25005:22225",
       "key": "4bff50906d389d0421481457d85e5cf26b27ab45",
       "name": "comp/color/card/filled/color/bg/info/dragged",
       "resolvedType": "COLOR",
@@ -531,6 +579,7 @@
       }
     },
     {
+      "id": "VariableID:95a15f197527fb16e9e30eb43663f095047ee293/25005:14692",
       "key": "95a15f197527fb16e9e30eb43663f095047ee293",
       "name": "comp/color/card/filled/color/bg/error/default",
       "resolvedType": "COLOR",
@@ -542,6 +591,7 @@
       }
     },
     {
+      "id": "VariableID:840b7ecf5a8c7a81e76fcb13b276601a15121764/25005:20506",
       "key": "840b7ecf5a8c7a81e76fcb13b276601a15121764",
       "name": "comp/color/card/filled/color/bg/primary/dragged",
       "resolvedType": "COLOR",
@@ -553,6 +603,7 @@
       }
     },
     {
+      "id": "VariableID:46632a2f6e77cd6779fecfb869d71d92b11d2692/23106:5330",
       "key": "46632a2f6e77cd6779fecfb869d71d92b11d2692",
       "name": "comp/color/card/outlined/color/bg/warning/focused",
       "resolvedType": "COLOR",
@@ -564,6 +615,7 @@
       }
     },
     {
+      "id": "VariableID:5c675958c9cd28353326c04f09a130972ae8833d/23106:5338",
       "key": "5c675958c9cd28353326c04f09a130972ae8833d",
       "name": "comp/color/card/outlined/color/bg/surface/hovered",
       "resolvedType": "COLOR",
@@ -575,6 +627,7 @@
       }
     },
     {
+      "id": "VariableID:be0456153910bba098e4e0d2f8144a82a31626cd/25005:21715",
       "key": "be0456153910bba098e4e0d2f8144a82a31626cd",
       "name": "comp/color/card/filled/color/bg/success/focused",
       "resolvedType": "COLOR",
@@ -586,6 +639,7 @@
       }
     },
     {
+      "id": "VariableID:057dee8fff4df73aab4ed5b63bf64c3e94b554ec/25005:19454",
       "key": "057dee8fff4df73aab4ed5b63bf64c3e94b554ec",
       "name": "comp/color/card/filled/color/border/dark/disabled",
       "resolvedType": "COLOR",
@@ -597,6 +651,7 @@
       }
     },
     {
+      "id": "VariableID:de9bd8633d2ffbb331385d3bc18c513e46d5d78b/25005:20625",
       "key": "de9bd8633d2ffbb331385d3bc18c513e46d5d78b",
       "name": "comp/color/card/filled/color/border/primary/pressed",
       "resolvedType": "COLOR",
@@ -608,6 +663,7 @@
       }
     },
     {
+      "id": "VariableID:9af580a3d901d7e69b23aa1a7e65b26d83e2cc81/23106:7863",
       "key": "9af580a3d901d7e69b23aa1a7e65b26d83e2cc81",
       "name": "comp/color/card/elevated/color/border/brand/focused",
       "resolvedType": "COLOR",
@@ -619,6 +675,7 @@
       }
     },
     {
+      "id": "VariableID:06ce89ab2ea0331d4bf80e95bc96b921f0fe66e3/25005:19266",
       "key": "06ce89ab2ea0331d4bf80e95bc96b921f0fe66e3",
       "name": "comp/color/card/filled/color/border/surface/focused",
       "resolvedType": "COLOR",
@@ -630,6 +687,7 @@
       }
     },
     {
+      "id": "VariableID:0c6ee2bdf97f9305618a50782bd2163ff8bf1b3f/23106:5339",
       "key": "0c6ee2bdf97f9305618a50782bd2163ff8bf1b3f",
       "name": "comp/color/card/outlined/color/bg/primary/pressed",
       "resolvedType": "COLOR",
@@ -641,6 +699,7 @@
       }
     },
     {
+      "id": "VariableID:6b84887ec27422c39e5c166c956cfb1dd563dc2d/25005:21716",
       "key": "6b84887ec27422c39e5c166c956cfb1dd563dc2d",
       "name": "comp/color/card/filled/color/bg/success/dragged",
       "resolvedType": "COLOR",
@@ -652,6 +711,7 @@
       }
     },
     {
+      "id": "VariableID:9a750caf8eba247caca2d660b030d0a968ab3129/25005:20831",
       "key": "9a750caf8eba247caca2d660b030d0a968ab3129",
       "name": "comp/color/card/filled/color/bg/secondary/default",
       "resolvedType": "COLOR",
@@ -663,6 +723,7 @@
       }
     },
     {
+      "id": "VariableID:ac87bffa56dd3ab09092a0305b040e06b8cc72ad/25005:21124",
       "key": "ac87bffa56dd3ab09092a0305b040e06b8cc72ad",
       "name": "comp/color/card/filled/color/bg/brand/default",
       "resolvedType": "COLOR",
@@ -674,6 +735,7 @@
       }
     },
     {
+      "id": "VariableID:53d185fa373080ce9fb5df4c226a22a7fe5f0968/23106:5529",
       "key": "53d185fa373080ce9fb5df4c226a22a7fe5f0968",
       "name": "comp/color/card/outlined/color/bg/surface/default",
       "resolvedType": "COLOR",
@@ -685,6 +747,7 @@
       }
     },
     {
+      "id": "VariableID:92ef9d9c7215fe3e437c18327a7f7d72c00bb916/25005:19077",
       "key": "92ef9d9c7215fe3e437c18327a7f7d72c00bb916",
       "name": "comp/color/card/outlined/color/bg/dark/dragged",
       "resolvedType": "COLOR",
@@ -696,6 +759,7 @@
       }
     },
     {
+      "id": "VariableID:37a5f50bdefe6b7e2915a386bd354ea37923e844/23106:5352",
       "key": "37a5f50bdefe6b7e2915a386bd354ea37923e844",
       "name": "comp/color/card/outlined/color/bg/brand/pressed",
       "resolvedType": "COLOR",
@@ -707,6 +771,7 @@
       }
     },
     {
+      "id": "VariableID:ad4a495cf7bc5dba2d4cf4be9dc1ae4367f9ca4e/25005:20802",
       "key": "ad4a495cf7bc5dba2d4cf4be9dc1ae4367f9ca4e",
       "name": "comp/color/card/filled/color/border/secondary/dragged",
       "resolvedType": "COLOR",
@@ -718,6 +783,7 @@
       }
     },
     {
+      "id": "VariableID:b436aaf83cf1fe598e4b90189297933786d328e5/23106:7854",
       "key": "b436aaf83cf1fe598e4b90189297933786d328e5",
       "name": "comp/color/card/elevated/color/border/primary/focused",
       "resolvedType": "COLOR",
@@ -729,6 +795,7 @@
       }
     },
     {
+      "id": "VariableID:cf00b5763a986ea7f480d0963a7cce211911e852/25005:20150",
       "key": "cf00b5763a986ea7f480d0963a7cce211911e852",
       "name": "comp/color/card/elevated/color/border/dark/pressed",
       "resolvedType": "COLOR",
@@ -740,6 +807,7 @@
       }
     },
     {
+      "id": "VariableID:5cbbb01f149d65c250915a175c79590847de25d4/25005:21819",
       "key": "5cbbb01f149d65c250915a175c79590847de25d4",
       "name": "comp/color/card/filled/color/bg/success/pressed",
       "resolvedType": "COLOR",
@@ -751,6 +819,7 @@
       }
     },
     {
+      "id": "VariableID:43d62f5b11186f7fec28e0968a4b6b7c4195b8f4/25005:19070",
       "key": "43d62f5b11186f7fec28e0968a4b6b7c4195b8f4",
       "name": "comp/color/card/outlined/color/bg/surface/dragged",
       "resolvedType": "COLOR",
@@ -762,6 +831,7 @@
       }
     },
     {
+      "id": "VariableID:30f4080b4812b2164da8fe8eb7785d528697bee8/25005:21096",
       "key": "30f4080b4812b2164da8fe8eb7785d528697bee8",
       "name": "comp/color/card/filled/color/border/brand/dragged",
       "resolvedType": "COLOR",
@@ -773,6 +843,7 @@
       }
     },
     {
+      "id": "VariableID:ff331deae1808e9383e9dfda290922cd415fc28c/23106:5328",
       "key": "ff331deae1808e9383e9dfda290922cd415fc28c",
       "name": "comp/color/card/outlined/color/bg/success/focused",
       "resolvedType": "COLOR",
@@ -784,6 +855,7 @@
       }
     },
     {
+      "id": "VariableID:2381f83f2a8e9b7746b90dd6824eb2d4024690d5/25005:19450",
       "key": "2381f83f2a8e9b7746b90dd6824eb2d4024690d5",
       "name": "comp/color/card/filled/color/border/primary/disabled",
       "resolvedType": "COLOR",
@@ -795,6 +867,7 @@
       }
     },
     {
+      "id": "VariableID:a94758a981e490d46e6f0ce2f7eae9fe69021ded/23106:5608",
       "key": "a94758a981e490d46e6f0ce2f7eae9fe69021ded",
       "name": "comp/color/card/outlined/color/bg/secondary/disabled",
       "resolvedType": "COLOR",
@@ -806,6 +879,7 @@
       }
     },
     {
+      "id": "VariableID:d2f84893836d03a30572cce6fa029b7199157d53/25005:22250",
       "key": "d2f84893836d03a30572cce6fa029b7199157d53",
       "name": "comp/color/card/filled/color/bg/info/pressed",
       "resolvedType": "COLOR",
@@ -817,6 +891,7 @@
       }
     },
     {
+      "id": "VariableID:f07a14c0318b0401e901a1dd2c514bdcba0e0d31/25005:20908",
       "key": "f07a14c0318b0401e901a1dd2c514bdcba0e0d31",
       "name": "comp/color/card/filled/color/bg/secondary/hovered",
       "resolvedType": "COLOR",
@@ -828,6 +903,7 @@
       }
     },
     {
+      "id": "VariableID:111ece2e88d0d177c3cd87a57765025e631aa51e/25005:20624",
       "key": "111ece2e88d0d177c3cd87a57765025e631aa51e",
       "name": "comp/color/card/filled/color/bg/primary/hovered",
       "resolvedType": "COLOR",
@@ -839,6 +915,7 @@
       }
     },
     {
+      "id": "VariableID:78e0c29bfd038ea52622cbc0cc647f3e26c0e261/25005:19183",
       "key": "78e0c29bfd038ea52622cbc0cc647f3e26c0e261",
       "name": "comp/color/card/filled/color/bg/light/hovered",
       "resolvedType": "COLOR",
@@ -850,6 +927,7 @@
       }
     },
     {
+      "id": "VariableID:6f83eaff358cbd92038fd7a56b8b1cdb2983e1a9/25005:19459",
       "key": "6f83eaff358cbd92038fd7a56b8b1cdb2983e1a9",
       "name": "comp/color/card/elevated/color/border/light/disabled",
       "resolvedType": "COLOR",
@@ -861,6 +939,7 @@
       }
     },
     {
+      "id": "VariableID:225010ed249687751270154d735f3089e59a209d/25005:21172",
       "key": "225010ed249687751270154d735f3089e59a209d",
       "name": "comp/color/card/filled/color/border/brand/pressed",
       "resolvedType": "COLOR",
@@ -872,6 +951,7 @@
       }
     },
     {
+      "id": "VariableID:3d791181971844cf07cca86223c876d0f5775151/25005:19264",
       "key": "3d791181971844cf07cca86223c876d0f5775151",
       "name": "comp/color/card/filled/color/bg/dark/disabled",
       "resolvedType": "COLOR",
@@ -883,6 +963,7 @@
       }
     },
     {
+      "id": "VariableID:e0489de21400d331f156c5d68705905e72901933/25005:19449",
       "key": "e0489de21400d331f156c5d68705905e72901933",
       "name": "comp/color/card/filled/color/border/surface/disabled",
       "resolvedType": "COLOR",
@@ -894,6 +975,7 @@
       }
     },
     {
+      "id": "VariableID:6a58cb5cc7e21cb97ab13f31590d3250cc5b81dd/25005:20804",
       "key": "6a58cb5cc7e21cb97ab13f31590d3250cc5b81dd",
       "name": "comp/color/card/elevated/color/border/secondary/dragged",
       "resolvedType": "COLOR",
@@ -905,6 +987,7 @@
       }
     },
     {
+      "id": "VariableID:29e37c1e9f5da65d9833a6a9cae882b030085305/25005:19108",
       "key": "29e37c1e9f5da65d9833a6a9cae882b030085305",
       "name": "comp/color/card/outlined/color/bg/warning/dragged",
       "resolvedType": "COLOR",
@@ -916,6 +999,7 @@
       }
     },
     {
+      "id": "VariableID:835b4a2fb79047cd2a857301eed1ce10c28d1e3b/25005:21089",
       "key": "835b4a2fb79047cd2a857301eed1ce10c28d1e3b",
       "name": "comp/color/card/filled/color/border/brand/focused",
       "resolvedType": "COLOR",
@@ -927,6 +1011,7 @@
       }
     },
     {
+      "id": "VariableID:16ff1c54c028e4fd7bd5a6cc052970164144c990/25005:22204",
       "key": "16ff1c54c028e4fd7bd5a6cc052970164144c990",
       "name": "comp/color/card/elevated/color/border/info/default",
       "resolvedType": "COLOR",
@@ -938,6 +1023,7 @@
       }
     },
     {
+      "id": "VariableID:3d930ef8c578c0b81896eac2d2189b2d1dbc7784/25005:21714",
       "key": "3d930ef8c578c0b81896eac2d2189b2d1dbc7784",
       "name": "comp/color/card/filled/color/bg/success/default",
       "resolvedType": "COLOR",
@@ -949,6 +1035,7 @@
       }
     },
     {
+      "id": "VariableID:f8e5371bf55a3c5027a25317f0575603dbd86bab/25005:19258",
       "key": "f8e5371bf55a3c5027a25317f0575603dbd86bab",
       "name": "comp/color/card/filled/color/bg/surface/disabled",
       "resolvedType": "COLOR",
@@ -960,6 +1047,7 @@
       }
     },
     {
+      "id": "VariableID:fca904cad7e6fb7a4ed78724d71cdfff40d9f1ea/25005:22046",
       "key": "fca904cad7e6fb7a4ed78724d71cdfff40d9f1ea",
       "name": "comp/color/card/filled/color/bg/warning/hovered",
       "resolvedType": "COLOR",
@@ -971,6 +1059,7 @@
       }
     },
     {
+      "id": "VariableID:ef11c9f6a00ec565c94845b7d59bbafb1fcbf158/25005:19460",
       "key": "ef11c9f6a00ec565c94845b7d59bbafb1fcbf158",
       "name": "comp/color/card/elevated/color/border/dark/disabled",
       "resolvedType": "COLOR",
@@ -982,6 +1071,7 @@
       }
     },
     {
+      "id": "VariableID:bc3921b3278875b9729fe8d3bf4a1325baebab0c/25005:22224",
       "key": "bc3921b3278875b9729fe8d3bf4a1325baebab0c",
       "name": "comp/color/card/filled/color/bg/info/focused",
       "resolvedType": "COLOR",
@@ -993,6 +1083,7 @@
       }
     },
     {
+      "id": "VariableID:edb6d19113de7910f6db7e87885e7cfa10c4a20a/25005:19358",
       "key": "edb6d19113de7910f6db7e87885e7cfa10c4a20a",
       "name": "comp/color/card/filled/color/bg/surface/pressed",
       "resolvedType": "COLOR",
@@ -1004,6 +1095,7 @@
       }
     },
     {
+      "id": "VariableID:0bb903644d7ca3dc5db51a26df82c9741c3aabc4/25005:21334",
       "key": "0bb903644d7ca3dc5db51a26df82c9741c3aabc4",
       "name": "comp/color/card/filled/color/border/error/hovered",
       "resolvedType": "COLOR",
@@ -1015,6 +1107,7 @@
       }
     },
     {
+      "id": "VariableID:199dba456e772f19aed177f6cb608b622da5e23f/23106:7859",
       "key": "199dba456e772f19aed177f6cb608b622da5e23f",
       "name": "comp/color/card/elevated/color/border/warning/focused",
       "resolvedType": "COLOR",
@@ -1026,6 +1119,7 @@
       }
     },
     {
+      "id": "VariableID:4f3dc3dfd35698eaed8a88a514add6c2694a0a9e/25005:21959",
       "key": "4f3dc3dfd35698eaed8a88a514add6c2694a0a9e",
       "name": "comp/color/card/filled/color/border/warning/default",
       "resolvedType": "COLOR",
@@ -1037,6 +1131,7 @@
       }
     },
     {
+      "id": "VariableID:bff552c6475ea8f057fb31303bb03e9890d3bdb7/25005:21966",
       "key": "bff552c6475ea8f057fb31303bb03e9890d3bdb7",
       "name": "comp/color/card/filled/color/border/warning/hovered",
       "resolvedType": "COLOR",
@@ -1048,6 +1143,7 @@
       }
     },
     {
+      "id": "VariableID:556def09e2eb788d41e8c08d3790396e5d2d6b23/25005:21960",
       "key": "556def09e2eb788d41e8c08d3790396e5d2d6b23",
       "name": "comp/color/card/filled/color/border/warning/focused",
       "resolvedType": "COLOR",
@@ -1059,6 +1155,7 @@
       }
     },
     {
+      "id": "VariableID:f6425814f3984fede7b32d4e3c3318e0dd6be14e/25005:19073",
       "key": "f6425814f3984fede7b32d4e3c3318e0dd6be14e",
       "name": "comp/color/card/outlined/color/bg/brand/dragged",
       "resolvedType": "COLOR",
@@ -1070,6 +1167,7 @@
       }
     },
     {
+      "id": "VariableID:c8f91cc4b146c7b1ebc08c08cca69d3cfd978a85/25005:22202",
       "key": "c8f91cc4b146c7b1ebc08c08cca69d3cfd978a85",
       "name": "comp/color/card/filled/color/border/info/default",
       "resolvedType": "COLOR",
@@ -1081,6 +1179,7 @@
       }
     },
     {
+      "id": "VariableID:b2e6b00a9e06e7c0bcd4f7e402d36e25b6ac3434/23106:5335",
       "key": "b2e6b00a9e06e7c0bcd4f7e402d36e25b6ac3434",
       "name": "comp/color/card/outlined/color/bg/light/hovered",
       "resolvedType": "COLOR",
@@ -1092,6 +1191,7 @@
       }
     },
     {
+      "id": "VariableID:a24ea95ce67f0e886f19483804caeec13a727560/25005:21335",
       "key": "a24ea95ce67f0e886f19483804caeec13a727560",
       "name": "comp/color/card/filled/color/border/error/dragged",
       "resolvedType": "COLOR",
@@ -1103,6 +1203,7 @@
       }
     },
     {
+      "id": "VariableID:a09b00adda33f5b0ab4aed70575fd9e7d9c88681/25005:19260",
       "key": "a09b00adda33f5b0ab4aed70575fd9e7d9c88681",
       "name": "comp/color/card/filled/color/bg/secondary/disabled",
       "resolvedType": "COLOR",
@@ -1114,6 +1215,7 @@
       }
     },
     {
+      "id": "VariableID:d7141b2d5111e8fdeeea55c6c28bebab6f0b3738/25005:19259",
       "key": "d7141b2d5111e8fdeeea55c6c28bebab6f0b3738",
       "name": "comp/color/card/filled/color/bg/primary/disabled",
       "resolvedType": "COLOR",
@@ -1125,6 +1227,7 @@
       }
     },
     {
+      "id": "VariableID:9f07bf0bf8907e1b56fd7028a037e7a986a03c14/25005:19359",
       "key": "9f07bf0bf8907e1b56fd7028a037e7a986a03c14",
       "name": "comp/color/card/filled/color/border/light/default",
       "resolvedType": "COLOR",
@@ -1136,6 +1239,7 @@
       }
     },
     {
+      "id": "VariableID:14f3be815a5b01025079b6d9eb8c84c6e5757d52/25005:20149",
       "key": "14f3be815a5b01025079b6d9eb8c84c6e5757d52",
       "name": "comp/color/card/filled/color/border/dark/pressed",
       "resolvedType": "COLOR",
@@ -1147,6 +1251,7 @@
       }
     },
     {
+      "id": "VariableID:984eb628f78f543bdb2d280869c780bc69f98d35/23106:5347",
       "key": "984eb628f78f543bdb2d280869c780bc69f98d35",
       "name": "comp/color/card/outlined/color/bg/warning/pressed",
       "resolvedType": "COLOR",
@@ -1158,6 +1263,7 @@
       }
     },
     {
+      "id": "VariableID:843375dd71639ce365be2586d7ab03350ddb8ec6/25005:20188",
       "key": "843375dd71639ce365be2586d7ab03350ddb8ec6",
       "name": "comp/color/card/filled/color/border/dark/default",
       "resolvedType": "COLOR",
@@ -1169,6 +1275,7 @@
       }
     },
     {
+      "id": "VariableID:dae32611b08df70c9c02a31cf6c980249b02413a/25005:19071",
       "key": "dae32611b08df70c9c02a31cf6c980249b02413a",
       "name": "comp/color/card/outlined/color/bg/primary/dragged",
       "resolvedType": "COLOR",
@@ -1180,6 +1287,7 @@
       }
     },
     {
+      "id": "VariableID:7fdbc7db3a8e98a8365ba8f16304d2b168ce0383/23106:5647",
       "key": "7fdbc7db3a8e98a8365ba8f16304d2b168ce0383",
       "name": "comp/color/card/outlined/color/bg/secondary/default",
       "resolvedType": "COLOR",
@@ -1191,6 +1299,7 @@
       }
     },
     {
+      "id": "VariableID:2352663b023d15090349500e6d7bc7d260935be3/23106:5349",
       "key": "2352663b023d15090349500e6d7bc7d260935be3",
       "name": "comp/color/card/outlined/color/bg/dark/pressed",
       "resolvedType": "COLOR",
@@ -1202,6 +1311,7 @@
       }
     },
     {
+      "id": "VariableID:e1a60a7235f189d84cc3ca5f5626efcc14407a15/23106:5326",
       "key": "e1a60a7235f189d84cc3ca5f5626efcc14407a15",
       "name": "comp/color/card/outlined/color/bg/secondary/hovered",
       "resolvedType": "COLOR",
@@ -1213,6 +1323,7 @@
       }
     },
     {
+      "id": "VariableID:3d34e4c5a8a32a9b4a21948f9aaaa0e6938ffa44/23106:5323",
       "key": "3d34e4c5a8a32a9b4a21948f9aaaa0e6938ffa44",
       "name": "comp/color/card/outlined/color/bg/secondary/focused",
       "resolvedType": "COLOR",
@@ -1224,6 +1335,7 @@
       }
     },
     {
+      "id": "VariableID:60759df1acc22f3d1d293ad9ebebd917ba39b854/25005:19072",
       "key": "60759df1acc22f3d1d293ad9ebebd917ba39b854",
       "name": "comp/color/card/outlined/color/bg/secondary/dragged",
       "resolvedType": "COLOR",
@@ -1235,6 +1347,7 @@
       }
     },
     {
+      "id": "VariableID:be141f517c31bf92ed108fbd31d14878c9bab090/23106:5325",
       "key": "be141f517c31bf92ed108fbd31d14878c9bab090",
       "name": "comp/color/card/outlined/color/bg/brand/hovered",
       "resolvedType": "COLOR",
@@ -1246,6 +1359,7 @@
       }
     },
     {
+      "id": "VariableID:a9e9e320f45982219645e21accd0f9cbc69d003f/25005:20795",
       "key": "a9e9e320f45982219645e21accd0f9cbc69d003f",
       "name": "comp/color/card/filled/color/border/secondary/focused",
       "resolvedType": "COLOR",
@@ -1257,6 +1371,7 @@
       }
     },
     {
+      "id": "VariableID:15174310fc3db2d3e57c7b0fc68fad6227876e93/23106:5320",
       "key": "15174310fc3db2d3e57c7b0fc68fad6227876e93",
       "name": "comp/color/card/outlined/color/bg/brand/focused",
       "resolvedType": "COLOR",
@@ -1268,6 +1383,7 @@
       }
     },
     {
+      "id": "VariableID:ac9e183d27e45b0cf0d3d09d07f02962617b2788/23106:5329",
       "key": "ac9e183d27e45b0cf0d3d09d07f02962617b2788",
       "name": "comp/color/card/outlined/color/bg/error/focused",
       "resolvedType": "COLOR",
@@ -1279,6 +1395,7 @@
       }
     },
     {
+      "id": "VariableID:fd5348928b71f477e29752d94ecd850af9563ade/25005:19074",
       "key": "fd5348928b71f477e29752d94ecd850af9563ade",
       "name": "comp/color/card/outlined/color/bg/error/dragged",
       "resolvedType": "COLOR",
@@ -1290,6 +1407,7 @@
       }
     },
     {
+      "id": "VariableID:9330c28f0bd7a6d283f15db1e474e509054b24bf/25005:19452",
       "key": "9330c28f0bd7a6d283f15db1e474e509054b24bf",
       "name": "comp/color/card/filled/color/border/brand/disabled",
       "resolvedType": "COLOR",
@@ -1301,6 +1419,7 @@
       }
     },
     {
+      "id": "VariableID:c21bb6fb146299c2c07a6a3f78f0f9f02274f59b/25005:20111",
       "key": "c21bb6fb146299c2c07a6a3f78f0f9f02274f59b",
       "name": "comp/color/card/outlined/color/border/surface/default",
       "resolvedType": "COLOR",
@@ -1312,6 +1431,7 @@
       }
     },
     {
+      "id": "VariableID:a1ac55815854bc064ece80384862a3c2a4b54831/25005:19280",
       "key": "a1ac55815854bc064ece80384862a3c2a4b54831",
       "name": "comp/color/card/elevated/color/bg/surface/hovered",
       "resolvedType": "COLOR",
@@ -1323,6 +1443,7 @@
       }
     },
     {
+      "id": "VariableID:8a79476055ee6df5c95ea31e3ab06c8451ae490d/25005:20112",
       "key": "8a79476055ee6df5c95ea31e3ab06c8451ae490d",
       "name": "comp/color/card/outlined/color/border/surface/hovered",
       "resolvedType": "COLOR",
@@ -1334,6 +1455,7 @@
       }
     },
     {
+      "id": "VariableID:73f98b28c59ca7048310d208063382cca46667be/25005:19281",
       "key": "73f98b28c59ca7048310d208063382cca46667be",
       "name": "comp/color/card/elevated/color/bg/surface/focused",
       "resolvedType": "COLOR",
@@ -1345,6 +1467,7 @@
       }
     },
     {
+      "id": "VariableID:d8210fcf97546df464919941f5461fcb3e22d24f/25005:20114",
       "key": "d8210fcf97546df464919941f5461fcb3e22d24f",
       "name": "comp/color/card/outlined/color/border/surface/pressed",
       "resolvedType": "COLOR",
@@ -1356,6 +1479,7 @@
       }
     },
     {
+      "id": "VariableID:47b4793a595c76bbe510d3e331c0b0975b08cb99/25005:21129",
       "key": "47b4793a595c76bbe510d3e331c0b0975b08cb99",
       "name": "comp/color/card/elevated/color/bg/brand/focused",
       "resolvedType": "COLOR",
@@ -1367,6 +1491,7 @@
       }
     },
     {
+      "id": "VariableID:e491616bae0b4f9d01e6f44eae21c783615c557c/25005:20115",
       "key": "e491616bae0b4f9d01e6f44eae21c783615c557c",
       "name": "comp/color/card/outlined/color/border/surface/dragged",
       "resolvedType": "COLOR",
@@ -1378,6 +1503,7 @@
       }
     },
     {
+      "id": "VariableID:d4ef077311bf532339f16d0797f2b6f7e2238d0d/25005:21191",
       "key": "d4ef077311bf532339f16d0797f2b6f7e2238d0d",
       "name": "comp/color/card/elevated/color/bg/brand/pressed",
       "resolvedType": "COLOR",
@@ -1389,6 +1515,7 @@
       }
     },
     {
+      "id": "VariableID:c835db22794c40daa38cd9c01a164a071ba4b4b6/25005:19270",
       "key": "c835db22794c40daa38cd9c01a164a071ba4b4b6",
       "name": "comp/color/card/outlined/color/border/surface/disabled",
       "resolvedType": "COLOR",
@@ -1400,6 +1527,7 @@
       }
     },
     {
+      "id": "VariableID:1083689741c998b35f43f256e75214ce9a44282f/25005:21130",
       "key": "1083689741c998b35f43f256e75214ce9a44282f",
       "name": "comp/color/card/elevated/color/bg/brand/dragged",
       "resolvedType": "COLOR",
@@ -1411,6 +1539,7 @@
       }
     },
     {
+      "id": "VariableID:d91597261451efe83306e8ba92585ef26530c15f/25005:20109",
       "key": "d91597261451efe83306e8ba92585ef26530c15f",
       "name": "comp/color/card/filled/color/border/surface/hovered",
       "resolvedType": "COLOR",
@@ -1422,6 +1551,7 @@
       }
     },
     {
+      "id": "VariableID:c820b920fd0697af322ff9ab3ff7778bee653e51/25005:20507",
       "key": "c820b920fd0697af322ff9ab3ff7778bee653e51",
       "name": "comp/color/card/outlined/color/border/primary/default",
       "resolvedType": "COLOR",
@@ -1433,6 +1563,7 @@
       }
     },
     {
+      "id": "VariableID:4a8f00b1df97ff66c87831231e48a5c331d681cc/23106:7858",
       "key": "4a8f00b1df97ff66c87831231e48a5c331d681cc",
       "name": "comp/color/card/outlined/color/border/primary/focused",
       "resolvedType": "COLOR",
@@ -1444,6 +1575,7 @@
       }
     },
     {
+      "id": "VariableID:0b36f9876e0ab0ca526861aa5e7e1d9de73d0e03/25005:19271",
       "key": "0b36f9876e0ab0ca526861aa5e7e1d9de73d0e03",
       "name": "comp/color/card/outlined/color/border/primary/disabled",
       "resolvedType": "COLOR",
@@ -1455,6 +1587,7 @@
       }
     },
     {
+      "id": "VariableID:062a2be30cd09f0aa5695a34862b998919f7b565/25005:20256",
       "key": "062a2be30cd09f0aa5695a34862b998919f7b565",
       "name": "comp/color/card/outlined/color/border/dark/focused",
       "resolvedType": "COLOR",
@@ -1466,6 +1599,7 @@
       }
     },
     {
+      "id": "VariableID:f01f43e33c10902f0b96ecb2bcf79dde61970147/25005:20834",
       "key": "f01f43e33c10902f0b96ecb2bcf79dde61970147",
       "name": "comp/color/card/outlined/color/border/secondary/default",
       "resolvedType": "COLOR",
@@ -1477,6 +1611,7 @@
       }
     },
     {
+      "id": "VariableID:8aeb7d82d1e0c91efb34f534a8df21467ea5c1ea/25005:20190",
       "key": "8aeb7d82d1e0c91efb34f534a8df21467ea5c1ea",
       "name": "comp/color/card/outlined/color/border/dark/pressed",
       "resolvedType": "COLOR",
@@ -1488,6 +1623,7 @@
       }
     },
     {
+      "id": "VariableID:1b45b9667daa1e2819a8f1294ab69c8fa9616b27/25005:20911",
       "key": "1b45b9667daa1e2819a8f1294ab69c8fa9616b27",
       "name": "comp/color/card/outlined/color/border/secondary/dragged",
       "resolvedType": "COLOR",
@@ -1499,6 +1635,7 @@
       }
     },
     {
+      "id": "VariableID:5afcb50838d296df3ce8d762d3c67f432b362f39/25005:19285",
       "key": "5afcb50838d296df3ce8d762d3c67f432b362f39",
       "name": "comp/color/card/elevated/color/bg/secondary/disabled",
       "resolvedType": "COLOR",
@@ -1510,6 +1647,7 @@
       }
     },
     {
+      "id": "VariableID:6d165e5c0804a8f8a4e08eccbdde97e3e67b0944/25005:19273",
       "key": "6d165e5c0804a8f8a4e08eccbdde97e3e67b0944",
       "name": "comp/color/card/outlined/color/border/brand/disabled",
       "resolvedType": "COLOR",
@@ -1521,6 +1659,7 @@
       }
     },
     {
+      "id": "VariableID:62d09eb0dd24f41d7becdfb5b0ad2ceeee83b303/25005:14695",
       "key": "62d09eb0dd24f41d7becdfb5b0ad2ceeee83b303",
       "name": "comp/color/card/elevated/color/bg/error/default",
       "resolvedType": "COLOR",
@@ -1532,6 +1671,7 @@
       }
     },
     {
+      "id": "VariableID:a25010540854ef2c6c820db6791f87797abde737/25005:21381",
       "key": "a25010540854ef2c6c820db6791f87797abde737",
       "name": "comp/color/card/outlined/color/border/error/default",
       "resolvedType": "COLOR",
@@ -1543,6 +1683,7 @@
       }
     },
     {
+      "id": "VariableID:eecb80ad55eb9599885e16111201fad7fc6994e3/25005:21507",
       "key": "eecb80ad55eb9599885e16111201fad7fc6994e3",
       "name": "comp/color/card/elevated/color/bg/error/hovered",
       "resolvedType": "COLOR",
@@ -1554,6 +1695,7 @@
       }
     },
     {
+      "id": "VariableID:6d1300c75520940ecb67491c483dfac015e0a95d/25005:21505",
       "key": "6d1300c75520940ecb67491c483dfac015e0a95d",
       "name": "comp/color/card/outlined/color/border/error/hovered",
       "resolvedType": "COLOR",
@@ -1565,6 +1707,7 @@
       }
     },
     {
+      "id": "VariableID:c8f00fb59a9e0ae412f417dcfdaa7a1ca48bf46d/25005:14696",
       "key": "c8f00fb59a9e0ae412f417dcfdaa7a1ca48bf46d",
       "name": "comp/color/card/elevated/color/bg/error/focused",
       "resolvedType": "COLOR",
@@ -1576,6 +1719,7 @@
       }
     },
     {
+      "id": "VariableID:297ba2ac37f4c7580daa4bc2464e32481dab194f/23106:7852",
       "key": "297ba2ac37f4c7580daa4bc2464e32481dab194f",
       "name": "comp/color/card/outlined/color/border/error/focused",
       "resolvedType": "COLOR",
@@ -1587,6 +1731,7 @@
       }
     },
     {
+      "id": "VariableID:0900a6da51a6f4f8be4365d06f6c1e7f27d2829f/25005:22050",
       "key": "0900a6da51a6f4f8be4365d06f6c1e7f27d2829f",
       "name": "comp/color/card/elevated/color/bg/warning/hovered",
       "resolvedType": "COLOR",
@@ -1598,6 +1743,7 @@
       }
     },
     {
+      "id": "VariableID:4df0ee1e75141c3b343c79f03d5b09a3df8b2b6c/25005:21541",
       "key": "4df0ee1e75141c3b343c79f03d5b09a3df8b2b6c",
       "name": "comp/color/card/outlined/color/border/error/pressed",
       "resolvedType": "COLOR",
@@ -1609,6 +1755,7 @@
       }
     },
     {
+      "id": "VariableID:9fb7a08a27f2ed7680bc2b9c834967eaac681a3a/25005:20912",
       "key": "9fb7a08a27f2ed7680bc2b9c834967eaac681a3a",
       "name": "comp/color/card/elevated/color/bg/secondary/hovered",
       "resolvedType": "COLOR",
@@ -1620,6 +1767,7 @@
       }
     },
     {
+      "id": "VariableID:5af6c67c1d63694fc08f25e3ee581771dca941e0/25005:21717",
       "key": "5af6c67c1d63694fc08f25e3ee581771dca941e0",
       "name": "comp/color/card/outlined/color/border/success/default",
       "resolvedType": "COLOR",
@@ -1631,6 +1779,7 @@
       }
     },
     {
+      "id": "VariableID:d0b01d41aa2dfaad4ccd8f30b50bd55ccfa47226/25005:20628",
       "key": "d0b01d41aa2dfaad4ccd8f30b50bd55ccfa47226",
       "name": "comp/color/card/elevated/color/bg/primary/hovered",
       "resolvedType": "COLOR",
@@ -1642,6 +1791,7 @@
       }
     },
     {
+      "id": "VariableID:c94f9364150b218302601bb0ad5af0c9992bf72d/25005:21792",
       "key": "c94f9364150b218302601bb0ad5af0c9992bf72d",
       "name": "comp/color/card/outlined/color/border/success/hovered",
       "resolvedType": "COLOR",
@@ -1653,6 +1803,7 @@
       }
     },
     {
+      "id": "VariableID:e2703437dad3c85e4e7d75b708db0374c515fcf0/25005:21821",
       "key": "e2703437dad3c85e4e7d75b708db0374c515fcf0",
       "name": "comp/color/card/elevated/color/bg/success/pressed",
       "resolvedType": "COLOR",
@@ -1664,6 +1815,7 @@
       }
     },
     {
+      "id": "VariableID:2dd83c5c6db68149f06a0c3097b4dd6310833d89/25005:19263",
       "key": "2dd83c5c6db68149f06a0c3097b4dd6310833d89",
       "name": "comp/color/card/filled/color/bg/light/disabled",
       "resolvedType": "COLOR",
@@ -1675,6 +1827,7 @@
       }
     },
     {
+      "id": "VariableID:9305d5f92428d0422b75d3d04e3701878a321c23/25005:21681",
       "key": "9305d5f92428d0422b75d3d04e3701878a321c23",
       "name": "comp/color/card/elevated/color/border/success/default",
       "resolvedType": "COLOR",
@@ -1686,6 +1839,7 @@
       }
     },
     {
+      "id": "VariableID:ff1391843497f341bcd7cf4c4ef53c405c30ced9/23106:7856",
       "key": "ff1391843497f341bcd7cf4c4ef53c405c30ced9",
       "name": "comp/color/card/outlined/color/border/success/focused",
       "resolvedType": "COLOR",
@@ -1697,6 +1851,7 @@
       }
     },
     {
+      "id": "VariableID:5f95ed48f89f0b013641db016c82e343c4e7edfb/25005:21997",
       "key": "5f95ed48f89f0b013641db016c82e343c4e7edfb",
       "name": "comp/color/card/outlined/color/border/warning/default",
       "resolvedType": "COLOR",
@@ -1708,6 +1863,7 @@
       }
     },
     {
+      "id": "VariableID:81b64a5d60be60ed889df80c31909c64b9cb86ed/25005:20191",
       "key": "81b64a5d60be60ed889df80c31909c64b9cb86ed",
       "name": "comp/color/card/elevated/color/bg/dark/pressed",
       "resolvedType": "COLOR",
@@ -1719,6 +1875,7 @@
       }
     },
     {
+      "id": "VariableID:0e788dfaddbdc6e06da7cbc665bf5cadcd194db8/25005:22048",
       "key": "0e788dfaddbdc6e06da7cbc665bf5cadcd194db8",
       "name": "comp/color/card/outlined/color/border/warning/hovered",
       "resolvedType": "COLOR",
@@ -1730,6 +1887,7 @@
       }
     },
     {
+      "id": "VariableID:32b21db0084bbc2a8d3cc64d3a3a9f9a8ff81312/25005:22063",
       "key": "32b21db0084bbc2a8d3cc64d3a3a9f9a8ff81312",
       "name": "comp/color/card/outlined/color/border/warning/pressed",
       "resolvedType": "COLOR",
@@ -1741,6 +1899,7 @@
       }
     },
     {
+      "id": "VariableID:0890aae33f46c88f8aeed11b814471d4acc98972/25005:22245",
       "key": "0890aae33f46c88f8aeed11b814471d4acc98972",
       "name": "comp/color/card/elevated/color/bg/info/hovered",
       "resolvedType": "COLOR",
@@ -1752,6 +1911,7 @@
       }
     },
     {
+      "id": "VariableID:2c8e5f516f8c9a491eb7a76e312c47d1c79dce60/23106:7855",
       "key": "2c8e5f516f8c9a491eb7a76e312c47d1c79dce60",
       "name": "comp/color/card/outlined/color/border/info/focused",
       "resolvedType": "COLOR",
@@ -1763,6 +1923,7 @@
       }
     },
     {
+      "id": "VariableID:0b703f281ff79faae53cc52cc2f7bd2e62ff0f30/25005:21718",
       "key": "0b703f281ff79faae53cc52cc2f7bd2e62ff0f30",
       "name": "comp/color/card/elevated/color/bg/success/default",
       "resolvedType": "COLOR",
@@ -1774,6 +1935,7 @@
       }
     },
     {
+      "id": "VariableID:517fc6d93b16a9aef0992a30fc8a2aaf543a60df/23106:5315",
       "key": "517fc6d93b16a9aef0992a30fc8a2aaf543a60df",
       "name": "comp/color/card/outlined/color/bg/primary/hovered",
       "resolvedType": "COLOR",
@@ -1785,6 +1947,7 @@
       }
     },
     {
+      "id": "VariableID:417c3ecb981bf9297a559e2e909f3ae2bc3d9cd6/23106:7862",
       "key": "417c3ecb981bf9297a559e2e909f3ae2bc3d9cd6",
       "name": "comp/color/card/outlined/color/border/light/focused",
       "resolvedType": "COLOR",
@@ -1796,6 +1959,7 @@
       }
     },
     {
+      "id": "VariableID:905080270ff2d763bd602f9df733c4dece973d4b/25005:20503",
       "key": "905080270ff2d763bd602f9df733c4dece973d4b",
       "name": "comp/color/card/focused-outline/color/dark/focused",
       "resolvedType": "COLOR",
@@ -1807,6 +1971,7 @@
       }
     },
     {
+      "id": "VariableID:155d409db4d06a8e806c993e6723e6abe7caef43/25005:19277",
       "key": "155d409db4d06a8e806c993e6723e6abe7caef43",
       "name": "comp/color/card/outlined/color/border/light/dragged",
       "resolvedType": "COLOR",
@@ -1818,6 +1983,7 @@
       }
     },
     {
+      "id": "VariableID:13d7c2fc452697938b047dedcaf1c12de1b033ab/25005:19278",
       "key": "13d7c2fc452697938b047dedcaf1c12de1b033ab",
       "name": "comp/color/card/outlined/color/border/light/disabled",
       "resolvedType": "COLOR",
@@ -1829,6 +1995,7 @@
       }
     },
     {
+      "id": "VariableID:e12756847ab6d7771fd787faf1ddded544b8a9cb/25005:20255",
       "key": "e12756847ab6d7771fd787faf1ddded544b8a9cb",
       "name": "comp/color/card/outlined/color/border/dark/default",
       "resolvedType": "COLOR",
@@ -1840,6 +2007,7 @@
       }
     },
     {
+      "id": "VariableID:5d4b6130705d94c083c6e3bc6f9527012b3127da/25005:20224",
       "key": "5d4b6130705d94c083c6e3bc6f9527012b3127da",
       "name": "comp/color/card/outlined/color/border/dark/dragged",
       "resolvedType": "COLOR",
@@ -1851,6 +2019,7 @@
       }
     },
     {
+      "id": "VariableID:4f4f43b601073963bbf5e8c20f6e83eb0b150a75/25005:19279",
       "key": "4f4f43b601073963bbf5e8c20f6e83eb0b150a75",
       "name": "comp/color/card/outlined/color/border/dark/disabled",
       "resolvedType": "COLOR",
@@ -1862,6 +2031,7 @@
       }
     },
     {
+      "id": "VariableID:c416778b22d463b256d8e8284dd80d0b853bb279/25005:19185",
       "key": "c416778b22d463b256d8e8284dd80d0b853bb279",
       "name": "comp/color/card/elevated/color/bg/surface/default",
       "resolvedType": "COLOR",
@@ -1873,6 +2043,7 @@
       }
     },
     {
+      "id": "VariableID:b927220d15f410fe65023f484401e8e76f26f69b/25005:19362",
       "key": "b927220d15f410fe65023f484401e8e76f26f69b",
       "name": "comp/color/card/elevated/color/bg/surface/pressed",
       "resolvedType": "COLOR",
@@ -1884,6 +2055,7 @@
       }
     },
     {
+      "id": "VariableID:fffd4d2402ca818191115f840cae58eba6183703/25005:21793",
       "key": "fffd4d2402ca818191115f840cae58eba6183703",
       "name": "comp/color/card/outlined/color/border/success/dragged",
       "resolvedType": "COLOR",
@@ -1895,6 +2067,7 @@
       }
     },
     {
+      "id": "VariableID:d50adb78f47bd386df07242fd9ae12ae75515d99/25005:19284",
       "key": "d50adb78f47bd386df07242fd9ae12ae75515d99",
       "name": "comp/color/card/elevated/color/bg/primary/disabled",
       "resolvedType": "COLOR",
@@ -1906,6 +2079,7 @@
       }
     },
     {
+      "id": "VariableID:61091f70a9dbba71cbafff2c8735dbcd22778198/25005:19282",
       "key": "61091f70a9dbba71cbafff2c8735dbcd22778198",
       "name": "comp/color/card/elevated/color/bg/surface/dragged",
       "resolvedType": "COLOR",
@@ -1917,6 +2091,7 @@
       }
     },
     {
+      "id": "VariableID:4faffaa87da3989fdd24ce5e1f10c0f95dbc7204/25005:19283",
       "key": "4faffaa87da3989fdd24ce5e1f10c0f95dbc7204",
       "name": "comp/color/card/elevated/color/bg/surface/disabled",
       "resolvedType": "COLOR",
@@ -1928,6 +2103,7 @@
       }
     },
     {
+      "id": "VariableID:2746f878eaab956d19d34aa5872a5e6975a5824c/25005:20509",
       "key": "2746f878eaab956d19d34aa5872a5e6975a5824c",
       "name": "comp/color/card/elevated/color/bg/primary/focused",
       "resolvedType": "COLOR",
@@ -1939,6 +2115,7 @@
       }
     },
     {
+      "id": "VariableID:a1460c63df01764d89a66014b24ddc165414ef04/25005:20510",
       "key": "a1460c63df01764d89a66014b24ddc165414ef04",
       "name": "comp/color/card/elevated/color/bg/primary/dragged",
       "resolvedType": "COLOR",
@@ -1950,6 +2127,7 @@
       }
     },
     {
+      "id": "VariableID:078eff9a7a0bfa4de75442c479020232246d4898/25005:20835",
       "key": "078eff9a7a0bfa4de75442c479020232246d4898",
       "name": "comp/color/card/elevated/color/bg/secondary/default",
       "resolvedType": "COLOR",
@@ -1961,6 +2139,7 @@
       }
     },
     {
+      "id": "VariableID:554853191c5299f05140fb1ca34450b4d3ed2b08/25005:20837",
       "key": "554853191c5299f05140fb1ca34450b4d3ed2b08",
       "name": "comp/color/card/elevated/color/bg/secondary/dragged",
       "resolvedType": "COLOR",
@@ -1972,6 +2151,7 @@
       }
     },
     {
+      "id": "VariableID:859142bc3efcc5b6566231cef52fa941ff338b2a/25005:21175",
       "key": "859142bc3efcc5b6566231cef52fa941ff338b2a",
       "name": "comp/color/card/elevated/color/bg/brand/hovered",
       "resolvedType": "COLOR",
@@ -1983,6 +2163,7 @@
       }
     },
     {
+      "id": "VariableID:58e3f57145553f3877ccd687af8069fdbad858d7/25005:14697",
       "key": "58e3f57145553f3877ccd687af8069fdbad858d7",
       "name": "comp/color/card/elevated/color/bg/error/dragged",
       "resolvedType": "COLOR",
@@ -1994,6 +2175,7 @@
       }
     },
     {
+      "id": "VariableID:e62d8e76e84d2f8c1ea31bf0b225dcc3d53b1a25/25005:21794",
       "key": "e62d8e76e84d2f8c1ea31bf0b225dcc3d53b1a25",
       "name": "comp/color/card/elevated/color/bg/success/hovered",
       "resolvedType": "COLOR",
@@ -2005,6 +2187,7 @@
       }
     },
     {
+      "id": "VariableID:addeeb54d299477d5b9601c5340b6b2349c4c41d/25005:21999",
       "key": "addeeb54d299477d5b9601c5340b6b2349c4c41d",
       "name": "comp/color/card/elevated/color/bg/warning/focused",
       "resolvedType": "COLOR",
@@ -2016,6 +2199,7 @@
       }
     },
     {
+      "id": "VariableID:cccef4580efab660ed175fee4b8085e126358b56/23106:6347",
       "key": "cccef4580efab660ed175fee4b8085e126358b56",
       "name": "comp/color/card/filled/color/bg/light/focused",
       "resolvedType": "COLOR",
@@ -2027,6 +2211,7 @@
       }
     },
     {
+      "id": "VariableID:25478896d92fe2b47fc2529163e1d8e2052cbb6a/25005:20505",
       "key": "25478896d92fe2b47fc2529163e1d8e2052cbb6a",
       "name": "comp/color/card/filled/color/bg/primary/focused",
       "resolvedType": "COLOR",
@@ -2038,6 +2223,7 @@
       }
     },
     {
+      "id": "VariableID:45f14bef64d200d26b8d76edb0c1fced4fa6488c/25005:20192",
       "key": "45f14bef64d200d26b8d76edb0c1fced4fa6488c",
       "name": "comp/color/card/elevated/color/border/dark/default",
       "resolvedType": "COLOR",
@@ -2049,6 +2235,7 @@
       }
     },
     {
+      "id": "VariableID:196d87e0e9f826f53e5765b17d95c1ac7d693445/25005:22252",
       "key": "196d87e0e9f826f53e5765b17d95c1ac7d693445",
       "name": "comp/color/card/elevated/color/bg/info/pressed",
       "resolvedType": "COLOR",
@@ -2060,6 +2247,7 @@
       }
     },
     {
+      "id": "VariableID:e0fd77f6003b86f42baa84a0738ebbed7d00380a/25005:19288",
       "key": "e0fd77f6003b86f42baa84a0738ebbed7d00380a",
       "name": "comp/color/card/elevated/color/bg/light/disabled",
       "resolvedType": "COLOR",
@@ -2071,6 +2259,7 @@
       }
     },
     {
+      "id": "VariableID:9e8dfbc6cf7cc8be0c1282abd3c35e6b1144d34d/25005:20257",
       "key": "9e8dfbc6cf7cc8be0c1282abd3c35e6b1144d34d",
       "name": "comp/color/card/elevated/color/bg/dark/default",
       "resolvedType": "COLOR",
@@ -2082,6 +2271,7 @@
       }
     },
     {
+      "id": "VariableID:f8040468d59b6ab38d3e13637d79e92a4be7a933/25005:20225",
       "key": "f8040468d59b6ab38d3e13637d79e92a4be7a933",
       "name": "comp/color/card/elevated/color/bg/dark/hovered",
       "resolvedType": "COLOR",
@@ -2093,6 +2283,7 @@
       }
     },
     {
+      "id": "VariableID:fe818b29c6027fa8b135ebbd886ba7b9b60a79f6/25005:20226",
       "key": "fe818b29c6027fa8b135ebbd886ba7b9b60a79f6",
       "name": "comp/color/card/elevated/color/bg/dark/focused",
       "resolvedType": "COLOR",
@@ -2104,6 +2295,7 @@
       }
     },
     {
+      "id": "VariableID:73dec21d4ecfb0ac14bec0329d837e7755746771/25005:19290",
       "key": "73dec21d4ecfb0ac14bec0329d837e7755746771",
       "name": "comp/color/card/elevated/color/border/surface/default",
       "resolvedType": "COLOR",
@@ -2115,6 +2307,7 @@
       }
     },
     {
+      "id": "VariableID:3569d6d959d9f2ace7e94d8894ffee18368e0f8c/25005:20466",
       "key": "3569d6d959d9f2ace7e94d8894ffee18368e0f8c",
       "name": "comp/color/card/elevated/color/border/primary/hovered",
       "resolvedType": "COLOR",
@@ -2126,6 +2319,7 @@
       }
     },
     {
+      "id": "VariableID:c24c5d4af7270055146bc6c95bd3c7bc96965d6e/25005:19456",
       "key": "c24c5d4af7270055146bc6c95bd3c7bc96965d6e",
       "name": "comp/color/card/elevated/color/border/primary/disabled",
       "resolvedType": "COLOR",
@@ -2137,6 +2331,7 @@
       }
     },
     {
+      "id": "VariableID:422f61f42938817a5ff081658e084b57952f800c/25005:19262",
       "key": "422f61f42938817a5ff081658e084b57952f800c",
       "name": "comp/color/card/filled/color/bg/light/pressed",
       "resolvedType": "COLOR",
@@ -2148,6 +2343,7 @@
       }
     },
     {
+      "id": "VariableID:c5ddcf56375cb6acace95c5f793a5b185ab37b14/25005:19256",
       "key": "c5ddcf56375cb6acace95c5f793a5b185ab37b14",
       "name": "comp/color/card/filled/color/bg/surface/hovered",
       "resolvedType": "COLOR",
@@ -2159,6 +2355,7 @@
       }
     },
     {
+      "id": "VariableID:9f83ab375cf3cc0e53e15db830e6ddf3c1ced5a6/25005:20165",
       "key": "9f83ab375cf3cc0e53e15db830e6ddf3c1ced5a6",
       "name": "comp/color/card/elevated/color/border/dark/hovered",
       "resolvedType": "COLOR",
@@ -2170,6 +2367,7 @@
       }
     },
     {
+      "id": "VariableID:a914f5e50c70d976b790bce5cedd1ce894467d99/25005:19293",
       "key": "a914f5e50c70d976b790bce5cedd1ce894467d99",
       "name": "comp/color/card/elevated/color/border/light/dragged",
       "resolvedType": "COLOR",
@@ -2181,6 +2379,7 @@
       }
     },
     {
+      "id": "VariableID:00db066b916ab9807c98dacdf6cd2ca4aba7e1a3/25005:21995",
       "key": "00db066b916ab9807c98dacdf6cd2ca4aba7e1a3",
       "name": "comp/color/card/filled/color/bg/warning/focused",
       "resolvedType": "COLOR",
@@ -2192,6 +2391,7 @@
       }
     },
     {
+      "id": "VariableID:45ad92fb03e8acdac52afae35c731729900ceeb6/25005:20504",
       "key": "45ad92fb03e8acdac52afae35c731729900ceeb6",
       "name": "comp/color/card/filled/color/bg/primary/default",
       "resolvedType": "COLOR",
@@ -2203,6 +2403,7 @@
       }
     },
     {
+      "id": "VariableID:b4fdd14d768f2c374f45137a898bd9bbcfbfb9b8/25005:19457",
       "key": "b4fdd14d768f2c374f45137a898bd9bbcfbfb9b8",
       "name": "comp/color/card/elevated/color/border/secondary/disabled",
       "resolvedType": "COLOR",
@@ -2214,6 +2415,7 @@
       }
     },
     {
+      "id": "VariableID:9037a6a2936494b86ca34b752c1fabb3b1f993b8/25005:21329",
       "key": "9037a6a2936494b86ca34b752c1fabb3b1f993b8",
       "name": "comp/color/card/elevated/color/border/error/default",
       "resolvedType": "COLOR",
@@ -2225,6 +2427,7 @@
       }
     },
     {
+      "id": "VariableID:2295b3eeef83d0ab446b126d09a9b7853445325a/25005:20221",
       "key": "2295b3eeef83d0ab446b126d09a9b7853445325a",
       "name": "comp/color/card/filled/color/bg/dark/focused",
       "resolvedType": "COLOR",
@@ -2236,6 +2439,7 @@
       }
     },
     {
+      "id": "VariableID:0f130bc5781b2d35a478dbc9371848970c62e24a/25005:21336",
       "key": "0f130bc5781b2d35a478dbc9371848970c62e24a",
       "name": "comp/color/card/elevated/color/border/error/hovered",
       "resolvedType": "COLOR",
@@ -2247,6 +2451,7 @@
       }
     },
     {
+      "id": "VariableID:e253cbea35f043f11d8e463d0d3a0bde165f6473/23106:7857",
       "key": "e253cbea35f043f11d8e463d0d3a0bde165f6473",
       "name": "comp/color/card/elevated/color/border/error/focused",
       "resolvedType": "COLOR",
@@ -2258,6 +2463,7 @@
       }
     },
     {
+      "id": "VariableID:27830784150bbb9253698281944f2ea0c4931bc5/25005:21337",
       "key": "27830784150bbb9253698281944f2ea0c4931bc5",
       "name": "comp/color/card/elevated/color/border/error/dragged",
       "resolvedType": "COLOR",
@@ -2269,6 +2475,7 @@
       }
     },
     {
+      "id": "VariableID:037c36545da81d17b3e175e8a9f7375b279b1138/25005:21688",
       "key": "037c36545da81d17b3e175e8a9f7375b279b1138",
       "name": "comp/color/card/elevated/color/border/success/hovered",
       "resolvedType": "COLOR",
@@ -2280,6 +2487,7 @@
       }
     },
     {
+      "id": "VariableID:618a1bf172cfdf5d8b1e8d6c47b6e98dbeb7fc17/25005:21795",
       "key": "618a1bf172cfdf5d8b1e8d6c47b6e98dbeb7fc17",
       "name": "comp/color/card/elevated/color/border/success/pressed",
       "resolvedType": "COLOR",
@@ -2291,6 +2499,7 @@
       }
     },
     {
+      "id": "VariableID:7aefddebf9bdac443c1260c5eb46a05d36040988/25005:22211",
       "key": "7aefddebf9bdac443c1260c5eb46a05d36040988",
       "name": "comp/color/card/elevated/color/border/info/hovered",
       "resolvedType": "COLOR",
@@ -2302,6 +2511,7 @@
       }
     },
     {
+      "id": "VariableID:ef80c944a9ff24c3c51dea664c7d7acfd752fcea/25005:22212",
       "key": "ef80c944a9ff24c3c51dea664c7d7acfd752fcea",
       "name": "comp/color/card/elevated/color/border/info/dragged",
       "resolvedType": "COLOR",
@@ -2313,6 +2523,7 @@
       }
     },
     {
+      "id": "VariableID:347e348ccbf0ec0b0298a4ea692d024461ad31bf/25005:19291",
       "key": "347e348ccbf0ec0b0298a4ea692d024461ad31bf",
       "name": "comp/color/card/elevated/color/border/light/hovered",
       "resolvedType": "COLOR",
@@ -2324,6 +2535,7 @@
       }
     },
     {
+      "id": "VariableID:72748908310ad5dd02199be2e89efed4680da5f1/23106:7868",
       "key": "72748908310ad5dd02199be2e89efed4680da5f1",
       "name": "comp/color/card/elevated/color/border/light/focused",
       "resolvedType": "COLOR",
@@ -2335,6 +2547,7 @@
       }
     },
     {
+      "id": "VariableID:1262f9af9cc86cb66d6c12d40dbb188721e896f2/25005:20629",
       "key": "1262f9af9cc86cb66d6c12d40dbb188721e896f2",
       "name": "comp/color/card/elevated/color/border/primary/pressed",
       "resolvedType": "COLOR",
@@ -2346,6 +2559,7 @@
       }
     },
     {
+      "id": "VariableID:6647a0def9b156f5fd8a20bc3d29aa35b5adf94d/25005:22203",
       "key": "6647a0def9b156f5fd8a20bc3d29aa35b5adf94d",
       "name": "comp/color/card/filled/color/border/info/focused",
       "resolvedType": "COLOR",
@@ -2357,6 +2571,7 @@
       }
     },
     {
+      "id": "VariableID:670620e33553932a537a784d4679df0eb8353461/25005:20946",
       "key": "670620e33553932a537a784d4679df0eb8353461",
       "name": "comp/color/card/elevated/color/bg/secondary/pressed",
       "resolvedType": "COLOR",
@@ -2368,6 +2583,7 @@
       }
     },
     {
+      "id": "VariableID:7e7c35f82d91c6c0715734820e28ad01a5cf4ec3/25005:19453",
       "key": "7e7c35f82d91c6c0715734820e28ad01a5cf4ec3",
       "name": "comp/color/card/filled/color/border/light/disabled",
       "resolvedType": "COLOR",
@@ -2379,6 +2595,7 @@
       }
     },
     {
+      "id": "VariableID:7893a6d6e0781c6062e6e55d89863cdb1b1d39ce/25005:20163",
       "key": "7893a6d6e0781c6062e6e55d89863cdb1b1d39ce",
       "name": "comp/color/card/filled/color/border/dark/hovered",
       "resolvedType": "COLOR",
@@ -2390,6 +2607,7 @@
       }
     },
     {
+      "id": "VariableID:05719792f794b180d544152bf2ff4d1637285d59/25005:20117",
       "key": "05719792f794b180d544152bf2ff4d1637285d59",
       "name": "comp/color/card/elevated/color/border/surface/dragged",
       "resolvedType": "COLOR",
@@ -2401,6 +2619,7 @@
       }
     },
     {
+      "id": "VariableID:b3191919cb06ddc1f2a021a1d23c32d678f9fc4b/23106:5555",
       "key": "b3191919cb06ddc1f2a021a1d23c32d678f9fc4b",
       "name": "comp/color/card/outlined/color/bg/light/default",
       "resolvedType": "COLOR",
@@ -2412,6 +2631,7 @@
       }
     },
     {
+      "id": "VariableID:9100eb81c5d610a7e7a5ffcb19103e0da5366b87/23106:7853",
       "key": "9100eb81c5d610a7e7a5ffcb19103e0da5366b87",
       "name": "comp/color/card/outlined/color/border/secondary/focused",
       "resolvedType": "COLOR",
@@ -2423,6 +2643,7 @@
       }
     },
     {
+      "id": "VariableID:de0b55de88aefb931ffb2e80bcb28e24b32aa3a3/25005:21969",
       "key": "de0b55de88aefb931ffb2e80bcb28e24b32aa3a3",
       "name": "comp/color/card/elevated/color/border/warning/dragged",
       "resolvedType": "COLOR",
@@ -2434,6 +2655,7 @@
       }
     },
     {
+      "id": "VariableID:00bceff7301cf274c741a99641b8fb2ee720d172/25005:21328",
       "key": "00bceff7301cf274c741a99641b8fb2ee720d172",
       "name": "comp/color/card/filled/color/border/error/focused",
       "resolvedType": "COLOR",
@@ -2445,6 +2667,7 @@
       }
     },
     {
+      "id": "VariableID:5c9cae9292b5ac7ffc5b247f3089cf2736f784a0/25005:20627",
       "key": "5c9cae9292b5ac7ffc5b247f3089cf2736f784a0",
       "name": "comp/color/card/outlined/color/border/primary/dragged",
       "resolvedType": "COLOR",
@@ -2456,6 +2679,7 @@
       }
     },
     {
+      "id": "VariableID:6ce34ff211a132c9a2905106da16f1775a334675/25005:20465",
       "key": "6ce34ff211a132c9a2905106da16f1775a334675",
       "name": "comp/color/card/filled/color/border/primary/dragged",
       "resolvedType": "COLOR",
@@ -2467,6 +2691,7 @@
       }
     },
     {
+      "id": "VariableID:6f0fef9bd8ccf155ad2545e90258158a628ad613/23106:5351",
       "key": "6f0fef9bd8ccf155ad2545e90258158a628ad613",
       "name": "comp/color/card/outlined/color/bg/secondary/pressed",
       "resolvedType": "COLOR",
@@ -2478,6 +2703,7 @@
       }
     },
     {
+      "id": "VariableID:7aacd9e1e38edfd278542ebdb2327e28afff57fc/23106:7865",
       "key": "7aacd9e1e38edfd278542ebdb2327e28afff57fc",
       "name": "comp/color/card/elevated/color/border/info/focused",
       "resolvedType": "COLOR",
@@ -2489,6 +2715,7 @@
       }
     },
     {
+      "id": "VariableID:33c44b8bbcd26cdb6bbcda48fa7e4052399614d2/23106:6346",
       "key": "33c44b8bbcd26cdb6bbcda48fa7e4052399614d2",
       "name": "comp/color/card/filled/color/bg/light/default",
       "resolvedType": "COLOR",
@@ -2500,6 +2727,7 @@
       }
     },
     {
+      "id": "VariableID:203e8d3020a06a982f41a24beb6e54b93b5f98a8/25005:20832",
       "key": "203e8d3020a06a982f41a24beb6e54b93b5f98a8",
       "name": "comp/color/card/filled/color/bg/secondary/focused",
       "resolvedType": "COLOR",
@@ -2511,6 +2739,7 @@
       }
     },
     {
+      "id": "VariableID:0967c09bd58e9d76c35f979a19e49e538c241b48/23106:5321",
       "key": "0967c09bd58e9d76c35f979a19e49e538c241b48",
       "name": "comp/color/card/outlined/color/bg/dark/hovered",
       "resolvedType": "COLOR",
@@ -2522,6 +2751,7 @@
       }
     },
     {
+      "id": "VariableID:574405afe6edc037f7ace12f676685c10db7c9c2/25005:20655",
       "key": "574405afe6edc037f7ace12f676685c10db7c9c2",
       "name": "comp/color/card/elevated/color/bg/primary/pressed",
       "resolvedType": "COLOR",
@@ -2533,6 +2763,7 @@
       }
     },
     {
+      "id": "VariableID:3c2ad580aa9ac970f1ef36d2154d87df7809da9e/25005:19292",
       "key": "3c2ad580aa9ac970f1ef36d2154d87df7809da9e",
       "name": "comp/color/card/elevated/color/border/light/pressed",
       "resolvedType": "COLOR",
@@ -2544,6 +2775,7 @@
       }
     },
     {
+      "id": "VariableID:52b7177eb6e512a7d1e7c2eee1a61c9d11048c1a/25005:20626",
       "key": "52b7177eb6e512a7d1e7c2eee1a61c9d11048c1a",
       "name": "comp/color/card/outlined/color/border/primary/hovered",
       "resolvedType": "COLOR",
@@ -2555,6 +2787,7 @@
       }
     },
     {
+      "id": "VariableID:78ae054c38b4e1342876abd1b7d6e1b23f621587/25005:19451",
       "key": "78ae054c38b4e1342876abd1b7d6e1b23f621587",
       "name": "comp/color/card/filled/color/border/secondary/disabled",
       "resolvedType": "COLOR",
@@ -2566,6 +2799,7 @@
       }
     },
     {
+      "id": "VariableID:90bdf06a5d015b143921f925976c6a7f92c5aea8/25005:20460",
       "key": "90bdf06a5d015b143921f925976c6a7f92c5aea8",
       "name": "comp/color/card/elevated/color/border/primary/default",
       "resolvedType": "COLOR",
@@ -2577,6 +2811,7 @@
       }
     },
     {
+      "id": "VariableID:a8320b51a3c6ff33e8075e68a923a381b3503d72/23106:6349",
       "key": "a8320b51a3c6ff33e8075e68a923a381b3503d72",
       "name": "comp/color/card/elevated/color/bg/light/focused",
       "resolvedType": "COLOR",
@@ -2588,6 +2823,7 @@
       }
     },
     {
+      "id": "VariableID:f43ef47c1c815ace461a159b1113f61f43520258/25005:21090",
       "key": "f43ef47c1c815ace461a159b1113f61f43520258",
       "name": "comp/color/card/elevated/color/border/brand/default",
       "resolvedType": "COLOR",
@@ -2599,6 +2835,7 @@
       }
     },
     {
+      "id": "VariableID:3984ba167db05bc099f7bd342d50ee5d1f187fed/25005:21095",
       "key": "3984ba167db05bc099f7bd342d50ee5d1f187fed",
       "name": "comp/color/card/filled/color/border/brand/hovered",
       "resolvedType": "COLOR",
@@ -2610,6 +2847,7 @@
       }
     },
     {
+      "id": "VariableID:1f2d12a08783cb47f1a9a351d6bc5d3be609a2a3/25005:22228",
       "key": "1f2d12a08783cb47f1a9a351d6bc5d3be609a2a3",
       "name": "comp/color/card/elevated/color/bg/info/focused",
       "resolvedType": "COLOR",
@@ -2621,6 +2859,7 @@
       }
     },
     {
+      "id": "VariableID:2e0fc9ec6e05963900a1ef7705ec3ac869d70ee7/25005:19267",
       "key": "2e0fc9ec6e05963900a1ef7705ec3ac869d70ee7",
       "name": "comp/color/card/filled/color/border/light/hovered",
       "resolvedType": "COLOR",
@@ -2632,6 +2871,7 @@
       }
     },
     {
+      "id": "VariableID:8c43843a2d2ea658f7d06940aad3b2fe6fa9ea6e/25005:21173",
       "key": "8c43843a2d2ea658f7d06940aad3b2fe6fa9ea6e",
       "name": "comp/color/card/outlined/color/border/brand/hovered",
       "resolvedType": "COLOR",
@@ -2643,6 +2883,7 @@
       }
     },
     {
+      "id": "VariableID:b3191f2834c8909e017790310768fbdfea1c139a/25005:20803",
       "key": "b3191f2834c8909e017790310768fbdfea1c139a",
       "name": "comp/color/card/elevated/color/border/secondary/hovered",
       "resolvedType": "COLOR",
@@ -2654,6 +2895,7 @@
       }
     },
     {
+      "id": "VariableID:3c52a23e9af380bb3df3ac9cbbe1ab4b5f7952fc/25005:21088",
       "key": "3c52a23e9af380bb3df3ac9cbbe1ab4b5f7952fc",
       "name": "comp/color/card/filled/color/border/brand/default",
       "resolvedType": "COLOR",
@@ -2665,6 +2907,7 @@
       }
     },
     {
+      "id": "VariableID:a1f59fcc8b5993f83bae22999886d4784512ab26/25005:19272",
       "key": "a1f59fcc8b5993f83bae22999886d4784512ab26",
       "name": "comp/color/card/outlined/color/border/secondary/disabled",
       "resolvedType": "COLOR",
@@ -2676,6 +2919,7 @@
       }
     },
     {
+      "id": "VariableID:bee9e7ea9b4fba5be09a865659537bd37c0081ec/25005:20794",
       "key": "bee9e7ea9b4fba5be09a865659537bd37c0081ec",
       "name": "comp/color/card/filled/color/border/secondary/default",
       "resolvedType": "COLOR",
@@ -2687,6 +2931,7 @@
       }
     },
     {
+      "id": "VariableID:3f36dadc21123b313b55b6b458607988546fa659/23106:6350",
       "key": "3f36dadc21123b313b55b6b458607988546fa659",
       "name": "comp/color/card/elevated/color/bg/light/dragged",
       "resolvedType": "COLOR",
@@ -2698,6 +2943,7 @@
       }
     },
     {
+      "id": "VariableID:80963cb173c6b2de7d608f9f560dae5009f11036/25005:20113",
       "key": "80963cb173c6b2de7d608f9f560dae5009f11036",
       "name": "comp/color/card/outlined/color/border/surface/focused",
       "resolvedType": "COLOR",
@@ -2709,6 +2955,7 @@
       }
     },
     {
+      "id": "VariableID:570d29e2f1bc25c3725d1e78d1af8ea79270d02c/23106:5340",
       "key": "570d29e2f1bc25c3725d1e78d1af8ea79270d02c",
       "name": "comp/color/card/outlined/color/bg/error/pressed",
       "resolvedType": "COLOR",
@@ -2720,6 +2967,7 @@
       }
     },
     {
+      "id": "VariableID:e16f3314298c755fcdb4fbc00f60114f562cd985/23106:5552",
       "key": "e16f3314298c755fcdb4fbc00f60114f562cd985",
       "name": "comp/color/card/outlined/color/bg/warning/default",
       "resolvedType": "COLOR",
@@ -2731,6 +2979,7 @@
       }
     },
     {
+      "id": "VariableID:f205a33e94c1340b3aa9a56da35f5286f1dfb377/25005:21687",
       "key": "f205a33e94c1340b3aa9a56da35f5286f1dfb377",
       "name": "comp/color/card/filled/color/border/success/dragged",
       "resolvedType": "COLOR",
@@ -2742,6 +2991,7 @@
       }
     },
     {
+      "id": "VariableID:88a2318b37cf044588428971146bb1519aca84cb/25005:19276",
       "key": "88a2318b37cf044588428971146bb1519aca84cb",
       "name": "comp/color/card/outlined/color/border/light/hovered",
       "resolvedType": "COLOR",
@@ -2753,6 +3003,7 @@
       }
     },
     {
+      "id": "VariableID:4dd777468c0b458b9d70bd07dce9a45bff8e50f5/23106:5609",
       "key": "4dd777468c0b458b9d70bd07dce9a45bff8e50f5",
       "name": "comp/color/card/outlined/color/bg/dark/default",
       "resolvedType": "COLOR",
@@ -2764,6 +3015,7 @@
       }
     },
     {
+      "id": "VariableID:eb044490f714a44ea10b1aa0d7c634525960e709/25005:21998",
       "key": "eb044490f714a44ea10b1aa0d7c634525960e709",
       "name": "comp/color/card/elevated/color/bg/warning/default",
       "resolvedType": "COLOR",
@@ -2775,6 +3027,7 @@
       }
     },
     {
+      "id": "VariableID:adbe2dfc4c2e3304814b7d6256b5ea3ae24d45be/25005:19076",
       "key": "adbe2dfc4c2e3304814b7d6256b5ea3ae24d45be",
       "name": "comp/color/card/outlined/color/bg/info/dragged",
       "resolvedType": "COLOR",
@@ -2786,6 +3039,7 @@
       }
     },
     {
+      "id": "VariableID:ff62c40e18f30ba7402db0f2f8078789e6e4b762/23106:5550",
       "key": "ff62c40e18f30ba7402db0f2f8078789e6e4b762",
       "name": "comp/color/card/outlined/color/bg/brand/disabled",
       "resolvedType": "COLOR",
@@ -2797,6 +3051,7 @@
       }
     },
     {
+      "id": "VariableID:132b390f307f51b7188fe24b4c713270867ca8ea/23106:7864",
       "key": "132b390f307f51b7188fe24b4c713270867ca8ea",
       "name": "comp/color/card/elevated/color/border/success/focused",
       "resolvedType": "COLOR",
@@ -2808,6 +3063,7 @@
       }
     },
     {
+      "id": "VariableID:e2f9e68e7754c744b4d1388d7ab1073b3dd3711b/25005:20836",
       "key": "e2f9e68e7754c744b4d1388d7ab1073b3dd3711b",
       "name": "comp/color/card/elevated/color/bg/secondary/focused",
       "resolvedType": "COLOR",
@@ -2819,6 +3075,7 @@
       }
     },
     {
+      "id": "VariableID:d70e13162cb7a0516043db0e414a3cc978e5cab4/25005:20187",
       "key": "d70e13162cb7a0516043db0e414a3cc978e5cab4",
       "name": "comp/color/card/filled/color/bg/dark/pressed",
       "resolvedType": "COLOR",
@@ -2830,6 +3087,7 @@
       }
     },
     {
+      "id": "VariableID:393dcf4da2a5be99191b843e556cced855eb71e1/25005:21961",
       "key": "393dcf4da2a5be99191b843e556cced855eb71e1",
       "name": "comp/color/card/elevated/color/border/warning/default",
       "resolvedType": "COLOR",
@@ -2841,6 +3099,7 @@
       }
     },
     {
+      "id": "VariableID:1155df4b8a38757cff0ef852342097114c1cc531/25005:21689",
       "key": "1155df4b8a38757cff0ef852342097114c1cc531",
       "name": "comp/color/card/elevated/color/border/success/dragged",
       "resolvedType": "COLOR",
@@ -2852,6 +3111,7 @@
       }
     },
     {
+      "id": "VariableID:dd0ddb78955f164b907de0e107b398b5afeec4c8/23106:8719",
       "key": "dd0ddb78955f164b907de0e107b398b5afeec4c8",
       "name": "comp/color/card/outlined/color/border/light/default",
       "resolvedType": "COLOR",
@@ -2863,6 +3123,7 @@
       }
     },
     {
+      "id": "VariableID:328b3e9307340209a7e2e83059ff322d72eead62/25005:19458",
       "key": "328b3e9307340209a7e2e83059ff322d72eead62",
       "name": "comp/color/card/elevated/color/border/brand/disabled",
       "resolvedType": "COLOR",
@@ -2874,6 +3135,7 @@
       }
     },
     {
+      "id": "VariableID:6026f7523762e8780633c9b15256ad6cd352bbf8/25005:20654",
       "key": "6026f7523762e8780633c9b15256ad6cd352bbf8",
       "name": "comp/color/card/outlined/color/border/primary/pressed",
       "resolvedType": "COLOR",
@@ -2885,6 +3147,7 @@
       }
     },
     {
+      "id": "VariableID:ef7037cfca7ca0cc53e35dbdaee5414a6451b305/25005:19363",
       "key": "ef7037cfca7ca0cc53e35dbdaee5414a6451b305",
       "name": "comp/color/card/elevated/color/border/light/default",
       "resolvedType": "COLOR",
@@ -2896,6 +3159,7 @@
       }
     },
     {
+      "id": "VariableID:a4f5f1af048e7a33042afb8ad532e63b394447f6/25005:19186",
       "key": "a4f5f1af048e7a33042afb8ad532e63b394447f6",
       "name": "comp/color/card/elevated/color/bg/light/hovered",
       "resolvedType": "COLOR",
@@ -2907,6 +3171,7 @@
       }
     },
     {
+      "id": "VariableID:915481d381aaf75d2abb9bc1fa0da63d414c0a27/25005:20189",
       "key": "915481d381aaf75d2abb9bc1fa0da63d414c0a27",
       "name": "comp/color/card/filled/color/border/dark/focused",
       "resolvedType": "COLOR",
@@ -2918,6 +3183,7 @@
       }
     },
     {
+      "id": "VariableID:1cf6a152d752f129ad6d23b14711ae5965da782a/25005:22064",
       "key": "1cf6a152d752f129ad6d23b14711ae5965da782a",
       "name": "comp/color/card/elevated/color/bg/warning/pressed",
       "resolvedType": "COLOR",
@@ -2929,6 +3195,7 @@
       }
     },
     {
+      "id": "VariableID:7c56f258527ae07e540031b8c65a18499eb3823f/25005:21171",
       "key": "7c56f258527ae07e540031b8c65a18499eb3823f",
       "name": "comp/color/card/filled/color/bg/brand/hovered",
       "resolvedType": "COLOR",
@@ -2940,6 +3207,7 @@
       }
     },
     {
+      "id": "VariableID:eb946e3713aa53b24df3d240972d288704ee7d26/25005:20910",
       "key": "eb946e3713aa53b24df3d240972d288704ee7d26",
       "name": "comp/color/card/outlined/color/border/secondary/hovered",
       "resolvedType": "COLOR",
@@ -2951,6 +3219,7 @@
       }
     },
     {
+      "id": "VariableID:c03bbc6b840e3fb2354bfaf6fd27437a08a7b9d2/25005:20222",
       "key": "c03bbc6b840e3fb2354bfaf6fd27437a08a7b9d2",
       "name": "comp/color/card/filled/color/bg/dark/dragged",
       "resolvedType": "COLOR",
@@ -2962,6 +3231,7 @@
       }
     },
     {
+      "id": "VariableID:c55e7cadbfc4e85257fde1919bdd52c0ea6e5877/23106:5553",
       "key": "c55e7cadbfc4e85257fde1919bdd52c0ea6e5877",
       "name": "comp/color/card/outlined/color/bg/info/default",
       "resolvedType": "COLOR",
@@ -2973,6 +3243,7 @@
       }
     },
     {
+      "id": "VariableID:bb9e63cb392a8e7ea6e22ddbfd544482c4fe3775/25005:22246",
       "key": "bb9e63cb392a8e7ea6e22ddbfd544482c4fe3775",
       "name": "comp/color/card/elevated/color/border/info/pressed",
       "resolvedType": "COLOR",
@@ -2984,6 +3255,7 @@
       }
     },
     {
+      "id": "VariableID:8732dcc4a45768053b87882b757366617934f200/23106:5316",
       "key": "8732dcc4a45768053b87882b757366617934f200",
       "name": "comp/color/card/outlined/color/bg/warning/hovered",
       "resolvedType": "COLOR",
@@ -2995,6 +3267,7 @@
       }
     },
     {
+      "id": "VariableID:1358dece3a17e80e5882fcc53cede92714678107/25005:21686",
       "key": "1358dece3a17e80e5882fcc53cede92714678107",
       "name": "comp/color/card/filled/color/border/success/hovered",
       "resolvedType": "COLOR",
@@ -3006,6 +3279,7 @@
       }
     },
     {
+      "id": "VariableID:2b2a3bb169016a32125418d2a1027f32348243c9/25005:19361",
       "key": "2b2a3bb169016a32125418d2a1027f32348243c9",
       "name": "comp/color/card/outlined/color/border/light/pressed",
       "resolvedType": "COLOR",
@@ -3017,6 +3291,7 @@
       }
     },
     {
+      "id": "VariableID:e7013e5f0e4b9bb23770ec8e9b24cac11e3e216c/23106:8783",
       "key": "e7013e5f0e4b9bb23770ec8e9b24cac11e3e216c",
       "name": "comp/color/card/focused-outline/color/light/focused",
       "resolvedType": "COLOR",
@@ -3028,6 +3303,7 @@
       }
     },
     {
+      "id": "VariableID:94b04ef34ae0c927697e2ca6dac2f56b283e9684/25005:22243",
       "key": "94b04ef34ae0c927697e2ca6dac2f56b283e9684",
       "name": "comp/color/card/outlined/color/border/info/hovered",
       "resolvedType": "COLOR",
@@ -3039,6 +3315,7 @@
       }
     },
     {
+      "id": "VariableID:07b7961a411d905b05997ffcbda2bd85b36825e0/23106:5344",
       "key": "07b7961a411d905b05997ffcbda2bd85b36825e0",
       "name": "comp/color/card/outlined/color/bg/surface/pressed",
       "resolvedType": "COLOR",
@@ -3050,6 +3327,7 @@
       }
     },
     {
+      "id": "VariableID:99f73786283214dedfbe0e84f5d0e6b75406b239/25005:21128",
       "key": "99f73786283214dedfbe0e84f5d0e6b75406b239",
       "name": "comp/color/card/elevated/color/bg/brand/default",
       "resolvedType": "COLOR",
@@ -3061,6 +3339,7 @@
       }
     },
     {
+      "id": "VariableID:d6c248cff51612f509e974aa2b08441c02a94a7d/25005:21679",
       "key": "d6c248cff51612f509e974aa2b08441c02a94a7d",
       "name": "comp/color/card/filled/color/border/success/default",
       "resolvedType": "COLOR",
@@ -3072,6 +3351,7 @@
       }
     },
     {
+      "id": "VariableID:25225b7125cf65a5b2277d87b30ccec800405d56/25005:21098",
       "key": "25225b7125cf65a5b2277d87b30ccec800405d56",
       "name": "comp/color/card/elevated/color/border/brand/dragged",
       "resolvedType": "COLOR",
@@ -3083,6 +3363,7 @@
       }
     },
     {
+      "id": "VariableID:63ffd819b8ac38eb58082bd253cef73d0555f149/25005:19648",
       "key": "63ffd819b8ac38eb58082bd253cef73d0555f149",
       "name": "comp/color/card/elevated/color/border/surface/pressed",
       "resolvedType": "COLOR",
@@ -3094,6 +3375,7 @@
       }
     },
     {
+      "id": "VariableID:12b55a412f04db8b9c9e23ed05f1a69a09e883d4/25005:19455",
       "key": "12b55a412f04db8b9c9e23ed05f1a69a09e883d4",
       "name": "comp/color/card/elevated/color/border/surface/disabled",
       "resolvedType": "COLOR",
@@ -3105,6 +3387,7 @@
       }
     },
     {
+      "id": "VariableID:84f6569f8f02cf09594c7e3511ee36eacb2ec756/25005:21542",
       "key": "84f6569f8f02cf09594c7e3511ee36eacb2ec756",
       "name": "comp/color/card/elevated/color/bg/error/pressed",
       "resolvedType": "COLOR",
@@ -3116,6 +3399,7 @@
       }
     },
     {
+      "id": "VariableID:ca0eb66486bf5833af966a4a442f633eb9ea55e1/25005:22251",
       "key": "ca0eb66486bf5833af966a4a442f633eb9ea55e1",
       "name": "comp/color/card/outlined/color/border/info/pressed",
       "resolvedType": "COLOR",
@@ -3127,6 +3411,7 @@
       }
     },
     {
+      "id": "VariableID:2310df0500f124bba55dfc0e3dd6f930fd5e827b/25005:21097",
       "key": "2310df0500f124bba55dfc0e3dd6f930fd5e827b",
       "name": "comp/color/card/elevated/color/border/brand/hovered",
       "resolvedType": "COLOR",
@@ -3138,6 +3423,7 @@
       }
     },
     {
+      "id": "VariableID:a62512d4b06ab115bdf63efbf0312318251816a6/25005:21127",
       "key": "a62512d4b06ab115bdf63efbf0312318251816a6",
       "name": "comp/color/card/outlined/color/border/brand/default",
       "resolvedType": "COLOR",
@@ -3149,6 +3435,7 @@
       }
     },
     {
+      "id": "VariableID:8e65e43b92efb62d0c9d9f08d569adae80ef6fb3/25005:21508",
       "key": "8e65e43b92efb62d0c9d9f08d569adae80ef6fb3",
       "name": "comp/color/card/elevated/color/border/error/pressed",
       "resolvedType": "COLOR",
@@ -3160,6 +3447,7 @@
       }
     },
     {
+      "id": "VariableID:5ed5441cae5edb8450b71c33cc1217dffcf5dab9/25005:21327",
       "key": "5ed5441cae5edb8450b71c33cc1217dffcf5dab9",
       "name": "comp/color/card/filled/color/border/error/default",
       "resolvedType": "COLOR",
@@ -3171,6 +3459,7 @@
       }
     },
     {
+      "id": "VariableID:872958b4998f1c27f18f815ff5f51b5c86b581dd/25005:20801",
       "key": "872958b4998f1c27f18f815ff5f51b5c86b581dd",
       "name": "comp/color/card/filled/color/border/secondary/hovered",
       "resolvedType": "COLOR",
@@ -3182,6 +3471,7 @@
       }
     },
     {
+      "id": "VariableID:9fa113466bb8118dff187e89fbf8b715013b76e9/25005:19289",
       "key": "9fa113466bb8118dff187e89fbf8b715013b76e9",
       "name": "comp/color/card/elevated/color/bg/dark/disabled",
       "resolvedType": "COLOR",
@@ -3193,6 +3483,7 @@
       }
     },
     {
+      "id": "VariableID:26bdfa78283ec901bbed70106f8538a001dbb37a/23106:5337",
       "key": "26bdfa78283ec901bbed70106f8538a001dbb37a",
       "name": "comp/color/card/outlined/color/bg/success/hovered",
       "resolvedType": "COLOR",
@@ -3204,6 +3495,7 @@
       }
     },
     {
+      "id": "VariableID:0b1403754872e0917a8c72a9a4f132f52abe7cdd/25005:20464",
       "key": "0b1403754872e0917a8c72a9a4f132f52abe7cdd",
       "name": "comp/color/card/filled/color/border/primary/hovered",
       "resolvedType": "COLOR",
@@ -3215,6 +3507,7 @@
       }
     },
     {
+      "id": "VariableID:940cae5ecf2134f80727323ab018e9f45fb79e6f/25005:19075",
       "key": "940cae5ecf2134f80727323ab018e9f45fb79e6f",
       "name": "comp/color/card/outlined/color/bg/success/dragged",
       "resolvedType": "COLOR",
@@ -3226,6 +3519,7 @@
       }
     },
     {
+      "id": "VariableID:5a6c02f661351ec909a011403233661aa634e79d/25005:21719",
       "key": "5a6c02f661351ec909a011403233661aa634e79d",
       "name": "comp/color/card/elevated/color/bg/success/focused",
       "resolvedType": "COLOR",
@@ -3237,6 +3531,7 @@
       }
     },
     {
+      "id": "VariableID:3168b804624501e2c3c7c5e79c6e62b08c06820f/23106:7851",
       "key": "3168b804624501e2c3c7c5e79c6e62b08c06820f",
       "name": "comp/color/card/outlined/color/border/brand/focused",
       "resolvedType": "COLOR",
@@ -3248,6 +3543,7 @@
       }
     },
     {
+      "id": "VariableID:c20eee3bb6ff47d5ab0661203f19593b935b5b70/25005:21791",
       "key": "c20eee3bb6ff47d5ab0661203f19593b935b5b70",
       "name": "comp/color/card/filled/color/border/success/pressed",
       "resolvedType": "COLOR",
@@ -3259,6 +3555,7 @@
       }
     },
     {
+      "id": "VariableID:88bdf18a583bf0d660a9e21406f2fa4ce6163ce5/25005:20945",
       "key": "88bdf18a583bf0d660a9e21406f2fa4ce6163ce5",
       "name": "comp/color/card/outlined/color/border/secondary/pressed",
       "resolvedType": "COLOR",
@@ -3270,6 +3567,7 @@
       }
     },
     {
+      "id": "VariableID:c15072538e60d255cf354e454cb74d242bd40b65/25005:22244",
       "key": "c15072538e60d255cf354e454cb74d242bd40b65",
       "name": "comp/color/card/outlined/color/border/info/dragged",
       "resolvedType": "COLOR",
@@ -3281,6 +3579,7 @@
       }
     },
     {
+      "id": "VariableID:36e98c4a5a9a9f1a9b483931ac564a4782e47999/23106:5318",
       "key": "36e98c4a5a9a9f1a9b483931ac564a4782e47999",
       "name": "comp/color/card/outlined/color/bg/info/hovered",
       "resolvedType": "COLOR",
@@ -3292,6 +3591,7 @@
       }
     },
     {
+      "id": "VariableID:cc2534b75fc99b78d3412b49133d392bd5b335f4/25005:21720",
       "key": "cc2534b75fc99b78d3412b49133d392bd5b335f4",
       "name": "comp/color/card/elevated/color/bg/success/dragged",
       "resolvedType": "COLOR",
@@ -3303,6 +3603,7 @@
       }
     },
     {
+      "id": "VariableID:e22a2a70d93165816e58e3ad671198e35078cd66/25005:20909",
       "key": "e22a2a70d93165816e58e3ad671198e35078cd66",
       "name": "comp/color/card/filled/color/border/secondary/pressed",
       "resolvedType": "COLOR",
@@ -3314,6 +3615,7 @@
       }
     },
     {
+      "id": "VariableID:6e77b6710f1b69905b6c387747a7de397d764ecd/25005:21996",
       "key": "6e77b6710f1b69905b6c387747a7de397d764ecd",
       "name": "comp/color/card/filled/color/bg/warning/dragged",
       "resolvedType": "COLOR",
@@ -3325,6 +3627,7 @@
       }
     },
     {
+      "id": "VariableID:92715afaa37a774abb1778a41d3af1c87be89d2e/25005:22209",
       "key": "92715afaa37a774abb1778a41d3af1c87be89d2e",
       "name": "comp/color/card/filled/color/border/info/hovered",
       "resolvedType": "COLOR",
@@ -3336,6 +3639,7 @@
       }
     },
     {
+      "id": "VariableID:3cb3e3eeae4891d1ed7f472497cabe5e149e4ff1/23106:5520",
       "key": "3cb3e3eeae4891d1ed7f472497cabe5e149e4ff1",
       "name": "comp/color/card/outlined/color/bg/error/default",
       "resolvedType": "COLOR",
@@ -3347,6 +3651,7 @@
       }
     },
     {
+      "id": "VariableID:e7740f745c21e1c41d8eaa44f29f535d3ed4098a/25005:21967",
       "key": "e7740f745c21e1c41d8eaa44f29f535d3ed4098a",
       "name": "comp/color/card/filled/color/border/warning/dragged",
       "resolvedType": "COLOR",
@@ -3358,6 +3663,7 @@
       }
     },
     {
+      "id": "VariableID:54d05c31d5caa49cd570df61f51616252dd995bc/23106:5322",
       "key": "54d05c31d5caa49cd570df61f51616252dd995bc",
       "name": "comp/color/card/outlined/color/bg/info/focused",
       "resolvedType": "COLOR",
@@ -3369,6 +3675,7 @@
       }
     },
     {
+      "id": "VariableID:1e57da23dfcb6b23577503f26faf7bc3562a2d79/25005:22229",
       "key": "1e57da23dfcb6b23577503f26faf7bc3562a2d79",
       "name": "comp/color/card/elevated/color/bg/info/dragged",
       "resolvedType": "COLOR",
@@ -3380,6 +3687,7 @@
       }
     },
     {
+      "id": "VariableID:8ed7aa73850ea088a4e042d6fcc14d87a4c2bcb9/23106:5491",
       "key": "8ed7aa73850ea088a4e042d6fcc14d87a4c2bcb9",
       "name": "comp/color/card/outlined/color/bg/light/disabled",
       "resolvedType": "COLOR",
@@ -3391,6 +3699,7 @@
       }
     },
     {
+      "id": "VariableID:f6ee43649e46cee1da584401a16c2c9d89ba20af/25005:14694",
       "key": "f6ee43649e46cee1da584401a16c2c9d89ba20af",
       "name": "comp/color/card/filled/color/bg/error/dragged",
       "resolvedType": "COLOR",
@@ -3402,6 +3711,7 @@
       }
     },
     {
+      "id": "VariableID:50c32184004fc739413e14cf8e1ca9ddc08437dd/25005:21125",
       "key": "50c32184004fc739413e14cf8e1ca9ddc08437dd",
       "name": "comp/color/card/filled/color/bg/brand/focused",
       "resolvedType": "COLOR",
@@ -3413,6 +3723,7 @@
       }
     },
     {
+      "id": "VariableID:e100eec49905f9257d2e06c449a9589cd76e82c7/23106:5341",
       "key": "e100eec49905f9257d2e06c449a9589cd76e82c7",
       "name": "comp/color/card/outlined/color/bg/info/pressed",
       "resolvedType": "COLOR",
@@ -3424,6 +3735,7 @@
       }
     },
     {
+      "id": "VariableID:7ecc57063d0e196e3b33f7cdaafd080d228eaaad/25005:21506",
       "key": "7ecc57063d0e196e3b33f7cdaafd080d228eaaad",
       "name": "comp/color/card/outlined/color/border/error/dragged",
       "resolvedType": "COLOR",
@@ -3435,6 +3747,7 @@
       }
     },
     {
+      "id": "VariableID:55abf7c999250223f50027aab83d7d1747a47d75/25005:20116",
       "key": "55abf7c999250223f50027aab83d7d1747a47d75",
       "name": "comp/color/card/elevated/color/border/surface/hovered",
       "resolvedType": "COLOR",
@@ -3446,6 +3759,7 @@
       }
     },
     {
+      "id": "VariableID:a1b48671306dac95e6fbb68da1305a9c49646354/25005:20220",
       "key": "a1b48671306dac95e6fbb68da1305a9c49646354",
       "name": "comp/color/card/filled/color/bg/dark/hovered",
       "resolvedType": "COLOR",
@@ -3457,6 +3771,7 @@
       }
     },
     {
+      "id": "VariableID:9e4c4a0c8c507f5327ce26ceffedc05a2224165a/25005:22000",
       "key": "9e4c4a0c8c507f5327ce26ceffedc05a2224165a",
       "name": "comp/color/card/elevated/color/bg/warning/dragged",
       "resolvedType": "COLOR",
@@ -3468,6 +3783,7 @@
       }
     },
     {
+      "id": "VariableID:39aac791883e2fd0550d5d3de83f0aac47f0a2d3/25005:19286",
       "key": "39aac791883e2fd0550d5d3de83f0aac47f0a2d3",
       "name": "comp/color/card/elevated/color/bg/brand/disabled",
       "resolvedType": "COLOR",
@@ -3479,6 +3795,7 @@
       }
     },
     {
+      "id": "VariableID:c22d6804db764715a5dbf301d7814c7ab32e242a/25005:20467",
       "key": "c22d6804db764715a5dbf301d7814c7ab32e242a",
       "name": "comp/color/card/elevated/color/border/primary/dragged",
       "resolvedType": "COLOR",
@@ -3490,6 +3807,7 @@
       }
     },
     {
+      "id": "VariableID:6a16e2fd957ca951c26c1cea687abf4a34068e5d/25005:20458",
       "key": "6a16e2fd957ca951c26c1cea687abf4a34068e5d",
       "name": "comp/color/card/filled/color/border/primary/default",
       "resolvedType": "COLOR",
@@ -3501,6 +3819,7 @@
       }
     },
     {
+      "id": "VariableID:52a42721f695f3280b8569539ad10ae188fcbdeb/25005:21176",
       "key": "52a42721f695f3280b8569539ad10ae188fcbdeb",
       "name": "comp/color/card/elevated/color/border/brand/pressed",
       "resolvedType": "COLOR",
@@ -3512,6 +3831,7 @@
       }
     },
     {
+      "id": "VariableID:2fc85b9c764cd275a8b0d70f4348efc427807412/23106:7869",
       "key": "2fc85b9c764cd275a8b0d70f4348efc427807412",
       "name": "comp/color/card/elevated/color/border/secondary/focused",
       "resolvedType": "COLOR",
@@ -3523,6 +3843,7 @@
       }
     },
     {
+      "id": "VariableID:c0a182da767dc294473200e376cc058062b33b98/25005:19647",
       "key": "c0a182da767dc294473200e376cc058062b33b98",
       "name": "comp/color/card/filled/color/border/surface/pressed",
       "resolvedType": "COLOR",
@@ -3534,6 +3855,7 @@
       }
     },
     {
+      "id": "VariableID:3bccb5dc3f8c81251f7cb40d8cdbafcc646665fd/25005:20223",
       "key": "3bccb5dc3f8c81251f7cb40d8cdbafcc646665fd",
       "name": "comp/color/card/outlined/color/border/dark/hovered",
       "resolvedType": "COLOR",
@@ -3545,6 +3867,7 @@
       }
     },
     {
+      "id": "VariableID:6f4a52b3a14160c81f343e673dfdef3d4cb52457/25005:22226",
       "key": "6f4a52b3a14160c81f343e673dfdef3d4cb52457",
       "name": "comp/color/card/outlined/color/border/info/default",
       "resolvedType": "COLOR",
@@ -3556,6 +3879,7 @@
       }
     },
     {
+      "id": "VariableID:e9a88aa8ab87cb3fe5d9a22f3036a68a540fd6b6/25005:20508",
       "key": "e9a88aa8ab87cb3fe5d9a22f3036a68a540fd6b6",
       "name": "comp/color/card/elevated/color/bg/primary/default",
       "resolvedType": "COLOR",
@@ -3567,6 +3891,7 @@
       }
     },
     {
+      "id": "VariableID:2c41058ecc50cdf272c7b0ca4e5eca986c36f7a9/25005:19287",
       "key": "2c41058ecc50cdf272c7b0ca4e5eca986c36f7a9",
       "name": "comp/color/card/elevated/color/bg/light/pressed",
       "resolvedType": "COLOR",
@@ -3578,6 +3903,7 @@
       }
     },
     {
+      "id": "VariableID:39dd0b7e546d447deb1bf6ff0b8cac45f6adb1fd/25005:21174",
       "key": "39dd0b7e546d447deb1bf6ff0b8cac45f6adb1fd",
       "name": "comp/color/card/outlined/color/border/brand/dragged",
       "resolvedType": "COLOR",
@@ -3589,6 +3915,7 @@
       }
     },
     {
+      "id": "VariableID:0c038c01f4be891015d27315de3d97350fed8747/23106:5667",
       "key": "0c038c01f4be891015d27315de3d97350fed8747",
       "name": "comp/color/card/outlined/color/bg/success/default",
       "resolvedType": "COLOR",
@@ -3600,6 +3927,7 @@
       }
     },
     {
+      "id": "VariableID:5b077318cb210463f2e586544036424d5c7c0688/25005:21680",
       "key": "5b077318cb210463f2e586544036424d5c7c0688",
       "name": "comp/color/card/filled/color/border/success/focused",
       "resolvedType": "COLOR",
@@ -3611,6 +3939,7 @@
       }
     },
     {
+      "id": "VariableID:9343de2451612de49d951d36ab0b3bc041dc97bc/25005:21190",
       "key": "9343de2451612de49d951d36ab0b3bc041dc97bc",
       "name": "comp/color/card/outlined/color/border/brand/pressed",
       "resolvedType": "COLOR",
@@ -3622,6 +3951,7 @@
       }
     },
     {
+      "id": "VariableID:8d129891516c6aa0bd4f2405c0514e2e2c6d9625/25005:22051",
       "key": "8d129891516c6aa0bd4f2405c0514e2e2c6d9625",
       "name": "comp/color/card/elevated/color/border/warning/pressed",
       "resolvedType": "COLOR",
@@ -3633,6 +3963,7 @@
       }
     },
     {
+      "id": "VariableID:5e782e6bfa8b327e0bf0c73377b11412cfc44295/25005:22047",
       "key": "5e782e6bfa8b327e0bf0c73377b11412cfc44295",
       "name": "comp/color/card/filled/color/border/warning/pressed",
       "resolvedType": "COLOR",
@@ -3644,6 +3975,7 @@
       }
     },
     {
+      "id": "VariableID:70f0d1726136bacb1f954be2b98287d8ee295fb8/25005:20227",
       "key": "70f0d1726136bacb1f954be2b98287d8ee295fb8",
       "name": "comp/color/card/elevated/color/bg/dark/dragged",
       "resolvedType": "COLOR",
@@ -3655,6 +3987,7 @@
       }
     },
     {
+      "id": "VariableID:ff2e7074b76854d894c9dc8a7b4e8cd2beb22fd7/23106:5324",
       "key": "ff2e7074b76854d894c9dc8a7b4e8cd2beb22fd7",
       "name": "comp/color/card/outlined/color/bg/error/hovered",
       "resolvedType": "COLOR",
@@ -3666,6 +3999,7 @@
       }
     },
     {
+      "id": "VariableID:b3f80ba9afc28353d4eb67144002701ec406ab7d/25005:20254",
       "key": "b3f80ba9afc28353d4eb67144002701ec406ab7d",
       "name": "comp/color/card/filled/color/bg/dark/default",
       "resolvedType": "COLOR",
@@ -3677,6 +4011,7 @@
       }
     },
     {
+      "id": "VariableID:fd191f06a53698b4790b944ae8bf4aa0d1a710eb/23106:5601",
       "key": "fd191f06a53698b4790b944ae8bf4aa0d1a710eb",
       "name": "comp/color/card/outlined/color/bg/primary/disabled",
       "resolvedType": "COLOR",
@@ -3688,6 +4023,7 @@
       }
     },
     {
+      "id": "VariableID:4e50edec478d20c4b08979debd29b8eba34405a2/25005:22210",
       "key": "4e50edec478d20c4b08979debd29b8eba34405a2",
       "name": "comp/color/card/filled/color/border/info/dragged",
       "resolvedType": "COLOR",
@@ -3699,6 +4035,7 @@
       }
     },
     {
+      "id": "VariableID:a75372b2fade2c864847d5d9518bce64fd328215/25005:21820",
       "key": "a75372b2fade2c864847d5d9518bce64fd328215",
       "name": "comp/color/card/outlined/color/border/success/pressed",
       "resolvedType": "COLOR",
@@ -3710,6 +4047,7 @@
       }
     },
     {
+      "id": "VariableID:5c278aab718f2a2803ffe25864799bd093e2c5e2/23106:5333",
       "key": "5c278aab718f2a2803ffe25864799bd093e2c5e2",
       "name": "comp/color/card/outlined/color/bg/light/focused",
       "resolvedType": "COLOR",

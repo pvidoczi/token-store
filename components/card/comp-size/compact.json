@@ -3,6 +3,7 @@
   "collectionName": "comp-size",
   "variables": [
     {
+      "id": "VariableID:cec6c2ff4350efe41c764cb3a9e7bbf8516f74c0/23106:9436",
       "key": "cec6c2ff4350efe41c764cb3a9e7bbf8516f74c0",
       "name": "comp/size/card/container/vertical/size/padding-y",
       "resolvedType": "FLOAT",
@@ -26,6 +27,7 @@
       }
     },
     {
+      "id": "VariableID:2601fbc9a05ca5c5cf0950ddc88c18ee465425a9/23190:22",
       "key": "2601fbc9a05ca5c5cf0950ddc88c18ee465425a9",
       "name": "comp/size/card/container/horizontal/size/border-radius",
       "resolvedType": "FLOAT",
@@ -49,6 +51,7 @@
       }
     },
     {
+      "id": "VariableID:0353fbed706f207fb6fae948689324dca4bd9fd7/23190:20",
       "key": "0353fbed706f207fb6fae948689324dca4bd9fd7",
       "name": "comp/size/card/container/vertical/size/border-radius",
       "resolvedType": "FLOAT",
@@ -72,6 +75,7 @@
       }
     },
     {
+      "id": "VariableID:9ec1436d1f510cdb9dd96348180047f477470d40/23190:14",
       "key": "9ec1436d1f510cdb9dd96348180047f477470d40",
       "name": "comp/size/card/container/vertical/size/gap",
       "resolvedType": "FLOAT",
@@ -95,6 +99,7 @@
       }
     },
     {
+      "id": "VariableID:7aca2044772c0dac51cb0394252f4ee3f7ac88ae/23190:9",
       "key": "7aca2044772c0dac51cb0394252f4ee3f7ac88ae",
       "name": "comp/size/card/slot/size/padding-x",
       "resolvedType": "FLOAT",
@@ -118,6 +123,7 @@
       }
     },
     {
+      "id": "VariableID:ee63e4a482651e9f74dd5e8ece38d2c7046d2b60/23106:9619",
       "key": "ee63e4a482651e9f74dd5e8ece38d2c7046d2b60",
       "name": "comp/size/card/container/horizontal/size/border-width",
       "resolvedType": "FLOAT",
@@ -141,6 +147,7 @@
       }
     },
     {
+      "id": "VariableID:e44fabd3fbe47fa2efb3069b3e566fad527bf801/23190:10",
       "key": "e44fabd3fbe47fa2efb3069b3e566fad527bf801",
       "name": "comp/size/card/slot/size/padding-bottom",
       "resolvedType": "FLOAT",
@@ -164,6 +171,7 @@
       }
     },
     {
+      "id": "VariableID:348873e300e272bca1debb2ebe780206403c84b7/23106:9437",
       "key": "348873e300e272bca1debb2ebe780206403c84b7",
       "name": "comp/size/card/container/horizontal/size/padding-x",
       "resolvedType": "FLOAT",
@@ -187,6 +195,7 @@
       }
     },
     {
+      "id": "VariableID:07440f6eb33dc79f272405d0ececc5621c0a1811/23106:8794",
       "key": "07440f6eb33dc79f272405d0ececc5621c0a1811",
       "name": "comp/size/card/focused-outline/outline",
       "resolvedType": "FLOAT",
@@ -210,6 +219,7 @@
       }
     },
     {
+      "id": "VariableID:63e4cb9d4ad565b4b1dc4403d749b1041249b210/23106:9433",
       "key": "63e4cb9d4ad565b4b1dc4403d749b1041249b210",
       "name": "comp/size/card/container/vertical/size/padding-x",
       "resolvedType": "FLOAT",
@@ -233,6 +243,7 @@
       }
     },
     {
+      "id": "VariableID:9a9fa2198a38f300cb338a7df3f437d52e2c1e58/23106:9435",
       "key": "9a9fa2198a38f300cb338a7df3f437d52e2c1e58",
       "name": "comp/size/card/header/headline/padding-x",
       "resolvedType": "FLOAT",
@@ -256,6 +267,7 @@
       }
     },
     {
+      "id": "VariableID:78bac714bc6d4cf41f8e4d4be98ac066b6ab4b0e/23190:11",
       "key": "78bac714bc6d4cf41f8e4d4be98ac066b6ab4b0e",
       "name": "comp/size/card/slot/size/padding-top",
       "resolvedType": "FLOAT",
@@ -279,6 +291,7 @@
       }
     },
     {
+      "id": "VariableID:5972ada08844540c20652c920202852aa43c9f35/23106:9452",
       "key": "5972ada08844540c20652c920202852aa43c9f35",
       "name": "comp/size/card/container/horizontal/size/padding-y",
       "resolvedType": "FLOAT",
@@ -302,6 +315,7 @@
       }
     },
     {
+      "id": "VariableID:5d339bbdc0f7e7f7bf10c174d0bc7fae3be871bb/23106:9439",
       "key": "5d339bbdc0f7e7f7bf10c174d0bc7fae3be871bb",
       "name": "comp/size/card/header/headline/padding-y",
       "resolvedType": "FLOAT",
@@ -325,6 +339,7 @@
       }
     },
     {
+      "id": "VariableID:5283a1ac1766306e69cd011e3f7c88d108ac645c/23190:18",
       "key": "5283a1ac1766306e69cd011e3f7c88d108ac645c",
       "name": "comp/size/card/container/horizontal/size/gap",
       "resolvedType": "FLOAT",
@@ -348,6 +363,7 @@
       }
     },
     {
+      "id": "VariableID:e867410f7f695719a53a3f80df3c0defcfc1e5db/23106:9443",
       "key": "e867410f7f695719a53a3f80df3c0defcfc1e5db",
       "name": "comp/size/card/slot/size/padding-none",
       "resolvedType": "FLOAT",
@@ -371,6 +387,7 @@
       }
     },
     {
+      "id": "VariableID:a442512c71465f6911cfd3b825cf1e9dac6ad988/23106:9618",
       "key": "a442512c71465f6911cfd3b825cf1e9dac6ad988",
       "name": "comp/size/card/container/vertical/size/border-width",
       "resolvedType": "FLOAT",
@@ -394,6 +411,7 @@
       }
     },
     {
+      "id": "VariableID:a9f78da8c20657ca8eaa43ade4ab379385dcccf7/23106:9570",
       "key": "a9f78da8c20657ca8eaa43ade4ab379385dcccf7",
       "name": "comp/size/card/header/headline/gap",
       "resolvedType": "FLOAT",
