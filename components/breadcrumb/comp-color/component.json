@@ -3,453 +3,494 @@
   "collectionName": "comp-color",
   "variables": [
     {
+      "id": "VariableID:3e617e2c97c69864d3992fea672e48e0efd2e7f1/30040:625",
       "key": "3e617e2c97c69864d3992fea672e48e0efd2e7f1",
       "name": "comp/color/breadcrumb/navigation-link/bg/surface/default",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:4f817fdfbb824ecc73a7dd0bac4c6d90c98da874/22164:5590"
+          "id": "VariableID:e1c01b57a6f2f03782a2a9ad251c080629a4c4fb/17416:6061"
         }
       }
     },
     {
+      "id": "VariableID:34229540389cc0a7decc720a9e601c44a2cf80a8/30040:1240",
       "key": "34229540389cc0a7decc720a9e601c44a2cf80a8",
       "name": "comp/color/breadcrumb/navigation-link/bg/primary/hovered",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:c54d6f8580443393254f5df0b9cf034cd31e7171/22164:5758"
+          "id": "VariableID:d15066ea94781410238d71178b3668c9cdea6afc/17416:6216"
         }
       }
     },
     {
+      "id": "VariableID:9f3892f1dab4378a0330b1ea990b4edcef1d4b9f/30040:1262",
       "key": "9f3892f1dab4378a0330b1ea990b4edcef1d4b9f",
       "name": "comp/color/breadcrumb/navigation-link/fg/light/default",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:2a26789424ec09f94608fd14ddffdcc90d5a4f55/24170:114"
+          "id": "VariableID:78206b285917400a7ce6d88fcc2b659eb31f3cee/18131:85"
         }
       }
     },
     {
+      "id": "VariableID:59fe0c19ef870307cbdc19a39ca5b10c9da1acc7/30040:1239",
       "key": "59fe0c19ef870307cbdc19a39ca5b10c9da1acc7",
       "name": "comp/color/breadcrumb/navigation-link/bg/primary/default",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:4f817fdfbb824ecc73a7dd0bac4c6d90c98da874/22164:5590"
+          "id": "VariableID:e1c01b57a6f2f03782a2a9ad251c080629a4c4fb/17416:6061"
         }
       }
     },
     {
+      "id": "VariableID:fbb2e15479625fa191aa64cb051a87898c8a4708/30040:1251",
       "key": "fbb2e15479625fa191aa64cb051a87898c8a4708",
       "name": "comp/color/breadcrumb/current-page/bg/light/default",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:4f817fdfbb824ecc73a7dd0bac4c6d90c98da874/22164:5590"
+          "id": "VariableID:e1c01b57a6f2f03782a2a9ad251c080629a4c4fb/17416:6061"
         }
       }
     },
     {
+      "id": "VariableID:de9fed911f9e82f102db5951a751456f9d3eadf4/30040:1252",
       "key": "de9fed911f9e82f102db5951a751456f9d3eadf4",
       "name": "comp/color/breadcrumb/navigation-link/fg/surface/default",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:681052355ffd6807eac7db9c59f59329bbcfa9cc/28003:48694"
+          "id": "VariableID:41d950c53f01704386164190ffdaa3a350c34e11/21490:447"
         }
       }
     },
     {
+      "id": "VariableID:fb690d639dc2e5fa92b3fde46023932643e8d83e/30040:1327",
       "key": "fb690d639dc2e5fa92b3fde46023932643e8d83e",
       "name": "comp/color/breadcrumb/divider/foreslash/fg/surface/default",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:681052355ffd6807eac7db9c59f59329bbcfa9cc/28003:48694"
+          "id": "VariableID:41d950c53f01704386164190ffdaa3a350c34e11/21490:447"
         }
       }
     },
     {
+      "id": "VariableID:e0ea78babca32f0b5d8bcca8e1c47e3f2806bf5c/30040:1257",
       "key": "e0ea78babca32f0b5d8bcca8e1c47e3f2806bf5c",
       "name": "comp/color/breadcrumb/navigation-link/fg/primary/default",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:636462f0a335eb4ac865160ca3d1396da4b2cd16/28003:47913"
+          "id": "VariableID:33761596263e3b917fa7dfe098193d0fe88e0a72/21490:4"
         }
       }
     },
     {
+      "id": "VariableID:963b46dc97d686e0529a97f768fdbeaaf00fdab3/30040:1243",
       "key": "963b46dc97d686e0529a97f768fdbeaaf00fdab3",
       "name": "comp/color/breadcrumb/navigation-link/bg/primary/disabled",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:4f817fdfbb824ecc73a7dd0bac4c6d90c98da874/22164:5590"
+          "id": "VariableID:e1c01b57a6f2f03782a2a9ad251c080629a4c4fb/17416:6061"
         }
       }
     },
     {
+      "id": "VariableID:f85490de44d1cb6f243c3ac1ef14f09ca76dc403/30040:1241",
       "key": "f85490de44d1cb6f243c3ac1ef14f09ca76dc403",
       "name": "comp/color/breadcrumb/navigation-link/bg/primary/focused",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:c54d6f8580443393254f5df0b9cf034cd31e7171/22164:5758"
+          "id": "VariableID:d15066ea94781410238d71178b3668c9cdea6afc/17416:6216"
         }
       }
     },
     {
+      "id": "VariableID:c730d776121db874b81e733fa0224dfb6901e313/30040:1263",
       "key": "c730d776121db874b81e733fa0224dfb6901e313",
       "name": "comp/color/breadcrumb/navigation-link/fg/light/hovered",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:8fa5b6e6ee67acefe9bea0afe540fd90ad37fce2/24170:123"
+          "id": "VariableID:5130d83740290d178ccf7ffabc2f94b5b620b72f/18131:94"
         }
       }
     },
     {
+      "id": "VariableID:fbc1d1fa0f47c05bb9136fc3f8f9e25ea41f63bd/30040:1335",
       "key": "fbc1d1fa0f47c05bb9136fc3f8f9e25ea41f63bd",
       "name": "comp/color/breadcrumb/focused-outline/color/light/focused",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:2ba26876c53dd1b3bec5f9532a026d58f0582147/22164:8554"
+          "id": "VariableID:f09ca44e107c455647bd7751da71d6f2b7a1b2a2/17416:9278"
         }
       }
     },
     {
+      "id": "VariableID:35cfdc6af1400106e38faaa99ee11706ac440468/30040:1329",
       "key": "35cfdc6af1400106e38faaa99ee11706ac440468",
       "name": "comp/color/breadcrumb/divider/foreslash/fg/light/default",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:8fa5b6e6ee67acefe9bea0afe540fd90ad37fce2/24170:123"
+          "id": "VariableID:5130d83740290d178ccf7ffabc2f94b5b620b72f/18131:94"
         }
       }
     },
     {
+      "id": "VariableID:4b3904c3b3f15ae222c382fb0eb27d6f23ddf424/30040:1254",
       "key": "4b3904c3b3f15ae222c382fb0eb27d6f23ddf424",
       "name": "comp/color/breadcrumb/navigation-link/fg/surface/focused",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:3de9156745765696f489296ce6269fa59830119e/28003:49233"
+          "id": "VariableID:f8548438de0ef2b508c941eddc515c34f06cd347/21490:9400"
         }
       }
     },
     {
+      "id": "VariableID:5a6312f56bcda6ecec057cb933f3a2e33b1dd607/30040:1330",
       "key": "5a6312f56bcda6ecec057cb933f3a2e33b1dd607",
       "name": "comp/color/breadcrumb/focused-outline/color/dark/focused",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:3638348670a4e726cec9d4311b6dd5f15c4061c6/28003:49423"
+          "id": "VariableID:c92109ff5ff0fb033e2da191ef8c1ffa0ca51838/21490:8"
         }
       }
     },
     {
+      "id": "VariableID:06c30bfdd56f5eaa05238e9d7c8541af0019b5d9/30040:1253",
       "key": "06c30bfdd56f5eaa05238e9d7c8541af0019b5d9",
       "name": "comp/color/breadcrumb/navigation-link/fg/surface/hovered",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:3de9156745765696f489296ce6269fa59830119e/28003:49233"
+          "id": "VariableID:f8548438de0ef2b508c941eddc515c34f06cd347/21490:9400"
         }
       }
     },
     {
+      "id": "VariableID:c56e80d3261633cce3dfaad95f4ac99886776577/30040:1250",
       "key": "c56e80d3261633cce3dfaad95f4ac99886776577",
       "name": "comp/color/breadcrumb/current-page/bg/primary/default",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:4f817fdfbb824ecc73a7dd0bac4c6d90c98da874/22164:5590"
+          "id": "VariableID:e1c01b57a6f2f03782a2a9ad251c080629a4c4fb/17416:6061"
         }
       }
     },
     {
+      "id": "VariableID:b1995a7f378446a8e4872a409e899eef486f4bfc/30040:1264",
       "key": "b1995a7f378446a8e4872a409e899eef486f4bfc",
       "name": "comp/color/breadcrumb/navigation-link/fg/light/focused",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:8fa5b6e6ee67acefe9bea0afe540fd90ad37fce2/24170:123"
+          "id": "VariableID:5130d83740290d178ccf7ffabc2f94b5b620b72f/18131:94"
         }
       }
     },
     {
+      "id": "VariableID:dbcbd2b46dc3a6feb7e89a5ed0f312eddc30e4d6/30040:1248",
       "key": "dbcbd2b46dc3a6feb7e89a5ed0f312eddc30e4d6",
       "name": "comp/color/breadcrumb/navigation-link/bg/light/disabled",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:4f817fdfbb824ecc73a7dd0bac4c6d90c98da874/22164:5590"
+          "id": "VariableID:e1c01b57a6f2f03782a2a9ad251c080629a4c4fb/17416:6061"
         }
       }
     },
     {
+      "id": "VariableID:d0b574d45b6cb0d00ce015ff88e105b1ace69940/30040:1249",
       "key": "d0b574d45b6cb0d00ce015ff88e105b1ace69940",
       "name": "comp/color/breadcrumb/current-page/bg/surface/default",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:4f817fdfbb824ecc73a7dd0bac4c6d90c98da874/22164:5590"
+          "id": "VariableID:e1c01b57a6f2f03782a2a9ad251c080629a4c4fb/17416:6061"
         }
       }
     },
     {
+      "id": "VariableID:2f840aaa5b5ef7d4cf070843cd2330dacb56805b/30040:1255",
       "key": "2f840aaa5b5ef7d4cf070843cd2330dacb56805b",
       "name": "comp/color/breadcrumb/navigation-link/fg/surface/pressed",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:3de9156745765696f489296ce6269fa59830119e/28003:49233"
+          "id": "VariableID:f8548438de0ef2b508c941eddc515c34f06cd347/21490:9400"
         }
       }
     },
     {
+      "id": "VariableID:46c6b47a1db92b775c3813e547ba6aa2ac75c5d4/30040:1237",
       "key": "46c6b47a1db92b775c3813e547ba6aa2ac75c5d4",
       "name": "comp/color/breadcrumb/navigation-link/bg/surface/pressed",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:ef3940256c0e2cbe39d79dc0829b3cf2ab9ee6be/22164:5779"
+          "id": "VariableID:4c1df83cbc1a4583be60180013bce6d44aa59c34/17416:6227"
         }
       }
     },
     {
+      "id": "VariableID:39123625eb6bd80fd60fc7ce9741f5c9b4a18584/30040:1259",
       "key": "39123625eb6bd80fd60fc7ce9741f5c9b4a18584",
       "name": "comp/color/breadcrumb/navigation-link/fg/primary/focused",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:abfe08294c50d3444442af72a304129495cdd922/28003:48030"
+          "id": "VariableID:879757a3dcc6bbff07c706454beeb3b813ec04ad/21490:233"
         }
       }
     },
     {
+      "id": "VariableID:73150bbb637d22d8ff6508eb4743da5b10c5ce3c/30040:1242",
       "key": "73150bbb637d22d8ff6508eb4743da5b10c5ce3c",
       "name": "comp/color/breadcrumb/navigation-link/bg/primary/pressed",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:ef3940256c0e2cbe39d79dc0829b3cf2ab9ee6be/22164:5779"
+          "id": "VariableID:4c1df83cbc1a4583be60180013bce6d44aa59c34/17416:6227"
         }
       }
     },
     {
+      "id": "VariableID:9f65339752e3a8dbb16e8145288df37228ea00f4/30040:1256",
       "key": "9f65339752e3a8dbb16e8145288df37228ea00f4",
       "name": "comp/color/breadcrumb/navigation-link/fg/surface/disabled",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:d447c3443b166039189f8fff92610944eab23e82/22164:6868"
+          "id": "VariableID:8e4a40ed7b09043d74a9c42a7a939622e3d50727/17416:7344"
         }
       }
     },
     {
+      "id": "VariableID:0855c0ffe5fc93d85ea36075f3d696338a5a6e1b/30040:1235",
       "key": "0855c0ffe5fc93d85ea36075f3d696338a5a6e1b",
       "name": "comp/color/breadcrumb/navigation-link/bg/surface/hovered",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:c54d6f8580443393254f5df0b9cf034cd31e7171/22164:5758"
+          "id": "VariableID:d15066ea94781410238d71178b3668c9cdea6afc/17416:6216"
         }
       }
     },
     {
+      "id": "VariableID:438796893c5d9fd706765aa10e87433cebc5bcda/30040:1261",
       "key": "438796893c5d9fd706765aa10e87433cebc5bcda",
       "name": "comp/color/breadcrumb/navigation-link/fg/primary/disabled",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:5c4cfb9024c7ae1ee65ff266e545ad00c602741b/22164:5778"
+          "id": "VariableID:d968b0816c01b8e7a5a4fe3c4034623775788cca/17416:6226"
         }
       }
     },
     {
+      "id": "VariableID:65a0ae36678cf5ad509c9fc2d4e5228ef25fd2c3/30040:1247",
       "key": "65a0ae36678cf5ad509c9fc2d4e5228ef25fd2c3",
       "name": "comp/color/breadcrumb/navigation-link/bg/light/pressed",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:ef3940256c0e2cbe39d79dc0829b3cf2ab9ee6be/22164:5779"
+          "id": "VariableID:4c1df83cbc1a4583be60180013bce6d44aa59c34/17416:6227"
         }
       }
     },
     {
+      "id": "VariableID:9a81aefbc35019360d468e4cf5b7cbe649c4d367/30040:1236",
       "key": "9a81aefbc35019360d468e4cf5b7cbe649c4d367",
       "name": "comp/color/breadcrumb/navigation-link/bg/surface/focused",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:c54d6f8580443393254f5df0b9cf034cd31e7171/22164:5758"
+          "id": "VariableID:d15066ea94781410238d71178b3668c9cdea6afc/17416:6216"
         }
       }
     },
     {
+      "id": "VariableID:de99d6f82a591c365ac1a8e92ac4e8f01a5e53eb/30040:1258",
       "key": "de99d6f82a591c365ac1a8e92ac4e8f01a5e53eb",
       "name": "comp/color/breadcrumb/navigation-link/fg/primary/hovered",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:abfe08294c50d3444442af72a304129495cdd922/28003:48030"
+          "id": "VariableID:879757a3dcc6bbff07c706454beeb3b813ec04ad/21490:233"
         }
       }
     },
     {
+      "id": "VariableID:f4d4c3e6da3686d97c569eb9d80a7f6a93c29c10/30040:1238",
       "key": "f4d4c3e6da3686d97c569eb9d80a7f6a93c29c10",
       "name": "comp/color/breadcrumb/navigation-link/bg/surface/disabled",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:4f817fdfbb824ecc73a7dd0bac4c6d90c98da874/22164:5590"
+          "id": "VariableID:e1c01b57a6f2f03782a2a9ad251c080629a4c4fb/17416:6061"
         }
       }
     },
     {
+      "id": "VariableID:96c12d27bf3cf506e793628f042179684d17e624/30040:1269",
       "key": "96c12d27bf3cf506e793628f042179684d17e624",
       "name": "comp/color/breadcrumb/current-page/fg/light/default",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:8fa5b6e6ee67acefe9bea0afe540fd90ad37fce2/24170:123"
+          "id": "VariableID:5130d83740290d178ccf7ffabc2f94b5b620b72f/18131:94"
         }
       }
     },
     {
+      "id": "VariableID:892170322b30906e59bfa2c7b8dd31e7a65cf71b/30040:1328",
       "key": "892170322b30906e59bfa2c7b8dd31e7a65cf71b",
       "name": "comp/color/breadcrumb/divider/foreslash/fg/primary/default",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:636462f0a335eb4ac865160ca3d1396da4b2cd16/28003:47913"
+          "id": "VariableID:33761596263e3b917fa7dfe098193d0fe88e0a72/21490:4"
         }
       }
     },
     {
+      "id": "VariableID:77e0501a85204b7be613859804fa7b411389feac/30040:1268",
       "key": "77e0501a85204b7be613859804fa7b411389feac",
       "name": "comp/color/breadcrumb/current-page/fg/primary/default",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:636462f0a335eb4ac865160ca3d1396da4b2cd16/28003:47913"
+          "id": "VariableID:33761596263e3b917fa7dfe098193d0fe88e0a72/21490:4"
         }
       }
     },
     {
+      "id": "VariableID:cef91e943747282d4f95387e87203ecc0110bd46/30040:1266",
       "key": "cef91e943747282d4f95387e87203ecc0110bd46",
       "name": "comp/color/breadcrumb/navigation-link/fg/light/disabled",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:c825fc09eab480a80b3e2013090107b3be97fa64/24170:62"
+          "id": "VariableID:61d3f2047b1fa6e32a98fed579ad021df4107193/18131:40"
         }
       }
     },
     {
+      "id": "VariableID:644b511a717735dcd885c9b59cdeb7d800ff7eba/30040:1244",
       "key": "644b511a717735dcd885c9b59cdeb7d800ff7eba",
       "name": "comp/color/breadcrumb/navigation-link/bg/light/default",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:4f817fdfbb824ecc73a7dd0bac4c6d90c98da874/22164:5590"
+          "id": "VariableID:e1c01b57a6f2f03782a2a9ad251c080629a4c4fb/17416:6061"
         }
       }
     },
     {
+      "id": "VariableID:54aac086b02020d5deb06daa227d4594cde3b037/30040:1260",
       "key": "54aac086b02020d5deb06daa227d4594cde3b037",
       "name": "comp/color/breadcrumb/navigation-link/fg/primary/pressed",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:3fe889e2188cabdd850399b791c1125fa63c7338/28003:48085"
+          "id": "VariableID:698870275455ef78cca3d160d7c0eabe647ec044/21490:369"
         }
       }
     },
     {
+      "id": "VariableID:adcbbf9e386190b2319132fb8c893ec088fff965/30040:1246",
       "key": "adcbbf9e386190b2319132fb8c893ec088fff965",
       "name": "comp/color/breadcrumb/navigation-link/bg/light/focused",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:c54d6f8580443393254f5df0b9cf034cd31e7171/22164:5758"
+          "id": "VariableID:d15066ea94781410238d71178b3668c9cdea6afc/17416:6216"
         }
       }
     },
     {
+      "id": "VariableID:26106d80d954b788a4560bf8c5f23c3549a40fa9/30040:1245",
       "key": "26106d80d954b788a4560bf8c5f23c3549a40fa9",
       "name": "comp/color/breadcrumb/navigation-link/bg/light/hovered",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:c54d6f8580443393254f5df0b9cf034cd31e7171/22164:5758"
+          "id": "VariableID:d15066ea94781410238d71178b3668c9cdea6afc/17416:6216"
         }
       }
     },
     {
+      "id": "VariableID:4255450123e7032ec384a210187f9000363ca388/30040:1265",
       "key": "4255450123e7032ec384a210187f9000363ca388",
       "name": "comp/color/breadcrumb/navigation-link/fg/light/pressed",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:38f7a0bddc8a0fa32a2d236b117e924628e9325f/24170:105"
+          "id": "VariableID:2f9a8f69681ab9a6dbfb0d14fcaa0869f4fb614f/18131:76"
         }
       }
     },
     {
+      "id": "VariableID:d14fc768497d354b90f33d6409176d65ed372f84/30040:1267",
       "key": "d14fc768497d354b90f33d6409176d65ed372f84",
       "name": "comp/color/breadcrumb/current-page/fg/surface/default",
       "resolvedType": "COLOR",
       "valuesByMode": {
         "2002:57": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:7f88fd79b7367dd14f3375c1935b7544cb1b43e0/28003:48871"
+          "id": "VariableID:8e1e5645d847a5ad95274da1069823a9179700ce/21490:1060"
         }
       }
     }

@@ -3,646 +3,674 @@
   "collectionName": "comp-size",
   "variables": [
     {
+      "id": "VariableID:37bb20e0f946830244a7ba6f0cd5d848fed8d99b/32070:1044",
       "key": "37bb20e0f946830244a7ba6f0cd5d848fed8d99b",
       "name": "comp/size/avatar/icon/typography/smallCollection/font-size",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:b6d3ad751c6e0e49f9f9ab295498480f1ee6a516/30169:9555"
+          "id": "VariableID:72527a2c94a4c23c633954a25e8ea0680e2f6df6/17416:10076"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:89345f1fb30f2df75d92edabcbb829b8f789f31d/30169:9575"
+          "id": "VariableID:d5b2f110a77d906124a9701798c4e2ceb8467c5b/17416:10094"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:4b096ac4d6d769561acae7fcb500f1296ccded0b/30169:9593"
+          "id": "VariableID:3e8a8fadab309cbe90b073592bb9a0c15a4527c1/17416:10108"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:e288913a38b8c20acfe08e81b39b4fbeac83e100/30169:9523"
+          "id": "VariableID:a35630a36adb8d82c8bed915c2256aa0ca90a821/17416:10045"
         }
       }
     },
     {
+      "id": "VariableID:d4ca5de8102e14d581bc9447256683154b921651/32070:1052",
       "key": "d4ca5de8102e14d581bc9447256683154b921651",
       "name": "comp/size/avatar/icon/typography/smallCollection/line-height",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:f61ec68cbc331797c4ddf7d5cb98c6a7d50aa329/30169:9644"
+          "id": "VariableID:199127d090912a1f1907889b51e582cdcd5a030c/17416:10160"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:83c8bf380aa4e743e5fcd4bc63082e4214158050/30169:9661"
+          "id": "VariableID:331fa0863f8cbd4a7372c5a670f47cae89d563a0/17416:10173"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:f073223030ff6e1eb26216c0ce0fc792d2428a22/30169:9684"
+          "id": "VariableID:786fde608a2e92074082e6844c745abc59037009/17416:10189"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:398b5bb55c68c639d6ee0cb7b4747c6d1474c098/30169:9619"
+          "id": "VariableID:42d8e8c8c234e19827695c3f499f17534d6ca4e2/17416:10130"
         }
       }
     },
     {
+      "id": "VariableID:2f32cfeab0c8caab373c8294cb9cafb1119e9eaa/32070:641",
       "key": "2f32cfeab0c8caab373c8294cb9cafb1119e9eaa",
       "name": "comp/size/avatar/size/smallCollection/icon",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:ab7a7e94f568638da6d62e4d9711b9bfa92b4263/30169:9800"
+          "id": "VariableID:40b15c6b718351253274fa31b67bb5d5f037535e/17416:10300"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:e8fd6b91c5b09531f5f8680a592a5f699de8d9ab/30169:9814"
+          "id": "VariableID:88624cc07eda61427a983156305ad44e38f38777/17416:10310"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:2dee8c4a08fcd28c9f2e89207dee7babd0430ae4/30169:9844"
+          "id": "VariableID:12ac2367ffd86711e668cca1ed1a9a4211e2e20c/17416:10339"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:27e4aa2079616442ca85530a7cbded51e0871fd8/30169:9856"
+          "id": "VariableID:b12fcd8c9ee570b7e4de66fcde3ac80faf0e9461/17416:10346"
         }
       }
     },
     {
+      "id": "VariableID:220f65fcf941da5f54b2ec3198904e750b5556c1/32070:984",
       "key": "220f65fcf941da5f54b2ec3198904e750b5556c1",
       "name": "comp/size/avatar/size/bigCollection/width",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:067c8d0a1087a2696d75573d2f943a154ce2ec29/30169:8671"
+          "id": "VariableID:2120862f4d705a1a75cd13937ce1d6ee3201e035/17416:9372"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:384442d5c64c167427f8f9f0eb86e25db8c7385a/30169:8673"
+          "id": "VariableID:fefcf98e878bff9af155a253838bbe9fb5601a95/17416:9373"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:88045d79a569097c60949009cda368e5f61cca69/30169:8683"
+          "id": "VariableID:8dd8cf5d79b8958ffcaca4dba6672e686b358d5e/17416:9380"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:2ddfd9bbf7ca0a047a3850cb8ecfc1effb77547a/30169:8660"
+          "id": "VariableID:2750aeacb7a76c89dab9f73359829c22e9cd3eb8/17416:9366"
         }
       }
     },
     {
+      "id": "VariableID:d4d6b1133fc4569e680081b01a1767dcf05c3fa5/32070:943",
       "key": "d4d6b1133fc4569e680081b01a1767dcf05c3fa5",
       "name": "comp/size/avatar/initials/typography/smallCollection/font-size",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:e5017bef4da4ab03d6a1f7b065eeee27a174d395/30169:9498"
+          "id": "VariableID:15b6da16ad7e0d749a07b9ad5baffef83120f6f0/17416:10021"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:73d952921a75e8fb29a8962a56fb749d8751efd6/30169:9501"
+          "id": "VariableID:38c9ce8899ef1fe1a28bed2f0ca6e6d8cba57a24/17416:10024"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:e288913a38b8c20acfe08e81b39b4fbeac83e100/30169:9523"
+          "id": "VariableID:a35630a36adb8d82c8bed915c2256aa0ca90a821/17416:10045"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:e5017bef4da4ab03d6a1f7b065eeee27a174d395/30169:9498"
+          "id": "VariableID:15b6da16ad7e0d749a07b9ad5baffef83120f6f0/17416:10021"
         }
       }
     },
     {
+      "id": "VariableID:507132d72ae14b8b0b2d88ef3fdfeeea05660a84/32070:951",
       "key": "507132d72ae14b8b0b2d88ef3fdfeeea05660a84",
       "name": "comp/size/avatar/initials/typography/smallCollection/line-height",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:f61ec68cbc331797c4ddf7d5cb98c6a7d50aa329/30169:9644"
+          "id": "VariableID:199127d090912a1f1907889b51e582cdcd5a030c/17416:10160"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:83c8bf380aa4e743e5fcd4bc63082e4214158050/30169:9661"
+          "id": "VariableID:331fa0863f8cbd4a7372c5a670f47cae89d563a0/17416:10173"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:574c6e37ef3ff5dd7d1217acd9da20fe2d83f91e/30169:9690"
+          "id": "VariableID:406258ef1fde8cdcba54da8d7c2807ae80802faf/17416:10194"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:139a5b1fff9928576f4c625eb6c9fee36c781a0b/30169:9631"
+          "id": "VariableID:0c4e3b472e117aa7658a7e15ce9547dc20c67af4/17416:10142"
         }
       }
     },
     {
+      "id": "VariableID:ec03b92fd7275ccec7afcf277a33f7176b591372/32070:996",
       "key": "ec03b92fd7275ccec7afcf277a33f7176b591372",
       "name": "comp/size/avatar/initials/typography/bigCollection/font-family",
       "resolvedType": "STRING",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:dd38e628edb0903699e4c5c607bc90f9a9ada682/30383:11520"
+          "id": "VariableID:6a3aa6e6874ff064756e47b5d0a52fc37ef5ab9a/17416:10017"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:dd38e628edb0903699e4c5c607bc90f9a9ada682/30383:11520"
+          "id": "VariableID:6a3aa6e6874ff064756e47b5d0a52fc37ef5ab9a/17416:10017"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:dd38e628edb0903699e4c5c607bc90f9a9ada682/30383:11520"
+          "id": "VariableID:6a3aa6e6874ff064756e47b5d0a52fc37ef5ab9a/17416:10017"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:dd38e628edb0903699e4c5c607bc90f9a9ada682/30383:11520"
+          "id": "VariableID:6a3aa6e6874ff064756e47b5d0a52fc37ef5ab9a/17416:10017"
         }
       }
     },
     {
+      "id": "VariableID:1deed9931f88a105beb966c5998f9381b0839c1f/32070:935",
       "key": "1deed9931f88a105beb966c5998f9381b0839c1f",
       "name": "comp/size/avatar/initials/typography/smallCollection/font-family",
       "resolvedType": "STRING",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:dd38e628edb0903699e4c5c607bc90f9a9ada682/30383:11520"
+          "id": "VariableID:6a3aa6e6874ff064756e47b5d0a52fc37ef5ab9a/17416:10017"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:dd38e628edb0903699e4c5c607bc90f9a9ada682/30383:11520"
+          "id": "VariableID:6a3aa6e6874ff064756e47b5d0a52fc37ef5ab9a/17416:10017"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:dd38e628edb0903699e4c5c607bc90f9a9ada682/30383:11520"
+          "id": "VariableID:6a3aa6e6874ff064756e47b5d0a52fc37ef5ab9a/17416:10017"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:dd38e628edb0903699e4c5c607bc90f9a9ada682/30383:11520"
+          "id": "VariableID:6a3aa6e6874ff064756e47b5d0a52fc37ef5ab9a/17416:10017"
         }
       }
     },
     {
+      "id": "VariableID:c6b7e78ccf83731b4908b2d783fe0d1a7d970606/32070:976",
       "key": "c6b7e78ccf83731b4908b2d783fe0d1a7d970606",
       "name": "comp/size/avatar/size/bigCollection/icon",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:6971d9c0558333fb82dffa337d26c25f3dac34b3/30169:9858"
+          "id": "VariableID:cc5021b1d3235af18df9a053776978ce8a17961a/17416:10347"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:73952eb48a80ea467dd93b228790dc731fcd00ce/30169:9860"
+          "id": "VariableID:d4a2e591acf2a4f534c9f3e40e810f7d437b74af/17416:10348"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:31937df34ba04cbf39c75c12c0694ff9d2b42a3d/30169:9862"
+          "id": "VariableID:5f67f1cf8637556491975043dcdd1e4d6721d5c0/17416:10349"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:4b59b5850c6a7789b6871f3b931656b9a4a11c8f/30169:9849"
+          "id": "VariableID:ba89b7a3512244892345048ca07c1146e452449b/17416:10340"
         }
       }
     },
     {
+      "id": "VariableID:4c71a4cbfb232f9aa46c79f1b46cd8938ebdd621/32070:1093",
       "key": "4c71a4cbfb232f9aa46c79f1b46cd8938ebdd621",
       "name": "comp/size/avatar/icon/typography/bigCollection/font-weight",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:7a0e78e4f40f6a91bfbc532368e626576a2d44a2/30169:9732"
+          "id": "VariableID:8b5517bdcba4eb39ab5a02053451f57b3f60df6d/17416:10230"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:7a0e78e4f40f6a91bfbc532368e626576a2d44a2/30169:9732"
+          "id": "VariableID:8b5517bdcba4eb39ab5a02053451f57b3f60df6d/17416:10230"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:7a0e78e4f40f6a91bfbc532368e626576a2d44a2/30169:9732"
+          "id": "VariableID:8b5517bdcba4eb39ab5a02053451f57b3f60df6d/17416:10230"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:7a0e78e4f40f6a91bfbc532368e626576a2d44a2/30169:9732"
+          "id": "VariableID:8b5517bdcba4eb39ab5a02053451f57b3f60df6d/17416:10230"
         }
       }
     },
     {
+      "id": "VariableID:1c9a570a33c47ddcf4ae906abdb6158596239583/32070:988",
       "key": "1c9a570a33c47ddcf4ae906abdb6158596239583",
       "name": "comp/size/avatar/size/bigCollection/border",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:9fd104c552100f436a6f0d54712d30fa92fa42e0/30169:9373"
+          "id": "VariableID:48cf8c8bb8808d905bf3fc621988bc08106e9960/17416:9907"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:9fd104c552100f436a6f0d54712d30fa92fa42e0/30169:9373"
+          "id": "VariableID:48cf8c8bb8808d905bf3fc621988bc08106e9960/17416:9907"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:9fd104c552100f436a6f0d54712d30fa92fa42e0/30169:9373"
+          "id": "VariableID:48cf8c8bb8808d905bf3fc621988bc08106e9960/17416:9907"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:9fd104c552100f436a6f0d54712d30fa92fa42e0/30169:9373"
+          "id": "VariableID:48cf8c8bb8808d905bf3fc621988bc08106e9960/17416:9907"
         }
       }
     },
     {
+      "id": "VariableID:cf00766e6c6d262c6489590e4e3f9caa33c86999/32070:1085",
       "key": "cf00766e6c6d262c6489590e4e3f9caa33c86999",
       "name": "comp/size/avatar/icon/typography/bigCollection/line-height",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:0c70f22046928897bd0516707a361e0f8f4f283f/30169:9701"
+          "id": "VariableID:02816935327b0d8bcf344a4280c7763a4e160def/17416:10202"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:d58f2c05583e46c80a3c83255e7e0770c446760e/30169:9703"
+          "id": "VariableID:65cbfa77b296b4d94b21d7a05c0c91844fe041cb/17416:10204"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:6d0093c8a724c22bc2391b51426dcafb7f5ded7d/30169:9709"
+          "id": "VariableID:1cb61e26b0612fb587f7c91318ae26edbddf5018/17416:10209"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:7baa83e009e45f583ff28b7b071b7ddac23e531b/30169:9692"
+          "id": "VariableID:74c717535794eb0b83e92c6f36c7127507638905/17416:10198"
         }
       }
     },
     {
+      "id": "VariableID:158f9640b334c2fd371263bb70083e11c4b6d960/32070:972",
       "key": "158f9640b334c2fd371263bb70083e11c4b6d960",
       "name": "comp/size/avatar/size/bigCollection/border-radius",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:ee9b410ef40daf2feacdce5624abb26ddc862d5f/30169:8910"
+          "id": "VariableID:7b76fff6c5e827583de83af305d85b6c4301d4e2/21592:25"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:ee9b410ef40daf2feacdce5624abb26ddc862d5f/30169:8910"
+          "id": "VariableID:7b76fff6c5e827583de83af305d85b6c4301d4e2/21592:25"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:ee9b410ef40daf2feacdce5624abb26ddc862d5f/30169:8910"
+          "id": "VariableID:7b76fff6c5e827583de83af305d85b6c4301d4e2/21592:25"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:ee9b410ef40daf2feacdce5624abb26ddc862d5f/30169:8910"
+          "id": "VariableID:7b76fff6c5e827583de83af305d85b6c4301d4e2/21592:25"
         }
       }
     },
     {
+      "id": "VariableID:660e1574cda8df633c331e22181c88c0567e0126/32070:637",
       "key": "660e1574cda8df633c331e22181c88c0567e0126",
       "name": "comp/size/avatar/size/smallCollection/border-radius",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:ee9b410ef40daf2feacdce5624abb26ddc862d5f/30169:8910"
+          "id": "VariableID:7b76fff6c5e827583de83af305d85b6c4301d4e2/21592:25"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:ee9b410ef40daf2feacdce5624abb26ddc862d5f/30169:8910"
+          "id": "VariableID:7b76fff6c5e827583de83af305d85b6c4301d4e2/21592:25"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:ee9b410ef40daf2feacdce5624abb26ddc862d5f/30169:8910"
+          "id": "VariableID:7b76fff6c5e827583de83af305d85b6c4301d4e2/21592:25"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:ee9b410ef40daf2feacdce5624abb26ddc862d5f/30169:8910"
+          "id": "VariableID:7b76fff6c5e827583de83af305d85b6c4301d4e2/21592:25"
         }
       }
     },
     {
+      "id": "VariableID:7e11a492efa0284bd83a83ba0cf2f45c0234c431/32070:1060",
       "key": "7e11a492efa0284bd83a83ba0cf2f45c0234c431",
       "name": "comp/size/avatar/icon/typography/smallCollection/font-weight",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:7a0e78e4f40f6a91bfbc532368e626576a2d44a2/30169:9732"
+          "id": "VariableID:8b5517bdcba4eb39ab5a02053451f57b3f60df6d/17416:10230"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:7a0e78e4f40f6a91bfbc532368e626576a2d44a2/30169:9732"
+          "id": "VariableID:8b5517bdcba4eb39ab5a02053451f57b3f60df6d/17416:10230"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:7a0e78e4f40f6a91bfbc532368e626576a2d44a2/30169:9732"
+          "id": "VariableID:8b5517bdcba4eb39ab5a02053451f57b3f60df6d/17416:10230"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:7a0e78e4f40f6a91bfbc532368e626576a2d44a2/30169:9732"
+          "id": "VariableID:8b5517bdcba4eb39ab5a02053451f57b3f60df6d/17416:10230"
         }
       }
     },
     {
+      "id": "VariableID:a7d162cec82110d5772ce89ecc9ac2c645524995/32070:1004",
       "key": "a7d162cec82110d5772ce89ecc9ac2c645524995",
       "name": "comp/size/avatar/initials/typography/bigCollection/font-size",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:b6d3ad751c6e0e49f9f9ab295498480f1ee6a516/30169:9555"
+          "id": "VariableID:72527a2c94a4c23c633954a25e8ea0680e2f6df6/17416:10076"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:6424381712ee4e4767fbde453b1858be99323dbc/30169:9570"
+          "id": "VariableID:2549677b944cc6025611210a8b0c7fd213d6eba5/17416:10090"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:698295b96be5c1b902f73e244d1d6d52ac0c5274/30169:9588"
+          "id": "VariableID:b5632c3bf06414a8c716dc8089408e8f366c14f0/17416:10104"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:21eea0037ca2c2763b1314903dd4526fca7f02af/30169:9535"
+          "id": "VariableID:eeabcdb6f95d7b42ada87c2edd13feb58021806e/17416:10059"
         }
       }
     },
     {
+      "id": "VariableID:6b125396b8eb0ba515ded665fca43abafd2286c8/32070:645",
       "key": "6b125396b8eb0ba515ded665fca43abafd2286c8",
       "name": "comp/size/avatar/size/smallCollection/height",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:7db3836e05afc3eb798308e5d74e4af9e905bd73/30169:8739"
+          "id": "VariableID:832b8f93a64d0d4bf2888ec3b311630050bed1c7/17416:9423"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:6c8427107ddcbcb02f8ef0d4bb03aba1149cdfe6/30169:8762"
+          "id": "VariableID:b1a394f598086a588ae67d98002f8530883aec92/17416:9450"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:185b821de7d66b8ccd2baebfa20e1adcd554046b/30169:8777"
+          "id": "VariableID:43de0354da5f0641cdd35422373c0f970cabaccd/17416:9461"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:0053b080491e1fffc88451be2184a37a5ebd7c1e/30169:8726"
+          "id": "VariableID:ab3b1a9a7fa211c257f5c6cbe32c396a274063a1/17416:9417"
         }
       }
     },
     {
+      "id": "VariableID:1bf14643c91542e5003941f7eb1eb1d4974837ba/32070:1069",
       "key": "1bf14643c91542e5003941f7eb1eb1d4974837ba",
       "name": "comp/size/avatar/icon/typography/bigCollection/font-family",
       "resolvedType": "STRING",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:47ea2982d17ede03def3aafc50dfd34acac111eb/30383:14097"
+          "id": "VariableID:2dacfcc1b53b5e77650d8c53db07c679f91fa60b/21490:3513"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:47ea2982d17ede03def3aafc50dfd34acac111eb/30383:14097"
+          "id": "VariableID:2dacfcc1b53b5e77650d8c53db07c679f91fa60b/21490:3513"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:47ea2982d17ede03def3aafc50dfd34acac111eb/30383:14097"
+          "id": "VariableID:2dacfcc1b53b5e77650d8c53db07c679f91fa60b/21490:3513"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:47ea2982d17ede03def3aafc50dfd34acac111eb/30383:14097"
+          "id": "VariableID:2dacfcc1b53b5e77650d8c53db07c679f91fa60b/21490:3513"
         }
       }
     },
     {
+      "id": "VariableID:0f504e1e596521f1dcd291710d4519f1ef6bd820/32070:980",
       "key": "0f504e1e596521f1dcd291710d4519f1ef6bd820",
       "name": "comp/size/avatar/size/bigCollection/height",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:c80cd3fa684d382dafea6bd0b3471733cf5be6ab/30169:8804"
+          "id": "VariableID:d7c012346d5a106cb6a7a616ef382941d7380247/17416:9480"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:d850d47362f44ef24bc41f737a66dfe9e4ebef65/30169:8806"
+          "id": "VariableID:8e16e350748d8c365b3c27eaa11618d1af169dc9/17416:9481"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:2fc45ff4fa07aa356e7c42bc10eb7d38f7674ab0/30169:8828"
+          "id": "VariableID:874cec13fb004824afd60c0ae879d780bbdcb5fa/17416:9500"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:3042c7278693a3ffc490e0c19efd45abcc3c1c30/30169:8793"
+          "id": "VariableID:74eeddbf063876d5409a90f13aa6ea73b85e4347/17416:9474"
         }
       }
     },
     {
+      "id": "VariableID:72ac959788286fac992101c5481b364933202932/32070:967",
       "key": "72ac959788286fac992101c5481b364933202932",
       "name": "comp/size/avatar/initials/typography/smallCollection/letter-spacing",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:a23ceeeea0ff6b164d6e437fd2309a4641bb80a1/30169:9780"
+          "id": "VariableID:adcf4e3298c7104d3d54c09dc2790d9fe4f6f743/17416:10284"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:a23ceeeea0ff6b164d6e437fd2309a4641bb80a1/30169:9780"
+          "id": "VariableID:adcf4e3298c7104d3d54c09dc2790d9fe4f6f743/17416:10284"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:a23ceeeea0ff6b164d6e437fd2309a4641bb80a1/30169:9780"
+          "id": "VariableID:adcf4e3298c7104d3d54c09dc2790d9fe4f6f743/17416:10284"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:a23ceeeea0ff6b164d6e437fd2309a4641bb80a1/30169:9780"
+          "id": "VariableID:adcf4e3298c7104d3d54c09dc2790d9fe4f6f743/17416:10284"
         }
       }
     },
     {
+      "id": "VariableID:ae5f665624799c3c86dcf869c63c1ae8d1d8f955/32070:649",
       "key": "ae5f665624799c3c86dcf869c63c1ae8d1d8f955",
       "name": "comp/size/avatar/size/smallCollection/width",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:9c8a6f45730260defe9d523cb8407dc239ade968/30169:8631"
+          "id": "VariableID:16528b1b1ccf506767d758481289e425e36a62ea/17416:9344"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:fae871730c5391f6fe991e7a50855e13dc8af035/30169:8640"
+          "id": "VariableID:3221a2850c39a1d3dacff906e23f32720af9cada/17416:9352"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:999de11fd5f1fff0280f09e5877f83cc20e8557b/30169:8653"
+          "id": "VariableID:33173077c938cc973547fec7250fc96b11a35805/17416:9361"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:e4407d526ef8424132be58b5939d1b834eb6ef38/30169:8624"
+          "id": "VariableID:7e922d649a79a0c2b8685583b9fd3385ad321f7c/17416:9339"
         }
       }
     },
     {
+      "id": "VariableID:7971a0e2d41ac4f2bdf92429d35e1f7c9db9944e/32070:1012",
       "key": "7971a0e2d41ac4f2bdf92429d35e1f7c9db9944e",
       "name": "comp/size/avatar/initials/typography/bigCollection/line-height",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:f61ec68cbc331797c4ddf7d5cb98c6a7d50aa329/30169:9644"
+          "id": "VariableID:199127d090912a1f1907889b51e582cdcd5a030c/17416:10160"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:83c8bf380aa4e743e5fcd4bc63082e4214158050/30169:9661"
+          "id": "VariableID:331fa0863f8cbd4a7372c5a670f47cae89d563a0/17416:10173"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:574c6e37ef3ff5dd7d1217acd9da20fe2d83f91e/30169:9690"
+          "id": "VariableID:406258ef1fde8cdcba54da8d7c2807ae80802faf/17416:10194"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:139a5b1fff9928576f4c625eb6c9fee36c781a0b/30169:9631"
+          "id": "VariableID:0c4e3b472e117aa7658a7e15ce9547dc20c67af4/17416:10142"
         }
       }
     },
     {
+      "id": "VariableID:174a8f29167a9101461f57c229996f9b0c2670f0/32070:1020",
       "key": "174a8f29167a9101461f57c229996f9b0c2670f0",
       "name": "comp/size/avatar/initials/typography/bigCollection/font-weight",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:7a0e78e4f40f6a91bfbc532368e626576a2d44a2/30169:9732"
+          "id": "VariableID:8b5517bdcba4eb39ab5a02053451f57b3f60df6d/17416:10230"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:7a0e78e4f40f6a91bfbc532368e626576a2d44a2/30169:9732"
+          "id": "VariableID:8b5517bdcba4eb39ab5a02053451f57b3f60df6d/17416:10230"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:7a0e78e4f40f6a91bfbc532368e626576a2d44a2/30169:9732"
+          "id": "VariableID:8b5517bdcba4eb39ab5a02053451f57b3f60df6d/17416:10230"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:7a0e78e4f40f6a91bfbc532368e626576a2d44a2/30169:9732"
+          "id": "VariableID:8b5517bdcba4eb39ab5a02053451f57b3f60df6d/17416:10230"
         }
       }
     },
     {
+      "id": "VariableID:afc8c42dca7b08d540a3df57d15f8167d412bf3e/32070:1036",
       "key": "afc8c42dca7b08d540a3df57d15f8167d412bf3e",
       "name": "comp/size/avatar/icon/typography/smallCollection/font-family",
       "resolvedType": "STRING",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:47ea2982d17ede03def3aafc50dfd34acac111eb/30383:14097"
+          "id": "VariableID:2dacfcc1b53b5e77650d8c53db07c679f91fa60b/21490:3513"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:47ea2982d17ede03def3aafc50dfd34acac111eb/30383:14097"
+          "id": "VariableID:2dacfcc1b53b5e77650d8c53db07c679f91fa60b/21490:3513"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:47ea2982d17ede03def3aafc50dfd34acac111eb/30383:14097"
+          "id": "VariableID:2dacfcc1b53b5e77650d8c53db07c679f91fa60b/21490:3513"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:47ea2982d17ede03def3aafc50dfd34acac111eb/30383:14097"
+          "id": "VariableID:2dacfcc1b53b5e77650d8c53db07c679f91fa60b/21490:3513"
         }
       }
     },
     {
+      "id": "VariableID:1b315d4499d294c59c6a38c27c66d264b438ee1c/32070:1028",
       "key": "1b315d4499d294c59c6a38c27c66d264b438ee1c",
       "name": "comp/size/avatar/initials/typography/bigCollection/letter-spacing",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:a23ceeeea0ff6b164d6e437fd2309a4641bb80a1/30169:9780"
+          "id": "VariableID:adcf4e3298c7104d3d54c09dc2790d9fe4f6f743/17416:10284"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:a23ceeeea0ff6b164d6e437fd2309a4641bb80a1/30169:9780"
+          "id": "VariableID:adcf4e3298c7104d3d54c09dc2790d9fe4f6f743/17416:10284"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:a23ceeeea0ff6b164d6e437fd2309a4641bb80a1/30169:9780"
+          "id": "VariableID:adcf4e3298c7104d3d54c09dc2790d9fe4f6f743/17416:10284"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:a23ceeeea0ff6b164d6e437fd2309a4641bb80a1/30169:9780"
+          "id": "VariableID:adcf4e3298c7104d3d54c09dc2790d9fe4f6f743/17416:10284"
         }
       }
     },
     {
+      "id": "VariableID:b620459ec85aa3820cef20611044cb0aab03dd7a/32070:653",
       "key": "b620459ec85aa3820cef20611044cb0aab03dd7a",
       "name": "comp/size/avatar/size/smallCollection/border",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:9fd104c552100f436a6f0d54712d30fa92fa42e0/30169:9373"
+          "id": "VariableID:48cf8c8bb8808d905bf3fc621988bc08106e9960/17416:9907"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:9fd104c552100f436a6f0d54712d30fa92fa42e0/30169:9373"
+          "id": "VariableID:48cf8c8bb8808d905bf3fc621988bc08106e9960/17416:9907"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:9fd104c552100f436a6f0d54712d30fa92fa42e0/30169:9373"
+          "id": "VariableID:48cf8c8bb8808d905bf3fc621988bc08106e9960/17416:9907"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:9fd104c552100f436a6f0d54712d30fa92fa42e0/30169:9373"
+          "id": "VariableID:48cf8c8bb8808d905bf3fc621988bc08106e9960/17416:9907"
         }
       }
     },
     {
+      "id": "VariableID:ca62a435982faff80aaa2edf180766b2a17686e3/32070:959",
       "key": "ca62a435982faff80aaa2edf180766b2a17686e3",
       "name": "comp/size/avatar/initials/typography/smallCollection/font-weight",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:7a0e78e4f40f6a91bfbc532368e626576a2d44a2/30169:9732"
+          "id": "VariableID:8b5517bdcba4eb39ab5a02053451f57b3f60df6d/17416:10230"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:7a0e78e4f40f6a91bfbc532368e626576a2d44a2/30169:9732"
+          "id": "VariableID:8b5517bdcba4eb39ab5a02053451f57b3f60df6d/17416:10230"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:7a0e78e4f40f6a91bfbc532368e626576a2d44a2/30169:9732"
+          "id": "VariableID:8b5517bdcba4eb39ab5a02053451f57b3f60df6d/17416:10230"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:7a0e78e4f40f6a91bfbc532368e626576a2d44a2/30169:9732"
+          "id": "VariableID:8b5517bdcba4eb39ab5a02053451f57b3f60df6d/17416:10230"
         }
       }
     },
     {
+      "id": "VariableID:dd297efd249d6b440afd376b235da3c2e259bca3/32070:1077",
       "key": "dd297efd249d6b440afd376b235da3c2e259bca3",
       "name": "comp/size/avatar/icon/typography/bigCollection/font-size",
       "resolvedType": "FLOAT",
       "valuesByMode": {
         "2002:58": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:04571bd146cdeeb8d18d7954a1edf3c5de80a53d/30169:9599"
+          "id": "VariableID:c47715a076faca551bd5aa7bfff8570ad1d2ce2c/17416:10112"
         },
         "2002:59": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:8b506f19ccb89e1eddea9b56e7092af0c0fec658/30169:9601"
+          "id": "VariableID:08a2784076eb1eda11ddb1fc7d27e9f1aeeddd7b/17416:10114"
         },
         "2002:60": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:ed5c56b41756684b29dc31b89c2995799dd0fd77/30169:9605"
+          "id": "VariableID:93a04c2ceda9dff21c0ceb3ca82c779f89ea2259/17416:10117"
         },
         "4458:0": {
           "type": "VARIABLE_ALIAS",
-          "id": "VariableID:bdb0a7616c57d1bbc50ca6c897090530251df684/30169:9597"
+          "id": "VariableID:d5f60f67064d0c60883566ffb433005b1ab96fb5/17416:10110"
         }
       }
     }
