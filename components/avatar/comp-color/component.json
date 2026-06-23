@@ -1,171 +1,108 @@
 {
-  "libraryName": "[POC][i-DS] core web comp avatar",
-  "collectionName": "comp-color",
-  "variables": [
-    {
-      "key": "6841ee5f9f4c8f6c312712b637ec4b7e43746814",
-      "name": "comp/color/avatar/color/bg/primary/default",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:272286d0a8a19804d25c075b3ff804cb25311d23/30383:13130"
+  "color": {
+    "bg": {
+      "surface": {
+        "default": {
+          "value": "{smc.reference.container.color.border.surface.darker-10}",
+          "type": "color"
+        }
+      },
+      "dark": {
+        "default": {
+          "value": "{smc.reference.container.color.bg.dark.fixed.default}",
+          "type": "color"
+        }
+      },
+      "light": {
+        "default": {
+          "value": "{smc.reference.container.color.bg.surface.lighter-10}",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "default": {
+          "value": "{smc.reference.container.color.bg.secondary.default}",
+          "type": "color"
+        }
+      },
+      "primary": {
+        "default": {
+          "value": "{smc.reference.container.color.bg.primary.default}",
+          "type": "color"
         }
       }
     },
-    {
-      "key": "74577c6fe4283cbc1acac6a63044bdf7874fdf37",
-      "name": "comp/color/avatar/color/border/primary/default",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:15a3cca6620557b1a4cb551c45afb8dd8b89c084/30169:7937"
+    "border": {
+      "surface": {
+        "default": {
+          "value": "{smc.reference.container.color.border.surface.transparent.0}",
+          "type": "color"
+        }
+      },
+      "dark": {
+        "default": {
+          "value": "{smc.reference.container.color.border.surface.transparent.0}",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "default": {
+          "value": "{smc.reference.container.color.border.surface.transparent.0}",
+          "type": "color"
+        }
+      },
+      "primary": {
+        "default": {
+          "value": "{smc.reference.container.color.border.surface.transparent.0}",
+          "type": "color"
+        }
+      },
+      "light": {
+        "default": {
+          "value": "{smc.reference.container.color.border.surface.transparent.0}",
+          "type": "color"
         }
       }
     },
-    {
-      "key": "3cf6afdd1a602918714db349d094a44eca6a5362",
-      "name": "comp/color/avatar/color/bg/light/default",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:eb345911354efafc6277eea17afe4ed019752c2f/30169:5285"
+    "fg": {
+      "dark": {
+        "default": {
+          "value": "{smc.reference.container.color.fg.dark.default}",
+          "type": "color"
         }
-      }
-    },
-    {
-      "key": "2ee4ebc8cf61761f47215c759da59a1c7882a45f",
-      "name": "comp/color/avatar/color/border/secondary/default",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:15a3cca6620557b1a4cb551c45afb8dd8b89c084/30169:7937"
+      },
+      "light": {
+        "default": {
+          "value": "{smc.reference.container.color.fg.surface.darker-60}",
+          "type": "color"
         }
-      }
-    },
-    {
-      "key": "bb00cbb31e50d4d1a954a1673e81d717cb9ada95",
-      "name": "comp/color/avatar/color/fg/surface/default",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:8451aef4d71347ffc3cdf116c5f3c245a3c10e7f/30383:12809"
+      },
+      "secondary": {
+        "default": {
+          "value": "{smc.reference.container.color.fg.surface.lighter-10}",
+          "type": "color"
         }
-      }
-    },
-    {
-      "key": "4d1e3a225cc7162bbe466118f014d97b6a4d581b",
-      "name": "comp/color/avatar/color/bg/dark/default",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:26fee2dcf2794161ff7ae7c5bf7e2a00baf1429b/30383:12208"
+      },
+      "primary": {
+        "default": {
+          "value": "{smc.reference.container.color.fg.surface.lighter-10}",
+          "type": "color"
         }
-      }
-    },
-    {
-      "key": "38217e120c059465900c755a06ee2032c0da4c75",
-      "name": "comp/color/avatar/color/bg/secondary/default",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:6dbacff7715e375dbe017729ced55a9b360d631c/30383:13012"
-        }
-      }
-    },
-    {
-      "key": "13da886d60fe92aa5373ca25a8695d7408dccea5",
-      "name": "comp/color/avatar/color/border/dark/default",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:15a3cca6620557b1a4cb551c45afb8dd8b89c084/30169:7937"
-        }
-      }
-    },
-    {
-      "key": "6e2746ca824cc7d43326144fb2baa7ce97d3a66e",
-      "name": "comp/color/avatar/color/fg/light/default",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:b7eb78ce9374763a693c186ade8fe020f041f3dc/30383:12618"
-        }
-      }
-    },
-    {
-      "key": "58c306d74915840a8e31ccd599174bcac7dcd120",
-      "name": "comp/color/avatar/color/fg/dark/default",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:1380a5aec3fc15351fb51aa8f5cb13bbbb207a76/30383:12268"
-        }
-      }
-    },
-    {
-      "key": "82b28ed85663502bf4d3a696d1c73cd588a225a8",
-      "name": "comp/color/avatar/color/fg/secondary/default",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:f023bbd53608989f1f47bbbbad0cdb8b98a341e4/30169:6451"
-        }
-      }
-    },
-    {
-      "key": "06ffca9e2a359b2b9eb991583f6fad5fbc946246",
-      "name": "comp/color/avatar/color/fg/primary/default",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:f023bbd53608989f1f47bbbbad0cdb8b98a341e4/30169:6451"
-        }
-      }
-    },
-    {
-      "key": "116619a893d40ec0f2dbb658f0e3f5a8e48ca015",
-      "name": "comp/color/avatar/color/border/surface/default",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:15a3cca6620557b1a4cb551c45afb8dd8b89c084/30169:7937"
-        }
-      }
-    },
-    {
-      "key": "e747ad6a3081f41be07d7967540520a043a78521",
-      "name": "comp/color/avatar/color/border/light/default",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:15a3cca6620557b1a4cb551c45afb8dd8b89c084/30169:7937"
-        }
-      }
-    },
-    {
-      "key": "7d8eb507427cfe34cf791fd57041ccc85e482721",
-      "name": "comp/color/avatar/color/bg/surface/default",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:14773309d26a6f0f02f60fd28158398635a5f4ff/30383:12381"
+      },
+      "surface": {
+        "default": {
+          "value": "{smc.reference.container.color.fg.surface.darker-95}",
+          "type": "color"
         }
       }
     }
-  ]
+  },
+  "size": {
+    "comfortable": {
+      "border-radius": {
+        "value": "{smc.reference.container.border-radius.full}",
+        "type": "number"
+      }
+    }
+  }
 }

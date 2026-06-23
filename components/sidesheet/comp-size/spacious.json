@@ -1,0 +1,200 @@
+{
+  "header": {
+    "size": {
+      "gap": {
+        "value": "{smc.reference.container.gap.8}",
+        "type": "number"
+      },
+      "padding-x": {
+        "value": "{smc.reference.container.padding.none}",
+        "type": "number"
+      },
+      "padding-y": {
+        "value": "{smc.reference.container.padding.none}",
+        "type": "number"
+      }
+    },
+    "title": {
+      "typography": {
+        "letter-spacing": {
+          "value": "{smc.reference.typography.letter-spacing.default}",
+          "type": "number"
+        },
+        "font-size": {
+          "value": "{smc.reference.typography.font-size.28}",
+          "type": "number"
+        },
+        "font-family": {
+          "value": "{smc.reference.typography.font-family.default}",
+          "type": "string"
+        },
+        "line-height": {
+          "value": "{smc.reference.typography.line-height.36}",
+          "type": "number"
+        },
+        "font-weight": {
+          "value": "{smc.reference.typography.font-weight.Bold}",
+          "type": "number"
+        }
+      }
+    }
+  },
+  "backdrop": {
+    "orientation": {
+      "right": {
+        "size": {
+          "border-radius-left": {
+            "value": "{smc.reference.container.border-radius.none}",
+            "type": "number"
+          },
+          "border-radius-right": {
+            "value": "{smc.reference.container.border-radius.none}",
+            "type": "number"
+          },
+          "opacity": {
+            "value": "{smc.reference.container.color.opacity.backdrop-percentage}",
+            "type": "number"
+          },
+          "padding-left": {
+            "value": "{smc.reference.container.padding.24}",
+            "type": "number"
+          },
+          "padding-y": {
+            "value": "{smc.reference.container.padding.none}",
+            "type": "number"
+          },
+          "padding-right": {
+            "value": "{smc.reference.container.padding.none}",
+            "type": "number"
+          }
+        }
+      },
+      "left": {
+        "size": {
+          "padding-left": {
+            "value": "{smc.reference.container.padding.none}",
+            "type": "number"
+          },
+          "padding-y": {
+            "value": "{smc.reference.container.padding.none}",
+            "type": "number"
+          },
+          "padding-right": {
+            "value": "{smc.reference.container.padding.24}",
+            "type": "number"
+          }
+        }
+      }
+    }
+  },
+  "footer": {
+    "gap": {
+      "value": "{smc.reference.container.gap.8}",
+      "type": "number"
+    },
+    "min-padding-y-top": {
+      "value": "{smc.reference.container.padding.12}",
+      "type": "number"
+    },
+    "border-width": {
+      "value": "{smc.reference.container.border-width.sm}",
+      "type": "number"
+    },
+    "padding-y-top": {
+      "value": "{smc.reference.container.padding.none}",
+      "type": "number"
+    },
+    "padding-x": {
+      "value": "{smc.reference.container.padding.none}",
+      "type": "number"
+    },
+    "padding-y": {
+      "value": "{smc.reference.container.padding.none}",
+      "type": "number"
+    }
+  },
+  "container": {
+    "orientation": {
+      "size": {
+        "gap": {
+          "value": "{smc.reference.container.gap.24}",
+          "type": "number"
+        },
+        "padding-x": {
+          "value": "{smc.reference.container.padding.24}",
+          "type": "number"
+        },
+        "padding-y": {
+          "value": "{smc.reference.container.padding.24}",
+          "type": "number"
+        },
+        "width": {
+          "value": "{smc.reference.container.size.width.320}",
+          "type": "number"
+        },
+        "border-radius": {
+          "value": "{smc.reference.container.border-radius.none}",
+          "type": "number"
+        },
+        "border-width": {
+          "value": "{smc.reference.container.border-width.none}",
+          "type": "number"
+        }
+      },
+      "left": {
+        "size": {
+          "min-height": {
+            "value": "{smc.reference.container.size.height.256}",
+            "type": "number"
+          },
+          "border-radius-left": {
+            "value": "{smc.reference.container.border-radius.none}",
+            "type": "number"
+          },
+          "border-radius-right": {
+            "value": "{smc.reference.container.border-radius.md}",
+            "type": "number"
+          },
+          "border-width": {
+            "value": "{smc.reference.container.border-width.none}",
+            "type": "number"
+          }
+        }
+      }
+    }
+  },
+  "content": {
+    "scrollable": {
+      "size": {
+        "padding-x": {
+          "value": "{smc.reference.container.padding.none}",
+          "type": "number"
+        },
+        "padding-y-top": {
+          "value": "{smc.reference.container.padding.24}",
+          "type": "number"
+        },
+        "padding-y-bottom": {
+          "value": "{smc.reference.container.padding.24}",
+          "type": "number"
+        },
+        "border-width": {
+          "value": "{smc.reference.container.border-width.sm}",
+          "type": "number"
+        }
+      }
+    },
+    "fixed": {
+      "size": {
+        "padding-x": {
+          "value": "{smc.reference.container.padding.none}",
+          "type": "number"
+        },
+        "padding-y": {
+          "value": "{smc.reference.container.padding.none}",
+          "type": "number"
+        }
+      }
+    }
+  }
+}

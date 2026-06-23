@@ -1,0 +1,10 @@
+{
+  "header": {
+    "size": {
+      "gap": {
+        "value": "{smc.reference.container.gap.8}",
+        "type": "number"
+      }
+    }
+  }
+}

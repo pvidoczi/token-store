@@ -1,0 +1,36 @@
+{
+  "bigCollection": {
+    "size": {
+      "width": {
+        "value": "{smc.reference.container.size.width.40}",
+        "type": "number"
+      },
+      "height": {
+        "value": "{smc.reference.container.size.height.40}",
+        "type": "number"
+      }
+    }
+  },
+  "active-indicator": {
+    "smallCollection": {
+      "size": {
+        "border-radius": {
+          "value": "{smc.reference.container.border-radius.full}",
+          "type": "number"
+        }
+      }
+    }
+  },
+  "smallCollection": {
+    "size": {
+      "width": {
+        "value": "{smc.reference.container.size.width.16}",
+        "type": "number"
+      },
+      "height": {
+        "value": "{smc.reference.container.size.height.16}",
+        "type": "number"
+      }
+    }
+  }
+}

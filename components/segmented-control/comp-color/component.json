@@ -1,0 +1,134 @@
+{
+  "button": {
+    "outlined": {
+      "color": {
+        "bg": {
+          "light": {
+            "default": {
+              "value": "{smc.reference.container.color.bg.surface.transparent.0}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{smc.reference.container.color.bg.surface.transparent.200}",
+              "type": "color"
+            }
+          },
+          "primary": {
+            "default": {
+              "value": "{smc.reference.container.color.bg.surface.transparent.100}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{smc.reference.container.color.bg.primary.default}",
+              "type": "color"
+            }
+          },
+          "surface": {
+            "default": {
+              "value": "{smc.reference.container.color.bg.surface.transparent.0}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{smc.reference.container.color.bg.surface.transparent.0}",
+              "type": "color"
+            }
+          }
+        },
+        "border": {
+          "light": {
+            "default": {
+              "value": "{smc.reference.container.color.border.surface.fixed.darker-20}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{smc.reference.container.color.border.surface.fixed.darker-20}",
+              "type": "color"
+            }
+          },
+          "primary": {
+            "default": {
+              "value": "{smc.reference.container.color.border.surface.fixed.darker-30}",
+              "type": "color"
+            }
+          },
+          "surface": {
+            "default": {
+              "value": "{smc.reference.container.color.border.surface.fixed.darker-30}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{smc.reference.container.color.border.surface.darker-50}",
+              "type": "color"
+            }
+          }
+        },
+        "fg": {
+          "label": {
+            "light": {
+              "default": {
+                "value": "{smc.reference.container.color.fg.surface.fixed.lighter-10}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{smc.reference.container.color.fg.surface.fixed.lighter-10}",
+                "type": "color"
+              }
+            },
+            "primary": {
+              "default": {
+                "value": "{smc.reference.container.color.fg.surface.darker-50}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{smc.reference.container.color.fg.primary.lighter-100}",
+                "type": "color"
+              }
+            },
+            "surface": {
+              "default": {
+                "value": "{smc.reference.container.color.fg.surface.darker-50}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{smc.reference.container.color.fg.surface.darker-95}",
+                "type": "color"
+              }
+            }
+          },
+          "icon": {
+            "light": {
+              "default": {
+                "value": "{smc.reference.container.color.fg.surface.fixed.lighter-10}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{smc.reference.container.color.fg.surface.fixed.lighter-10}",
+                "type": "color"
+              }
+            },
+            "primary": {
+              "default": {
+                "value": "{smc.reference.container.color.fg.surface.darker-50}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{smc.reference.container.color.fg.primary.lighter-100}",
+                "type": "color"
+              }
+            },
+            "surface": {
+              "default": {
+                "value": "{smc.reference.container.color.fg.surface.darker-50}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{smc.reference.container.color.fg.surface.darker-95}",
+                "type": "color"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

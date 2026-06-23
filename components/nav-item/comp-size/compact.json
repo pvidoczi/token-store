@@ -1,0 +1,10 @@
+{
+  "horizontal": {
+    "size": {
+      "border-radius": {
+        "value": "{smc.reference.container.border-radius.2xs}",
+        "type": "number"
+      }
+    }
+  }
+}

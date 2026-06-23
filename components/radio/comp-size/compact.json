@@ -1,0 +1,136 @@
+{
+  "button": {
+    "container": {
+      "size": {
+        "gap": {
+          "value": "{smc.reference.container.gap.8}",
+          "type": "number"
+        },
+        "padding-x": {
+          "value": "{smc.reference.container.padding.none}",
+          "type": "number"
+        },
+        "padding-y": {
+          "value": "{smc.reference.container.padding.8}",
+          "type": "number"
+        }
+      }
+    },
+    "label": {
+      "size": {
+        "padding-y": {
+          "value": "{smc.reference.container.padding.2}",
+          "type": "number"
+        }
+      },
+      "typography": {
+        "letter-spacing": {
+          "value": "{smc.reference.typography.letter-spacing.default}",
+          "type": "number"
+        },
+        "font-size": {
+          "value": "{smc.reference.typography.font-size.16}",
+          "type": "number"
+        },
+        "font-family": {
+          "value": "{smc.reference.typography.font-family.default}",
+          "type": "string"
+        },
+        "line-height": {
+          "value": "{smc.reference.typography.line-height.20}",
+          "type": "number"
+        },
+        "font-weight": {
+          "value": "{smc.reference.typography.font-weight.Regular}",
+          "type": "number"
+        }
+      }
+    },
+    "input": {
+      "size": {
+        "width": {
+          "value": "{smc.reference.container.size.width.24}",
+          "type": "number"
+        },
+        "height": {
+          "value": "{smc.reference.container.size.height.24}",
+          "type": "number"
+        },
+        "border-radius": {
+          "value": "{smc.reference.container.border-radius.full}",
+          "type": "number"
+        },
+        "border-width": {
+          "value": "{smc.reference.container.border-width.sm}",
+          "type": "number"
+        },
+        "touchtarget": {
+          "width": {
+            "value": "{smc.reference.container.size.width.40}",
+            "type": "number"
+          },
+          "height": {
+            "value": "{smc.reference.container.size.width.40}",
+            "type": "number"
+          }
+        }
+      },
+      "inner-circle": {
+        "size": {
+          "width": {
+            "value": "{smc.reference.container.size.width.16}",
+            "type": "number"
+          },
+          "height": {
+            "value": "{smc.reference.container.size.height.16}",
+            "type": "number"
+          },
+          "border-radius": {
+            "value": "{smc.reference.container.border-radius.full}",
+            "type": "number"
+          },
+          "border-width": {
+            "value": "{smc.reference.container.border-width.none}",
+            "type": "number"
+          }
+        }
+      }
+    }
+  },
+  "focused-outline": {
+    "outline": {
+      "value": "{smc.reference.container.focused-outline.size.default}",
+      "type": "number"
+    }
+  },
+  "group": {
+    "horizontal": {
+      "container": {
+        "size": {
+          "gap": {
+            "value": "{smc.reference.container.gap.24}",
+            "type": "number"
+          }
+        }
+      }
+    },
+    "vertical": {
+      "container": {
+        "size": {
+          "padding-x": {
+            "value": "{smc.reference.container.padding.none}",
+            "type": "number"
+          },
+          "padding-y": {
+            "value": "{smc.reference.container.padding.none}",
+            "type": "number"
+          },
+          "gap": {
+            "value": "{smc.reference.container.gap.8}",
+            "type": "number"
+          }
+        }
+      }
+    }
+  }
+}
