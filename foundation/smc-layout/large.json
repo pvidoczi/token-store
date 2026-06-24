@@ -3,6 +3,7 @@
   "collectionName": "smc-layout",
   "variables": [
     {
+      "id": "VariableID:b3233abffc34b85e7a55033be44c7be8615f5d77/17416:10254",
       "key": "b3233abffc34b85e7a55033be44c7be8615f5d77",
       "name": "smc/layout/typography/headline/letter-spacing",
       "resolvedType": "FLOAT",
@@ -26,6 +27,7 @@
       }
     },
     {
+      "id": "VariableID:a38d03586da3939da284deec55bde29d1d98c0f4/17416:10144",
       "key": "a38d03586da3939da284deec55bde29d1d98c0f4",
       "name": "smc/layout/typography/caption/line-height",
       "resolvedType": "FLOAT",
@@ -49,6 +51,7 @@
       }
     },
     {
+      "id": "VariableID:b03b51d872b94695ac7dd550dc3a546598702d51/17416:10203",
       "key": "b03b51d872b94695ac7dd550dc3a546598702d51",
       "name": "smc/layout/typography/headline/line-height",
       "resolvedType": "FLOAT",
@@ -72,6 +75,7 @@
       }
     },
     {
+      "id": "VariableID:01eed945667a411f6febd7fef7f80311ce1387ad/17416:10008",
       "key": "01eed945667a411f6febd7fef7f80311ce1387ad",
       "name": "smc/layout/typography/title/font-family",
       "resolvedType": "STRING",
@@ -95,6 +99,7 @@
       }
     },
     {
+      "id": "VariableID:3d582157ecc915d41afea67684f1dea8b083c5c3/17416:10118",
       "key": "3d582157ecc915d41afea67684f1dea8b083c5c3",
       "name": "smc/layout/typography/display/font-size",
       "resolvedType": "FLOAT",
@@ -118,6 +123,7 @@
       }
     },
     {
+      "id": "VariableID:7a4ee2ba74be0ec2a4a75e037d04a04384a04052/17416:10260",
       "key": "7a4ee2ba74be0ec2a4a75e037d04a04384a04052",
       "name": "smc/layout/typography/body/letter-spacing",
       "resolvedType": "FLOAT",
@@ -141,6 +147,7 @@
       }
     },
     {
+      "id": "VariableID:4c24c76dcded05905868d9aca795576363bd26ea/17416:9988",
       "key": "4c24c76dcded05905868d9aca795576363bd26ea",
       "name": "smc/layout/typography/headline/font-family",
       "resolvedType": "STRING",
@@ -164,6 +171,7 @@
       }
     },
     {
+      "id": "VariableID:ed5d2ee4ee138e4bf43e0bdc3d3dead0d9b7547b/17416:10274",
       "key": "ed5d2ee4ee138e4bf43e0bdc3d3dead0d9b7547b",
       "name": "smc/layout/typography/display/letter-spacing",
       "resolvedType": "FLOAT",
@@ -187,6 +195,7 @@
       }
     },
     {
+      "id": "VariableID:c0f08fa0f703677339429491dd5938a20cb1a017/21490:10545",
       "key": "c0f08fa0f703677339429491dd5938a20cb1a017",
       "name": "smc/layout/typography/heading/line-height",
       "resolvedType": "FLOAT",
@@ -210,6 +219,7 @@
       }
     },
     {
+      "id": "VariableID:454ffc70c3384783c676d5e4cbdaa70361b05151/17416:9993",
       "key": "454ffc70c3384783c676d5e4cbdaa70361b05151",
       "name": "smc/layout/typography/body/font-family",
       "resolvedType": "STRING",
@@ -233,6 +243,7 @@
       }
     },
     {
+      "id": "VariableID:ade1543a1ab074b926ce553bca0a9761d7723759/17416:10093",
       "key": "ade1543a1ab074b926ce553bca0a9761d7723759",
       "name": "smc/layout/typography/title/font-size",
       "resolvedType": "FLOAT",
@@ -256,6 +267,7 @@
       }
     },
     {
+      "id": "VariableID:fbdaa87f323158f23f939074857b2b06ac926219/17416:10050",
       "key": "fbdaa87f323158f23f939074857b2b06ac926219",
       "name": "smc/layout/typography/caption/font-size",
       "resolvedType": "FLOAT",
@@ -279,6 +291,7 @@
       }
     },
     {
+      "id": "VariableID:5f346671d0f22ad92346ed7d5ca98daede096f07/17416:10277",
       "key": "5f346671d0f22ad92346ed7d5ca98daede096f07",
       "name": "smc/layout/typography/caption/letter-spacing",
       "resolvedType": "FLOAT",
@@ -302,6 +315,7 @@
       }
     },
     {
+      "id": "VariableID:6a8612da6359e17da9a33074075fd5cb8db9cb09/17416:9992",
       "key": "6a8612da6359e17da9a33074075fd5cb8db9cb09",
       "name": "smc/layout/typography/caption/font-family",
       "resolvedType": "STRING",
@@ -325,6 +339,7 @@
       }
     },
     {
+      "id": "VariableID:ef8913275b635dd3658e51f8af435706346180ee/17416:10109",
       "key": "ef8913275b635dd3658e51f8af435706346180ee",
       "name": "smc/layout/typography/headline/font-size",
       "resolvedType": "FLOAT",
@@ -348,6 +363,7 @@
       }
     },
     {
+      "id": "VariableID:7a5f56dc66294c12b64e39c5ced2ff1057852d37/17416:10283",
       "key": "7a5f56dc66294c12b64e39c5ced2ff1057852d37",
       "name": "smc/layout/typography/title/letter-spacing",
       "resolvedType": "FLOAT",
@@ -371,6 +387,7 @@
       }
     },
     {
+      "id": "VariableID:8258a8ab7c219097fd2ad54da2b6db04e278e09c/17416:10210",
       "key": "8258a8ab7c219097fd2ad54da2b6db04e278e09c",
       "name": "smc/layout/typography/display/line-height",
       "resolvedType": "FLOAT",
@@ -394,6 +411,7 @@
       }
     },
     {
+      "id": "VariableID:a913f7d257e9657691a183e64e3a6f7269f50db0/21490:10543",
       "key": "a913f7d257e9657691a183e64e3a6f7269f50db0",
       "name": "smc/layout/typography/heading/font-family",
       "resolvedType": "STRING",
@@ -417,6 +435,7 @@
       }
     },
     {
+      "id": "VariableID:30fa3fa66a05380fab597efea2076687a2219fec/17416:10191",
       "key": "30fa3fa66a05380fab597efea2076687a2219fec",
       "name": "smc/layout/typography/body/line-height",
       "resolvedType": "FLOAT",
@@ -440,6 +459,7 @@
       }
     },
     {
+      "id": "VariableID:e8fdb514bfc267e4b4348c620b209ccd325ce572/17416:10183",
       "key": "e8fdb514bfc267e4b4348c620b209ccd325ce572",
       "name": "smc/layout/typography/title/line-height",
       "resolvedType": "FLOAT",
@@ -463,6 +483,7 @@
       }
     },
     {
+      "id": "VariableID:e7f88f6a69918ab6b133b0b0e5a9dd7ea41929e6/21490:10546",
       "key": "e7f88f6a69918ab6b133b0b0e5a9dd7ea41929e6",
       "name": "smc/layout/typography/heading/letter-spacing",
       "resolvedType": "FLOAT",
@@ -486,6 +507,7 @@
       }
     },
     {
+      "id": "VariableID:93c886e6616f5cfa65f21b854c6c279ea0bc55b1/21490:10544",
       "key": "93c886e6616f5cfa65f21b854c6c279ea0bc55b1",
       "name": "smc/layout/typography/heading/font-size",
       "resolvedType": "FLOAT",
@@ -509,6 +531,7 @@
       }
     },
     {
+      "id": "VariableID:8de1482b36cc9064c83beae97b56b6cbdae7d6f4/17416:10091",
       "key": "8de1482b36cc9064c83beae97b56b6cbdae7d6f4",
       "name": "smc/layout/typography/body/font-size",
       "resolvedType": "FLOAT",
@@ -532,6 +555,7 @@
       }
     },
     {
+      "id": "VariableID:a516365b974b70695564e8ef339540a94318b64a/17416:9996",
       "key": "a516365b974b70695564e8ef339540a94318b64a",
       "name": "smc/layout/typography/display/font-family",
       "resolvedType": "STRING",

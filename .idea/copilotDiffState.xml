@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/package.json">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/package.json" />
+              <option name="originalContent" value="{&#10;  &quot;name&quot;: &quot;token-store&quot;,&#10;  &quot;version&quot;: &quot;1.0.0&quot;,&#10;  &quot;main&quot;: &quot;scripts_parse_ids_css.js&quot;,&#10;  &quot;scripts&quot;: {&#10;    &quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;&#10;  },&#10;  &quot;repository&quot;: {&#10;    &quot;type&quot;: &quot;git&quot;,&#10;    &quot;url&quot;: &quot;git+https://github.com/pvidoczi/token-store.git&quot;&#10;  },&#10;  &quot;keywords&quot;: [],&#10;  &quot;author&quot;: &quot;&quot;,&#10;  &quot;license&quot;: &quot;ISC&quot;,&#10;  &quot;bugs&quot;: {&#10;    &quot;url&quot;: &quot;https://github.com/pvidoczi/token-store/issues&quot;&#10;  },&#10;  &quot;homepage&quot;: &quot;https://github.com/pvidoczi/token-store#readme&quot;,&#10;  &quot;description&quot;: &quot;&quot;,&#10;  &quot;devDependencies&quot;: {&#10;    &quot;@types/node&quot;: &quot;^25.6.0&quot;,&#10;    &quot;ts-node&quot;: &quot;^10.9.2&quot;,&#10;    &quot;typescript&quot;: &quot;^6.0.3&quot;&#10;  }&#10;}&#10;" />
+              <option name="updatedContent" value="{&#10;  &quot;name&quot;: &quot;token-store&quot;,&#10;  &quot;version&quot;: &quot;1.0.0&quot;,&#10;  &quot;main&quot;: &quot;scripts_parse_ids_css.js&quot;,&#10;  &quot;scripts&quot;: {&#10;    &quot;parse&quot;: &quot;ts-node parse_ids_css.ts&quot;,&#10;    &quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;&#10;  },&#10;  &quot;repository&quot;: {&#10;    &quot;type&quot;: &quot;git&quot;,&#10;    &quot;url&quot;: &quot;git+https://github.com/pvidoczi/token-store.git&quot;&#10;  },&#10;  &quot;keywords&quot;: [],&#10;  &quot;author&quot;: &quot;&quot;,&#10;  &quot;license&quot;: &quot;ISC&quot;,&#10;  &quot;bugs&quot;: {&#10;    &quot;url&quot;: &quot;https://github.com/pvidoczi/token-store/issues&quot;&#10;  },&#10;  &quot;homepage&quot;: &quot;https://github.com/pvidoczi/token-store#readme&quot;,&#10;  &quot;description&quot;: &quot;&quot;,&#10;  &quot;devDependencies&quot;: {&#10;    &quot;@types/node&quot;: &quot;^25.6.0&quot;,&#10;    &quot;ts-node&quot;: &quot;^10.9.2&quot;,&#10;    &quot;typescript&quot;: &quot;^6.0.3&quot;&#10;  }&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
