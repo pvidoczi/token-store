@@ -102,5 +102,13 @@
         }
       }
     }
+  },
+  "focused-outline": {
+    "size": {
+      "outline": {
+        "value": "{smc.reference.container.focused-outline.size.default}",
+        "type": "number"
+      }
+    }
   }
 }
