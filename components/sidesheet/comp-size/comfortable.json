@@ -129,7 +129,7 @@
           "type": "number"
         },
         "width": {
-          "value": "{smc.reference.container.size.width.400}",
+          "value": "{smc.reference.container.size.width.320}",
           "type": "number"
         },
         "border-radius": {

@@ -2,11 +2,11 @@
   "input": {
     "size": {
       "width": {
-        "value": "{smc.reference.container.size.width.32}",
+        "value": "{smc.reference.container.size.width.40}",
         "type": "number"
       },
       "height": {
-        "value": "{smc.reference.container.size.height.32}",
+        "value": "{smc.reference.container.size.height.40}",
         "type": "number"
       },
       "border-radius": {
