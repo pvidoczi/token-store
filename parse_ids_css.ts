@@ -12,7 +12,7 @@ interface RgbaValue {
 
 interface AliasValue {
   type: 'VARIABLE_ALIAS';
-  id: string; // "VariableID:<key>/<nodeId>" OR "VariableID:<nodeId>"
+  id: string;
 }
 
 type ModeValue = RgbaValue | AliasValue | number | string;
@@ -30,11 +30,18 @@ interface TokenFile {
   variables: Variable[];
 }
 
-// Bundled format (e.g. button-json)
 interface BundledFile {
   exportedAt?: string;
   fileName?: string;
   collections: TokenFile[];
+}
+
+// Style Dictionary (new component format) – nested object with { value, type } leaves
+type StyleDictNode = { value: string; type: string } | { [key: string]: StyleDictNode };
+
+interface FlatToken {
+  path: string[];
+  value: string;
 }
 
 // ─── Paths ────────────────────────────────────────────────────────────────────
@@ -62,18 +69,16 @@ function sanitize(s: string): string {
     .replace(/^-+|-+$/g, '');
 }
 
+// ─── Foundation CSS var naming (old Figma format) ────────────────────────────
+
 function nameToCssVar(name: string, modeSuffix?: string): string {
   const segments = name.split('/').map(sanitize).filter(Boolean);
   let parts: string[];
 
-  // comp/* variables: drop the collection-type segment (index 1: "color" or "size")
-  // Also handles "comp/comp/color/..." format (drop indices 1 and 2)
   if (segments[0] === 'comp') {
     if (segments[1] === 'comp') {
-      // Bundled format: comp/comp/color/... → ids-comp-{rest}
       parts = ['ids', 'comp', ...segments.slice(3)];
     } else {
-      // Standard format: comp/color/... or comp/size/... → ids-comp-{rest}
       parts = ['ids', 'comp', ...segments.slice(2)];
     }
   } else {
@@ -96,16 +101,14 @@ function rgbaToHex(r: number, g: number, b: number, a: number): string {
 }
 
 function extractAliasKey(id: string): string | null {
-  // Format 1: "VariableID:<40-hex-key>/<nodeId>" → key-based
   const m1 = id.match(/^VariableID:([0-9a-f]{40})\//i);
   if (m1) return m1[1];
   return null;
 }
 
-// ─── Global registry: variableKey → cssVarName ───────────────────────────────
+// ─── Global registry: variableKey → cssVarName (for foundation/old format) ───
 
 const globalRegistry = new Map<string, string>();
-let registryUnresolved = 0;
 
 function registerTokenFile(data: TokenFile, modeSuffixes?: string[]) {
   for (const v of data.variables) {
@@ -123,32 +126,81 @@ function registerTokenFile(data: TokenFile, modeSuffixes?: string[]) {
   }
 }
 
-// ─── Value resolution ─────────────────────────────────────────────────────────
+// ─── Value resolution (old Figma format) ─────────────────────────────────────
 
 function resolveValue(modeValue: ModeValue): string | null {
   if (modeValue === null || modeValue === undefined) return null;
 
-  // VARIABLE_ALIAS
   if (typeof modeValue === 'object' && 'type' in modeValue && modeValue.type === 'VARIABLE_ALIAS') {
     const targetKey = extractAliasKey(modeValue.id);
     if (targetKey) {
       const targetCssVar = globalRegistry.get(targetKey);
       if (targetCssVar) return `var(${targetCssVar})`;
     }
-    return null; // unresolvable
+    return null;
   }
 
-  // RGBA color
   if (typeof modeValue === 'object' && 'r' in modeValue) {
     const { r, g, b, a } = modeValue as RgbaValue;
     return rgbaToHex(r, g, b, a);
   }
 
-  // Number or string
   if (typeof modeValue === 'number') return String(modeValue);
   if (typeof modeValue === 'string') return modeValue;
 
   return null;
+}
+
+// ─── Style Dictionary helpers (new component format) ─────────────────────────
+
+/**
+ * Returns true if the JSON data is in the new Style Dictionary format
+ * (nested object with { value, type } leaf nodes) rather than the old
+ * Figma Variables format ({ variables: [...] }).
+ */
+function isStyleDictFormat(data: unknown): data is StyleDictNode {
+  return (
+    typeof data === 'object' &&
+    data !== null &&
+    !('variables' in data) &&
+    !('collections' in data)
+  );
+}
+
+/**
+ * Recursively flattens a Style Dictionary object into an array of
+ * { path: string[], value: string } entries.
+ */
+function flattenStyleDict(node: unknown, currentPath: string[] = []): FlatToken[] {
+  if (typeof node !== 'object' || node === null) return [];
+
+  const obj = node as Record<string, unknown>;
+
+  // Leaf node: has a 'value' property
+  if ('value' in obj && (typeof obj['value'] === 'string' || typeof obj['value'] === 'number')) {
+    return [{ path: currentPath, value: String(obj['value']) }];
+  }
+
+  const result: FlatToken[] = [];
+  for (const [key, child] of Object.entries(obj)) {
+    // Skip metadata keys that aren't tokens
+    if (key === 'type' || key === 'description' || key === '$type' || key === '$description') continue;
+    result.push(...flattenStyleDict(child, [...currentPath, sanitize(key)]));
+  }
+  return result;
+}
+
+/**
+ * Converts a Style Dictionary reference like {smc.reference.container.gap.8}
+ * to a CSS variable reference: var(--ids-smc-reference-container-gap-8)
+ */
+function resolveStyleDictRef(value: string): string {
+  const m = value.match(/^\{([^}]+)\}$/);
+  if (m) {
+    const cssVar = '--ids-' + m[1].split('.').map(sanitize).filter(Boolean).join('-');
+    return `var(${cssVar})`;
+  }
+  return value;
 }
 
 // ─── CSS block generation ─────────────────────────────────────────────────────
@@ -191,7 +243,6 @@ function findJsonFiles(dir: string): string[] {
   return result;
 }
 
-// Check if file has bundled format
 function isBundledFormat(data: unknown): data is BundledFile {
   return typeof data === 'object' && data !== null && 'collections' in data && Array.isArray((data as BundledFile).collections);
 }
@@ -200,10 +251,10 @@ function isTokenFile(data: unknown): data is TokenFile {
   return typeof data === 'object' && data !== null && 'variables' in data && Array.isArray((data as TokenFile).variables);
 }
 
-// ─── Pass 1: Build global registry ───────────────────────────────────────────
+// ─── Pass 1: Build global registry (foundation files only) ───────────────────
 
 function buildRegistry() {
-  // Foundation files
+  // Foundation files (still old Figma format)
   const foundationFiles = findJsonFiles(FOUNDATION_DIR);
   for (const fp of foundationFiles) {
     try {
@@ -218,23 +269,7 @@ function buildRegistry() {
     } catch { /* skip */ }
   }
 
-  // Component files
-  const compFiles = findJsonFiles(COMPONENTS_DIR);
-  for (const fp of compFiles) {
-    try {
-      const raw = readJson(fp);
-      if (!isTokenFile(raw)) continue;
-      const data = raw as TokenFile;
-      if (data.collectionName === 'comp-size') {
-        const sizeSuffix = path.basename(fp, '.json').toLowerCase();
-        registerTokenFile(data, [sizeSuffix]);
-      } else {
-        registerTokenFile(data);
-      }
-    } catch { /* skip */ }
-  }
-
-  // Also register any bundled files in root (for cross-reference)
+  // Root bundled files (for cross-reference)
   const rootFiles = fs.readdirSync(ROOT).filter((f) => {
     const full = path.join(ROOT, f);
     return fs.statSync(full).isFile() && !f.endsWith('.ts') && !f.endsWith('.js') && !f.endsWith('.css');
@@ -293,7 +328,6 @@ function generateSmcColorsCss() {
   const allModeIds = Object.keys(data.variables[0]?.valuesByMode ?? {});
   if (allModeIds.length < 2) { console.warn('smc-colors: expected at least 2 modes'); return; }
 
-  // First mode (2002:54) = light theme, second mode (2002:55) = dark theme
   const [lightModeId, darkModeId] = allModeIds;
   const darkEntries: TokenEntry[] = [];
   const lightEntries: TokenEntry[] = [];
@@ -377,9 +411,7 @@ function generateSmcReferenceCss() {
   console.log(`✓ smc/smc-reference.css (${resolved}/${entries.length} tokens resolved)`);
 }
 
-// ─── component.css ────────────────────────────────────────────────────────────
-
-const COMP_SIZE_ORDER = ['comfortable', 'compact', 'dense', 'spacious'];
+// ─── component.css (new Style Dictionary format) ─────────────────────────────
 
 function generateComponentCss() {
   const allEntries: TokenEntry[] = [];
@@ -390,43 +422,49 @@ function generateComponentCss() {
   const compDirs = fs
     .readdirSync(COMPONENTS_DIR, { withFileTypes: true })
     .filter((e) => e.isDirectory() && e.name !== 'foundation')
-    .map((e) => path.join(COMPONENTS_DIR, e.name));
+    .map((e) => ({ name: e.name, fullPath: path.join(COMPONENTS_DIR, e.name) }));
 
-  for (const compDir of compDirs) {
-    // ── comp-color ─────────────────────────────────────────────────────────
+  for (const { name: compName, fullPath: compDir } of compDirs) {
+    const sanitizedCompName = sanitize(compName);
+
+    // ── comp-color ──────────────────────────────────────────────────────────
     const colorDir = path.join(compDir, 'comp-color');
     if (fs.existsSync(colorDir) && !processedDirs.has(colorDir)) {
       processedDirs.add(colorDir);
       const colorFiles = fs.readdirSync(colorDir).filter((f) => f.endsWith('.json'));
       for (const cf of colorFiles) {
-        const data = readJson<TokenFile>(path.join(colorDir, cf));
-        const modeId = Object.keys(data.variables[0]?.valuesByMode ?? {})[0];
-        for (const v of data.variables) {
-          const val = resolveValue(v.valuesByMode[modeId]);
-          allEntries.push({ cssVar: nameToCssVar(v.name), value: val ?? '', resolved: val !== null });
+        let raw: unknown;
+        try { raw = readJson(path.join(colorDir, cf)); } catch { continue; }
+
+        if (!isStyleDictFormat(raw)) continue; // skip old-format files
+
+        const tokens = flattenStyleDict(raw);
+        for (const token of tokens) {
+          const cssVar = `--ids-comp-${sanitizedCompName}-${token.path.join('-')}`;
+          const resolvedVal = resolveStyleDictRef(token.value);
+          allEntries.push({ cssVar, value: resolvedVal, resolved: true });
         }
       }
     }
 
-    // ── comp-size ──────────────────────────────────────────────────────────
+    // ── comp-size ────────────────────────────────────────────────────────────
     const sizeDir = path.join(compDir, 'comp-size');
     if (fs.existsSync(sizeDir) && !processedDirs.has(sizeDir)) {
       processedDirs.add(sizeDir);
       const sizeFiles = fs.readdirSync(sizeDir).filter((f) => f.endsWith('.json')).sort();
-      if (sizeFiles.length === 0) continue;
 
-      // Use one file (all are identical), get all mode IDs
-      const firstData = readJson<TokenFile>(path.join(sizeDir, sizeFiles[0]));
-      const allModeIds = Object.keys(firstData.variables[0]?.valuesByMode ?? {}).sort();
-      const modeToSuffix: Record<string, string> = {};
-      for (let i = 0; i < allModeIds.length && i < COMP_SIZE_ORDER.length; i++) {
-        modeToSuffix[allModeIds[i]] = COMP_SIZE_ORDER[i];
-      }
+      for (const sf of sizeFiles) {
+        let raw: unknown;
+        try { raw = readJson(path.join(sizeDir, sf)); } catch { continue; }
 
-      for (const v of firstData.variables) {
-        for (const [modeId, suffix] of Object.entries(modeToSuffix)) {
-          const val = resolveValue(v.valuesByMode[modeId]);
-          allEntries.push({ cssVar: nameToCssVar(v.name, suffix), value: val ?? '', resolved: val !== null });
+        if (!isStyleDictFormat(raw)) continue; // skip Mode.json and other old-format files
+
+        const sizeName = sanitize(path.basename(sf, '.json'));
+        const tokens = flattenStyleDict(raw);
+        for (const token of tokens) {
+          const cssVar = `--ids-comp-${sanitizedCompName}-${token.path.join('-')}-${sizeName}`;
+          const resolvedVal = resolveStyleDictRef(token.value);
+          allEntries.push({ cssVar, value: resolvedVal, resolved: true });
         }
       }
     }
@@ -441,12 +479,11 @@ function generateComponentCss() {
   });
 
   const resolved = deduped.filter((e) => e.resolved).length;
-  // Output resolved vars; output unresolved as comments
-  const output = buildCssBlock(':root', deduped, true);
+  const output = buildCssBlock(':root', deduped);
   const outPath = path.join(OUTPUT_DIR, 'component', 'component.css');
   ensureDir(path.dirname(outPath));
   fs.writeFileSync(outPath, output, 'utf-8');
-  console.log(`✓ component/component.css (${resolved}/${deduped.length} tokens resolved, ${deduped.length - resolved} commented-out)`);
+  console.log(`✓ component/component.css (${resolved}/${deduped.length} tokens)`);
 }
 
 // ─── tokens.css ───────────────────────────────────────────────────────────────
@@ -473,7 +510,7 @@ function generateTokensCss() {
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
 function main() {
-  console.log('Building global variable registry…');
+  console.log('Building global variable registry (foundation)…');
   buildRegistry();
   console.log(`Registry: ${globalRegistry.size} variable keys indexed`);
 
@@ -488,10 +525,6 @@ function main() {
   generateTokensCss();
 
   console.log('\n✅ Done! Output in:', path.relative(ROOT, OUTPUT_DIR));
-  console.log('\nNote: "unresolved" tokens reference variables from external Figma libraries');
-  console.log('      not included in the local JSON export. They appear as CSS comments.');
 }
 
 main();
-
-
