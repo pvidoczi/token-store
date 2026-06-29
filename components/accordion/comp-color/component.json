@@ -1,570 +1,204 @@
 {
-  "libraryName": "[POC][i-DS] core web comp accordion",
-  "collectionName": "comp-color",
-  "variables": [
-    {
-      "id": "VariableID:feac076f85db8461e8676a48cac017db307f1229/26126:625",
-      "key": "feac076f85db8461e8676a48cac017db307f1229",
-      "name": "comp/color/accordion/summary/text/color/fg/label/pressed",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:f8548438de0ef2b508c941eddc515c34f06cd347/21490:9400"
-        }
-      }
-    },
-    {
-      "id": "VariableID:161a94c269f337a37906e3c012fadf7559936996/26126:629",
-      "key": "161a94c269f337a37906e3c012fadf7559936996",
-      "name": "comp/color/accordion/summary/text/color/fg/icon/focused",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:41d950c53f01704386164190ffdaa3a350c34e11/21490:447"
-        }
-      }
-    },
-    {
-      "id": "VariableID:d27e75c404099b22bb8b987490eca5bdfece711c/26126:623",
-      "key": "d27e75c404099b22bb8b987490eca5bdfece711c",
-      "name": "comp/color/accordion/summary/text/color/fg/label/hovered",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:f8548438de0ef2b508c941eddc515c34f06cd347/21490:9400"
-        }
-      }
-    },
-    {
-      "id": "VariableID:59c0dc9dfca71670ce6602f5ba79da0223661355/26126:631",
-      "key": "59c0dc9dfca71670ce6602f5ba79da0223661355",
-      "name": "comp/color/accordion/summary/text/color/fg/icon/disabled",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:5ef240cf82c0bcd9b799f87525257db96e450030/21490:646"
-        }
-      }
-    },
-    {
-      "id": "VariableID:304bb97c6c365ca35d875534fc7bfa8c8a4dac2d/26126:626",
-      "key": "304bb97c6c365ca35d875534fc7bfa8c8a4dac2d",
-      "name": "comp/color/accordion/summary/text/color/fg/label/disabled",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:5ef240cf82c0bcd9b799f87525257db96e450030/21490:646"
-        }
-      }
-    },
-    {
-      "id": "VariableID:91db9e8b21314b4acd9a724b9de5e8a9cbbb4d7b/26126:780",
-      "key": "91db9e8b21314b4acd9a724b9de5e8a9cbbb4d7b",
-      "name": "comp/color/accordion/item/color/border/firstchild",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:4bfcf76e5b5679aa63f19b9d478fc5c9b3a1029c/17416:8637"
-        }
-      }
-    },
-    {
-      "id": "VariableID:ab1ab78fb39047f7c08ab3575758db48945aee6c/24003:22734",
-      "key": "ab1ab78fb39047f7c08ab3575758db48945aee6c",
-      "name": "comp/color/accordion/summary/text/color/bg/focused",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:a8a0fa225bf6c5b93c75f466a228e7225272199b/24003:22707"
-        }
-      }
-    },
-    {
-      "id": "VariableID:7398adef16d0e80efc87dc49f1b880a7232a9998/24003:22735",
-      "key": "7398adef16d0e80efc87dc49f1b880a7232a9998",
-      "name": "comp/color/accordion/summary/text/color/bg/pressed",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:a8a0fa225bf6c5b93c75f466a228e7225272199b/24003:22707"
-        }
-      }
-    },
-    {
-      "id": "VariableID:bb67cadac5f89a789147b64285571199372b858c/26126:627",
-      "key": "bb67cadac5f89a789147b64285571199372b858c",
-      "name": "comp/color/accordion/summary/text/color/fg/icon/default",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:41d950c53f01704386164190ffdaa3a350c34e11/21490:447"
-        }
-      }
-    },
-    {
-      "id": "VariableID:6ba0348bf87020e2c924f83b67602517570c5583/26126:744",
-      "key": "6ba0348bf87020e2c924f83b67602517570c5583",
-      "name": "comp/color/accordion/item/color/bg/default",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:e1c01b57a6f2f03782a2a9ad251c080629a4c4fb/17416:6061"
-        }
-      }
-    },
-    {
-      "id": "VariableID:f48ae562c5d2214421dda46b38781f84787bdbaa/26126:728",
-      "key": "f48ae562c5d2214421dda46b38781f84787bdbaa",
-      "name": "comp/color/accordion/item/color/border/default",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:44332243b06041ddf7b987f79e58469b905a33c9/21011:22612"
-        }
-      }
-    },
-    {
-      "id": "VariableID:dd4b802b3ed65d829d92425c09c29015d199329d/26126:630",
-      "key": "dd4b802b3ed65d829d92425c09c29015d199329d",
-      "name": "comp/color/accordion/summary/text/color/fg/icon/pressed",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:41d950c53f01704386164190ffdaa3a350c34e11/21490:447"
-        }
-      }
-    },
-    {
-      "id": "VariableID:9280348477c19516a617a240b48c6f1812f233ae/26126:632",
-      "key": "9280348477c19516a617a240b48c6f1812f233ae",
-      "name": "comp/color/accordion/summary/text/color/bg/default",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:e1c01b57a6f2f03782a2a9ad251c080629a4c4fb/17416:6061"
-        }
-      }
-    },
-    {
-      "id": "VariableID:51067d5f7e2da6be041f2c6c2e8adf2bc3ba0b65/26126:633",
-      "key": "51067d5f7e2da6be041f2c6c2e8adf2bc3ba0b65",
-      "name": "comp/color/accordion/summary/text/color/bg/disabled",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:e1c01b57a6f2f03782a2a9ad251c080629a4c4fb/17416:6061"
-        }
-      }
-    },
-    {
-      "id": "VariableID:2194923c92030d9605e91c767fbde5df67654d13/26126:621",
-      "key": "2194923c92030d9605e91c767fbde5df67654d13",
-      "name": "comp/color/accordion/summary/focused-outline/color/dark/focused",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:c92109ff5ff0fb033e2da191ef8c1ffa0ca51838/21490:8"
-        }
-      }
-    },
-    {
-      "id": "VariableID:ed51798dbbefe8fb9e1adffeeb03a20846bcaafb/26126:640",
-      "key": "ed51798dbbefe8fb9e1adffeeb03a20846bcaafb",
-      "name": "comp/color/accordion/summary/filled/color/fg/label/hovered",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:33761596263e3b917fa7dfe098193d0fe88e0a72/21490:4"
-        }
-      }
-    },
-    {
-      "id": "VariableID:1304eeffcb586e09e1ec500424366de80f47fbec/26126:634",
-      "key": "1304eeffcb586e09e1ec500424366de80f47fbec",
-      "name": "comp/color/accordion/summary/text/color/border/default",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:4bfcf76e5b5679aa63f19b9d478fc5c9b3a1029c/17416:8637"
-        }
-      }
-    },
-    {
-      "id": "VariableID:377175e4324c412c858e138e4b88570675aa93f3/26126:642",
-      "key": "377175e4324c412c858e138e4b88570675aa93f3",
-      "name": "comp/color/accordion/summary/filled/color/fg/label/pressed",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:33761596263e3b917fa7dfe098193d0fe88e0a72/21490:4"
-        }
-      }
-    },
-    {
-      "id": "VariableID:a51c02486adf457d172b5527fc65955e239cf526/26126:638",
-      "key": "a51c02486adf457d172b5527fc65955e239cf526",
-      "name": "comp/color/accordion/summary/text/color/border/disabled",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:4bfcf76e5b5679aa63f19b9d478fc5c9b3a1029c/17416:8637"
-        }
-      }
-    },
-    {
-      "id": "VariableID:ac78abea6063a650b9de844c061caf09298d877f/26126:646",
-      "key": "ac78abea6063a650b9de844c061caf09298d877f",
-      "name": "comp/color/accordion/summary/filled/color/bg/focused",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:83479d413af1890271ac682936872dec19de8d95/21490:9048"
-        }
-      }
-    },
-    {
-      "id": "VariableID:7496b7f6a4eb4a2c7c93fd4d8d78f9980704ebb5/26126:653",
-      "key": "7496b7f6a4eb4a2c7c93fd4d8d78f9980704ebb5",
-      "name": "comp/color/accordion/summary/filled/color/border/disabled",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:4bfcf76e5b5679aa63f19b9d478fc5c9b3a1029c/17416:8637"
-        }
-      }
-    },
-    {
-      "id": "VariableID:269fc8e24d29ef0e956ba88f95fe8002d21effb1/26126:745",
-      "key": "269fc8e24d29ef0e956ba88f95fe8002d21effb1",
-      "name": "comp/color/accordion/summary/filled/color/fg/icon/default",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:8e1e5645d847a5ad95274da1069823a9179700ce/21490:1060"
-        }
-      }
-    },
-    {
-      "id": "VariableID:c33fc1eaf1b71c33f5e20b71fc25a2aac4429580/26126:647",
-      "key": "c33fc1eaf1b71c33f5e20b71fc25a2aac4429580",
-      "name": "comp/color/accordion/summary/filled/color/bg/pressed",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:bd6ad9c12a5b74bfc0910e16f1cd07c3b29818e2/21490:1054"
-        }
-      }
-    },
-    {
-      "id": "VariableID:dbea7d27d9fbe4caa6a9863129350fd3901a9d30/26126:651",
-      "key": "dbea7d27d9fbe4caa6a9863129350fd3901a9d30",
-      "name": "comp/color/accordion/summary/filled/color/border/focused",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:4bfcf76e5b5679aa63f19b9d478fc5c9b3a1029c/17416:8637"
-        }
-      }
-    },
-    {
-      "id": "VariableID:db0c6b677eef8d9ab6e8a00986cfa13e8d5f3bdd/26126:637",
-      "key": "db0c6b677eef8d9ab6e8a00986cfa13e8d5f3bdd",
-      "name": "comp/color/accordion/summary/text/color/border/pressed",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:4bfcf76e5b5679aa63f19b9d478fc5c9b3a1029c/17416:8637"
-        }
-      }
-    },
-    {
-      "id": "VariableID:b1135d8d8a9a7030f14cbadedb658c3474831db9/26126:648",
-      "key": "b1135d8d8a9a7030f14cbadedb658c3474831db9",
-      "name": "comp/color/accordion/summary/filled/color/bg/disabled",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:d22bce7e6d0077b408b80ca3b6734118d7a5f14c/21490:1317"
-        }
-      }
-    },
-    {
-      "id": "VariableID:2a4d9341b96c5ec2c0cb55eb0f097789bf9bdb1a/26126:645",
-      "key": "2a4d9341b96c5ec2c0cb55eb0f097789bf9bdb1a",
-      "name": "comp/color/accordion/summary/filled/color/bg/hovered",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:a51d85614e1665eae3d80dbb920998bf4640a103/21490:1314"
-        }
-      }
-    },
-    {
-      "id": "VariableID:74943a31f6ae304d635baf18f1c6fa273117af2d/26126:622",
-      "key": "74943a31f6ae304d635baf18f1c6fa273117af2d",
-      "name": "comp/color/accordion/summary/text/color/fg/label/default",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:8e1e5645d847a5ad95274da1069823a9179700ce/21490:1060"
-        }
-      }
-    },
-    {
-      "id": "VariableID:e31b0c55d87351f8708feab5dfc076587311e069/26126:628",
-      "key": "e31b0c55d87351f8708feab5dfc076587311e069",
-      "name": "comp/color/accordion/summary/text/color/fg/icon/hovered",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:41d950c53f01704386164190ffdaa3a350c34e11/21490:447"
-        }
-      }
-    },
-    {
-      "id": "VariableID:f79db5f5b72dc3bcd1e32ec9b000555adc8a7358/24003:22733",
-      "key": "f79db5f5b72dc3bcd1e32ec9b000555adc8a7358",
-      "name": "comp/color/accordion/summary/text/color/bg/hovered",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:a8a0fa225bf6c5b93c75f466a228e7225272199b/24003:22707"
-        }
-      }
-    },
-    {
-      "id": "VariableID:aa4615ec8a8324ce13c10aed635592b6716b2be4/26126:747",
-      "key": "aa4615ec8a8324ce13c10aed635592b6716b2be4",
-      "name": "comp/color/accordion/summary/filled/color/fg/icon/focused",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:76e7bbd5411225e33c186279afe0aa924b932a04/21490:163"
-        }
-      }
-    },
-    {
-      "id": "VariableID:71ea4cace3266cae54e51388cd36589e031bf9f4/26126:649",
-      "key": "71ea4cace3266cae54e51388cd36589e031bf9f4",
-      "name": "comp/color/accordion/summary/filled/color/border/default",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:4bfcf76e5b5679aa63f19b9d478fc5c9b3a1029c/17416:8637"
-        }
-      }
-    },
-    {
-      "id": "VariableID:db8c48f50938b19e38195c4f5bf823f6eea4c86b/26126:748",
-      "key": "db8c48f50938b19e38195c4f5bf823f6eea4c86b",
-      "name": "comp/color/accordion/summary/filled/color/fg/icon/pressed",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:33761596263e3b917fa7dfe098193d0fe88e0a72/21490:4"
-        }
-      }
-    },
-    {
-      "id": "VariableID:011f690dcdd39d30c04f2df6781301e4aff0603c/26126:639",
-      "key": "011f690dcdd39d30c04f2df6781301e4aff0603c",
-      "name": "comp/color/accordion/summary/filled/color/fg/label/default",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:8e1e5645d847a5ad95274da1069823a9179700ce/21490:1060"
-        }
-      }
-    },
-    {
-      "id": "VariableID:6908a2ecd20843e48c930bd135767eedee4c9ff4/26126:749",
-      "key": "6908a2ecd20843e48c930bd135767eedee4c9ff4",
-      "name": "comp/color/accordion/summary/filled/color/fg/icon/disabled",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:5ef240cf82c0bcd9b799f87525257db96e450030/21490:646"
-        }
-      }
-    },
-    {
-      "id": "VariableID:73ca36230f6b36ae21e842717404772a2c5b1bdb/26126:654",
-      "key": "73ca36230f6b36ae21e842717404772a2c5b1bdb",
-      "name": "comp/color/accordion/details/color/bg/default",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:e1c01b57a6f2f03782a2a9ad251c080629a4c4fb/17416:6061"
-        }
-      }
-    },
-    {
-      "id": "VariableID:c032aa8b4f43d1058a7917cb4ce373b29612a2ba/26126:644",
-      "key": "c032aa8b4f43d1058a7917cb4ce373b29612a2ba",
-      "name": "comp/color/accordion/summary/filled/color/bg/default",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:406fccb7fc0cc120dcbb82a712650857aa39f9f0/21490:9051"
-        }
-      }
-    },
-    {
-      "id": "VariableID:19fd54964e47d3e0ab8122fe21b88bdaf4b9bd67/26126:636",
-      "key": "19fd54964e47d3e0ab8122fe21b88bdaf4b9bd67",
-      "name": "comp/color/accordion/summary/text/color/border/focused",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:4bfcf76e5b5679aa63f19b9d478fc5c9b3a1029c/17416:8637"
-        }
-      }
-    },
-    {
-      "id": "VariableID:397ae47a6baf080cd0829f89a9187b168ba745af/26126:650",
-      "key": "397ae47a6baf080cd0829f89a9187b168ba745af",
-      "name": "comp/color/accordion/summary/filled/color/border/hovered",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:4bfcf76e5b5679aa63f19b9d478fc5c9b3a1029c/17416:8637"
-        }
-      }
-    },
-    {
-      "id": "VariableID:ff8c66d47c39e6edff5bddf86e7ae84067953384/26126:624",
-      "key": "ff8c66d47c39e6edff5bddf86e7ae84067953384",
-      "name": "comp/color/accordion/summary/text/color/fg/label/focused",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:f8548438de0ef2b508c941eddc515c34f06cd347/21490:9400"
-        }
-      }
-    },
-    {
-      "id": "VariableID:f9b719dd31a80be8f6ccc32553c203eea9283eba/26126:635",
-      "key": "f9b719dd31a80be8f6ccc32553c203eea9283eba",
-      "name": "comp/color/accordion/summary/text/color/border/hovered",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:4bfcf76e5b5679aa63f19b9d478fc5c9b3a1029c/17416:8637"
-        }
-      }
-    },
-    {
-      "id": "VariableID:c247e386272b5782fd82a327ed45f65cc7a63c83/26126:652",
-      "key": "c247e386272b5782fd82a327ed45f65cc7a63c83",
-      "name": "comp/color/accordion/summary/filled/color/border/pressed",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:4bfcf76e5b5679aa63f19b9d478fc5c9b3a1029c/17416:8637"
-        }
-      }
-    },
-    {
-      "id": "VariableID:bb4ec178065fde7d17c5372b33da27579fb33bf3/26126:746",
-      "key": "bb4ec178065fde7d17c5372b33da27579fb33bf3",
-      "name": "comp/color/accordion/summary/filled/color/fg/icon/hovered",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:33761596263e3b917fa7dfe098193d0fe88e0a72/21490:4"
-        }
-      }
-    },
-    {
-      "id": "VariableID:46732042c7c9fef3ef0918b34aec028ccf92feee/26126:655",
-      "key": "46732042c7c9fef3ef0918b34aec028ccf92feee",
-      "name": "comp/color/accordion/container/color/border/default",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:4bfcf76e5b5679aa63f19b9d478fc5c9b3a1029c/17416:8637"
-        }
-      }
-    },
-    {
-      "id": "VariableID:818e8fe81a0ea670e3d92e26e244cba1ced8a6ca/26126:641",
-      "key": "818e8fe81a0ea670e3d92e26e244cba1ced8a6ca",
-      "name": "comp/color/accordion/summary/filled/color/fg/label/focused",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:33761596263e3b917fa7dfe098193d0fe88e0a72/21490:4"
-        }
-      }
-    },
-    {
-      "id": "VariableID:d323c5c20a232193d4a29b28cdaa0de722c557fc/26126:643",
-      "key": "d323c5c20a232193d4a29b28cdaa0de722c557fc",
-      "name": "comp/color/accordion/summary/filled/color/fg/label/disabled",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:5ef240cf82c0bcd9b799f87525257db96e450030/21490:646"
-        }
-      }
-    },
-    {
-      "id": "VariableID:66f5849661086cfe6d95e294997c09d1e460bacc/26126:760",
-      "key": "66f5849661086cfe6d95e294997c09d1e460bacc",
-      "name": "comp/color/accordion/container/color/bg/default",
-      "resolvedType": "COLOR",
-      "valuesByMode": {
-        "2002:57": {
-          "type": "VARIABLE_ALIAS",
-          "id": "VariableID:e1c01b57a6f2f03782a2a9ad251c080629a4c4fb/17416:6061"
+  "container": {
+    "color": {
+      "border": {
+        "default": {
+          "value": "{smc.reference.container.color.border.surface.transparent.0}",
+          "type": "color"
         }
       }
     }
-  ]
+  },
+  "item": {
+    "size": {
+      "compact": {
+        "border-width": {
+          "value": "{smc.reference.container.border-width.sm}",
+          "type": "number"
+        }
+      }
+    },
+    "color": {
+      "bg": {
+        "default": {
+          "value": "{smc.reference.container.color.bg.surface.transparent.0}",
+          "type": "color"
+        }
+      },
+      "border": {
+        "default": {
+          "value": "{smc.reference.container.color.border.surface.fixed.darker-30}",
+          "type": "color"
+        },
+        "firstchild": {
+          "value": "{smc.reference.container.color.border.surface.transparent.0}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "summary": {
+    "text": {
+      "color": {
+        "bg": {
+          "default": {
+            "value": "{smc.reference.container.color.bg.surface.transparent.0}",
+            "type": "color"
+          },
+          "focused": {
+            "value": "{smc.colors.surface.darker-10}",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{smc.colors.surface.darker-10}",
+            "type": "color"
+          },
+          "hovered": {
+            "value": "{smc.colors.surface.darker-10}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{smc.reference.container.color.bg.surface.transparent.0}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{smc.reference.container.color.border.surface.transparent.0}",
+            "type": "color"
+          },
+          "focused": {
+            "value": "{smc.reference.container.color.border.surface.transparent.0}",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{smc.reference.container.color.border.surface.transparent.0}",
+            "type": "color"
+          }
+        },
+        "fg": {
+          "icon": {
+            "default": {
+              "value": "{smc.reference.container.color.fg.surface.darker-50}",
+              "type": "color"
+            },
+            "focused": {
+              "value": "{smc.reference.container.color.fg.surface.darker-50}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{smc.reference.container.color.fg.surface.darker-50}",
+              "type": "color"
+            },
+            "hovered": {
+              "value": "{smc.reference.container.color.fg.surface.darker-50}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{smc.reference.container.color.fg.disabled.default}",
+              "type": "color"
+            }
+          },
+          "label": {
+            "default": {
+              "value": "{smc.reference.container.color.fg.surface.darker-95}",
+              "type": "color"
+            },
+            "focused": {
+              "value": "{smc.reference.container.color.fg.surface.darker-95}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{smc.reference.container.color.fg.surface.darker-95}",
+              "type": "color"
+            },
+            "hovered": {
+              "value": "{smc.reference.container.color.fg.surface.darker-95}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{smc.reference.container.color.fg.disabled.default}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    },
+    "filled": {
+      "color": {
+        "bg": {
+          "focused": {
+            "value": "{smc.reference.container.color.bg.surface.darker-10}",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{smc.reference.container.color.bg.surface.darker-30}",
+            "type": "color"
+          },
+          "hovered": {
+            "value": "{smc.reference.container.color.bg.surface.darker-20}",
+            "type": "color"
+          },
+          "default": {
+            "value": "{smc.reference.container.color.border.surface.darker-10}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "focused": {
+            "value": "{smc.reference.container.color.border.surface.transparent.0}",
+            "type": "color"
+          },
+          "default": {
+            "value": "{smc.reference.container.color.border.surface.transparent.0}",
+            "type": "color"
+          }
+        },
+        "fg": {
+          "label": {
+            "focused": {
+              "value": "{smc.reference.container.color.fg.primary.default}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{smc.reference.container.color.fg.primary.default}",
+              "type": "color"
+            },
+            "hovered": {
+              "value": "{smc.reference.container.color.fg.primary.default}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{smc.reference.container.color.fg.disabled.default}",
+              "type": "color"
+            },
+            "default": {
+              "value": "{smc.reference.container.color.fg.surface.darker-70}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    },
+    "focused-outline": {
+      "color": {
+        "dark": {
+          "focused": {
+            "value": "{smc.reference.container.focused-outline.color.dark.default}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
+  "details": {
+    "color": {
+      "bg": {
+        "default": {
+          "value": "{smc.reference.container.color.bg.surface.transparent.0}",
+          "type": "color"
+        }
+      }
+    }
+  }
 }
