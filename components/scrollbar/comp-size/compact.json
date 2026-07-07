@@ -1,0 +1,24 @@
+{
+  "size": {
+    "width": {
+      "value": "{smc.reference.container.size.width.8}",
+      "type": "number"
+    },
+    "min-height": {
+      "value": "{smc.reference.container.size.height.64}",
+      "type": "number"
+    },
+    "height": {
+      "value": "{smc.reference.container.size.height.80}",
+      "type": "number"
+    },
+    "padding": {
+      "value": "{smc.reference.container.padding.2}",
+      "type": "number"
+    },
+    "border-radius": {
+      "value": "{smc.reference.container.border-radius.xs}",
+      "type": "number"
+    }
+  }
+}
