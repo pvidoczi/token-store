@@ -1788,7 +1788,7 @@
             "type": "color"
           },
           "default": {
-            "value": "{smc.reference.container.color.border.primary.fixed.lighter-20}",
+            "value": "{smc.reference.container.color.border.success.darker-10}",
             "type": "color"
           }
         },
