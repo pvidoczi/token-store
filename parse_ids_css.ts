@@ -62,11 +62,11 @@ function readJson<T = unknown>(filePath: string): T {
 }
 
 function sanitize(s: string): string {
-  return String(s)
-    .trim()
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
+  const trimmed = String(s).trim().toLowerCase();
+  const isNegativeNumber = /^-\d/.test(trimmed);
+  let result = trimmed.replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+  if (isNegativeNumber) result = '-' + result;
+  return result;
 }
 
 // ─── Foundation CSS var naming (old Figma format) ────────────────────────────
@@ -301,14 +301,12 @@ function generateBaseCss() {
   const basePath = path.join(FOUNDATION_DIR, 'base', 'base.json');
   if (!fs.existsSync(basePath)) { console.warn('base.json not found'); return; }
 
-  const data = readJson<TokenFile>(basePath);
-  const modeId = Object.keys(data.variables[0]?.valuesByMode ?? {})[0];
-
-  const entries: TokenEntry[] = [];
-  for (const v of data.variables) {
-    const val = resolveValue(v.valuesByMode[modeId]);
-    entries.push({ cssVar: nameToCssVar(v.name), value: val ?? '', resolved: val !== null });
-  }
+  const raw = readJson(basePath);
+  const entries: TokenEntry[] = flattenStyleDict(raw).map((token) => ({
+    cssVar: '--ids-' + token.path.join('-'),
+    value: resolveStyleDictRef(token.value),
+    resolved: true,
+  }));
 
   const resolved = entries.filter((e) => e.resolved).length;
   const output = buildCssBlock(':root', entries);
@@ -322,23 +320,23 @@ function generateBaseCss() {
 
 function generateSmcColorsCss() {
   const darkPath = path.join(FOUNDATION_DIR, 'smc-colors', 'dark.json');
+  const lightPath = path.join(FOUNDATION_DIR, 'smc-colors', 'light.json');
   if (!fs.existsSync(darkPath)) { console.warn('smc-colors/dark.json not found'); return; }
+  if (!fs.existsSync(lightPath)) { console.warn('smc-colors/light.json not found'); return; }
 
-  const data = readJson<TokenFile>(darkPath);
-  const allModeIds = Object.keys(data.variables[0]?.valuesByMode ?? {});
-  if (allModeIds.length < 2) { console.warn('smc-colors: expected at least 2 modes'); return; }
+  const darkRaw = readJson(darkPath);
+  const lightRaw = readJson(lightPath);
 
-  const [lightModeId, darkModeId] = allModeIds;
-  const darkEntries: TokenEntry[] = [];
-  const lightEntries: TokenEntry[] = [];
-
-  for (const v of data.variables) {
-    const cssVar = nameToCssVar(v.name);
-    const dv = resolveValue(v.valuesByMode[darkModeId]);
-    darkEntries.push({ cssVar, value: dv ?? '', resolved: dv !== null });
-    const lv = resolveValue(v.valuesByMode[lightModeId]);
-    lightEntries.push({ cssVar, value: lv ?? '', resolved: lv !== null });
-  }
+  const darkEntries: TokenEntry[] = flattenStyleDict(darkRaw).map((token) => ({
+    cssVar: '--ids-' + token.path.join('-'),
+    value: resolveStyleDictRef(token.value),
+    resolved: true,
+  }));
+  const lightEntries: TokenEntry[] = flattenStyleDict(lightRaw).map((token) => ({
+    cssVar: '--ids-' + token.path.join('-'),
+    value: resolveStyleDictRef(token.value),
+    resolved: true,
+  }));
 
   const darkResolved = darkEntries.filter((e) => e.resolved).length;
   const lightResolved = lightEntries.filter((e) => e.resolved).length;
@@ -365,18 +363,14 @@ function generateSmcLayoutCss() {
   const layoutFiles = fs.readdirSync(layoutDir).filter((f) => f.endsWith('.json')).sort();
   if (layoutFiles.length === 0) return;
 
-  const data = readJson<TokenFile>(path.join(layoutDir, layoutFiles[0]));
-  const modeIds = Object.keys(data.variables[0]?.valuesByMode ?? {}).sort();
-  const modeToName: Record<string, string> = {};
-  for (let i = 0; i < modeIds.length && i < LAYOUT_MODE_ORDER.length; i++) {
-    modeToName[modeIds[i]] = LAYOUT_MODE_ORDER[i];
-  }
-
   const entries: TokenEntry[] = [];
-  for (const v of data.variables) {
-    for (const [modeId, modeName] of Object.entries(modeToName)) {
-      const val = resolveValue(v.valuesByMode[modeId]);
-      entries.push({ cssVar: nameToCssVar(v.name, modeName), value: val ?? '', resolved: val !== null });
+  for (const modeName of LAYOUT_MODE_ORDER) {
+    const filePath = path.join(layoutDir, `${modeName}.json`);
+    if (!fs.existsSync(filePath)) continue;
+    const raw = readJson(filePath);
+    for (const token of flattenStyleDict(raw)) {
+      const cssVar = '--ids-' + token.path.join('-') + '-' + modeName;
+      entries.push({ cssVar, value: resolveStyleDictRef(token.value), resolved: true });
     }
   }
 
@@ -394,14 +388,12 @@ function generateSmcReferenceCss() {
   const refPath = path.join(FOUNDATION_DIR, 'smc-reference', 'smc-reference.json');
   if (!fs.existsSync(refPath)) { console.warn('smc-reference.json not found'); return; }
 
-  const data = readJson<TokenFile>(refPath);
-  const modeId = Object.keys(data.variables[0]?.valuesByMode ?? {})[0];
-
-  const entries: TokenEntry[] = [];
-  for (const v of data.variables) {
-    const val = resolveValue(v.valuesByMode[modeId]);
-    entries.push({ cssVar: nameToCssVar(v.name), value: val ?? '', resolved: val !== null });
-  }
+  const raw = readJson(refPath);
+  const entries: TokenEntry[] = flattenStyleDict(raw).map((token) => ({
+    cssVar: '--ids-' + token.path.join('-'),
+    value: resolveStyleDictRef(token.value),
+    resolved: true,
+  }));
 
   const resolved = entries.filter((e) => e.resolved).length;
   const output = buildCssBlock(':root', entries);
