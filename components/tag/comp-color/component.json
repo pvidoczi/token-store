@@ -40,7 +40,7 @@
         },
         "surface": {
           "pressed": {
-            "value": "{smc.reference.container.color.bg.surface.darker-20}",
+            "value": "{smc.reference.container.color.bg.surface.darker-30}",
             "type": "color"
           },
           "focused": {
@@ -52,7 +52,7 @@
             "type": "color"
           },
           "default": {
-            "value": "{smc.reference.container.color.bg.surface.lighter-10}",
+            "value": "{smc.reference.container.color.bg.surface.darker-70}",
             "type": "color"
           }
         },
