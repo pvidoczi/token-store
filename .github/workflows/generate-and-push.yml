@@ -28,7 +28,7 @@ jobs:
       - name: Checkout Angular Test Site
         uses: actions/checkout@v4
         with:
-          repository: '${{ github.repository_owner }}'/token-test-site'
+          repository: '${{ github.repository_owner }}/token-test-site'
           token: ${{ secrets.TARGET_REPO_TOKEN }}
           path: 'angular-target-repo'
 
