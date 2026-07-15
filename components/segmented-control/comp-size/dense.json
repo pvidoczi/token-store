@@ -96,5 +96,17 @@
         }
       }
     }
+  },
+  "focused-outline": {
+    "size": {
+      "border-radius-right": {
+        "value": "{smc.reference.container.border-radius.full}",
+        "type": "number"
+      },
+      "border-radius-left": {
+        "value": "{smc.reference.container.border-radius.full}",
+        "type": "number"
+      }
+    }
   }
 }
