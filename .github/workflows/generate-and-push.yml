@@ -18,12 +18,11 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-
+          node-version: '22'
 
       - name: Run token generation script
         run: |
-          npx tsx parse_ids_css.ts
+          npx -y tsx parse_ids_css.ts
 
       - name: Checkout Angular Test Site
         uses: actions/checkout@v4
