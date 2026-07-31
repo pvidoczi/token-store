@@ -20,7 +20,7 @@
             "type": "color"
           },
           "default": {
-            "value": "{smc.reference.container.color.border.surface.darker-10}",
+            "value": "{smc.reference.container.color.border.primary.lighter-20}",
             "type": "color"
           }
         },

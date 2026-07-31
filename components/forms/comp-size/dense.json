@@ -338,6 +338,10 @@
               "value": "{smc.reference.container.padding.8}",
               "type": "number"
             },
+            "border-radius": {
+              "value": "{smc.reference.container.border-radius.2xs}",
+              "type": "number"
+            },
             "max-height": {
               "value": "{smc.reference.container.size.height.256}",
               "type": "number"
@@ -471,14 +475,6 @@
       }
     }
   },
-  "select-panel": {
-    "size": {
-      "border-radius": {
-        "value": "{smc.reference.container.border-radius.2xs}",
-        "type": "number"
-      }
-    }
-  },
   "list-item": {
     "hint-text": {
       "size": {
@@ -491,6 +487,14 @@
     "size": {
       "gap": {
         "value": "{smc.reference.container.gap.8}",
+        "type": "number"
+      }
+    }
+  },
+  "select": {
+    "size": {
+      "gap": {
+        "value": "{smc.reference.container.gap.16}",
         "type": "number"
       }
     }
