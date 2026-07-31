@@ -91,24 +91,6 @@
             "value": "{smc.reference.typography.font-family.default}",
             "type": "string"
           }
-        },
-        "heading": {
-          "font-family": {
-            "value": "{smc.reference.typography.font-family.default}",
-            "type": "string"
-          },
-          "font-size": {
-            "value": "{smc.reference.typography.font-size.32}",
-            "type": "number"
-          },
-          "line-height": {
-            "value": "{smc.reference.typography.line-height.32}",
-            "type": "number"
-          },
-          "letter-spacing": {
-            "value": "{smc.reference.typography.letter-spacing.default}",
-            "type": "number"
-          }
         }
       }
     }
