@@ -168,24 +168,64 @@ function isStyleDictFormat(data: unknown): data is StyleDictNode {
 }
 
 /**
+ * Some source values were originally exported as 32-bit floats and, once
+ * parsed as JS (64-bit) numbers, carry tiny binary-representation artifacts
+ * (e.g. 0.15 → 0.15000000596046448). Rounding to 7 significant digits
+ * (the approximate precision of a float32) strips these artifacts while
+ * preserving legitimate precision.
+ */
+function cleanFloat(n: number): number {
+  return parseFloat(n.toPrecision(7));
+}
+
+/**
+ * Given a raw numeric value, the token's `type`, and the property name of the
+ * parent group (the second-to-last path segment), determines the appropriate
+ * CSS unit to append. This mirrors the legacy parser's `getBaseValue()`:
+ *   - parent group "dimension"  → px
+ *   - parent group "percentage" → %
+ *   - parent group "em"         → em (raw value divided by 100)
+ */
+function getBaseValue(value: number, type: string, propName: string | undefined): string {
+  if (type === 'number') {
+    const clean = cleanFloat(value);
+    if (propName === 'dimension') {
+      return `${clean}px`;
+    }
+    if (propName === 'percentage') {
+      return `${clean}%`;
+    }
+    if (propName === 'em') {
+      return `${cleanFloat(clean / 100)}em`;
+    }
+  }
+  return `${value}`;
+}
+
+/**
  * Recursively flattens a Style Dictionary object into an array of
  * { path: string[], value: string } entries.
  */
-function flattenStyleDict(node: unknown, currentPath: string[] = []): FlatToken[] {
+function flattenStyleDict(node: unknown, currentPath: string[] = [], rawPath: string[] = []): FlatToken[] {
   if (typeof node !== 'object' || node === null) return [];
 
   const obj = node as Record<string, unknown>;
 
   // Leaf node: has a 'value' property
   if ('value' in obj && (typeof obj['value'] === 'string' || typeof obj['value'] === 'number')) {
-    return [{ path: currentPath, value: String(obj['value']) }];
+    const rawValue = obj['value'];
+    const type = typeof obj['type'] === 'string' ? (obj['type'] as string) : '';
+    const propName = rawPath.at(-2);
+    const value =
+      typeof rawValue === 'number' ? getBaseValue(rawValue, type, propName) : String(rawValue);
+    return [{ path: currentPath, value }];
   }
 
   const result: FlatToken[] = [];
   for (const [key, child] of Object.entries(obj)) {
     // Skip metadata keys that aren't tokens
     if (key === 'type' || key === 'description' || key === '$type' || key === '$description') continue;
-    result.push(...flattenStyleDict(child, [...currentPath, sanitize(key)]));
+    result.push(...flattenStyleDict(child, [...currentPath, sanitize(key)], [...rawPath, key]));
   }
   return result;
 }
