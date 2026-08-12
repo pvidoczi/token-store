@@ -9,7 +9,7 @@
               "type": "color"
             },
             "default": {
-              "value": "{smc.reference.forms.color.bg.primary.default}",
+              "value": "{smc.reference.forms.color.border.light.hovered}",
               "type": "color"
             },
             "pressed": {
