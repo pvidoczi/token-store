@@ -1558,7 +1558,7 @@
       "border": {
         "light": {
           "default": {
-            "value": "{smc.reference.container.color.border.surface.fixed.darker-90}",
+            "value": "{smc.reference.container.color.border.surface.transparent.0}",
             "type": "color"
           },
           "disabled": {
@@ -1788,7 +1788,7 @@
             "type": "color"
           },
           "default": {
-            "value": "{smc.reference.container.color.border.brand.fixed.darker-40}",
+            "value": "{smc.reference.container.color.border.surface.darker-10}",
             "type": "color"
           }
         },
