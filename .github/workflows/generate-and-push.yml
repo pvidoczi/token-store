@@ -3,7 +3,8 @@ name: Generate and publish token CSS
 on:
   push:
     paths:
-      - 'figma-export/**/*.json'
+      - 'foundation/**/*.json'
+      - 'components/**/*.json'
       - 'parse_ids_css.ts'
       - 'scripts/publish-css.sh'
   workflow_dispatch:

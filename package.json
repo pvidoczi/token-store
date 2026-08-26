@@ -1,10 +1,12 @@
 {
   "name": "token-store",
   "version": "1.0.0",
-  "main": "scripts_parse_ids_css.js",
+  "main": "parse_ids_css.ts",
   "scripts": {
+    "build": "tsc --noEmit",
     "parse": "ts-node parse_ids_css.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish": "bash scripts/publish-css.sh",
+    "test": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,7 @@
     "url": "https://github.com/pvidoczi/token-store/issues"
   },
   "homepage": "https://github.com/pvidoczi/token-store#readme",
-  "description": "",
+  "description": "Figma design token JSON to CSS delivery pipeline",
   "devDependencies": {
     "@types/node": "^25.6.0",
     "ts-node": "^10.9.2",

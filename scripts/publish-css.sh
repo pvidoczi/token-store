@@ -9,7 +9,7 @@ commit_message="${TARGET_COMMIT_MESSAGE:-chore(tokens): update generated CSS}"
 npm run parse
 
 if [[ ! -f "${CSS_OUTPUT_DIR:-ids_css}/tokens.css" ]]; then
-  echo "No generated CSS to publish. Add Figma JSON files under ${FIGMA_INPUT_DIR:-figma-export}."
+  echo "No generated CSS to publish. Add Figma JSON files under foundation/ or components/."
   exit 0
 fi
 

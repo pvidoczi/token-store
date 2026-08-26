@@ -4,17 +4,16 @@ Ez a repository a Figma token-export és a frontend projekt közötti átadó pi
 
 ## Könyvtárstruktúra
 
-A Figma exportot a `figma-export` könyvtárba kell másolni:
+A Figma export két könyvtára közvetlenül a repository gyökerébe kerül:
 
 ```text
-figma-export/
-├── foundation/
-│   ├── base/base.json
-│   ├── smc-colors/{dark,light}.json
-│   ├── smc-layout/{small,medium,large,xlarge}.json
-│   └── smc-reference/smc-reference.json
-└── components/
-    └── <komponens>/{comp-color,comp-size}/*.json
+foundation/
+├── base/base.json
+├── smc-colors/{dark,light}.json
+├── smc-layout/{small,medium,large,xlarge}.json
+└── smc-reference/smc-reference.json
+components/
+└── <komponens>/{comp-color,comp-size}/*.json
 ```
 
 Üres bemenettel a parser sikeresen leáll és nem készít CSS-t. A Figma JSON-ok később commitolhatók, így a push elindítja a workflow-t. Beérkező tokenek esetén az `ids_css` könyvtárba generálja a fájlokat; ez a kimeneti könyvtár nincs verziókezelve.
@@ -26,7 +25,7 @@ npm ci
 npm run parse
 ```
 
-Az útvonalak felülírhatók a `FIGMA_INPUT_DIR` és `CSS_OUTPUT_DIR` környezeti változókkal.
+Ha egy másik bemeneti gyökér alatt található a `foundation` és a `components`, az a `FIGMA_INPUT_DIR` változóval adható meg. A kimenet a `CSS_OUTPUT_DIR` változóval írható felül.
 
 ## Továbbítás GitLab repóba
 

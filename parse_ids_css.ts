@@ -47,7 +47,7 @@ interface FlatToken {
 // ─── Paths ────────────────────────────────────────────────────────────────────
 
 const ROOT = process.cwd();
-const INPUT_DIR = path.resolve(ROOT, process.env.FIGMA_INPUT_DIR ?? 'figma-export');
+const INPUT_DIR = path.resolve(ROOT, process.env.FIGMA_INPUT_DIR ?? '.');
 const FOUNDATION_DIR = path.join(INPUT_DIR, 'foundation');
 const COMPONENTS_DIR = path.join(INPUT_DIR, 'components');
 const OUTPUT_DIR = path.resolve(ROOT, process.env.CSS_OUTPUT_DIR ?? 'ids_css');
@@ -547,10 +547,13 @@ function generateTokensCss() {
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
 function main() {
-  const inputFiles = findJsonFiles(INPUT_DIR);
+  const inputFiles = [
+    ...findJsonFiles(FOUNDATION_DIR),
+    ...findJsonFiles(COMPONENTS_DIR),
+  ];
   fs.rmSync(OUTPUT_DIR, { recursive: true, force: true });
   if (inputFiles.length === 0) {
-    console.log(`No Figma JSON files found in ${path.relative(ROOT, INPUT_DIR) || '.'}; nothing to generate.`);
+    console.log('No Figma JSON files found in foundation/ or components/; nothing to generate.');
     return;
   }
 
