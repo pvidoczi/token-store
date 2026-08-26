@@ -1,0 +1,23 @@
+{
+  "name": "token-store",
+  "version": "1.0.0",
+  "main": "parse_ids_css.ts",
+  "scripts": {
+    "build": "tsc --noEmit",
+    "parse": "ts-node parse_ids_css.ts",
+    "publish": "bash scripts/publish-css.sh",
+    "test": "npm run build"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Figma design token JSON to CSS delivery pipeline",
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
