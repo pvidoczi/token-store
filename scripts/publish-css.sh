@@ -6,7 +6,9 @@ target_css_path="${TARGET_CSS_PATH:-src/assets/ids_css}"
 target_checkout="${TARGET_CHECKOUT_DIR:-target-repo}"
 commit_message="${TARGET_COMMIT_MESSAGE:-chore(tokens): update generated CSS}"
 
-npm run parse
+if [[ "${SKIP_PARSE:-false}" != "true" ]]; then
+  npm run parse
+fi
 
 if [[ ! -f "${CSS_OUTPUT_DIR:-ids_css}/tokens.css" ]]; then
   echo "No generated CSS to publish. Add Figma JSON files under foundation/ or components/."

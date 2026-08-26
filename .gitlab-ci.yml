@@ -1,0 +1,38 @@
+workflow:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "web"'
+    - if: '$CI_PIPELINE_SOURCE == "push"'
+      changes:
+        - foundation/**/*
+        - components/**/*
+    - when: never
+
+stages:
+  - parse
+  - publish
+
+default:
+  image: node:22-bookworm
+  before_script:
+    - npm ci
+
+parse_tokens:
+  stage: parse
+  script:
+    - npm run parse
+  artifacts:
+    paths:
+      - ids_css/
+    expire_in: 7 days
+
+publish_tokens:
+  stage: publish
+  needs:
+    - job: parse_tokens
+      artifacts: true
+  variables:
+    SKIP_PARSE: "true"
+  script:
+    - npm run publish
+  when: manual
+  allow_failure: true

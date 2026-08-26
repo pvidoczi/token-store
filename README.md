@@ -16,7 +16,7 @@ components/
 └── <komponens>/{comp-color,comp-size}/*.json
 ```
 
-Üres bemenettel a parser sikeresen leáll és nem készít CSS-t. A Figma JSON-ok később commitolhatók, így a push elindítja a workflow-t. Beérkező tokenek esetén az `ids_css` könyvtárba generálja a fájlokat; ez a kimeneti könyvtár nincs verziókezelve.
+Üres bemenettel a parser sikeresen leáll és nem készít CSS-t. A Figma JSON-ok később commitolhatók. A `foundation/**` vagy `components/**` alatti push automatikusan elindítja a GitLab parse jobot. A teljes pipeline a GitLab **Build > Pipelines > New pipeline** felületéről manuálisan is indítható. Beérkező tokenek esetén az `ids_css` könyvtárba generálja a fájlokat; ez a kimeneti könyvtár nincs verziókezelve.
 
 ## Helyi használat
 
@@ -27,13 +27,15 @@ npm run parse
 
 Ha egy másik bemeneti gyökér alatt található a `foundation` és a `components`, az a `FIGMA_INPUT_DIR` változóval adható meg. A kimenet a `CSS_OUTPUT_DIR` változóval írható felül.
 
-## Továbbítás GitLab repóba
+## GitLab pipeline és publikálás
 
-A `npm run publish` generálja a CSS-t, klónozza a célrepót, lecseréli a cél CSS-könyvtár tartalmát, és csak tényleges változás esetén commitol és pushol.
+A `parse_tokens` job automatikus. Az elkészült CSS hét napig letölthető pipeline artifactként. A `publish_tokens` job mindig manuális (`when: manual`), tehát a parse befejezése önmagában soha nem pushol a célrepóba. Publikáláskor a job klónozza a célrepót, lecseréli a cél CSS-könyvtár tartalmát, és csak tényleges változás esetén commitol és pushol.
+
+Helyileg a `npm run publish` előbb parse-ol, majd publikál. A CI ugyanannak a pipeline-nak a már elkészült artifactját használja.
 
 Kötelező konfiguráció:
 
-- `TARGET_REPO_URL`: hitelesített GitLab clone URL (CI-ben secretként tárolandó).
+- `TARGET_REPO_URL`: a cél GitLab repository hitelesített clone URL-je.
 
 Opcionális konfiguráció:
 
@@ -43,4 +45,4 @@ Opcionális konfiguráció:
 - `TARGET_COMMIT_MESSAGE`
 - `GIT_AUTHOR_NAME`, `GIT_AUTHOR_EMAIL`
 
-A workflow-höz a repository secretként `TARGET_REPO_URL`, változóként pedig igény szerint `TARGET_REPO_BRANCH` és `TARGET_CSS_PATH` állítandó be. A secret URL lehet például HTTPS deploy-tokenes GitLab URL; valódi tokent nem szabad a repositoryba commitolni.
+A célrepo nincs beégetve sem a scriptbe, sem a pipeline-ba. A GitLab projekt **Settings > CI/CD > Variables** részében kell felvenni a `TARGET_REPO_URL` változót. Ha az URL credentialt vagy deploy tokent tartalmaz, legyen **Masked** és szükség szerint **Protected**. Ugyanitt adható meg opcionálisan a `TARGET_REPO_BRANCH` és a `TARGET_CSS_PATH`. Valódi tokent nem szabad a repositoryba commitolni.
