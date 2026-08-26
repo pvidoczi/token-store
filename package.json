@@ -10,15 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pvidoczi/token-store.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pvidoczi/token-store/issues"
-  },
-  "homepage": "https://github.com/pvidoczi/token-store#readme",
   "description": "Figma design token JSON to CSS delivery pipeline",
   "devDependencies": {
     "@types/node": "^25.6.0",
