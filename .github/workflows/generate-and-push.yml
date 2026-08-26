@@ -1,50 +1,28 @@
-name: Generate and Push Tokens to Angular Repo
+name: Generate and publish token CSS
 
 on:
   push:
     paths:
-      - 'foundation/**'
-      - 'components/**'
+      - 'figma-export/**/*.json'
+      - 'parse_ids_css.ts'
+      - 'scripts/publish-css.sh'
   workflow_dispatch:
 
 jobs:
-  build-and-push:
+  publish:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Token Store
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: '22'
-
-      - name: Run token generation script
-        run: |
-          npx -y tsx parse_ids_css.ts
-
-      - name: Checkout Angular Test Site
-        uses: actions/checkout@v4
-        with:
-          repository: '${{ github.repository_owner }}/token-test-site'
-          token: ${{ secrets.TARGET_REPO_TOKEN }}
-          path: 'angular-target-repo'
-
-      - name: Copy generated CSS to Angular project
-        run: |
-          mkdir -p angular-target-repo/src/assets/ids_css/
-          cp -r ids_css/* angular-target-repo/src/assets/ids_css/
-
-      - name: Commit and Push to Angular Repo
-        run: |
-          cd angular-target-repo
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          if git diff --staged --quiet; then
-            echo "no changes to commit"
-          else
-            git commit -m "Automated token CSS update from Token Store"
-            git push origin main
-          fi
+          cache: npm
+      - run: npm ci
+      - name: Parse Figma JSON and push CSS to GitLab
+        env:
+          TARGET_REPO_URL: ${{ secrets.TARGET_REPO_URL }}
+          TARGET_REPO_BRANCH: ${{ vars.TARGET_REPO_BRANCH }}
+          TARGET_CSS_PATH: ${{ vars.TARGET_CSS_PATH }}
+          GIT_AUTHOR_NAME: token-pipeline
+          GIT_AUTHOR_EMAIL: token-pipeline@example.invalid
+        run: npm run publish

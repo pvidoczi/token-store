@@ -11,6 +11,10 @@
 /node_modules/
 /yarn.lock
 
+# Generated and checked-out pipeline artefacts are not source files
+/ids_css/
+/target-repo/
+
 # Environment files
 /.env
 
