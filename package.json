@@ -9,7 +9,7 @@
     "test": "npm run build"
   },
   "repository": {
-    "type": "git",
+    "type": "git"
   },
   "keywords": [],
   "author": "",
