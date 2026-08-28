@@ -7,7 +7,7 @@ Ez a repository a Figma token-export és a frontend projekt közötti átadó pi
 A Figma export két könyvtára közvetlenül a repository gyökerébe kerül:
 
 ```text
-foundation/
+foundations/
 ├── base/base.json
 ├── smc-colors/{dark,light}.json
 ├── smc-layout/{small,medium,large,xlarge}.json
@@ -16,7 +16,7 @@ components/
 └── <komponens>/{comp-color,comp-size}/*.json
 ```
 
-Üres bemenettel a parser sikeresen leáll és nem készít CSS-t. A Figma JSON-ok később commitolhatók. A `foundation/**` vagy `components/**` alatti push automatikusan elindítja a GitLab parse jobot. A teljes pipeline a GitLab **Build > Pipelines > New pipeline** felületéről manuálisan is indítható. Beérkező tokenek esetén az `ids_css` könyvtárba generálja a fájlokat; ez a kimeneti könyvtár nincs verziókezelve.
+Üres bemenettel a parser sikeresen leáll és nem készít CSS-t. A Figma JSON-ok később commitolhatók. A `foundations/**` vagy `components/**` alatti push automatikusan elindítja a GitLab parse jobot. A teljes pipeline a GitLab **Build > Pipelines > New pipeline** felületéről manuálisan is indítható. Beérkező tokenek esetén az `ids_css` könyvtárba generálja a fájlokat; ez a kimeneti könyvtár nincs verziókezelve.
 
 ## Helyi használat
 

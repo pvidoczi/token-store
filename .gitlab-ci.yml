@@ -3,8 +3,14 @@ workflow:
     - if: '$CI_PIPELINE_SOURCE == "web"'
     - if: '$CI_PIPELINE_SOURCE == "push"'
       changes:
-        - foundation/**/*
+        - foundations/**/*
         - components/**/*
+        - parse_ids_css.ts
+        - scripts/**/*
+        - package.json
+        - package-lock.json
+        - tsconfig.json
+        - .gitlab-ci.yml
     - when: never
 
 stages:
