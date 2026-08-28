@@ -48,7 +48,7 @@ interface FlatToken {
 
 const ROOT = process.cwd();
 const INPUT_DIR = path.resolve(ROOT, process.env.FIGMA_INPUT_DIR ?? '.');
-const FOUNDATION_DIR = path.join(INPUT_DIR, 'foundation');
+const FOUNDATION_DIR = path.join(INPUT_DIR, 'foundations');
 const COMPONENTS_DIR = path.join(INPUT_DIR, 'components');
 const OUTPUT_DIR = path.resolve(ROOT, process.env.CSS_OUTPUT_DIR ?? 'ids_css');
 
