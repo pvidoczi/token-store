@@ -13,8 +13,7 @@
 # Override global gitignore - package-lock.json MUST be tracked for reproducible CI builds
 !package-lock.json
 
-# Generated and checked-out pipeline artefacts are not source files
-/ids_css/
+# Checked-out target repository used during publishing
 /target-repo/
 
 # Environment files

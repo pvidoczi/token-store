@@ -26,6 +26,7 @@ parse_tokens:
   stage: parse
   script:
     - npm run parse
+    - bash scripts/commit-generated-css.sh
   artifacts:
     paths:
       - ids_css/
