@@ -39,8 +39,8 @@ Kötelező konfiguráció:
 
 Opcionális konfiguráció:
 
-- `TARGET_REPO_BRANCH` (alapérték: `main`)
-- `TARGET_CSS_PATH` (alapérték: `src/assets/ids_css`)
+- `TARGET_REPO_BRANCH` (alapérték: `IDS_CSS`; ha még nem létezik, a publish job létrehozza)
+- `TARGET_CSS_PATH` (alapérték: `projects/demo/src/assets/ids_css`)
 - `TARGET_CHECKOUT_DIR` (alapérték: `target-repo`)
 - `TARGET_COMMIT_MESSAGE`
 - `GIT_AUTHOR_NAME`, `GIT_AUTHOR_EMAIL`

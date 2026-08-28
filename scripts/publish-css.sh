@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-target_branch="${TARGET_REPO_BRANCH:-main}"
-target_css_path="${TARGET_CSS_PATH:-src/assets/ids_css}"
+target_branch="${TARGET_REPO_BRANCH:-IDS_CSS}"
+target_css_path="${TARGET_CSS_PATH:-projects/demo/src/assets/ids_css}"
 target_checkout="${TARGET_CHECKOUT_DIR:-target-repo}"
 commit_message="${TARGET_COMMIT_MESSAGE:-chore(tokens): update generated CSS}"
 
@@ -32,7 +32,15 @@ case "$target_css_path" in
 esac
 
 rm -rf -- "$target_checkout"
-git clone --branch "$target_branch" --single-branch "$TARGET_REPO_URL" "$target_checkout"
+git clone "$TARGET_REPO_URL" "$target_checkout"
+
+if git -C "$target_checkout" show-ref --verify --quiet "refs/heads/$target_branch"; then
+  git -C "$target_checkout" switch "$target_branch"
+elif git -C "$target_checkout" show-ref --verify --quiet "refs/remotes/origin/$target_branch"; then
+  git -C "$target_checkout" switch --track "origin/$target_branch"
+else
+  git -C "$target_checkout" switch -c "$target_branch"
+fi
 
 destination="$target_checkout/$target_css_path"
 mkdir -p "$destination"
