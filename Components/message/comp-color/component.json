@@ -1,0 +1,136 @@
+{
+  "color": {
+    "fg": {
+      "text": {
+        "light": {
+          "success": {
+            "default": {
+              "value": "{smc.reference.container.color.fg.success.default}",
+              "type": "color"
+            }
+          },
+          "error": {
+            "default": {
+              "value": "{smc.reference.container.color.fg.error.lighter-10}",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "value": "{smc.reference.forms.color.fg.text.light.disabled}",
+            "type": "color"
+          },
+          "default": {
+            "value": "{smc.reference.forms.color.fg.text.light.default}",
+            "type": "color"
+          }
+        },
+        "dark": {
+          "success": {
+            "default": {
+              "value": "{smc.reference.container.color.fg.success.darker-20}",
+              "type": "color"
+            }
+          },
+          "error": {
+            "default": {
+              "value": "{smc.reference.container.color.fg.error.darker-10}",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "value": "{smc.reference.forms.color.fg.text.dark.disabled}",
+            "type": "color"
+          },
+          "default": {
+            "value": "{smc.reference.forms.color.fg.text.dark.default}",
+            "type": "color"
+          }
+        },
+        "surface": {
+          "success": {
+            "default": {
+              "value": "{smc.reference.container.color.fg.success.darker-20}",
+              "type": "color"
+            }
+          },
+          "error": {
+            "default": {
+              "value": "{smc.reference.container.color.fg.error.darker-10}",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "value": "{smc.reference.forms.color.fg.text.surface.disabled}",
+            "type": "color"
+          },
+          "default": {
+            "value": "{smc.reference.forms.color.fg.text.surface.default}",
+            "type": "color"
+          }
+        }
+      },
+      "icon": {
+        "light": {
+          "success": {
+            "default": {
+              "value": "{smc.reference.container.color.fg.success.default}",
+              "type": "color"
+            }
+          },
+          "error": {
+            "default": {
+              "value": "{smc.reference.container.color.fg.error.lighter-10}",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "value": "{smc.reference.forms.color.fg.icon.light.disabled}",
+            "type": "color"
+          },
+          "default": {
+            "value": "{smc.reference.forms.color.fg.icon.light.default}",
+            "type": "color"
+          }
+        },
+        "dark": {
+          "success": {
+            "default": {
+              "value": "{smc.reference.container.color.fg.success.darker-20}",
+              "type": "color"
+            }
+          },
+          "error": {
+            "default": {
+              "value": "{smc.reference.container.color.fg.error.darker-10}",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "value": "{smc.reference.forms.color.fg.icon.dark.disabled}",
+            "type": "color"
+          },
+          "default": {
+            "value": "{smc.reference.forms.color.fg.icon.dark.default}",
+            "type": "color"
+          }
+        },
+        "surface": {
+          "success": {
+            "default": {
+              "value": "{smc.reference.container.color.fg.success.darker-20}",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "value": "{smc.reference.forms.color.fg.icon.surface.disabled}",
+            "type": "color"
+          },
+          "default": {
+            "value": "{smc.reference.forms.color.fg.icon.surface.default}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}
