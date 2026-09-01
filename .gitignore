@@ -31,4 +31,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Local output from the ids-styles token validation command
+/token-diff-report.json
+
 /.idea/workspace.xml

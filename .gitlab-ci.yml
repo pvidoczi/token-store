@@ -15,7 +15,12 @@ workflow:
 
 stages:
   - parse
+  - validate
   - publish
+
+variables:
+  # Configure this in Settings > CI/CD > Variables with a branch, tag, or commit SHA.
+  IDS_STYLES_REF: ""
 
 default:
   image: node:22-bookworm
@@ -30,6 +35,23 @@ parse_tokens:
   artifacts:
     paths:
       - ids_css/
+    expire_in: 7 days
+
+validate_ids_styles_tokens:
+  stage: validate
+  needs: []
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "web"'
+      when: manual
+    - when: never
+  allow_failure: false
+  script:
+    - npm run parse
+    - npm run validate:ids-styles
+  artifacts:
+    when: always
+    paths:
+      - token-diff-report.json
     expire_in: 7 days
 
 publish_tokens:

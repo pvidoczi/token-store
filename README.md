@@ -48,3 +48,9 @@ Opcionális konfiguráció:
 - `GIT_AUTHOR_NAME`, `GIT_AUTHOR_EMAIL`
 
 A célrepo nincs beégetve sem a scriptbe, sem a pipeline-ba. A GitLab projekt **Settings > CI/CD > Variables** részében kell felvenni a `TARGET_REPO_URL` változót. Ha az URL credentialt vagy deploy tokent tartalmaz, legyen **Masked** és szükség szerint **Protected**. Ugyanitt adható meg opcionálisan a `TARGET_REPO_BRANCH` és a `TARGET_CSS_PATH`. Valódi tokent nem szabad a repositoryba commitolni.
+
+## IDS Styles token validáció
+
+A `validate_ids_styles_tokens` job kizárólag a GitLab felületéről indított (`web`) pipeline-ban jelenik meg, és ott is manuálisan kell elindítani. Nem függ a `parse_tokens` jobtól vagy annak artifactjától: a meglévő parserrel saját maga generálja le az ellenőrzéshez szükséges CSS-t, de nem futtat commit- vagy publish scriptet. Ezután a generált CSS-változókat hasonlítja össze az `ids-styles` lefordított CSS-ében található `var(--...)` hivatkozásokkal. A job az `ids-styles` saját buildjét futtatja, ezért a Sass ciklusok és interpolációk már feloldott CSS-ként kerülnek az ellenőrzésbe.
+
+A GitLab projekt **Settings > CI/CD > Variables** részében kötelező beállítani az `IDS_STYLES_REF` változót egy branchre, tagre vagy commit SHA-ra, például `main`, egy release tag vagy egy teljes commit SHA. A job hibával leáll, ha az `ids-styles` olyan tokent hivatkozik, amelyet a generált CSS nem definiál. A nem közvetlenül hivatkozott generált tokenek csak információk; nem feltétlenül használatlanok, mert komponens tokenek foundation tokenekre támaszkodhatnak. A teljes eredmény a mindig megőrzött `token-diff-report.json` artifactban is elérhető.

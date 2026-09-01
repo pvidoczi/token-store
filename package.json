@@ -6,7 +6,9 @@
     "build": "tsc --noEmit",
     "parse": "ts-node parse_ids_css.ts",
     "publish": "bash scripts/publish-css.sh",
-    "test": "npm run build"
+    "test": "npm run build && npm run test:token-validation",
+    "test:token-validation": "node --test scripts/validate-ids-styles-tokens.test.mjs",
+    "validate:ids-styles": "node scripts/validate-ids-styles-tokens.mjs"
   },
   "repository": {
     "type": "git"
