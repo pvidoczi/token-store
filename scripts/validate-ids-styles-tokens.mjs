@@ -16,6 +16,17 @@ import { pathToFileURL } from 'node:url';
 
 const IDS_STYLES_REPOSITORY =
   'https://github.com/i-Cell-Mobilsoft-Open-Source/ids-styles.git';
+const COMPONENT_TOKEN_PREFIX = '--ids-comp-';
+const USE_COLOR =
+  !Object.hasOwn(process.env, 'NO_COLOR') &&
+  (process.stdout.isTTY || (process.env.CI !== undefined && process.env.CI !== 'false'));
+const ANSI = {
+  bold: '\x1b[1m',
+  cyan: '\x1b[36m',
+  green: '\x1b[32m',
+  red: '\x1b[31m',
+  reset: '\x1b[0m',
+};
 
 function stripCssComments(css) {
   return css.replace(/\/\*[\s\S]*?\*\//g, '');
@@ -65,6 +76,10 @@ export function collectCustomPropertyReferences(cssRootDirectory) {
   }
 
   return references;
+}
+
+export function filterComponentTokens(tokens) {
+  return new Set([...tokens].filter((token) => token.startsWith(COMPONENT_TOKEN_PREFIX)));
 }
 
 export function compareTokenSets(generatedDefinitions, idsStylesReferences) {
@@ -153,12 +168,17 @@ function writeReport(reportPath, report) {
   writeFileSync(reportPath, `${JSON.stringify(report, null, 2)}\n`, 'utf8');
 }
 
-function printDifferenceList(title, values, emptyMessage) {
-  console.log(`${title}: ${values.length}`);
+function colorize(text, color, bold = false) {
+  if (!USE_COLOR) return text;
+  return `${bold ? ANSI.bold : ''}${color}${text}${ANSI.reset}`;
+}
+
+function printDifferenceList(title, values, emptyMessage, color) {
+  console.log(colorize(`${title}: ${values.length}`, color, true));
   if (values.length === 0) {
-    console.log(emptyMessage);
+    console.log(colorize(emptyMessage, ANSI.green));
   } else {
-    console.log(values.join('\n'));
+    console.log(values.map((value) => colorize(value, color)).join('\n'));
   }
   console.log('');
 }
@@ -166,6 +186,7 @@ function printDifferenceList(title, values, emptyMessage) {
 function printReport(report) {
   console.log('');
   console.log(`IDS Styles ref: ${report.idsStylesRef}`);
+  console.log(`Token scope: ${report.tokenPrefix}*`);
   console.log('');
   console.log(`Generated token definitions: ${report.generatedTokenCount}`);
   console.log(`Token references used by ids-styles: ${report.referencedTokenCount}`);
@@ -175,21 +196,27 @@ function printReport(report) {
     'Referenced by ids-styles but missing from generated CSS',
     report.missingFromGenerated,
     'No differences found: every token referenced by ids-styles is defined in generated CSS.',
+    ANSI.red,
   );
 
   console.log(
-    'Informational only: this group is not directly referenced by ids-styles. It is not necessarily unused, because generated component tokens may depend on foundation tokens.',
+    colorize(
+      'Informational only: these generated component tokens are not directly referenced by the selected ids-styles ref. This does not by itself prove that they are unused.',
+      ANSI.cyan,
+    ),
   );
   printDifferenceList(
     'Defined in generated CSS but not directly referenced by ids-styles',
     report.notDirectlyReferencedByStyles,
     'No differences found: every generated token definition is directly referenced by ids-styles.',
+    ANSI.cyan,
   );
 }
 
 function emptyReport(idsStylesRef) {
   return {
     idsStylesRef,
+    tokenPrefix: COMPONENT_TOKEN_PREFIX,
     generatedTokenCount: 0,
     referencedTokenCount: 0,
     missingFromGenerated: [],
@@ -226,11 +253,13 @@ export function main() {
       throw new Error(`No generated CSS files found under ${generatedCssDirectory}.`);
     }
 
-    const generatedDefinitions = collectCustomPropertyDefinitions(generatedCssDirectory);
+    const generatedDefinitions = filterComponentTokens(
+      collectCustomPropertyDefinitions(generatedCssDirectory),
+    );
     report.generatedTokenCount = generatedDefinitions.size;
     if (generatedDefinitions.size === 0) {
       throw new Error(
-        `No custom property definitions found in generated CSS under ${generatedCssDirectory}.`,
+        `No component custom property definitions found in generated CSS under ${generatedCssDirectory}.`,
       );
     }
 
@@ -247,7 +276,9 @@ export function main() {
       );
     }
 
-    const idsStylesReferences = collectCustomPropertyReferences(compiledCssDirectory);
+    const idsStylesReferences = filterComponentTokens(
+      collectCustomPropertyReferences(compiledCssDirectory),
+    );
     report.referencedTokenCount = idsStylesReferences.size;
 
     const differences = compareTokenSets(generatedDefinitions, idsStylesReferences);

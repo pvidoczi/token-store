@@ -8,6 +8,7 @@ import {
   collectCustomPropertyDefinitions,
   collectCustomPropertyReferences,
   compareTokenSets,
+  filterComponentTokens,
 } from './validate-ids-styles-tokens.mjs';
 
 function withCssFixture(files, callback) {
@@ -67,6 +68,22 @@ test('collects every var reference, including multiple calls and fallbacks', () 
         ['--ids-alpha', '--ids-beta', '--ids-fallback', '--ids-gamma'],
       );
     },
+  );
+});
+
+test('filters comparison input to component tokens', () => {
+  const componentTokens = filterComponentTokens(
+    new Set([
+      '--ids-base-color-blue-500',
+      '--ids-comp-button-size-height-compact',
+      '--ids-comp-card-color-bg-default',
+      '--ids-smc-reference-container-size-height-32',
+    ]),
+  );
+
+  assert.deepEqual(
+    [...componentTokens].sort(),
+    ['--ids-comp-button-size-height-compact', '--ids-comp-card-color-bg-default'],
   );
 });
 
