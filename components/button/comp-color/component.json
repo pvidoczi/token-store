@@ -1880,32 +1880,6 @@
             "type": "color"
           }
         },
-        "primary": {
-          "disabled 3": {
-            "value": "{smc.reference.container.color.bg.disabled.default}",
-            "type": "color"
-          },
-          "disabled 2": {
-            "value": "{smc.reference.container.color.bg.disabled.default}",
-            "type": "color"
-          },
-          "pressed": {
-            "value": "{smc.colors.highlight.darker-30}",
-            "type": "color"
-          },
-          "focused": {
-            "value": "{smc.colors.highlight.darker-20}",
-            "type": "color"
-          },
-          "hovered": {
-            "value": "{smc.reference.container.color.bg.highlight.darker-10}",
-            "type": "color"
-          },
-          "default": {
-            "value": "{smc.reference.container.color.bg.highlight.default}",
-            "type": "color"
-          }
-        },
         "secondary": {
           "pressed": {
             "value": "{smc.colors.secondary.darker-30}",
@@ -1987,6 +1961,32 @@
           },
           "default": {
             "value": "{smc.reference.container.color.bg.warning.default}",
+            "type": "color"
+          }
+        },
+        "primary": {
+          "pressed": {
+            "value": "{smc.reference.container.color.bg.primary.darker-30}",
+            "type": "color"
+          },
+          "focused": {
+            "value": "{smc.reference.container.color.bg.primary.darker-20}",
+            "type": "color"
+          },
+          "hovered": {
+            "value": "{smc.reference.container.color.bg.primary.darker-10}",
+            "type": "color"
+          },
+          "default": {
+            "value": "{smc.reference.container.color.bg.primary.default}",
+            "type": "color"
+          },
+          "disabled 3": {
+            "value": "{smc.reference.container.color.bg.disabled.default}",
+            "type": "color"
+          },
+          "disabled 2": {
+            "value": "{smc.reference.container.color.bg.disabled.default}",
             "type": "color"
           }
         }

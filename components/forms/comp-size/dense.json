@@ -406,7 +406,7 @@
         "type": "number"
       },
       "spinner": {
-        "value": 0,
+        "value": "{smc.reference.container.size.width.12}",
         "type": "number"
       }
     },

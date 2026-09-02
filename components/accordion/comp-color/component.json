@@ -10,14 +10,6 @@
     }
   },
   "item": {
-    "size": {
-      "compact": {
-        "border-width": {
-          "value": "{smc.reference.container.border-width.sm}",
-          "type": "number"
-        }
-      }
-    },
     "color": {
       "bg": {
         "default": {
@@ -33,6 +25,14 @@
         "firstchild": {
           "value": "{smc.reference.container.color.border.surface.transparent.0}",
           "type": "color"
+        }
+      }
+    },
+    "size": {
+      "compact": {
+        "border-width": {
+          "value": "{smc.reference.container.border-width.sm}",
+          "type": "number"
         }
       }
     }

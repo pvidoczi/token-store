@@ -1,9 +1,5 @@
 {
   "size": {
-    "gap-x": {
-      "value": "{smc.reference.container.gap.8}",
-      "type": "number"
-    },
     "padding-x": {
       "value": "{smc.reference.container.padding.8}",
       "type": "number"
@@ -20,12 +16,16 @@
       "value": "{smc.reference.container.size.width.800}",
       "type": "number"
     },
-    "gap-y": {
-      "value": "{smc.reference.container.gap.12}",
-      "type": "number"
-    },
     "caret-size": {
       "value": "{smc.reference.container.size.width.8}",
+      "type": "number"
+    },
+    "gap-x": {
+      "value": "{smc.reference.container.gap.8}",
+      "type": "number"
+    },
+    "gap-y": {
+      "value": "{smc.reference.container.gap.12}",
       "type": "number"
     }
   },
