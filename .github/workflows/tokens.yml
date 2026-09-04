@@ -1,0 +1,190 @@
+name: Token Pipeline
+
+# GitHub Actions megfelelője a .gitlab-ci.yml-nek.
+# A tényleges üzleti logika (parse / validate / publish) az npm scriptekben
+# és a scripts/ alatti shell/node fájlokban van — ugyanazokat futtatja ez a
+# workflow is, mint a GitLab pipeline. Ez a fájl KIZÁRÓLAG a GitHub-specifikus
+# "adapter" réteg; a .gitlab-ci.yml-t és a scripteket ez a fájl nem érinti.
+#
+# Job-onkénti megfelelés a .gitlab-ci.yml-hez képest:
+#
+#   parse_tokens                → automatikus push-ra (ugyanazok az elérési
+#                                  útvonalak, mint a GitLab `changes:` listája),
+#                                  és workflow_dispatch-re is lefut.
+#                                  A generált CSS-t ugyanúgy visszacommitolja
+#                                  a forrás branch-re, mint
+#                                  scripts/commit-generated-css.sh a GitLab-on
+#                                  — kivéve védett branch-eken (lásd lentebb).
+#
+#   validate_ids_styles_tokens  → csak manuálisan indított futtatáson
+#                                  (workflow_dispatch) jelenik meg, és emellett
+#                                  egy védett "validate-ids-styles" GitHub
+#                                  Environment-hez van kötve, ami extra
+#                                  jóváhagyást kérhet (Settings → Environments).
+#                                  Ez felel meg a GitLab
+#                                  `if: CI_PIPELINE_SOURCE == "web", when: manual`
+#                                  szabálynak.
+#
+#   publish_tokens               → MINDIG manuális jóváhagyáshoz kötött (a
+#                                  "publish-tokens" Environment-en keresztül),
+#                                  függetlenül attól, hogy push vagy
+#                                  workflow_dispatch indította-e a futtatást —
+#                                  pontosan úgy, mint a GitLab
+#                                  `when: manual` (rules nélkül) szabálya.
+
+on:
+  push:
+    paths:
+      - 'foundations/**'
+      - 'components/**'
+      - 'parse_ids_css.ts'
+      - 'scripts/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'tsconfig.json'
+      - '.github/workflows/tokens.yml'
+  workflow_dispatch:
+    inputs:
+      ids_styles_ref:
+        description: 'ids-styles branch/tag/SHA a validate joghoz (üresen hagyva a repo "IDS_STYLES_REF" változóját használja)'
+        required: false
+        type: string
+
+jobs:
+  # ── parse ────────────────────────────────────────────────────────────────
+  parse_tokens:
+    name: parse
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Parse design tokens
+        run: npm run parse
+
+      - name: Determine branch protection status
+        id: protection
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          branch="${GITHUB_REF_NAME}"
+          # Ha az esemény nem branch push (pl. tag), ne próbáljunk visszacommitolni.
+          if [[ "${GITHUB_REF_TYPE:-branch}" != "branch" ]]; then
+            echo "protected=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          # A branch-védelmi API lekérdezése; ha nem elérhető/nincs jogosultság,
+          # biztonsági okból védettnek tekintjük (nem commitolunk vissza).
+          if gh api "repos/${GITHUB_REPOSITORY}/branches/${branch}/protection" >/dev/null 2>&1; then
+            echo "protected=true" >> "$GITHUB_OUTPUT"
+          else
+            status=$?
+            if [[ $status -eq 1 ]]; then
+              echo "protected=false" >> "$GITHUB_OUTPUT"
+            else
+              echo "protected=true" >> "$GITHUB_OUTPUT"
+            fi
+          fi
+
+      - name: Commit generated CSS back to source branch
+        env:
+          CI_COMMIT_BRANCH: ${{ github.ref_name }}
+          CI_COMMIT_SHA: ${{ github.sha }}
+          CI_COMMIT_REF_PROTECTED: ${{ steps.protection.outputs.protected }}
+          CI_REPOSITORY_URL: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          SELF_COMMIT_MESSAGE: 'chore(tokens): update generated CSS [skip ci]'
+        run: bash scripts/commit-generated-css.sh
+
+      - name: Upload ids_css artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ids_css
+          path: ids_css/
+          retention-days: 7
+          if-no-files-found: warn
+
+  # ── validate (manuális) ──────────────────────────────────────────────────
+  validate_ids_styles_tokens:
+    name: validate
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch'
+    environment: validate-ids-styles
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Parse design tokens
+        run: npm run parse
+
+      - name: Validate against ids-styles
+        env:
+          IDS_STYLES_REF: ${{ inputs.ids_styles_ref || vars.IDS_STYLES_REF }}
+        run: npm run validate:ids-styles
+
+      - name: Upload token diff report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: token-diff-report
+          path: token-diff-report.json
+          retention-days: 7
+          if-no-files-found: warn
+
+  # ── publish (mindig manuális) ────────────────────────────────────────────
+  publish_tokens:
+    name: publish
+    runs-on: ubuntu-latest
+    needs: parse_tokens
+    environment: publish-tokens
+    continue-on-error: true
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Download ids_css artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: ids_css
+          path: ids_css/
+
+      - name: Publish CSS to target repository
+        env:
+          SKIP_PARSE: "true"
+          TARGET_REPO_URL: ${{ secrets.TARGET_REPO_URL }}
+          TARGET_REPO_BRANCH: ${{ vars.TARGET_REPO_BRANCH }}
+          TARGET_CSS_PATH: ${{ vars.TARGET_CSS_PATH }}
+          TARGET_CHECKOUT_DIR: ${{ vars.TARGET_CHECKOUT_DIR }}
+          TARGET_COMMIT_MESSAGE: ${{ vars.TARGET_COMMIT_MESSAGE }}
+          GIT_AUTHOR_NAME: ${{ vars.GIT_AUTHOR_NAME }}
+          GIT_AUTHOR_EMAIL: ${{ vars.GIT_AUTHOR_EMAIL }}
+        run: npm run publish
+
+
+

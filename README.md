@@ -57,11 +57,16 @@ A `validate_ids_styles_tokens` job a generált komponens CSS-változókat hasonl
 
 1. Nyisd meg a projekt **Build > Pipelines** oldalát, majd kattints a **New pipeline** gombra.
 2. A **Run for branch name or tag** mezőben válaszd ki ennek a token-store repositorynak azt a branchét vagy tagjét, amelynek a tokenjeit ellenőrizni szeretnéd. Ez nem az `ids-styles` verziója.
-3. Győződj meg arról, hogy az `IDS_STYLES_REF` változó projektváltozóként vagy az aktuális pipeline változójaként meg van adva.
-4. Indítsd el a pipeline-t a **Run pipeline** gombbal.
-5. A létrejött pipeline-ban indítsd el a `validate_ids_styles_tokens` manuális jobot a **Run** vagy lejátszás ikonra kattintva.
+3. Az `IDS_STYLES_REF` változót kétféleképpen adhatod meg:
+    - **Projektváltozóként** a **Settings > CI/CD > Variables** résznél.
+    - **Csak az aktuális pipeline futtatásához** a **New pipeline** oldalon, a **Variables** szekcióban:
+        - **Variable type:** `Variable`
+        - **Variable key:** `IDS_STYLES_REF`
+        - **Variable value:** az `ids-styles` kívánt branche, tagje vagy commit SHA-ja, például `main` vagy `0.0.74`.
+4. Kattints a **New pipeline** gombra a pipeline létrehozásához.
+5. A létrejött pipeline-ban indítsd el a `validate_ids_styles_tokens` manuális jobot a **Run** vagy a lejátszás ikonra kattintva.
 
-A job kimenete tartalmazza mindkét eltérés rendezett listáját. A GitLab logban a generált CSS-ből hiányzó komponens-tokenek pirosan, a csak információs, közvetlenül nem hivatkozott komponens-tokenek cián színnel jelennek meg. A színezés a `NO_COLOR` környezeti változó beállításával kikapcsolható. A `token-diff-report.json` machine-readable artifact sikeres és sikertelen validáció után is letölthető a job oldaláról.
+A job kimenete tartalmazza mindkét eltérés rendezett listáját. A `token-diff-report.json` machine-readable artifact sikeres és sikertelen validáció után is letölthető a job oldaláról.
 
 ### A riport listáinak értelmezése
 
@@ -134,3 +139,46 @@ A ref kétféleképpen konfigurálható:
    ```
 
 Az aktuális pipeline-hoz megadott változóval a tartós projektbeállítás futtatásonként felülírható. Ha az `IDS_STYLES_REF` nincs beállítva, vagy a megadott ref nem checkoutolható, a validáció egyértelmű hibaüzenettel leáll.
+
+## GitHub Actions pipeline és publikálás
+
+A repository GitLab mellett GitHub Actions-ön is futtatható, a `.github/workflows/tokens.yml` workflow-val. Ez **kizárólag adapter réteg**: ugyanazokat az npm scripteket és `scripts/` alatti fájlokat hívja, mint a GitLab pipeline, így a két platform mindig azonos üzleti logikát futtat. A `.gitlab-ci.yml` és a GitLab-specifikus beállítások ettől függetlenül, változatlanul működnek tovább.
+
+### Jobok és trigger-viselkedés
+
+| Job | Trigger | GitLab megfelelő |
+|-----|---------|-------------------|
+| `parse_tokens` | Automatikus push-ra (`foundations/**`, `components/**`, `scripts/**`, stb.) és manuális `workflow_dispatch`-re is | `parse_tokens` (automatikus) |
+| `validate_ids_styles_tokens` | Csak manuális `workflow_dispatch` futtatáson jelenik meg, és a `validate-ids-styles` Environmenthez van kötve | `validate_ids_styles_tokens` (csak web forrás, manuális) |
+| `publish_tokens` | Mindig a `publish-tokens` Environment jóváhagyásához kötött, push és `workflow_dispatch` esetén is | `publish_tokens` (`when: manual`) |
+
+A `parse_tokens` job a generált CSS-t — a GitLab `commit-generated-css.sh` scripttel megegyező logikával — visszacommitolja a forrás branch-re, kivéve ha a branch védett (ezt a job a GitHub API-n keresztül próbálja megállapítani; bizonytalan esetben a job biztonságból védettnek tekinti a branch-et, és kihagyja a visszacommitolást).
+
+### Szükséges GitHub beállítások
+
+1. **Environments létrehozása jóváhagyással** (Settings > Environments):
+   - `publish-tokens` — állíts be **Required reviewers**-t, hogy a publikálás valóban emberi jóváhagyáshoz legyen kötve (ez felel meg a GitLab `when: manual` gombjának).
+   - `validate-ids-styles` — opcionálisan szintén elláthatod jóváhagyással.
+
+2. **Repository Secrets** (Settings > Secrets and variables > Actions > Secrets):
+   - `TARGET_REPO_URL` — a cél repository hitelesített clone URL-je (pl. GitHub esetén egy fine-grained personal access token-nel vagy deploy key-jel).
+
+3. **Repository Variables** (Settings > Secrets and variables > Actions > Variables) — mind opcionális, a GitLab CI/CD változóival megegyező névvel és alapértékkel:
+   - `TARGET_REPO_BRANCH` (alapérték a scriptben: `IDS_CSS`)
+   - `TARGET_CSS_PATH` (alapérték: `projects/demo/src/assets/ids_css`)
+   - `TARGET_CHECKOUT_DIR` (alapérték: `target-repo`)
+   - `TARGET_COMMIT_MESSAGE`
+   - `GIT_AUTHOR_NAME`, `GIT_AUTHOR_EMAIL`
+   - `IDS_STYLES_REF` — a `validate_ids_styles_tokens` jobhoz; egyetlen futtatásra felülírható a **Run workflow** ablak `ids_styles_ref` mezőjében is.
+
+4. **`GITHUB_TOKEN` jogosultság a saját repóba történő visszacommitoláshoz**: a `parse_tokens` job a beépített `GITHUB_TOKEN`-t használja push-hoz (job-szintű `permissions: contents: write`). Ha a szervezetben alapból csak olvasási jogú `GITHUB_TOKEN`-t engedélyeznek, ellenőrizd a **Settings > Actions > General > Workflow permissions** beállítást, vagy engedélyezd explicit "Read and write permissions"-t.
+
+### Futtatás GitHubon
+
+1. Nyisd meg a **Actions** fület, válaszd a **Token Pipeline** workflow-t.
+2. Kattints a **Run workflow** gombra a kívánt branch-en; opcionálisan add meg az `ids_styles_ref` inputot.
+3. A `parse_tokens` job automatikusan lefut. A `validate_ids_styles_tokens` és `publish_tokens` jobok a hozzájuk rendelt Environment jóváhagyása után indulnak — ezt az Actions futtatás oldaláról, a **Review deployments** gombbal lehet engedélyezni.
+
+Helyileg ugyanazok az `npm run parse`, `npm run validate:ids-styles` és `npm run publish` parancsok használhatók, mint a GitLab esetén — a két CI/CD platform között nincs eltérés a tényleges pipeline-logikában.
+
+
