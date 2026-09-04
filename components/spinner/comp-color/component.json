@@ -88,6 +88,18 @@
           "value": "{smc.reference.container.color.bg.surface.darker-20}",
           "type": "color"
         }
+      },
+      "brand": {
+        "default": {
+          "value": "{smc.reference.container.color.bg.surface.darker-20}",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "default": {
+          "value": "{smc.reference.container.color.bg.surface.darker-20}",
+          "type": "color"
+        }
       }
     }
   }

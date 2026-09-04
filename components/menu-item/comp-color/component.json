@@ -79,6 +79,10 @@
             "default": {
               "value": "{smc.reference.container.color.border.surface.transparent.0}",
               "type": "color"
+            },
+            "focused": {
+              "value": "{smc.reference.container.color.border.surface.transparent.0}",
+              "type": "color"
             }
           }
         },
@@ -100,6 +104,10 @@
             "type": "color"
           },
           "default": {
+            "value": "{smc.reference.container.color.border.surface.transparent.0}",
+            "type": "color"
+          },
+          "focused": {
             "value": "{smc.reference.container.color.border.surface.transparent.0}",
             "type": "color"
           }
@@ -466,6 +474,12 @@
       "dark": {
         "focused": {
           "value": "{smc.reference.container.focused-outline.color.dark.default}",
+          "type": "color"
+        }
+      },
+      "light": {
+        "focused": {
+          "value": "{smc.reference.container.focused-outline.color.light.default}",
           "type": "color"
         }
       }

@@ -54,6 +54,10 @@
       "min-width": {
         "value": "{smc.reference.container.size.width.128}",
         "type": "number"
+      },
+      "max-width": {
+        "value": "{smc.reference.container.size.width.400}",
+        "type": "number"
       }
     }
   },
@@ -128,6 +132,10 @@
       "icon": {
         "value": "{smc.reference.container.icon-nested.md}",
         "type": "number"
+      },
+      "padding-left": {
+        "value": "{smc.reference.container.padding.4}",
+        "type": "number"
       }
     },
     "typography": {
@@ -141,6 +149,22 @@
       },
       "font-weight": {
         "value": "{smc.reference.typography.font-weight.Regular}",
+        "type": "number"
+      }
+    }
+  },
+  "focused-outline": {
+    "size": {
+      "outline": {
+        "value": "{smc.reference.container.focused-outline.size.default}",
+        "type": "number"
+      }
+    }
+  },
+  "icon-button": {
+    "size": {
+      "icon-button": {
+        "value": "{smc.reference.container.icon-nested.md}",
         "type": "number"
       }
     }

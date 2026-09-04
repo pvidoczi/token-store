@@ -55,6 +55,16 @@
             "value": "{smc.reference.typography.font-weight.SemiBold}",
             "type": "number"
           }
+        },
+        "size": {
+          "padding-left": {
+            "value": "{smc.reference.container.padding.12}",
+            "type": "number"
+          },
+          "padding-right": {
+            "value": "{smc.reference.container.padding.12}",
+            "type": "number"
+          }
         }
       }
     },
@@ -205,6 +215,10 @@
             "line-height": {
               "value": "{smc.reference.typography.line-height.24}",
               "type": "number"
+            },
+            "font-weight": {
+              "value": "{smc.reference.typography.font-weight.Regular}",
+              "type": "number"
             }
           }
         },
@@ -347,6 +361,40 @@
               "type": "number"
             }
           }
+        },
+        "clear-value": {
+          "size": {
+            "padding-y": {
+              "value": "{smc.reference.container.padding.8}",
+              "type": "number"
+            }
+          }
+        },
+        "suffix": {
+          "typography": {
+            "font-size": {
+              "value": "{smc.reference.typography.font-size.18}",
+              "type": "number"
+            },
+            "font-weight": {
+              "value": "{smc.reference.typography.font-weight.Regular}",
+              "type": "number"
+            },
+            "letter-spacing": {
+              "value": "{smc.reference.typography.letter-spacing.default}",
+              "type": "number"
+            },
+            "line-height": {
+              "value": "{smc.reference.typography.line-height.16}",
+              "type": "number"
+            }
+          }
+        },
+        "disabled": {
+          "default": {
+            "value": "{smc.reference.container.opacity.disabled.default}",
+            "type": "number"
+          }
         }
       },
       "size": {
@@ -399,10 +447,6 @@
       },
       "icons-gap": {
         "value": "{smc.reference.container.gap.8}",
-        "type": "number"
-      },
-      "chip-input-gap": {
-        "value": "{smc.reference.container.gap.4}",
         "type": "number"
       },
       "spinner": {

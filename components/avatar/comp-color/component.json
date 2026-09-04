@@ -96,13 +96,5 @@
         }
       }
     }
-  },
-  "size": {
-    "comfortable": {
-      "border-radius": {
-        "value": "{smc.reference.container.border-radius.full}",
-        "type": "number"
-      }
-    }
   }
 }

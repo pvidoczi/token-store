@@ -19,6 +19,14 @@
           "type": "number"
         }
       }
+    },
+    "bigCollection": {
+      "size": {
+        "border-radius": {
+          "value": "{smc.reference.container.border-radius.full}",
+          "type": "number"
+        }
+      }
     }
   },
   "smallCollection": {

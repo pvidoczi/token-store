@@ -52,6 +52,10 @@
       "icon": {
         "value": "{smc.reference.container.icon-nested.xs}",
         "type": "number"
+      },
+      "border-radius": {
+        "value": "{smc.reference.container.border-radius.full}",
+        "type": "number"
       }
     },
     "typography": {
@@ -105,6 +109,10 @@
       },
       "border-radius-left": {
         "value": "{smc.reference.container.border-radius.full}",
+        "type": "number"
+      },
+      "outline-width": {
+        "value": "{smc.reference.container.focused-outline.size.default}",
         "type": "number"
       }
     }

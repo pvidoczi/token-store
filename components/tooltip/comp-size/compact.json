@@ -20,12 +20,8 @@
       "value": "{smc.reference.container.size.width.8}",
       "type": "number"
     },
-    "gap-x": {
-      "value": "{smc.reference.container.gap.8}",
-      "type": "number"
-    },
-    "gap-y": {
-      "value": "{smc.reference.container.gap.12}",
+    "border-width": {
+      "value": "{smc.reference.container.border-width.sm}",
       "type": "number"
     }
   },

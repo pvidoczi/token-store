@@ -307,6 +307,12 @@
             "value": "{smc.reference.container.color.border.surface.transparent.0}",
             "type": "color"
           }
+        },
+        "light": {
+          "default": {
+            "value": "{smc.reference.container.color.border.surface.transparent.0}",
+            "type": "color"
+          }
         }
       },
       "fg": {
