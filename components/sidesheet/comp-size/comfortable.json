@@ -82,6 +82,10 @@
           "padding-right": {
             "value": "{smc.reference.container.padding.24}",
             "type": "number"
+          },
+          "opacity": {
+            "value": "{smc.reference.container.color.opacity.backdrop-percentage}",
+            "type": "number"
           }
         }
       }
@@ -139,6 +143,14 @@
         "border-width": {
           "value": "{smc.reference.container.border-width.none}",
           "type": "number"
+        },
+        "max-width": {
+          "value": "{smc.reference.container.size.width.400}",
+          "type": "number"
+        },
+        "min-height": {
+          "value": "{smc.reference.container.size.height.256}",
+          "type": "number"
         }
       },
       "left": {
@@ -157,6 +169,18 @@
           },
           "border-width": {
             "value": "{smc.reference.container.border-width.none}",
+            "type": "number"
+          }
+        }
+      },
+      "right": {
+        "size": {
+          "border-radius-left": {
+            "value": "{smc.reference.container.border-radius.md}",
+            "type": "number"
+          },
+          "border-radius-right": {
+            "value": "{smc.reference.container.border-radius.none}",
             "type": "number"
           }
         }

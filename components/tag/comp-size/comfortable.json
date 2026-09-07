@@ -80,5 +80,25 @@
         "type": "number"
       }
     }
+  },
+  "group": {
+    "size": {
+      "padding-x": {
+        "value": "{smc.reference.container.padding.none}",
+        "type": "number"
+      },
+      "padding-y": {
+        "value": "{smc.reference.container.padding.none}",
+        "type": "number"
+      },
+      "column-gap": {
+        "value": "{smc.reference.container.gap.12}",
+        "type": "number"
+      },
+      "row-gap": {
+        "value": "{smc.reference.container.gap.12}",
+        "type": "number"
+      }
+    }
   }
 }

@@ -1,4 +1,28 @@
 {
+  "divider": {
+    "foreslash": {
+      "fg": {
+        "light": {
+          "default": {
+            "value": "{smc.reference.container.color.fg.light.transparent.950}",
+            "type": "color"
+          }
+        },
+        "primary": {
+          "default": {
+            "value": "{smc.reference.container.color.fg.primary.default}",
+            "type": "color"
+          }
+        },
+        "surface": {
+          "default": {
+            "value": "{smc.reference.container.color.fg.surface.darker-50}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
   "current-page": {
     "bg": {
       "surface": {
@@ -32,10 +56,6 @@
   "navigation-link": {
     "bg": {
       "light": {
-        "default": {
-          "value": "{smc.reference.container.color.bg.surface.transparent.0}",
-          "type": "color"
-        },
         "disabled": {
           "value": "{smc.reference.container.color.bg.surface.transparent.0}",
           "type": "color"
@@ -50,14 +70,14 @@
         },
         "hovered": {
           "value": "{smc.reference.container.color.bg.surface.transparent.200}",
+          "type": "color"
+        },
+        "default": {
+          "value": "{smc.reference.container.color.bg.surface.transparent.0}",
           "type": "color"
         }
       },
       "primary": {
-        "default": {
-          "value": "{smc.reference.container.color.bg.surface.transparent.0}",
-          "type": "color"
-        },
         "disabled": {
           "value": "{smc.reference.container.color.bg.surface.transparent.0}",
           "type": "color"
@@ -72,14 +92,14 @@
         },
         "hovered": {
           "value": "{smc.reference.container.color.bg.surface.transparent.200}",
+          "type": "color"
+        },
+        "default": {
+          "value": "{smc.reference.container.color.bg.surface.transparent.0}",
           "type": "color"
         }
       },
       "surface": {
-        "default": {
-          "value": "{smc.reference.container.color.bg.surface.transparent.0}",
-          "type": "color"
-        },
         "disabled": {
           "value": "{smc.reference.container.color.bg.surface.transparent.0}",
           "type": "color"
@@ -94,16 +114,16 @@
         },
         "hovered": {
           "value": "{smc.reference.container.color.bg.surface.transparent.200}",
+          "type": "color"
+        },
+        "default": {
+          "value": "{smc.reference.container.color.bg.surface.transparent.0}",
           "type": "color"
         }
       }
     },
     "fg": {
       "light": {
-        "default": {
-          "value": "{smc.reference.container.color.fg.light.transparent.800}",
-          "type": "color"
-        },
         "disabled": {
           "value": "{smc.reference.container.color.fg.light.transparent.300}",
           "type": "color"
@@ -119,13 +139,13 @@
         "hovered": {
           "value": "{smc.reference.container.color.fg.light.transparent.950}",
           "type": "color"
+        },
+        "default": {
+          "value": "{smc.reference.container.color.fg.light.transparent.800}",
+          "type": "color"
         }
       },
       "primary": {
-        "default": {
-          "value": "{smc.reference.container.color.fg.primary.default}",
-          "type": "color"
-        },
         "disabled": {
           "value": "{smc.reference.container.color.bg.surface.transparent.250}",
           "type": "color"
@@ -141,13 +161,13 @@
         "hovered": {
           "value": "{smc.reference.container.color.fg.primary.darker-20}",
           "type": "color"
+        },
+        "default": {
+          "value": "{smc.reference.container.color.fg.primary.default}",
+          "type": "color"
         }
       },
       "surface": {
-        "default": {
-          "value": "{smc.reference.container.color.fg.surface.darker-50}",
-          "type": "color"
-        },
         "disabled": {
           "value": "{smc.reference.container.color.fg.surface.transparent.250}",
           "type": "color"
@@ -163,30 +183,10 @@
         "hovered": {
           "value": "{smc.reference.container.color.fg.surface.darker-95}",
           "type": "color"
-        }
-      }
-    }
-  },
-  "divider": {
-    "foreslash": {
-      "fg": {
-        "light": {
-          "default": {
-            "value": "{smc.reference.container.color.fg.light.transparent.950}",
-            "type": "color"
-          }
         },
-        "primary": {
-          "default": {
-            "value": "{smc.reference.container.color.fg.primary.default}",
-            "type": "color"
-          }
-        },
-        "surface": {
-          "default": {
-            "value": "{smc.reference.container.color.fg.surface.darker-50}",
-            "type": "color"
-          }
+        "default": {
+          "value": "{smc.reference.container.color.fg.surface.darker-50}",
+          "type": "color"
         }
       }
     }
