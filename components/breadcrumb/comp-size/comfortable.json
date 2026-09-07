@@ -1,56 +1,22 @@
 {
   "size": {
     "gap": {
-      "value": "{smc.reference.container.gap.2}",
+      "value": "{smc.reference.container.gap.4}",
       "type": "number"
-    }
-  },
-  "navigation-link": {
-    "size": {
-      "padding-x": {
-        "value": "{smc.reference.container.padding.2}",
-        "type": "number"
-      },
-      "padding-y": {
-        "value": "{smc.reference.container.padding.2}",
-        "type": "number"
-      },
-      "border-radius": {
-        "value": "{smc.reference.container.border-radius.2xs}",
-        "type": "number"
-      },
-      "max-width": {
-        "value": "{smc.reference.container.size.width.96}",
-        "type": "number"
-      }
-    },
-    "typography": {
-      "letter-spacing": {
-        "value": "{smc.reference.typography.letter-spacing.default}",
-        "type": "number"
-      },
-      "font-size": {
-        "value": "{smc.reference.typography.font-size.12}",
-        "type": "number"
-      },
-      "font-family": {
-        "value": "{smc.reference.typography.font-family.default}",
-        "type": "string"
-      },
-      "line-height": {
-        "value": "{smc.reference.typography.font-size.16}",
-        "type": "number"
-      },
-      "font-weight": {
-        "value": "{smc.reference.typography.font-weight.Regular}",
-        "type": "number"
-      }
     }
   },
   "current-page": {
     "size": {
       "max-width": {
-        "value": "{smc.reference.container.size.width.96}",
+        "value": "{smc.reference.container.size.width.128}",
+        "type": "number"
+      },
+      "padding-x": {
+        "value": "{smc.reference.container.padding.4}",
+        "type": "number"
+      },
+      "padding-y": {
+        "value": "{smc.reference.container.padding.4}",
         "type": "number"
       }
     },
@@ -60,7 +26,7 @@
         "type": "number"
       },
       "font-size": {
-        "value": "{smc.reference.typography.font-size.12}",
+        "value": "{smc.reference.typography.font-size.16}",
         "type": "number"
       },
       "font-family": {
@@ -68,11 +34,53 @@
         "type": "string"
       },
       "line-height": {
-        "value": "{smc.reference.typography.font-size.16}",
+        "value": "{smc.reference.typography.font-size.20}",
         "type": "number"
       },
       "font-weight": {
         "value": "{smc.reference.typography.font-weight.SemiBold}",
+        "type": "number"
+      }
+    }
+  },
+  "navigation-link": {
+    "size": {
+      "max-width": {
+        "value": "{smc.reference.container.size.width.128}",
+        "type": "number"
+      },
+      "padding-x": {
+        "value": "{smc.reference.container.padding.4}",
+        "type": "number"
+      },
+      "padding-y": {
+        "value": "{smc.reference.container.padding.4}",
+        "type": "number"
+      },
+      "border-radius": {
+        "value": "{smc.reference.container.border-radius.2xs}",
+        "type": "number"
+      }
+    },
+    "typography": {
+      "letter-spacing": {
+        "value": "{smc.reference.typography.letter-spacing.default}",
+        "type": "number"
+      },
+      "font-size": {
+        "value": "{smc.reference.typography.font-size.16}",
+        "type": "number"
+      },
+      "font-family": {
+        "value": "{smc.reference.typography.font-family.default}",
+        "type": "string"
+      },
+      "line-height": {
+        "value": "{smc.reference.typography.font-size.20}",
+        "type": "number"
+      },
+      "font-weight": {
+        "value": "{smc.reference.typography.font-weight.Regular}",
         "type": "number"
       }
     }
@@ -85,7 +93,7 @@
           "type": "number"
         },
         "font-size": {
-          "value": "{smc.reference.typography.font-size.12}",
+          "value": "{smc.reference.typography.font-size.16}",
           "type": "number"
         },
         "font-family": {
@@ -93,7 +101,7 @@
           "type": "string"
         },
         "line-height": {
-          "value": "{smc.reference.typography.font-size.16}",
+          "value": "{smc.reference.typography.font-size.20}",
           "type": "number"
         },
         "font-weight": {

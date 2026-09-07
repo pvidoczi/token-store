@@ -243,6 +243,10 @@
                 "hovered": {
                   "value": "{smc.colors.primary.default}",
                   "type": "color"
+                },
+                "default": {
+                  "value": "{smc.reference.container.color.fg.surface.darker-60}",
+                  "type": "color"
                 }
               }
             }
@@ -261,6 +265,24 @@
             "focused": {
               "value": "{smc.reference.container.focused-outline.color.light.default}",
               "type": "color"
+            }
+          }
+        }
+      },
+      "active-indicator": {
+        "color": {
+          "bg": {
+            "light": {
+              "default": {
+                "value": "{smc.reference.container.color.bg.primary.lighter-20}",
+                "type": "color"
+              }
+            },
+            "surface": {
+              "default": {
+                "value": "{smc.reference.container.color.bg.primary.default}",
+                "type": "color"
+              }
             }
           }
         }
@@ -455,6 +477,10 @@
                 "focused": {
                   "value": "{smc.reference.container.color.border.surface.transparent.0}",
                   "type": "color"
+                },
+                "disabled": {
+                  "value": "{smc.reference.container.color.border.surface.transparent.0}",
+                  "type": "color"
                 }
               },
               "light": {
@@ -475,6 +501,10 @@
                   "type": "color"
                 },
                 "default": {
+                  "value": "{smc.reference.container.color.border.surface.transparent.0}",
+                  "type": "color"
+                },
+                "disabled": {
                   "value": "{smc.reference.container.color.border.surface.transparent.0}",
                   "type": "color"
                 }

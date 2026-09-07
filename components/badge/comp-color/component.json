@@ -242,6 +242,12 @@
               "value": "{smc.reference.container.color.fg.primary.lighter-100}",
               "type": "color"
             }
+          },
+          "surface": {
+            "default": {
+              "value": "{smc.reference.container.color.fg.surface.darker-50}",
+              "type": "color"
+            }
           }
         }
       }

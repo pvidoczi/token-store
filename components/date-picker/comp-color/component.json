@@ -213,6 +213,10 @@
             "hovered": {
               "value": "{smc.reference.container.color.fg.surface.darker-70}",
               "type": "color"
+            },
+            "pressed": {
+              "value": "{smc.reference.container.color.fg.surface.darker-70}",
+              "type": "color"
             }
           }
         }

@@ -28,6 +28,20 @@
             "type": "color"
           }
         }
+      },
+      "fg": {
+        "light": {
+          "default": {
+            "value": "{smc.reference.container.color.fg.surface.lighter-10}",
+            "type": "color"
+          }
+        },
+        "surface": {
+          "default": {
+            "value": "{smc.reference.container.color.fg.surface.lighter-10}",
+            "type": "color"
+          }
+        }
       }
     }
   },
@@ -51,6 +65,34 @@
         "light": {
           "default": {
             "value": "{smc.reference.container.color.bg.light.default}",
+            "type": "color"
+          }
+        },
+        "surface": {
+          "default": {
+            "value": "{smc.reference.container.color.bg.surface.default}",
+            "type": "color"
+          }
+        }
+      },
+      "fg": {
+        "light": {
+          "on": {
+            "value": "{smc.reference.container.color.fg.surface.darker-60}",
+            "type": "color"
+          },
+          "on-disable": {
+            "value": "{smc.reference.container.color.fg.disabled.default}",
+            "type": "color"
+          }
+        },
+        "surface": {
+          "on": {
+            "value": "{smc.reference.container.color.fg.surface.darker-60}",
+            "type": "color"
+          },
+          "on-disable": {
+            "value": "{smc.reference.container.color.fg.disabled.default}",
             "type": "color"
           }
         }
@@ -83,6 +125,28 @@
         "light": {
           "default": {
             "value": "{smc.reference.container.color.border.transparent}",
+            "type": "color"
+          }
+        }
+      },
+      "fg": {
+        "light": {
+          "on": {
+            "value": "{smc.reference.container.color.fg.surface.darker-60}",
+            "type": "color"
+          },
+          "on-disable": {
+            "value": "{smc.reference.container.color.fg.disabled.default}",
+            "type": "color"
+          }
+        },
+        "surface": {
+          "on": {
+            "value": "{smc.reference.container.color.fg.surface.darker-60}",
+            "type": "color"
+          },
+          "on-disable": {
+            "value": "{smc.reference.container.color.fg.disabled.default}",
             "type": "color"
           }
         }

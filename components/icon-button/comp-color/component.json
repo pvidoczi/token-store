@@ -20,7 +20,7 @@
             "type": "color"
           },
           "default": {
-            "value": "{smc.reference.container.color.border.primary.lighter-20}",
+            "value": "{smc.reference.container.color.border.surface.darker-10}",
             "type": "color"
           }
         },
@@ -262,6 +262,10 @@
           "hovered": {
             "value": "{smc.reference.container.color.border.surface.transparent.0}",
             "type": "color"
+          },
+          "default": {
+            "value": "{smc.reference.container.color.border.surface.transparent.0}",
+            "type": "color"
           }
         },
         "brand": {
@@ -296,6 +300,14 @@
             "type": "color"
           },
           "default": {
+            "value": "{smc.reference.container.color.border.surface.transparent.0}",
+            "type": "color"
+          },
+          "hovered": {
+            "value": "{smc.reference.container.color.border.surface.transparent.0}",
+            "type": "color"
+          },
+          "pressed": {
             "value": "{smc.reference.container.color.border.surface.transparent.0}",
             "type": "color"
           }
@@ -360,6 +372,10 @@
           "default": {
             "value": "{smc.reference.container.color.border.surface.transparent.0}",
             "type": "color"
+          },
+          "focused": {
+            "value": "{smc.reference.container.color.border.surface.transparent.0}",
+            "type": "color"
           }
         },
         "warning": {
@@ -405,6 +421,14 @@
           },
           "default-lighter-30": {
             "value": "{smc.reference.container.color.fg.surface.darker-50}",
+            "type": "color"
+          },
+          "default": {
+            "value": "{smc.reference.container.color.fg.surface.darker-50}",
+            "type": "color"
+          },
+          "default-lighter-10": {
+            "value": "{smc.reference.container.color.fg.surface.darker-70}",
             "type": "color"
           }
         },
@@ -694,6 +718,10 @@
           "hovered": {
             "value": "{smc.reference.container.color.bg.surface.transparent.100}",
             "type": "color"
+          },
+          "disabled": {
+            "value": "{smc.reference.container.color.bg.surface.transparent.0}",
+            "type": "color"
           }
         },
         "brand": {
@@ -977,6 +1005,10 @@
           },
           "default": {
             "value": "{smc.reference.container.color.border.success.default}",
+            "type": "color"
+          },
+          "focused": {
+            "value": "{smc.reference.container.color.border.success.darker-20}",
             "type": "color"
           }
         }

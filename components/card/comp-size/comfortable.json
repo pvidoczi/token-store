@@ -74,5 +74,21 @@
       "value": "{smc.reference.container.focused-outline.size.default}",
       "type": "number"
     }
+  },
+  "header": {
+    "headline": {
+      "gap": {
+        "value": "{smc.reference.container.gap.none}",
+        "type": "number"
+      },
+      "padding-x": {
+        "value": "{smc.reference.container.padding.none}",
+        "type": "number"
+      },
+      "padding-y": {
+        "value": "{smc.reference.container.padding.none}",
+        "type": "number"
+      }
+    }
   }
 }

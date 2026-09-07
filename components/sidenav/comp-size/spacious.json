@@ -30,6 +30,14 @@
       "border-width": {
         "value": "{smc.reference.container.border-width.none}",
         "type": "number"
+      },
+      "border-radius": {
+        "value": "{smc.reference.container.border-radius.none}",
+        "type": "number"
+      },
+      "min-width": {
+        "value": "{smc.reference.container.size.width.256}",
+        "type": "number"
       }
     },
     "list": {
@@ -101,6 +109,14 @@
         "border-width": {
           "value": "{smc.reference.container.border-width.sm}",
           "type": "number"
+        },
+        "height": {
+          "value": "{smc.reference.container.size.height.40}",
+          "type": "number"
+        },
+        "icon": {
+          "value": "{smc.reference.container.icon-nested.sm}",
+          "type": "number"
         }
       },
       "label": {
@@ -151,6 +167,22 @@
         "size": {
           "border-radius": {
             "value": "{smc.reference.container.border-radius.none}",
+            "type": "number"
+          },
+          "height": {
+            "value": "{smc.reference.container.size.height.40}",
+            "type": "number"
+          },
+          "width": {
+            "value": "{smc.reference.container.size.width.2}",
+            "type": "number"
+          }
+        }
+      },
+      "focused-outline": {
+        "size": {
+          "outline": {
+            "value": "{smc.reference.container.focused-outline.size.default}",
             "type": "number"
           }
         }

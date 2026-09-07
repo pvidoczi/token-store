@@ -70,6 +70,74 @@
               "value": "{smc.reference.container.color.fg.surface.darker-50}",
               "type": "color"
             }
+          },
+          "light": {
+            "default": {
+              "value": "{smc.reference.container.color.fg.surface.default}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{smc.reference.container.color.bg.light.transparent.500}",
+              "type": "color"
+            },
+            "focused": {
+              "value": "{smc.reference.container.color.fg.surface.lighter-10}",
+              "type": "color"
+            },
+            "hovered": {
+              "value": "{smc.reference.container.color.fg.surface.lighter-10}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{smc.reference.container.color.fg.surface.default}",
+              "type": "color"
+            }
+          }
+        },
+        "icon": {
+          "light": {
+            "default": {
+              "value": "{smc.reference.container.color.fg.dark.default}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{smc.reference.container.color.bg.light.transparent.500}",
+              "type": "color"
+            },
+            "focused": {
+              "value": "{smc.reference.container.color.fg.dark.default}",
+              "type": "color"
+            },
+            "hovered": {
+              "value": "{smc.reference.container.color.fg.dark.default}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{smc.reference.container.color.fg.dark.default}",
+              "type": "color"
+            }
+          },
+          "surface": {
+            "default": {
+              "value": "{smc.reference.container.color.fg.surface.darker-50}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{smc.reference.container.color.fg.surface.darker-40}",
+              "type": "color"
+            },
+            "focused": {
+              "value": "{smc.reference.container.color.fg.surface.darker-70}",
+              "type": "color"
+            },
+            "hovered": {
+              "value": "{smc.reference.container.color.fg.surface.darker-70}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{smc.reference.container.color.fg.surface.darker-70}",
+              "type": "color"
+            }
           }
         }
       }
@@ -195,6 +263,14 @@
                 "hovered": {
                   "value": "{smc.reference.forms.color.bg.surface.hovered}",
                   "type": "color"
+                },
+                "focused": {
+                  "value": "{smc.reference.forms.color.bg.surface.focused}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{smc.reference.forms.color.bg.surface.pressed}",
+                  "type": "color"
                 }
               },
               "surface": {
@@ -305,6 +381,14 @@
                 "hovered": {
                   "value": "{smc.reference.forms.color.border.light.hovered}",
                   "type": "color"
+                },
+                "focused": {
+                  "value": "{smc.reference.forms.color.border.light.focused}",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "{smc.reference.forms.color.border.light.pressed}",
+                  "type": "color"
                 }
               },
               "surface": {
@@ -337,6 +421,10 @@
                   },
                   "hovered": {
                     "value": "{smc.reference.forms.color.border.surface.error.hovered}",
+                    "type": "color"
+                  },
+                  "pressed": {
+                    "value": "{smc.reference.forms.color.border.surface.error.pressed}",
                     "type": "color"
                   }
                 },
@@ -471,6 +559,22 @@
                     "default": {
                       "value": "{smc.reference.container.color.fg.surface.darker-40}",
                       "type": "color"
+                    },
+                    "disabled": {
+                      "value": "{smc.reference.container.color.fg.surface.darker-40}",
+                      "type": "color"
+                    },
+                    "focused": {
+                      "value": "{smc.reference.container.color.fg.surface.darker-60}",
+                      "type": "color"
+                    },
+                    "hovered": {
+                      "value": "{smc.reference.container.color.fg.surface.darker-60}",
+                      "type": "color"
+                    },
+                    "pressed": {
+                      "value": "{smc.reference.container.color.fg.surface.darker-40}",
+                      "type": "color"
                     }
                   },
                   "light": {
@@ -492,6 +596,52 @@
                     },
                     "disabled": {
                       "value": "{smc.reference.container.color.fg.light.transparent.500}",
+                      "type": "color"
+                    }
+                  }
+                },
+                "icon": {
+                  "light": {
+                    "default": {
+                      "value": "{smc.reference.container.color.fg.light.transparent.500}",
+                      "type": "color"
+                    },
+                    "disabled": {
+                      "value": "{smc.reference.container.color.fg.light.transparent.500}",
+                      "type": "color"
+                    },
+                    "focused": {
+                      "value": "{smc.reference.container.color.fg.light.transparent.500}",
+                      "type": "color"
+                    },
+                    "hovered": {
+                      "value": "{smc.reference.container.color.fg.light.transparent.500}",
+                      "type": "color"
+                    },
+                    "pressed": {
+                      "value": "{smc.reference.container.color.fg.light.transparent.500}",
+                      "type": "color"
+                    }
+                  },
+                  "surface": {
+                    "default": {
+                      "value": "{smc.reference.container.color.fg.surface.darker-40}",
+                      "type": "color"
+                    },
+                    "disabled": {
+                      "value": "{smc.reference.container.color.fg.surface.darker-40}",
+                      "type": "color"
+                    },
+                    "focused": {
+                      "value": "{smc.reference.container.color.fg.surface.darker-60}",
+                      "type": "color"
+                    },
+                    "hovered": {
+                      "value": "{smc.reference.container.color.fg.surface.darker-60}",
+                      "type": "color"
+                    },
+                    "pressed": {
+                      "value": "{smc.reference.container.color.fg.surface.darker-40}",
                       "type": "color"
                     }
                   }
@@ -726,6 +876,18 @@
               "disabled": {
                 "value": "{smc.reference.forms.label.color.fg.light.disabled}",
                 "type": "color"
+              },
+              "error": {
+                "default": {
+                  "value": "{smc.reference.forms.label.color.fg.light.default}",
+                  "type": "color"
+                }
+              },
+              "success": {
+                "default": {
+                  "value": "{smc.reference.forms.label.color.fg.light.default}",
+                  "type": "color"
+                }
               }
             },
             "surface": {
@@ -736,6 +898,18 @@
               "disabled": {
                 "value": "{smc.reference.forms.label.color.fg.surface.disabled}",
                 "type": "color"
+              },
+              "error": {
+                "default": {
+                  "value": "{smc.reference.forms.label.color.fg.surface.default}",
+                  "type": "color"
+                }
+              },
+              "success": {
+                "default": {
+                  "value": "{smc.reference.forms.label.color.fg.surface.default}",
+                  "type": "color"
+                }
               }
             }
           }
@@ -747,6 +921,12 @@
             "light": {
               "default": {
                 "value": "{smc.reference.container.color.bg.light.default}",
+                "type": "color"
+              }
+            },
+            "surface": {
+              "default": {
+                "value": "{smc.reference.container.color.bg.surface.default}",
                 "type": "color"
               }
             }
