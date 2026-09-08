@@ -168,7 +168,8 @@ A `parse_tokens` job a generált CSS-t — a GitLab `commit-generated-css.sh` sc
    - `TARGET_CSS_PATH` (alapérték: `projects/demo/src/assets/ids_css`)
    - `TARGET_CHECKOUT_DIR` (alapérték: `target-repo`)
    - `TARGET_COMMIT_MESSAGE`
-   - `GIT_AUTHOR_NAME`, `GIT_AUTHOR_EMAIL`
+   - `GIT_AUTHOR_NAME` (GitHub alapérték: `github-actions[bot]`)
+   - `GIT_AUTHOR_EMAIL` (GitHub alapérték: `41898282+github-actions[bot]@users.noreply.github.com`)
    - `IDS_STYLES_REF` — a `validate_ids_styles_tokens` jobhoz; egyetlen futtatásra felülírható a **Run workflow** ablak `ids_styles_ref` mezőjében is.
 
 4. **`GITHUB_TOKEN` jogosultság a saját repóba történő visszacommitoláshoz**: a `parse_tokens` job a beépített `GITHUB_TOKEN`-t használja push-hoz (job-szintű `permissions: contents: write`). Ha a szervezetben alapból csak olvasási jogú `GITHUB_TOKEN`-t engedélyeznek, ellenőrizd a **Settings > Actions > General > Workflow permissions** beállítást, vagy engedélyezd explicit "Read and write permissions"-t.
@@ -180,5 +181,4 @@ A `parse_tokens` job a generált CSS-t — a GitLab `commit-generated-css.sh` sc
 3. A `parse_tokens` job automatikusan lefut. A `validate_ids_styles_tokens` és `publish_tokens` jobok a hozzájuk rendelt Environment jóváhagyása után indulnak — ezt az Actions futtatás oldaláról, a **Review deployments** gombbal lehet engedélyezni.
 
 Helyileg ugyanazok az `npm run parse`, `npm run validate:ids-styles` és `npm run publish` parancsok használhatók, mint a GitLab esetén — a két CI/CD platform között nincs eltérés a tényleges pipeline-logikában.
-
 

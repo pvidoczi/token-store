@@ -5,6 +5,13 @@ target_branch="${TARGET_REPO_BRANCH:-IDS_CSS}"
 target_css_path="${TARGET_CSS_PATH:-projects/demo/src/assets/ids_css}"
 target_checkout="${TARGET_CHECKOUT_DIR:-target-repo}"
 commit_message="${TARGET_COMMIT_MESSAGE:-chore(tokens): update generated CSS}"
+git_author_name="${GIT_AUTHOR_NAME:-token-pipeline}"
+git_author_email="${GIT_AUTHOR_EMAIL:-token-pipeline@example.invalid}"
+
+# Git treats these environment variables as higher priority than repository
+# config, even when their values are empty. Resolve them first, then unset them
+# so the validated fallback values configured below are used by `git commit`.
+unset GIT_AUTHOR_NAME GIT_AUTHOR_EMAIL
 
 if [[ "${SKIP_PARSE:-false}" != "true" ]]; then
   npm run parse
@@ -53,7 +60,7 @@ if git -C "$target_checkout" diff --cached --quiet; then
   exit 0
 fi
 
-git -C "$target_checkout" config user.name "${GIT_AUTHOR_NAME:-token-pipeline}"
-git -C "$target_checkout" config user.email "${GIT_AUTHOR_EMAIL:-token-pipeline@example.invalid}"
+git -C "$target_checkout" config user.name "$git_author_name"
+git -C "$target_checkout" config user.email "$git_author_email"
 git -C "$target_checkout" commit -m "$commit_message"
 git -C "$target_checkout" push origin "HEAD:$target_branch"
