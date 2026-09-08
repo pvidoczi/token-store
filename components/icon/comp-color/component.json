@@ -1,8 +1,14 @@
 {
   "color": {
-    "dark": {
+    "success": {
       "default": {
-        "value": "{smc.reference.container.color.bg.dark.default}",
+        "value": "{smc.reference.container.color.bg.success.default}",
+        "type": "color"
+      }
+    },
+    "error": {
+      "default": {
+        "value": "{smc.reference.container.color.bg.error.default}",
         "type": "color"
       }
     },
@@ -18,15 +24,9 @@
         "type": "color"
       }
     },
-    "success": {
+    "surface": {
       "default": {
-        "value": "{smc.reference.container.color.bg.success.default}",
-        "type": "color"
-      }
-    },
-    "error": {
-      "default": {
-        "value": "{smc.reference.container.color.bg.error.default}",
+        "value": "{smc.reference.container.color.border.surface.darker-50}",
         "type": "color"
       }
     },
@@ -42,15 +42,15 @@
         "type": "color"
       }
     },
-    "primary": {
+    "dark": {
       "default": {
-        "value": "{smc.reference.container.color.bg.primary.default}",
+        "value": "{smc.reference.container.color.bg.dark.default}",
         "type": "color"
       }
     },
-    "surface": {
+    "primary": {
       "default": {
-        "value": "{smc.reference.container.color.border.surface.darker-50}",
+        "value": "{smc.reference.container.color.bg.primary.default}",
         "type": "color"
       }
     }

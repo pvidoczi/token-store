@@ -1,34 +1,44 @@
 {
   "size": {
-    "bigCollection": {
-      "width": {
-        "value": "{smc.reference.container.size.width.32}",
+    "smallCollection": {
+      "height": {
+        "value": "{smc.reference.container.size.height.24}",
         "type": "number"
       },
-      "height": {
-        "value": "{smc.reference.container.size.height.32}",
+      "width": {
+        "value": "{smc.reference.container.size.width.24}",
         "type": "number"
       }
     },
-    "smallCollection": {
+    "bigCollection": {
       "width": {
-        "value": "{smc.reference.container.size.width.12}",
+        "value": "{smc.reference.container.size.width.72}",
         "type": "number"
       },
       "height": {
-        "value": "{smc.reference.container.size.height.12}",
+        "value": "{smc.reference.container.size.height.72}",
         "type": "number"
       }
     }
   },
   "typography": {
-    "bigCollection": {
+    "smallCollection": {
       "font-size": {
-        "value": "{smc.reference.typography.font-size.32}",
+        "value": "{smc.reference.typography.font-size.24}",
         "type": "number"
       },
       "line-height": {
-        "value": "{smc.reference.typography.line-height.32}",
+        "value": "{smc.reference.typography.line-height.24}",
+        "type": "number"
+      }
+    },
+    "bigCollection": {
+      "line-height": {
+        "value": "{smc.reference.typography.line-height.72}",
+        "type": "number"
+      },
+      "font-size": {
+        "value": "{smc.reference.typography.font-size.72}",
         "type": "number"
       }
     },
@@ -36,16 +46,6 @@
       "font-family-default": {
         "value": "{smc.reference.typography.iconset.default}",
         "type": "string"
-      }
-    },
-    "smallCollection": {
-      "font-size": {
-        "value": "{smc.reference.typography.font-size.12}",
-        "type": "number"
-      },
-      "line-height": {
-        "value": "{smc.reference.typography.line-height.12}",
-        "type": "number"
       }
     }
   }

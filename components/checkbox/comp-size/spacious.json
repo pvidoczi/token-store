@@ -1,173 +1,85 @@
 {
-  "input": {
-    "size": {
-      "width": {
-        "value": "{smc.reference.container.size.width.16}",
+  "label": {
+    "typography": {
+      "letter-spacing": {
+        "value": "{smc.reference.typography.letter-spacing.default}",
         "type": "number"
       },
-      "height": {
-        "value": "{smc.reference.container.size.height.16}",
+      "line-height": {
+        "value": "{smc.reference.typography.line-height.32}",
         "type": "number"
       },
-      "border-radius": {
-        "value": "{smc.reference.container.border-radius.4xs}",
+      "font-size": {
+        "value": "{smc.reference.typography.font-size.24}",
         "type": "number"
       },
-      "border-width": {
-        "value": "{smc.reference.container.border-width.md}",
-        "type": "number"
+      "font-family": {
+        "value": "{smc.reference.typography.font-family.default}",
+        "type": "string"
       },
-      "icon": {
-        "value": "{smc.reference.container.icon-nested.2xs}",
+      "font-weight": {
+        "value": "{smc.reference.typography.font-weight.Regular}",
         "type": "number"
-      },
-      "touchtarget": {
-        "width": {
-          "value": "{smc.reference.container.size.width.32}",
-          "type": "number"
-        },
-        "height": {
-          "value": "{smc.reference.container.size.width.32}",
-          "type": "number"
-        }
       }
     },
+    "size": {
+      "gap": {
+        "value": "{smc.reference.container.gap.4}",
+        "type": "number"
+      }
+    }
+  },
+  "input": {
     "icon": {
       "typography": {
-        "font-size": {
-          "value": "{smc.reference.typography.font-size.20}",
+        "line-height": {
+          "value": "{smc.reference.typography.line-height.32}",
           "type": "number"
         },
         "font-weight": {
           "value": "{smc.reference.typography.font-weight.Regular}",
           "type": "number"
         },
-        "line-height": {
-          "value": "{smc.reference.typography.line-height.20}",
-          "type": "number"
-        }
-      }
-    }
-  },
-  "group": {
-    "horizontal": {
-      "container": {
-        "size": {
-          "gap": {
-            "value": "{smc.reference.container.gap.24}",
-            "type": "number"
-          },
-          "padding-x": {
-            "value": "{smc.reference.container.padding.none}",
-            "type": "number"
-          },
-          "padding-y": {
-            "value": "{smc.reference.container.gap.none}",
-            "type": "number"
-          }
-        }
-      },
-      "list": {
-        "size": {
-          "gap": {
-            "value": "{smc.reference.container.gap.24}",
-            "type": "number"
-          },
-          "padding-x": {
-            "value": "{smc.reference.container.padding.none}",
-            "type": "number"
-          },
-          "padding-y": {
-            "value": "{smc.reference.container.gap.none}",
-            "type": "number"
-          }
-        }
-      }
-    },
-    "label": {
-      "typography": {
-        "letter-spacing": {
-          "value": "{smc.reference.typography.letter-spacing.default}",
-          "type": "number"
-        },
-        "font-size": {
-          "value": "{smc.reference.typography.font-size.14}",
-          "type": "number"
-        },
         "font-family": {
-          "value": "{smc.reference.typography.font-family.default}",
+          "value": "{smc.reference.typography.iconset.default}",
           "type": "string"
         },
-        "line-height": {
-          "value": "{smc.reference.typography.line-height.16}",
-          "type": "number"
-        },
-        "font-weight": {
-          "value": "{smc.reference.typography.font-weight.SemiBold}",
+        "font-size": {
+          "value": "{smc.reference.typography.font-size.32}",
           "type": "number"
         }
       }
     },
-    "vertical": {
-      "container": {
-        "size": {
-          "gap": {
-            "value": "{smc.reference.container.gap.24}",
-            "type": "number"
-          },
-          "padding-x": {
-            "value": "{smc.reference.container.padding.none}",
-            "type": "number"
-          },
-          "padding-y": {
-            "value": "{smc.reference.container.gap.none}",
-            "type": "number"
-          }
-        }
-      },
-      "list": {
-        "indeterminated": {
-          "size": {
-            "padding-x": {
-              "value": "{smc.reference.container.padding.16}",
-              "type": "number"
-            },
-            "padding-y": {
-              "value": "{smc.reference.container.gap.none}",
-              "type": "number"
-            }
-          }
-        },
-        "size": {
-          "gap": {
-            "value": "{smc.reference.container.gap.24}",
-            "type": "number"
-          },
-          "padding-x": {
-            "value": "{smc.reference.container.padding.none}",
-            "type": "number"
-          },
-          "padding-y": {
-            "value": "{smc.reference.container.gap.none}",
-            "type": "number"
-          }
-        }
-      }
-    }
-  },
-  "container": {
     "size": {
-      "gap": {
-        "value": "{smc.reference.container.gap.8}",
+      "border-radius": {
+        "value": "{smc.reference.container.border-radius.2xs}",
         "type": "number"
       },
-      "padding-x": {
-        "value": "{smc.reference.container.padding.none}",
+      "icon": {
+        "value": "{smc.reference.container.icon-nested.lg}",
         "type": "number"
       },
-      "padding-y": {
-        "value": "{smc.reference.container.padding.none}",
+      "height": {
+        "value": "{smc.reference.container.size.height.40}",
         "type": "number"
+      },
+      "width": {
+        "value": "{smc.reference.container.size.width.40}",
+        "type": "number"
+      },
+      "border-width": {
+        "value": "{smc.reference.container.border-width.md}",
+        "type": "number"
+      },
+      "touchtarget": {
+        "width": {
+          "value": "{smc.reference.container.size.width.56}",
+          "type": "number"
+        },
+        "height": {
+          "value": "{smc.reference.container.size.width.56}",
+          "type": "number"
+        }
       }
     }
   },
@@ -182,31 +94,23 @@
         "type": "number"
       },
       "padding-y": {
-        "value": "{smc.reference.container.padding.none}",
+        "value": "{smc.reference.container.padding.4}",
         "type": "number"
       }
     }
   },
-  "label": {
-    "typography": {
-      "letter-spacing": {
-        "value": "{smc.reference.typography.letter-spacing.default}",
+  "container": {
+    "size": {
+      "padding-x": {
+        "value": "{smc.reference.container.padding.none}",
         "type": "number"
       },
-      "font-size": {
-        "value": "{smc.reference.typography.font-size.14}",
+      "padding-y": {
+        "value": "{smc.reference.container.padding.none}",
         "type": "number"
       },
-      "font-family": {
-        "value": "{smc.reference.typography.font-family.default}",
-        "type": "string"
-      },
-      "line-height": {
-        "value": "{smc.reference.typography.line-height.16}",
-        "type": "number"
-      },
-      "font-weight": {
-        "value": "{smc.reference.typography.font-weight.Regular}",
+      "gap": {
+        "value": "{smc.reference.container.gap.8}",
         "type": "number"
       }
     }
@@ -215,6 +119,180 @@
     "outline": {
       "value": "{smc.reference.container.focused-outline.size.default}",
       "type": "number"
+    }
+  },
+  "group": {
+    "horizontal": {
+      "fieldset": {
+        "legend": {
+          "typography": {
+            "font-weight": {
+              "value": "{smc.reference.forms.fieldset.legend.typography.font-weight}",
+              "type": "number"
+            },
+            "font-size": {
+              "value": "{smc.reference.forms.fieldset.legend.typography.font-size.lg}",
+              "type": "number"
+            },
+            "letter-spacing": {
+              "value": "{smc.reference.forms.fieldset.legend.typography.letter-spacing}",
+              "type": "number"
+            },
+            "line-height": {
+              "value": "{smc.reference.forms.fieldset.legend.typography.line-height.lg}",
+              "type": "number"
+            },
+            "font-family": {
+              "value": "{smc.reference.forms.fieldset.legend.typography.font-family}",
+              "type": "string"
+            }
+          },
+          "size": {
+            "padding-x": {
+              "value": "{smc.reference.container.padding.none}",
+              "type": "number"
+            },
+            "padding-y": {
+              "value": "{smc.reference.container.padding.none}",
+              "type": "number"
+            },
+            "gap": {
+              "value": "{smc.reference.container.gap.4}",
+              "type": "number"
+            }
+          }
+        },
+        "size": {
+          "padding-x": {
+            "value": "{smc.reference.container.padding.none}",
+            "type": "number"
+          },
+          "gap": {
+            "value": "{smc.reference.container.gap.8}",
+            "type": "number"
+          },
+          "padding-y": {
+            "value": "{smc.reference.container.padding.none}",
+            "type": "number"
+          }
+        },
+        "list": {
+          "indeterminated": {
+            "size": {
+              "padding-y": {
+                "value": "{smc.reference.container.padding.none}",
+                "type": "number"
+              },
+              "padding-x": {
+                "value": "{smc.reference.container.padding.32}",
+                "type": "number"
+              }
+            }
+          },
+          "size": {
+            "gap-x": {
+              "value": "{smc.reference.container.gap.16}",
+              "type": "number"
+            },
+            "padding-y": {
+              "value": "{smc.reference.container.padding.none}",
+              "type": "number"
+            },
+            "padding-x": {
+              "value": "{smc.reference.container.padding.none}",
+              "type": "number"
+            },
+            "gap-y": {
+              "value": "{smc.reference.container.gap.16}",
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "vertical": {
+      "fieldset": {
+        "list": {
+          "size": {
+            "gap": {
+              "value": "{smc.reference.container.gap.24}",
+              "type": "number"
+            },
+            "padding-x": {
+              "value": "{smc.reference.container.padding.none}",
+              "type": "number"
+            },
+            "padding-y": {
+              "value": "{smc.reference.container.padding.none}",
+              "type": "number"
+            }
+          },
+          "indeterminated": {
+            "size": {
+              "padding-y": {
+                "value": "{smc.reference.container.padding.none}",
+                "type": "number"
+              },
+              "padding-x": {
+                "value": "{smc.reference.container.padding.32}",
+                "type": "number"
+              }
+            }
+          }
+        },
+        "legend": {
+          "size": {
+            "gap": {
+              "value": "{smc.reference.container.gap.4}",
+              "type": "number"
+            },
+            "padding-y": {
+              "value": "{smc.reference.container.padding.none}",
+              "type": "number"
+            },
+            "padding-x": {
+              "value": "{smc.reference.container.padding.none}",
+              "type": "number"
+            }
+          },
+          "typography": {
+            "font-weight": {
+              "value": "{smc.reference.forms.fieldset.legend.typography.font-weight}",
+              "type": "number"
+            },
+            "line-height": {
+              "value": "{smc.reference.forms.fieldset.legend.typography.line-height.lg}",
+              "type": "number"
+            },
+            "font-family": {
+              "value": "{smc.reference.forms.fieldset.legend.typography.font-family}",
+              "type": "string"
+            },
+            "font-size": {
+              "value": "{smc.reference.forms.fieldset.legend.typography.font-size.lg}",
+              "type": "number"
+            },
+            "letter-spacing": {
+              "value": "{smc.reference.forms.fieldset.legend.typography.letter-spacing}",
+              "type": "number"
+            }
+          }
+        },
+        "size": {
+          "padding-y": {
+            "value": "{smc.reference.container.padding.none}",
+            "type": "number"
+          },
+          "padding-x": {
+            "value": "{smc.reference.container.padding.none}",
+            "type": "number"
+          },
+          "gap": {
+            "value": "{smc.reference.container.gap.8}",
+            "type": "number"
+          }
+        }
+      }
     }
   }
 }

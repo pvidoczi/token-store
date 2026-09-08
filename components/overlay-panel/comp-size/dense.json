@@ -1,11 +1,11 @@
 {
   "size": {
-    "padding-x": {
+    "padding-y": {
       "value": "{smc.reference.container.padding.6}",
       "type": "number"
     },
-    "padding-y": {
-      "value": "{smc.reference.container.padding.6}",
+    "gap": {
+      "value": "{smc.reference.container.gap.6}",
       "type": "number"
     },
     "border-radius": {
@@ -16,8 +16,8 @@
       "value": "{smc.reference.container.border-width.md}",
       "type": "number"
     },
-    "gap": {
-      "value": "{smc.reference.container.gap.6}",
+    "padding-x": {
+      "value": "{smc.reference.container.padding.6}",
       "type": "number"
     }
   }
