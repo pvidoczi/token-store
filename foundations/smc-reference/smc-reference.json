@@ -8783,7 +8783,171 @@
           }
         },
         "fieldset": {
+          "size": {
+            "gap": {
+              "xs": {
+                "value": "{smc.reference.container.gap.none}",
+                "type": "number"
+              },
+              "sm": {
+                "value": "{smc.reference.container.gap.none}",
+                "type": "number"
+              },
+              "md": {
+                "value": "{smc.reference.container.gap.none}",
+                "type": "number"
+              },
+              "lg": {
+                "value": "{smc.reference.container.gap.none}",
+                "type": "number"
+              }
+            },
+            "padding-y": {
+              "xs": {
+                "value": "{smc.reference.container.padding.none}",
+                "type": "number"
+              },
+              "sm": {
+                "value": "{smc.reference.container.padding.none}",
+                "type": "number"
+              },
+              "md": {
+                "value": "{smc.reference.container.padding.none}",
+                "type": "number"
+              },
+              "lg": {
+                "value": "{smc.reference.container.padding.none}",
+                "type": "number"
+              }
+            },
+            "padding-x": {
+              "xs": {
+                "value": "{smc.reference.container.padding.none}",
+                "type": "number"
+              },
+              "sm": {
+                "value": "{smc.reference.container.padding.none}",
+                "type": "number"
+              },
+              "md": {
+                "value": "{smc.reference.container.padding.none}",
+                "type": "number"
+              },
+              "lg": {
+                "value": "{smc.reference.container.padding.none}",
+                "type": "number"
+              }
+            }
+          },
+          "row": {
+            "size": {
+              "padding-y": {
+                "xs": {
+                  "value": "{smc.reference.container.padding.8}",
+                  "type": "number"
+                },
+                "sm": {
+                  "value": "{smc.reference.container.padding.8}",
+                  "type": "number"
+                },
+                "md": {
+                  "value": "{smc.reference.container.padding.16}",
+                  "type": "number"
+                },
+                "lg": {
+                  "value": "{smc.reference.container.padding.16}",
+                  "type": "number"
+                }
+              },
+              "padding-x": {
+                "xs": {
+                  "value": "{smc.reference.container.padding.none}",
+                  "type": "number"
+                },
+                "sm": {
+                  "value": "{smc.reference.container.padding.none}",
+                  "type": "number"
+                },
+                "md": {
+                  "value": "{smc.reference.container.padding.none}",
+                  "type": "number"
+                },
+                "lg": {
+                  "value": "{smc.reference.container.padding.none}",
+                  "type": "number"
+                }
+              },
+              "gap": {
+                "xs": {
+                  "value": "{smc.reference.container.gap.16}",
+                  "type": "number"
+                },
+                "sm": {
+                  "value": "{smc.reference.container.gap.24}",
+                  "type": "number"
+                },
+                "md": {
+                  "value": "{smc.reference.container.gap.24}",
+                  "type": "number"
+                },
+                "lg": {
+                  "value": "{smc.reference.container.gap.32}",
+                  "type": "number"
+                }
+              }
+            }
+          },
           "legend": {
+            "typography": {
+              "font-family": {
+                "value": "{smc.reference.typography.font-family.default}",
+                "type": "string"
+              },
+              "font-weight": {
+                "value": "{smc.reference.typography.font-weight.SemiBold}",
+                "type": "number"
+              },
+              "letter-spacing": {
+                "value": "{smc.reference.typography.letter-spacing.default}",
+                "type": "number"
+              },
+              "font-size": {
+                "xs": {
+                  "value": "{smc.reference.typography.font-size.18}",
+                  "type": "number"
+                },
+                "sm": {
+                  "value": "{smc.reference.typography.font-size.20}",
+                  "type": "number"
+                },
+                "md": {
+                  "value": "{smc.reference.typography.font-size.24}",
+                  "type": "number"
+                },
+                "lg": {
+                  "value": "{smc.reference.typography.font-size.28}",
+                  "type": "number"
+                }
+              },
+              "line-height": {
+                "xs": {
+                  "value": "{smc.reference.typography.line-height.24}",
+                  "type": "number"
+                },
+                "sm": {
+                  "value": "{smc.reference.typography.line-height.32}",
+                  "type": "number"
+                },
+                "md": {
+                  "value": "{smc.reference.typography.line-height.36}",
+                  "type": "number"
+                },
+                "lg": {
+                  "value": "{smc.reference.typography.line-height.36}",
+                  "type": "number"
+                }
+              }
+            },
             "color": {
               "fg": {
                 "text": {
