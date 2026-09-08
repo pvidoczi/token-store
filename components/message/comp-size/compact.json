@@ -1,13 +1,5 @@
 {
   "size": {
-    "gap": {
-      "value": "{smc.reference.container.padding.4}",
-      "type": "number"
-    },
-    "padding-x": {
-      "value": "{smc.reference.container.padding.none}",
-      "type": "number"
-    },
     "padding-y": {
       "value": "{smc.reference.container.padding.4}",
       "type": "number"
@@ -16,14 +8,30 @@
       "value": "{smc.reference.container.icon-nested.2xs}",
       "type": "number"
     },
+    "padding-x": {
+      "value": "{smc.reference.container.padding.none}",
+      "type": "number"
+    },
     "icon-height": {
       "value": "{smc.reference.container.icon-nested.2xs}",
+      "type": "number"
+    },
+    "gap": {
+      "value": "{smc.reference.container.padding.4}",
       "type": "number"
     }
   },
   "typography": {
+    "font-weight": {
+      "value": "{smc.reference.typography.font-weight.Regular}",
+      "type": "number"
+    },
     "letter-spacing": {
       "value": "{smc.reference.typography.letter-spacing.default}",
+      "type": "number"
+    },
+    "line-height": {
+      "value": "{smc.reference.typography.line-height.12}",
       "type": "number"
     },
     "font-size": {
@@ -33,18 +41,14 @@
     "font-family": {
       "value": "{smc.reference.typography.font-family.default}",
       "type": "string"
-    },
-    "line-height": {
-      "value": "{smc.reference.typography.line-height.12}",
-      "type": "number"
-    },
-    "font-weight": {
-      "value": "{smc.reference.typography.font-weight.Regular}",
-      "type": "number"
     }
   },
   "icon": {
     "typography": {
+      "font-weight": {
+        "value": "{smc.reference.typography.font-weight.Regular}",
+        "type": "number"
+      },
       "font-size": {
         "value": "{smc.reference.typography.font-size.12}",
         "type": "number"
@@ -55,10 +59,6 @@
       },
       "line-height": {
         "value": "{smc.reference.typography.line-height.12}",
-        "type": "number"
-      },
-      "font-weight": {
-        "value": "{smc.reference.typography.font-weight.Regular}",
         "type": "number"
       }
     }

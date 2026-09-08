@@ -1,38 +1,12 @@
 {
-  "size": {
-    "padding-x": {
-      "value": "{smc.reference.container.padding.2}",
-      "type": "number"
-    },
-    "padding-y": {
-      "value": "{smc.reference.container.padding.2}",
-      "type": "number"
-    },
-    "width": {
-      "value": "{smc.reference.container.size.width.20}",
-      "type": "number"
-    },
-    "height": {
-      "value": "{smc.reference.container.size.height.20}",
-      "type": "number"
-    },
-    "border-radius": {
-      "value": "{smc.reference.container.border-radius.full}",
-      "type": "number"
-    },
-    "border": {
-      "value": "{smc.reference.container.border-width.sm}",
-      "type": "number"
-    },
-    "icon": {
-      "value": "{smc.reference.container.icon-nested.xs}",
-      "type": "number"
-    }
-  },
   "icon": {
     "typography": {
+      "font-weight": {
+        "value": "{smc.reference.typography.font-weight.Regular}",
+        "type": "number"
+      },
       "font-size": {
-        "value": "{smc.reference.typography.font-size.16}",
+        "value": "{smc.reference.typography.font-size.32}",
         "type": "number"
       },
       "font-family": {
@@ -40,13 +14,39 @@
         "type": "string"
       },
       "line-height": {
-        "value": "{smc.reference.typography.line-height.20}",
-        "type": "number"
-      },
-      "font-weight": {
-        "value": "{smc.reference.typography.font-weight.Regular}",
+        "value": "{smc.reference.typography.line-height.32}",
         "type": "number"
       }
+    }
+  },
+  "size": {
+    "icon": {
+      "value": "{smc.reference.container.icon-nested.lg}",
+      "type": "number"
+    },
+    "height": {
+      "value": "{smc.reference.container.size.height.56}",
+      "type": "number"
+    },
+    "width": {
+      "value": "{smc.reference.container.size.width.56}",
+      "type": "number"
+    },
+    "border": {
+      "value": "{smc.reference.container.border-width.sm}",
+      "type": "number"
+    },
+    "padding-x": {
+      "value": "{smc.reference.container.padding.2}",
+      "type": "number"
+    },
+    "border-radius": {
+      "value": "{smc.reference.container.border-radius.full}",
+      "type": "number"
+    },
+    "padding-y": {
+      "value": "{smc.reference.container.padding.2}",
+      "type": "number"
     }
   },
   "focused-outline": {

@@ -1,25 +1,37 @@
 {
-  "container": {
-    "size": {
-      "gap": {
-        "value": "{smc.reference.container.gap.8}",
-        "type": "number"
-      }
-    }
-  },
   "label": {
     "typography": {
-      "letter-spacing": {
-        "value": "{smc.reference.typography.letter-spacing.default}",
+      "line-height": {
+        "value": "{smc.reference.typography.line-height.16}",
+        "type": "number"
+      },
+      "font-family": {
+        "value": "{smc.reference.typography.font-family.default}",
+        "type": "string"
+      },
+      "font-weight": {
+        "value": "{smc.reference.typography.font-weight.Regular}",
         "type": "number"
       },
       "font-size": {
         "value": "{smc.reference.typography.font-size.14}",
         "type": "number"
       },
+      "letter-spacing": {
+        "value": "{smc.reference.typography.letter-spacing.default}",
+        "type": "number"
+      }
+    }
+  },
+  "icon": {
+    "typography": {
       "font-family": {
-        "value": "{smc.reference.typography.font-family.default}",
+        "value": "{smc.reference.typography.iconset.default}",
         "type": "string"
+      },
+      "font-size": {
+        "value": "{smc.reference.typography.font-size.16}",
+        "type": "number"
       },
       "line-height": {
         "value": "{smc.reference.typography.line-height.16}",
@@ -29,15 +41,55 @@
         "value": "{smc.reference.typography.font-weight.Regular}",
         "type": "number"
       }
+    },
+    "size": {
+      "width": {
+        "value": "{smc.reference.container.size.width.16}",
+        "type": "number"
+      },
+      "height": {
+        "value": "{smc.reference.container.size.height.16}",
+        "type": "number"
+      }
+    }
+  },
+  "handle": {
+    "size": {
+      "height": {
+        "value": "{smc.reference.container.size.height.24}",
+        "type": "number"
+      },
+      "width": {
+        "value": "{smc.reference.container.size.width.24}",
+        "type": "number"
+      },
+      "border-radius": {
+        "value": "{smc.reference.container.border-radius.full}",
+        "type": "number"
+      }
+    }
+  },
+  "group": {
+    "container": {
+      "size": {
+        "padding-y": {
+          "value": "{smc.reference.container.gap.none}",
+          "type": "number"
+        },
+        "gap": {
+          "value": "{smc.reference.container.gap.24}",
+          "type": "number"
+        },
+        "padding-x": {
+          "value": "{smc.reference.container.padding.none}",
+          "type": "number"
+        }
+      }
     }
   },
   "track": {
     "size": {
       "padding-x": {
-        "value": "{smc.reference.container.padding.2}",
-        "type": "number"
-      },
-      "padding-y": {
         "value": "{smc.reference.container.padding.2}",
         "type": "number"
       },
@@ -48,51 +100,17 @@
       "border-radius": {
         "value": "{smc.reference.container.border-radius.full}",
         "type": "number"
-      }
-    }
-  },
-  "handle": {
-    "size": {
-      "width": {
-        "value": "{smc.reference.container.size.width.24}",
-        "type": "number"
       },
-      "height": {
-        "value": "{smc.reference.container.size.height.24}",
-        "type": "number"
-      },
-      "border-radius": {
-        "value": "{smc.reference.container.border-radius.full}",
+      "padding-y": {
+        "value": "{smc.reference.container.padding.2}",
         "type": "number"
       }
     }
   },
-  "icon": {
+  "container": {
     "size": {
-      "height": {
-        "value": "{smc.reference.container.size.height.16}",
-        "type": "number"
-      },
-      "width": {
-        "value": "{smc.reference.container.size.width.16}",
-        "type": "number"
-      }
-    },
-    "typography": {
-      "font-size": {
-        "value": "{smc.reference.typography.font-size.16}",
-        "type": "number"
-      },
-      "font-family": {
-        "value": "{smc.reference.typography.iconset.default}",
-        "type": "string"
-      },
-      "line-height": {
-        "value": "{smc.reference.typography.line-height.16}",
-        "type": "number"
-      },
-      "font-weight": {
-        "value": "{smc.reference.typography.font-weight.Regular}",
+      "gap": {
+        "value": "{smc.reference.container.gap.8}",
         "type": "number"
       }
     }
@@ -101,24 +119,6 @@
     "outline": {
       "value": "{smc.reference.container.focused-outline.size.default}",
       "type": "number"
-    }
-  },
-  "group": {
-    "container": {
-      "size": {
-        "gap": {
-          "value": "{smc.reference.container.gap.24}",
-          "type": "number"
-        },
-        "padding-x": {
-          "value": "{smc.reference.container.padding.none}",
-          "type": "number"
-        },
-        "padding-y": {
-          "value": "{smc.reference.container.padding.none}",
-          "type": "number"
-        }
-      }
     }
   }
 }

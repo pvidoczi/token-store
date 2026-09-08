@@ -1,31 +1,35 @@
 {
   "container": {
-    "horizontal": {
+    "vertical": {
       "size": {
-        "gap": {
-          "value": "{smc.reference.container.gap.8}",
+        "border-radius": {
+          "value": "{smc.reference.container.border-radius.xs}",
           "type": "number"
         },
         "padding-x": {
           "value": "{smc.reference.container.padding.none}",
           "type": "number"
         },
+        "border-width": {
+          "value": "{smc.reference.container.border-width.md}",
+          "type": "number"
+        },
         "padding-y": {
           "value": "{smc.reference.container.padding.none}",
           "type": "number"
         },
-        "border-radius": {
-          "value": "{smc.reference.container.border-radius.xs}",
-          "type": "number"
-        },
-        "border-width": {
-          "value": "{smc.reference.container.border-width.md}",
+        "gap": {
+          "value": "{smc.reference.container.gap.8}",
           "type": "number"
         }
       }
     },
-    "vertical": {
+    "horizontal": {
       "size": {
+        "border-width": {
+          "value": "{smc.reference.container.border-width.md}",
+          "type": "number"
+        },
         "gap": {
           "value": "{smc.reference.container.gap.8}",
           "type": "number"
@@ -34,16 +38,12 @@
           "value": "{smc.reference.container.padding.none}",
           "type": "number"
         },
-        "padding-y": {
-          "value": "{smc.reference.container.padding.none}",
-          "type": "number"
-        },
         "border-radius": {
           "value": "{smc.reference.container.border-radius.xs}",
           "type": "number"
         },
-        "border-width": {
-          "value": "{smc.reference.container.border-width.md}",
+        "padding-y": {
+          "value": "{smc.reference.container.padding.none}",
           "type": "number"
         }
       }
@@ -51,20 +51,36 @@
   },
   "slot": {
     "size": {
-      "padding-none": {
-        "value": "{smc.reference.container.padding.none}",
+      "padding-top": {
+        "value": "{smc.reference.container.padding.8}",
         "type": "number"
       },
-      "padding-x": {
-        "value": "{smc.reference.container.padding.8}",
+      "padding-none": {
+        "value": "{smc.reference.container.padding.none}",
         "type": "number"
       },
       "padding-bottom": {
         "value": "{smc.reference.container.padding.8}",
         "type": "number"
       },
-      "padding-top": {
+      "padding-x": {
         "value": "{smc.reference.container.padding.8}",
+        "type": "number"
+      }
+    }
+  },
+  "header": {
+    "headline": {
+      "padding-x": {
+        "value": "{smc.reference.container.padding.none}",
+        "type": "number"
+      },
+      "gap": {
+        "value": "{smc.reference.container.gap.none}",
+        "type": "number"
+      },
+      "padding-y": {
+        "value": "{smc.reference.container.padding.none}",
         "type": "number"
       }
     }
@@ -73,22 +89,6 @@
     "outline": {
       "value": "{smc.reference.container.focused-outline.size.default}",
       "type": "number"
-    }
-  },
-  "header": {
-    "headline": {
-      "gap": {
-        "value": "{smc.reference.container.gap.none}",
-        "type": "number"
-      },
-      "padding-x": {
-        "value": "{smc.reference.container.padding.none}",
-        "type": "number"
-      },
-      "padding-y": {
-        "value": "{smc.reference.container.padding.none}",
-        "type": "number"
-      }
     }
   }
 }

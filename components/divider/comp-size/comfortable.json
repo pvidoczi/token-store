@@ -1,7 +1,7 @@
 {
   "size": {
     "width": {
-      "value": "{smc.reference.container.size.width.4}",
+      "value": "{smc.reference.container.size.width.2}",
       "type": "number"
     },
     "border-radius": {
@@ -9,7 +9,7 @@
       "type": "number"
     },
     "height": {
-      "value": "{smc.reference.container.size.height.4}",
+      "value": "{smc.reference.container.size.height.2}",
       "type": "number"
     }
   }

@@ -15,15 +15,15 @@
       }
     },
     "fg": {
-      "light": {
-        "default": {
-          "value": "{smc.reference.container.color.fg.light.fixed.default}",
-          "type": "color"
-        }
-      },
       "dark": {
         "default": {
           "value": "{smc.reference.container.color.fg.dark.default}",
+          "type": "color"
+        }
+      },
+      "light": {
+        "default": {
+          "value": "{smc.reference.container.color.fg.light.fixed.default}",
           "type": "color"
         }
       }

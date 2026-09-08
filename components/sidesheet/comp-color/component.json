@@ -1,54 +1,4 @@
 {
-  "header": {
-    "title": {
-      "color": {
-        "fg": {
-          "default": {
-            "value": "{smc.reference.container.color.fg.surface.darker-95}",
-            "type": "color"
-          }
-        }
-      }
-    },
-    "color": {
-      "bg": {
-        "default": {
-          "value": "{smc.reference.container.color.bg.surface.transparent.0}",
-          "type": "color"
-        }
-      }
-    }
-  },
-  "backdrop": {
-    "background": {
-      "transparent": {
-        "value": "{smc.reference.container.color.bg.transparent}",
-        "type": "color"
-      },
-      "default": {
-        "value": "{smc.reference.container.color.opacity.backdrop.default}",
-        "type": "color"
-      }
-    }
-  },
-  "footer": {
-    "color": {
-      "border": {
-        "surface": {
-          "default": {
-            "value": "{smc.reference.container.color.border.surface.darker-20}",
-            "type": "color"
-          }
-        }
-      },
-      "bg": {
-        "default": {
-          "value": "{smc.reference.container.color.bg.surface.transparent.0}",
-          "type": "color"
-        }
-      }
-    }
-  },
   "container": {
     "color": {
       "bg": {
@@ -74,6 +24,36 @@
           "value": "{smc.reference.container.color.bg.surface.transparent.0}",
           "type": "color"
         }
+      }
+    }
+  },
+  "header": {
+    "color": {
+      "bg": {
+        "default": {
+          "value": "{smc.reference.container.color.bg.surface.transparent.0}",
+          "type": "color"
+        }
+      }
+    },
+    "title": {
+      "color": {
+        "fg": {
+          "default": {
+            "value": "{smc.reference.container.color.fg.surface.darker-95}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
+  "footer": {
+    "color": {
+      "bg": {
+        "default": {
+          "value": "{smc.reference.container.color.bg.surface.transparent.0}",
+          "type": "color"
+        }
       },
       "border": {
         "surface": {
@@ -82,6 +62,18 @@
             "type": "color"
           }
         }
+      }
+    }
+  },
+  "backdrop": {
+    "background": {
+      "default": {
+        "value": "{smc.reference.container.color.opacity.backdrop.default}",
+        "type": "color"
+      },
+      "transparent": {
+        "value": "{smc.reference.container.color.bg.transparent}",
+        "type": "color"
       }
     }
   }

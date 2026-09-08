@@ -7,27 +7,15 @@
           "type": "color"
         }
       },
-      "dark": {
+      "primary": {
         "default": {
-          "value": "{smc.reference.container.color.bg.surface.darker-95}",
+          "value": "{smc.reference.container.color.bg.primary.default}",
           "type": "color"
         }
       },
-      "light": {
+      "secondary": {
         "default": {
-          "value": "{smc.reference.container.color.bg.surface.lighter-10}",
-          "type": "color"
-        }
-      },
-      "warning": {
-        "default": {
-          "value": "{smc.reference.container.color.bg.warning.default}",
-          "type": "color"
-        }
-      },
-      "success": {
-        "default": {
-          "value": "{smc.reference.container.color.bg.success.default}",
+          "value": "{smc.reference.container.color.bg.secondary.default}",
           "type": "color"
         }
       },
@@ -43,15 +31,27 @@
           "type": "color"
         }
       },
-      "secondary": {
+      "light": {
         "default": {
-          "value": "{smc.reference.container.color.bg.secondary.default}",
+          "value": "{smc.reference.container.color.bg.surface.lighter-10}",
           "type": "color"
         }
       },
-      "primary": {
+      "warning": {
         "default": {
-          "value": "{smc.reference.container.color.bg.primary.default}",
+          "value": "{smc.reference.container.color.bg.warning.default}",
+          "type": "color"
+        }
+      },
+      "dark": {
+        "default": {
+          "value": "{smc.reference.container.color.bg.surface.darker-95}",
+          "type": "color"
+        }
+      },
+      "success": {
+        "default": {
+          "value": "{smc.reference.container.color.bg.success.default}",
           "type": "color"
         }
       }

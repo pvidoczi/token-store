@@ -1,0 +1,8 @@
+{
+  "size": {
+    "gap": {
+      "value": "{smc.reference.container.gap.4}",
+      "type": "number"
+    }
+  }
+}

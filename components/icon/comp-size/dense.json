@@ -1,5 +1,15 @@
 {
   "size": {
+    "smallCollection": {
+      "height": {
+        "value": "{smc.reference.container.size.height.12}",
+        "type": "number"
+      },
+      "width": {
+        "value": "{smc.reference.container.size.width.12}",
+        "type": "number"
+      }
+    },
     "bigCollection": {
       "width": {
         "value": "{smc.reference.container.size.width.32}",
@@ -9,35 +19,9 @@
         "value": "{smc.reference.container.size.height.32}",
         "type": "number"
       }
-    },
-    "smallCollection": {
-      "width": {
-        "value": "{smc.reference.container.size.width.12}",
-        "type": "number"
-      },
-      "height": {
-        "value": "{smc.reference.container.size.height.12}",
-        "type": "number"
-      }
     }
   },
   "typography": {
-    "bigCollection": {
-      "font-size": {
-        "value": "{smc.reference.typography.font-size.32}",
-        "type": "number"
-      },
-      "line-height": {
-        "value": "{smc.reference.typography.line-height.32}",
-        "type": "number"
-      }
-    },
-    "font-family": {
-      "font-family-default": {
-        "value": "{smc.reference.typography.iconset.default}",
-        "type": "string"
-      }
-    },
     "smallCollection": {
       "font-size": {
         "value": "{smc.reference.typography.font-size.12}",
@@ -46,6 +30,22 @@
       "line-height": {
         "value": "{smc.reference.typography.line-height.12}",
         "type": "number"
+      }
+    },
+    "bigCollection": {
+      "line-height": {
+        "value": "{smc.reference.typography.line-height.32}",
+        "type": "number"
+      },
+      "font-size": {
+        "value": "{smc.reference.typography.font-size.32}",
+        "type": "number"
+      }
+    },
+    "font-family": {
+      "font-family-default": {
+        "value": "{smc.reference.typography.iconset.default}",
+        "type": "string"
       }
     }
   }
