@@ -1,0 +1,67 @@
+workflow:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "web"'
+    - if: '$CI_PIPELINE_SOURCE == "push"'
+      changes:
+        - foundations/**/*
+        - components/**/*
+        - parse_ids_css.ts
+        - scripts/**/*
+        - package.json
+        - package-lock.json
+        - tsconfig.json
+        - .gitlab-ci.yml
+    - when: never
+
+stages:
+  - parse
+  - validate
+  - publish
+
+variables:
+  # Configure this in Settings > CI/CD > Variables with a branch, tag, or commit SHA.
+  IDS_STYLES_REF: ""
+
+default:
+  image: node:22-bookworm
+  before_script:
+    - npm ci
+
+parse_tokens:
+  stage: parse
+  script:
+    - npm run parse
+    - bash scripts/commit-generated-css.sh
+  artifacts:
+    paths:
+      - ids_css/
+    expire_in: 7 days
+
+validate_ids_styles_tokens:
+  stage: validate
+  needs: []
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "web"'
+      when: manual
+    - when: never
+  allow_failure: false
+  script:
+    - npm run parse
+    - npm run validate:ids-styles
+  artifacts:
+    when: always
+    paths:
+      - token-diff-report.json
+    expire_in: 7 days
+
+publish_tokens:
+  stage: publish
+  needs:
+    - job: parse_tokens
+      artifacts: true
+  variables:
+    SKIP_PARSE: "true"
+  script:
+    - npm run publish
+  when: manual
+  allow_failure: true

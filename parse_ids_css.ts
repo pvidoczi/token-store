@@ -47,9 +47,10 @@ interface FlatToken {
 // ─── Paths ────────────────────────────────────────────────────────────────────
 
 const ROOT = process.cwd();
-const FOUNDATION_DIR = path.join(ROOT, 'foundation');
-const COMPONENTS_DIR = path.join(ROOT, 'components');
-const OUTPUT_DIR = path.join(ROOT, 'ids_css');
+const INPUT_DIR = path.resolve(ROOT, process.env.FIGMA_INPUT_DIR ?? '.');
+const FOUNDATION_DIR = path.join(INPUT_DIR, 'foundations');
+const COMPONENTS_DIR = path.join(INPUT_DIR, 'components');
+const OUTPUT_DIR = path.resolve(ROOT, process.env.CSS_OUTPUT_DIR ?? 'ids_css');
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
 
@@ -215,7 +216,7 @@ function flattenStyleDict(node: unknown, currentPath: string[] = [], rawPath: st
   if ('value' in obj && (typeof obj['value'] === 'string' || typeof obj['value'] === 'number')) {
     const rawValue = obj['value'];
     const type = typeof obj['type'] === 'string' ? (obj['type'] as string) : '';
-    const propName = rawPath.at(-2);
+    const propName = rawPath[rawPath.length - 2];
     const value =
       typeof rawValue === 'number' ? getBaseValue(rawValue, type, propName) : String(rawValue);
     return [{ path: currentPath, value }];
@@ -521,15 +522,19 @@ function generateComponentCss() {
 // ─── tokens.css ───────────────────────────────────────────────────────────────
 
 function generateTokensCss() {
+  const cssFiles = [
+    'base/base.css',
+    'smc/smc-colors.css',
+    'smc/smc-layout.css',
+    'smc/smc-reference.css',
+    'component/component.css',
+  ].filter((relativePath) => fs.existsSync(path.join(OUTPUT_DIR, relativePath)));
+
   const content = [
     '/* IDS Design Token CSS - Auto-generated */',
-    '/* Import order: base → smc-colors → smc-layout → smc-reference → component */',
+    '/* Import order: foundation → component */',
     '',
-    '@import "./base/base.css";',
-    '@import "./smc/smc-colors.css";',
-    '@import "./smc/smc-layout.css";',
-    '@import "./smc/smc-reference.css";',
-    '@import "./component/component.css";',
+    ...cssFiles.map((relativePath) => `@import "./${relativePath}";`),
     '',
   ].join('\n');
 
@@ -542,6 +547,17 @@ function generateTokensCss() {
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
 function main() {
+  const inputFiles = [
+    ...findJsonFiles(FOUNDATION_DIR),
+    ...findJsonFiles(COMPONENTS_DIR),
+  ];
+  fs.rmSync(OUTPUT_DIR, { recursive: true, force: true });
+  if (inputFiles.length === 0) {
+    console.log('No Figma JSON files found in foundation/ or components/; nothing to generate.');
+    return;
+  }
+
+  console.log(`Found ${inputFiles.length} Figma JSON file(s).`);
   console.log('Building global variable registry (foundation)…');
   buildRegistry();
   console.log(`Registry: ${globalRegistry.size} variable keys indexed`);

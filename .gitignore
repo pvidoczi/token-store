@@ -10,6 +10,11 @@
 # Node modules and dependency files
 /node_modules/
 /yarn.lock
+# Override global gitignore - package-lock.json MUST be tracked for reproducible CI builds
+!package-lock.json
+
+# Checked-out target repository used during publishing
+/target-repo/
 
 # Environment files
 /.env
@@ -25,5 +30,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Local output from the ids-styles token validation command
+/token-diff-report.json
 
 /.idea/workspace.xml
